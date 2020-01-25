@@ -1,0 +1,44 @@
+/*Reset*/
+    body, p, div, h1, h2, h3, h4, h5, h6, table, tbody, tr, td, span, blockquote, a, abbr, address, cite, code, img, ul, ol, li, dl, dd, dt, form, label, fieldset, caption,  button {
+    border-collapse: collapse; border:0; outline:0; font-family: 'Open Sans', sans-serif;  vertical-align:baseline; list-style:none; text-decoration:none; line-height:1.8em; margin:0; padding:0}
+
+/*Colors
+        red             #c20116
+        gray lightest   #f1f1f1
+        gray light      #eaeaea
+        gray footer     #3d3d3d
+*/
+
+/* ------------------------------------------------------------------------------ */
+
+/*Basic tags*/
+    h1{font-size:23px;font-weight:700;color:#c20116;margin-left:30px;}
+    h2 {font-size:1.6em;font-weight:400;color:black;font-weight:400;}
+    h3 {font-size:1.4em;font-weight:700;color:black;font-weight:400;}
+    h4 {font-size:1.2em;font-weight:400;color:black;}
+    h5 {font-size:1.1em;font-weight:400;color:black;}
+    p {padding:3px 0px;margin:0px;}
+    strong {font-weight:600;}
+    a:hover {cursor:pointer !important;opacity:0.6;}
+    a:link, a:visited { color:black;}
+    ul li { padding-left:15px;}
+    input, textarea, button { clear:both; float:left; padding:2px 1px; }
+    button { cursor:pointer; margin-right:-2px !important; font-style:normal}
+    ol li { list-style:decimal inside; padding:5px 0}
+    blockquote { border-left:5px solid black; font-style:italic; padding:10px; margin:20px;}
+    img {border:none;}
+
+/*Basic layout*/
+    html {font-size: 100%;}
+    body{font-size:1.1em;font-weight:300;color:black;}
+    .wrap {padding-top:7vh;min-height:100vh;}
+    .cleaner {clear:both; width:100%;float:none;height:0px;}
+    .col, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left;}  .col-md-12{width:100%;}  .col-md-11{width:91.66666667%;}  .col-md-10{width:83.33333333%;}  .col-md-9{width:75%;}  .col-md-8{width:66.66666667%;}  .col-md-7{width:58.33333333%;}  .col-md-6{width:50%;}  .col-md-5{width:41.66666667%;}  .col-md-4{width:33.33333333%;}  .col-md-3{width:25%;}  .col-md-2{width:16.66666667%;}  .col-md-1{width:8.33333333%;}  .col-pad {padding:0 30px;}
+
+/*Header*/
+
+
+/*Footer*/
+
+
+/*Title*/
