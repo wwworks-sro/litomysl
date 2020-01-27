@@ -40,5 +40,12 @@
 
 /*Footer*/
 
+/*Facebook*/
+    .rblikebox{background: url("../img-system/title/facebook-slider.png") no-repeat scroll left center transparent !important;display: block;float: right;height: 270px;
+        padding: 0 5px 0 42px;width: 245px;z-index: 9999999;position:fixed;right:-250px;top:20%;}
+    .rblikebox div{border:none; position:relative;display:block;}
+    .rblikebox span{bottom: 12px;font: 8px "lucida grande",tahoma,verdana,arial,sans-serif;position: absolute;right: 7px;text-align: right;z-index: 999;}
+    .rblikebox span a{color: gray;text-decoration:none;}
+    .rblikebox span a:hover{text-decoration:underline;}
 
 /*Title*/
