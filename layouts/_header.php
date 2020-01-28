@@ -1,6 +1,6 @@
 <header>
     <a href="/">
-        <img id="logo" src="img-system/header/litomysl-logo.png" alt="Logo Litomyšl">
+        <img id="logo" src="img/img-system/header/litomysl-logo.png" alt="Logo Litomyšl">
     </a>
 
     <nav id='main-navigation'>
@@ -15,7 +15,7 @@
                     <li> <a href="">kontakty</a> </li>
                 </ul>
             </li>
-            <img class="selected-menu-shadow" src="img-system/header/shadow.png" alt="Vybrané menu">
+            <img class="selected-menu-shadow" src="img/img-system/header/shadow.png" alt="Vybrané menu">
         </ul>
         <ul>
             <li>
@@ -28,7 +28,7 @@
                     <li> <a href="">kalendář akcí</a> </li>
                 </ul>
             </li>
-            <img class="selected-menu-shadow" src="img-system/header/shadow.png" alt="Vybrané menu">
+            <img class="selected-menu-shadow" src="img/img-system/header/shadow.png" alt="Vybrané menu">
         </ul>
     </nav>
 
@@ -39,9 +39,9 @@
             <a href="#">fr</a>
         </div>
         <div id="lang-box">
-            <a target="_blank" href="https://www.facebook.com/Litomysl.oficialni/"><img src="img-system/header/but-facebook.png" alt="Facebook Litomyšl"></a>
-            <a target="_blank" href="#"><img src="img-system/header/but-youtube.png" alt="Youtube Litomyšl"></a>
-            <a target="_blank" href="https://www.instagram.com/lazneduchalitomysl/?hl=cs"><img src="img-system/header/but-instagram.png" alt="Instagram Litomyšl"></a>
+            <a target="_blank" href="https://www.facebook.com/Litomysl.oficialni/"><img src="img/img-system/header/but-facebook.png" alt="Facebook Litomyšl"></a>
+            <a target="_blank" href="#"><img src="img/img-system/header/but-youtube.png" alt="Youtube Litomyšl"></a>
+            <a target="_blank" href="https://www.instagram.com/lazneduchalitomysl/?hl=cs"><img src="img/img-system/header/but-instagram.png" alt="Instagram Litomyšl"></a>
         </div>
     </div>
 </header>
