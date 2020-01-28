@@ -117,7 +117,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="wrap-side">
+            <div class="wrap-side side-red">
                 <div class="pad-main">
                     <h2 class="today-events-title">KAM DNES?</h2>
                     <a class="calendar-title-link" href="">kalendář akcí</a>
@@ -232,7 +232,7 @@
                     </div>
                 </div>
             </div>
-            <div class="wrap-side">
+            <div class="wrap-side  side-gray">
                 <div class="pad-main">
                     <a class="but but-emergency" href="">
                         <img src="img/img-system/title/event-discussion.png" alt="přednáška">
@@ -404,7 +404,7 @@
                     </div>
                 </div>
             </div>
-            <div class="wrap-side">
+            <div class="wrap-side side-red">
                 <div class="pad-main">
                     <h3>Otevírací doba MÚ</h3>
     
@@ -426,7 +426,7 @@
                     <a href="but-white-empty">Otevírací doba</a>
                 </div>
             </div>
-            <a class="next-section-link" href="#"></a>
+            <a class="next-section-link" href="#lide">Lidé</a>
         </section>
 
 
@@ -522,7 +522,7 @@
                     <a href="but-red">Více o organizační struktuře</a>
                 </div>
             </div>
-            <div class="wrap-side">
+            <div class="wrap-side side-gray">
                 <div class="pad-main">
                     <h3>Městský úřad</h3>
                     <div class="people-line">
@@ -542,30 +542,118 @@
                         <a href=""><span>Městská policie</span></a>
                         <a href=""><span>Tiskový mluvčí</span></a>
                     </div>
-                    <a href="but-red-empty">Volná pracovní místa</a>
+                    <a href="" class="but-red-empty">Volná pracovní místa</a>
                 </div>
             </div>
-            <a class="next-section-link" href="#"></a>
+            <a class="next-section-link" href="#education">Vzdělávání</a>
         </section>
 
 
-<!--  ----------------------------------------------------------------------------------  -->
+<!--  -----------------------------------Vzdělávání-----------------------------------------------  -->
 
 
-        <section id="">
+        <section id="vzdelavani">
             <div class="wrap-main">
                 <div class="pad-main">
-                    <h2></h2>
-                </div>
-            </div>
-            <div class="wrap-side">
-                <div class="pad-main">
+                    <h2>Vzdělávání</h2>
+                    <nav class="col-md-3">
+                        <img class="big-circle" src="img/img-system/education/ms.png" alt="Mateřské školy">
+                        <ul>
+                            <li><a href="">I. mateřská škola</a></li>
+                            <li><a href="">II. mateřská škola</a></li>
+                            <li><a href="">III. mateřská škola</a></li>
+                            <li><a href="">Miniškolka</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="col-md-3">
+                        <img class="big-circle" src="img/img-system/education/zs.png" alt="Základní školy">
+                        <ul>
+                            <li><a href="">ZŠ 1 - žlutá</a></li>
+                            <li><a href="">ZŠ 2 - červená</a></li>
+                            <li><a href="">ZŠ 3 - modrá</a></li>
+                            <li><a href="">Školamyšl - zelená</a></li>
+                            <li><a href="">Speciální ZŠ Litomyšl</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="col-md-3">
+                        <img class="big-circle" src="img/img-system/education/ss.png" alt="Střední školy">
+                        <ul>
+                            <li><a href="">Gymnázium A. Jiráska</a></li>
+                            <li><a href="">Trading Centre</a></li>
+                            <li><a href="">SŠ zahradnická a technická</a></li>
+                            <li><a href="">SŠ pedagogická</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="col-md-3">
+                        <img class="big-circle" src="img/img-system/education/vs.png" alt="Vysoké školy">
+                        <ul>
+                            <li><a href="">VŠ - Fakulta restaurování</a></li>
+                            <li><a href="">Univerzity Pardubice</a></li>
+                            <li><a href="">VOŠ pedagogická</a></li>
+                        </ul>
+                    </nav>
 
+
+                    <nav class="col-md-12 education-other">
+                        <a href=""><img src="img/img-system/education/zus.png" alt="Logo ZUŠ - Základní umělecká škola">ZUŠ - Základní umělecká škola</a>
+                        <a href=""><img src="img/img-system/education/svc.png" alt="Logo Středisko volného času">Středisko volného času</a>
+                        <a href=""><img src="img/img-system/education/zn.png" alt="Logo Škola na zámku">Škola na zámku</a>
+                        <a href=""><img src="img/img-system/education/szus.png" alt="Logo Soukromá základní umělecká škola">Soukromá základní umělecká škola</a>
+                        <a href=""><img src="img/img-system/education/library.png" alt="Logo LU3V - univerzita třetího věku">LU3V - univerzita třetího věku</a>
+                        <a href=""><img src="img/img-system/education/skaut.png" alt="Logo Skaut">Skaut</a>
+                    </nav>
+
+
+                    <nav class="col-md-6">
+                        <h3>Projekty</h3>
+                        <ul>
+                            <li><a href="">MAP I - Místní akční plán rozvoje vzdělávání I</a></li>
+                            <li><a href="">MAP II - Místní akční plán rozvoje vzdělávání II</a></li>
+                            <li><a href="">CVP - Cestou vzájemného porozumění</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="col-md-3">
+                        <h3>Každoroční akce</h3>
+                        <ul>
+                            <li><a href="">Konference sociální péče</a></li>
+                            <li><a href="">Nakopněte svoji školu</a></li>
+                            <li><a href="">Litomyšlské fórum</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="col-md-3">
+                        <h3>Aktivity</h3>
+                        <ul>
+                            <li><a href="">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="">Dum dolor sit amet</a></li>
+                            <li><a href="">Ipsum dolor sit amet</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <a class="next-section-link" href="#"></a>
+            <div class="wrap-side side-red">
+                <div class="pad-main">
+                    <img src="img/img-system/education/conference.png" alt="Přednášky a semináře">
+                    <h3>Přednášky a semináře</h3>
+
+                    <div class="pad-main">
+                        <a href="">
+                            <h4>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h4>
+                            <p>25.2. / 8:00 / Smetanovo náměstí</p>
+                        </a>
+                        <a href="">
+                            <h4>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h4>
+                            <p>25.2. / 8:00 / Smetanovo náměstí</p>
+                        </a>
+                        <a href="">
+                            <h4>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h4>
+                            <p>25.2. / 8:00 / Smetanovo náměstí</p>
+                        </a>
+                        <a href="" class="seminary-more"><span>Další...</span></a>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <?php  include("layouts/_meta.php");  ?>
+        <?php  include("layouts/_footer.php");  ?>
     </body>
 </html>
