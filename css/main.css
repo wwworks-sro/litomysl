@@ -82,10 +82,12 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 footer{background-color:#3d3d3d;color:white;}
 footer .pad-main {padding:7vh 0;}
 footer h3 {color:#838383;font-size:3em;font-weight:700;margin-bottom:30px;}
-footer th, footer td, footer a {color:white;text-align:left;font-size:0.9em;}
+footer table{width:90%;}
+footer th, footer td, footer a {color:white;text-align:left;font-size:0.8em;}
 footer .social-links {margin-top:10vh;}
 footer th a {color:white !important;font-weight:300;text-decoration:underline;}
 footer .wrap-side {text-align:right;padding-top:90px;}
+
 
     /*  -----------------------------------Banner-----------------------------------------------  */
 
@@ -167,13 +169,14 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 #service-nav-icons span, #service-tourists span {display:block; text-align:center;}
 
 #service-nav-bottom {margin-bottom:40px;}
-#service-nav-bottom li{padding-left:0px;}
+#service-nav-bottom li{padding-left:0px;text-align:left;}
 #service-nav-bottom h3 {margin-bottom:20px;}
 
 .wrap-side nav {display:block;}
 #service-tourists ul {margin-top:5vh;}
 
-    /*  -----------------------------------Městský úřad-----------------------------------------------  */
+
+/*  -----------------------------------Městský úřad-----------------------------------------------  */
 
 #mestsky-urad .lilly {position:absolute; left:0px; top:30vh;width:20%;}
 #mestsky-urad .bubble {float:right;}
@@ -182,18 +185,23 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 .bubble-red .pad {padding:15px 30px;}
 .bubble-red h3,.bubble-red a {color:white;}
 .office-links {margin-bottom:7vh;}
-.office-links nav {margin-bottom:3vh;}
-.office-links li {padding-left:0px;}
-#mestsky-urad .wrap-side {padding-top:10vh;}
-#mestsky-urad .wrap-side h3{margin-bottom:25px;}
-#mestsky-urad .wrap-side .but{margin-top:25px;}
-#mestsky-urad .wrap-side table{margin-bottom:10px;}
+.office-links nav {margin-bottom:3vh;text-align:left;}
+.office-links li,.office-links h3 {padding-left:0px;text-align:left;}
+.office-side {padding-top:10vh;}
+.office-side h3{margin-bottom:25px;}
+.office-side .but{margin-top:25px;}
+.office-side table{margin-bottom:10px;width:100%;}
+.office-side th {padding-right:10px;}
 
 
 /*  -----------------------------------Vzdělávání-----------------------------------------------  */
 
+#education-footer {border-top:5px solid #eaeaea;margin-top:40px;padding-top:30px;margin-bottom:30px;}
+#education-footer li,#education-fotter h3{text-align:left;padding-left:0px;}
+#education-footer h3 {font-size:21px;text-align:left;}
+#vzdelavani h2{margin-bottom:30px;}
 .wrap-main nav,.education-other {text-align:center;}
-.education-other {margin-top:30px;margin-bottom:30px;}
+.education-other {margin-top:5vh;margin-bottom:30px;}
 .education-other span {display:block;clear:both;padding:0 10px;}
 
 .seminars-img {float:left;}

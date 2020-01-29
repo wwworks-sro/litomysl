@@ -390,7 +390,7 @@
                                 <h3>Směrnice</h3>
                                 <ul>
                                     <li><a href="">GDPR</a></li>
-                                    <li><a href="">Povinně zveřejňované informace</a></li>
+                                    <li><a href="">Povinně zveřejňované informace</a></li>
                                     <li><a href="">Úsekové měření</a></li>
                                     <li><a href="">Politika kvality</a></li>
                                     <li><a href="">Politika bezpečnosti</a></li>
@@ -425,7 +425,7 @@
                 </div>
                 <div class="cleaner"></div>
             </div>
-            <div class="wrap-side bg-red">
+            <div class="wrap-side bg-red office-side">
                 <div class="pad-main-right">
                     <h3>Otevírací doba MÚ</h3>
     
@@ -627,31 +627,33 @@
                         <a class="col-md-2" href=""><img src="img/img-system/education/skaut.png" alt="Logo Skaut"><span>Skaut</span></a>
                     </nav>
 
-
-                    <nav class="col-md-6">
-                        <h3>Projekty</h3>
-                        <ul>
-                            <li><a href="">MAP I - Místní akční plán rozvoje vzdělávání I</a></li>
-                            <li><a href="">MAP II - Místní akční plán rozvoje vzdělávání II</a></li>
-                            <li><a href="">CVP - Cestou vzájemného porozumění</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="col-md-3">
-                        <h3>Každoroční akce</h3>
-                        <ul>
-                            <li><a href="">Konference sociální péče</a></li>
-                            <li><a href="">Nakopněte svoji školu</a></li>
-                            <li><a href="">Litomyšlské fórum</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="col-md-3">
-                        <h3>Aktivity</h3>
-                        <ul>
-                            <li><a href="">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="">Dum dolor sit amet</a></li>
-                            <li><a href="">Ipsum dolor sit amet</a></li>
-                        </ul>
-                    </nav>
+                    <div class="cleaner">&nbsp;</div>
+                    <div id="education-footer">
+                        <nav class="col-md-6">
+                            <h3>Projekty</h3>
+                            <ul>
+                                <li><a href="">MAP I - Místní akční plán rozvoje vzdělávání I</a></li>
+                                <li><a href="">MAP II - Místní akční plán rozvoje vzdělávání II</a></li>
+                                <li><a href="">CVP - Cestou vzájemného porozumění</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="col-md-3">
+                            <h3>Každoroční akce</h3>
+                            <ul>
+                                <li><a href="">Konference sociální péče</a></li>
+                                <li><a href="">Nakopněte svoji školu</a></li>
+                                <li><a href="">Litomyšlské fórum</a></li>
+                            </ul>
+                        </nav>
+                        <nav class="col-md-3">
+                            <h3>Aktivity</h3>
+                            <ul>
+                                <li><a href="">Lorem ipsum dolor sit amet</a></li>
+                                <li><a href="">Dum dolor sit amet</a></li>
+                                <li><a href="">Ipsum dolor sit amet</a></li>
+                            </ul>
+                        </nav><div class="cleaner"></div>
+                    </div>
                 </div>
             </div>
             <div class="wrap-side bg-red">
