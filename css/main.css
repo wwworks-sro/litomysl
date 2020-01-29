@@ -58,6 +58,7 @@ header, footer, section,#title-banner,.wrap-main,.wrap-side {position:relative;}
 .but-section-top {margin-top:15px;}
 .but-red-empty {border:2px solid #c20116; color:#c20116 !important;background-color:transparent;}
 .but-red {border:none; color:white;background-color:#c20116;}
+a:link.but-red , a:visited.but-red {color:white;}
 .but-white-empty {border:2px solid white; color:white !important;}
 
 /*Header*/
@@ -68,6 +69,7 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 
 #main-navigation ul li {text-align:center;}
 #main-navigation a {text-decoration:none;line-height:1.8em;}
+#main-navigation a:hover {text-decoration:underline;}
 .menu-group-title{font-size:1.6em;text-align:center;font-weight:bold;position:relative;}
 .selected-menu-group .menu-group-title, .selected-menu-group a{color:#c20116;}
 .selected-menu-shadow {display:none;}
@@ -77,6 +79,9 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 #lang-box, #social-box, #contacts-link {clear:both;width:100%;line-height:1.8em;}
 #lang-box a, #social-box a,#contacts-link {float:right;text-align:right;}
 #lang-box a, #social-box a {margin-left:10px;}
+#social-box a{margin-top:10px;}
+#lang-box a {margin-top:5px;}
+.wrap-side {height:100%;}
 
 /*Footer*/
 footer{background-color:#3d3d3d;color:white;}
@@ -85,20 +90,22 @@ footer h3 {color:#838383;font-size:3em;font-weight:700;margin-bottom:30px;}
 footer table{width:90%;}
 footer th, footer td, footer a {color:white;text-align:left;font-size:0.8em;}
 footer .social-links {margin-top:10vh;}
+footer .social-links img {height:20px;}
 footer th a {color:white !important;font-weight:300;text-decoration:underline;}
 footer .wrap-side {text-align:right;padding-top:90px;}
 
 
-    /*  -----------------------------------Banner-----------------------------------------------  */
+/*  -----------------------------------Banner + vyskakovací pro srdce i níže pro stránku Lidé-----------------------------------------------  */
 
 /*Banner title*/
 #title-banner {margin-top:100px;z-index:1 !important;position:relative;margin-bottom:-11px;}
-#title-banner img {width:100%;height:auto;}
-#title-banner h2{position:absolute;top:20px; color:white;width:100px;font-weight:bold;line-height:1.2em;font-size:2.2em;margin-bottom:15px;clear:both;padding-bottom:30px;}
+.title-banner-img {width:100%;height:auto;}
+#title-banner h2{position:absolute;top:20px; color:white;width:100px;font-weight:bold;line-height:1.2em;font-size:2.2em;margin-bottom:15px;clear:both;padding-bottom:30px;padding-top:10px;}
 .title-heart {position:relative;position:absolute;padding:0px;}
 .title-heart img {margin:0px;}
-.title-heart .heart-popup{display:none;opacity:0;-webkit-transition:all 2s ease-in-out;-moz-transition: all 2s ease-in-out;-ms-transition: all 2s ease-in-out;-o-transition: all 2s ease-in-out;transition: all 2s ease-in-out;}
-:hover.title-heart .heart-popup{opacity:1;position:absolute; top:45px;left:45px;display:block; width:200px;height:auto;min-height:50px;background-color:white;  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);padding: 10px 15px 5px 15px;}
+.title-heart .heart-popup,.people-circles div {display:none;opacity:0;-webkit-transition:all 2s ease-in-out;-moz-transition: all 2s ease-in-out;-ms-transition: all 2s ease-in-out;-o-transition: all 2s ease-in-out;transition: all 2s ease-in-out;}
+:hover.title-heart .heart-popup,:hover.people-circles div {opacity:1;position:absolute; top:50%;left:50%;display:block; width:200px;height:auto;min-height:50px;background-color:white;  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);padding: 10px 15px 5px 15px;}
+
 
 /*  -----------------------------------Novinky a kalendář-----------------------------------------------  */
 
@@ -123,13 +130,13 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 .news-secondary-first{margin-right:2%;}
 .news-primary .news-text, .news-secondary .news-text {position:absolute; bottom:30px;width:90%;margin-left:5%;color:white;}
 .news-secondary  h5, .news-primary h4 {color:white !important;}
-.news-cover {background: url(../img/img-system/title/cover.png) no-repeat bottom left;background-size: contain;width:100%;height:100%;position:absolute; bottom:5px; left:0px;}
+.news-cover {background: url(../img/img-system/title/cover.png) no-repeat bottom left;background-size: contain;width:100%;height:100%;position:absolute; bottom:0px; left:0px;}
 .news-secondary {background-color:black;}
 .news-secondary img {opacity:0.6;}
 
 .news-mini {clear:both; float:none;margin-bottom:2%;display:block;}
 .news-mini img {width:33%;float:left;margin-right:2%;}
-.more-news-mini {width:33%;background-color:#c20116;height:60px;text-align:center;float:left;margin-right:2%;}
+.more-news-mini {width:33%;background-color:#c20116;height:64px;text-align:center;float:left;margin-right:2%;}
 .more-news-mini img {margin-top:25px;}
 .news-text {line-height:3em;}
 
@@ -150,7 +157,7 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 .separator-long-term-events {display:block;border-bottom:1px solid white;clear:both;width:100%;margin-top:50px;}
 .separator-long-term-events-text {background-color:#c20116;line-height:2em;text-align:center;display:block;width:170px;margin:0 auto; margin-top:-35px;margin-bottom:30px;}
 .top-events {float:right;}
-.next-section-link{position:absolute; bottom:5vh;right:50px;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.next-section-link{background: url(../img/img-system/layout/arrow-down.png) no-repeat bottom left;  padding-left: 30px; background-size: contain;display:block; position:absolute; bottom:8vh;left:94%;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
 .red-layout .next-section-link {color:white;}
 .calendar-title-links {clear:both;}
 .calendar-title-links a {text-decoration:underline;}
@@ -163,8 +170,9 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 .but-emergency span {font-size:0.8em;}
 
 #service-nav-icons,#service-nav-bottom {width:100%;clear:both;padding-top:40px;}
-#service-nav-icons li, #service-tourists li {width:50%;float:right;text-align:center;margin:0px;padding:0px;margin-bottom:10px;display:block;}
-#service-nav-icons a, #service-tourists a {display:block;text-decoration:none;text-align:center;width:100%;}
+#service-nav-icons li, #service-tourists li {width:50%;float:left;text-align:center;margin:0px;padding:0px;margin-bottom:10px;display:block;}
+#service-nav-icons li {max-width:150px;float:left;}
+#service-nav-icons a, #service-tourists a {display:block;text-decoration:none;text-align:center;width:100%;min-height:158px;}
 #service-nav-icons img, #service-tourists img {max-width:100%;clear:both;float:none;margin-bottom:2px;}
 #service-nav-icons span, #service-tourists span {display:block; text-align:center;}
 
@@ -194,7 +202,43 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 .office-side th {padding-right:10px;}
 
 
-/*  -----------------------------------Vzdělávání-----------------------------------------------  */
+/*  -----------------------------------Lidé-----------------------------------------------  */
+
+#lide h2{margin-bottom:5vh;}
+.people-circles {position:relative;float:left;}
+.people-big {width:30%;}
+.people-mid {width:20%;}
+.people-small {width:12%;}
+.people-circles img {max-width:100%;}
+.people-second {clear:both;}
+.people-big.people-first {margin-left:15%;}
+.people-mid.people-first {margin-left:10%;}
+.people-small.people-first {margin-left:6%;}
+nav.people-links {float:right;margin-top:40px;}
+nav.people-links, nav.people-links h3,nav.people-links li {text-align:left;padding-left:0px;}
+.vertical-line-separator {text-align:center;width:64%;margin:15px 0;}
+.vertical-line-separator-1 {margin-top:-30px;}
+.col-horizontal-line {text-align:center;margin-top:70px;}
+.horizontal-line {margin-left:20%;width:60%;}
+.people-mid h3 {text-align:center;width:100%;}
+.vertical-line-separator .but-red {margin:0 auto;margin-top:15px;margin-bottom:30px;}
+.people-mid-left {height:40px;border:1px solid pink;}
+.bubble-white {background-color:white;  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);margin-top:-10vh;}
+.bubble-white .pad {padding:25px 25px;}
+a.more-answers {color:#c20116;float:right;margin-bottom:5px;font-weight:bold; }
+#lide h3 {font-size:1.3em;font-weight:700;}
+.people-circles h3{text-align:center; width:100%;}
+.people-major img{width:70%;margin-left:15%;margin-top:20%;}
+div.major-left-pad {width:8%;}
+
+#lide .people-line{margin-top:30px;margin-bottom:30px;border-left:3px solid #c20116;}
+#lide .people-line a, .people-line div {clear:both;display:block; padding:10px 0 10px 15%;background: url(../img/img-system/people/dot.png) no-repeat left;margin-left:-11px;}
+
+.people-line div {padding-left:0px;clear:both;width:100%;height:60px;}
+.people-line div img {clear:none;float:left;width:60px;margin-left:-20px;margin-top:-10px;}
+.people-line div h3 {text-align:left;margin-left:10px;}
+
+    /*  -----------------------------------Vzdělávání-----------------------------------------------  */
 
 #education-footer {border-top:5px solid #eaeaea;margin-top:40px;padding-top:30px;margin-bottom:30px;}
 #education-footer li,#education-fotter h3{text-align:left;padding-left:0px;}

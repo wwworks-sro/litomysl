@@ -9,7 +9,7 @@
 <!--  -----------------------------------Banner-----------------------------------------------  -->
 
         <div id="title-banner">
-            <img src="img/img-system/title/banner.jpg" alt="Letecký pohled - Litomyšl">
+            <img class="title-banner-img" src="img/img-system/title/banner.jpg" alt="Letecký pohled - Litomyšl">
             <h2 class="pad-main-left">moderní historické město</h2>
              <div class="title-heart" style="top:40%;left:60%;">
                  <img src="img/img-system/title/heart.png" alt="Klášterní zahrady">
@@ -459,10 +459,18 @@
             <div class="wrap-main">
                 <div class="pad-main-left">
                     <h2>Lidé</h2>
+                    <div class="cleaner"></div>
                     <div class="col-md-6">
-                        <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><h3>Místostarosta</h3><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <img class="vertical-line" src="img/img-system/people/horisontal.png" alt="Linka">
-                        <div class="people-circles people-big"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><h3>Místostarosta</h3><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                        <div class="col-md-1 major-left-pad">&nbsp;</div>
+                        <div class="col-md-3">
+                            <div class="people-circles people-major"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><h3>Místostarosta</h3><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                        </div>
+                        <div class="col-md-2 col-horizontal-line">
+                            <img class="horizontal-line" src="img/img-system/people/horizontal.png" alt="Linka">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-circles  people-wisemajor"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><h3>Starosta</h3><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div class="bubble bubble-white">
@@ -476,24 +484,29 @@
                                     <h3><span>Upozornění lorem ipsum dolor</span> / 25.7.2019</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero tempore. Lorem ipsum dolor sit amet. <a href="">Více...</a></p>
                                 </article>
-                                <a href="">Další odpověďi</a>
+                                <a class="more-answers" href="">Další odpověďi</a>
+                                <div class="cleaner"></div>
                             </div>
                         </div>
                     </div>
-                    <img class="vertical-line" src="img/img-system/people/vertical.png" alt="Linka">
-
-
-                    <div class="col-md-8">
-                        <div class="people-circles people-mid people-first"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-    
-                        <div class="people-circles people-mid people-second"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                    <div class="col-md-7 vertical-line-separator vertical-line-separator-1">
+                        <img class="vertical-line" src="img/img-system/people/vertical.png" alt="Linka">
                     </div>
-                    <nav class="col-md-4">
+                    <div class="cleaner"></div>
+                    <div class="col-md-1">&nbsp;</div>
+                    <div class="col-md-7 people-col-mid">
+                        <div class="people-wrap">
+                            <div class="people-circles people-mid people-first"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+
+                            <div class="people-circles people-mid people-second"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                        </div>
+                    </div>
+                    <nav class="col-md-4 people-links">
                         <h3>Rada</h3>
                         <ul>
                             <li><a href="">Usnesení rady</a></li>
@@ -501,35 +514,41 @@
                             <li><a href="">Komise a pracovní skupiny</a></li>
                         </ul>
                     </nav>
-                    <img class="vertical-line" src="img/img-system/people/vertical.png" alt="Linka">
-
-
-                    <div class="col-md-8">
-                        <div class="people-circles people-small people-first"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-    
-                        <div class="people-circles people-small people-second"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-    
-                        <div class="people-circles people-small people-second"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                    <div class="col-md-7 vertical-line-separator">
+                        <img class="vertical-line" src="img/img-system/people/vertical.png" alt="Linka">
                     </div>
-                    <nav class="col-md-4">
+
+
+                    <div class="col-md-8 people-col-small">
+                        <div class="people-wrap">
+                            <div class="people-circles people-small people-first"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+
+                            <div class="people-circles people-small people-second"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+
+                            <div class="people-circles people-small people-second"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                        </div>
+                    </div>
+                    <nav class="col-md-4 people-links">
                         <h3>Zastupitelstvo</h3>
                         <ul>
                             <li><a href="">Usnesení zastupitelstva</a></li>
@@ -537,11 +556,13 @@
                             <li><a href="">Programové prohlášení</a></li>
                             <li><a href="">Výbory</a></li>
                         </ul>
-                    </nav>   
-                    <img class="vertical-line" src="img/img-system/people/vertical.png" alt="Linka">
+                    </nav>
+                    <div class="col-md-7 vertical-line-separator">
+                        <img class="vertical-line" src="img/img-system/people/vertical.png" alt="Linka">
+                        <a class="but but-red" href="">Více o organizační struktuře</a>
 
+                    </div>
 
-                    <a href="but-red">Více o organizační struktuře</a>
                 </div>
             </div>
             <div class="wrap-side">
@@ -564,7 +585,7 @@
                         <a href=""><span>Městská policie</span></a>
                         <a href=""><span>Tiskový mluvčí</span></a>
                     </div>
-                    <a href="" class="but-red-empty">Volná pracovní místa</a>
+                    <a href="" class="but but-red-empty">Volná pracovní místa</a>
                 </div>
             </div>
             <a class="next-section-link" href="#education">Vzdělávání</a>
