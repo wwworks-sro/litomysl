@@ -5,62 +5,71 @@
 
     <body class="index-page">
         <?php  include('layouts/_header.php');  ?>
-        <?php  include('layouts/_facebookSide.php');  ?>
+
+<!--  -----------------------------------Banner-----------------------------------------------  -->
+
         <div id="title-banner">
             <img src="img/img-system/title/banner.jpg" alt="Letecký pohled - Litomyšl">
-            <h2>moderní historické město</h2>
-                 <div class="title-heart">
-                     <div class="heart-popup" style="top:50%;left:30%;">
-                         <a href="https://www.litomysl.cz/?id_str=1311055287097"><strong>Klášterní zahrady</strong></a>
-                         <a href="http://litomysl.pano3d.eu//index.html?startscene=0"><img src="img/img-system/title/3d.png" alt="Virtuální prohlídka Lorem ipsum dolor"></a>
-                         <a href="https://www.litomysl.cz/?id_str=1311055287097"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
-                     </div>
-                     <div class="heart-popup" style="top:50%;left:30%;">
-                         <a href="https://www.litomysl.cz/?id_str=1311055259565"><strong>Smetanovo náměstí</strong></a>
-                         <a href="http://litomysl.pano3d.eu//index.html?startscene=5"><img src="img/img-system/title/3d.png" alt="Virtuální prohlídka Lorem ipsum dolor"></a>
-                         <a href="https://www.litomysl.cz/?id_str=1311055259565"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
-                     </div>
+            <h2 class="pad-main-left">moderní historické město</h2>
+             <div class="title-heart" style="top:40%;left:60%;">
+                 <img src="img/img-system/title/heart.png" alt="Klášterní zahrady">
+                 <div class="heart-popup">
+                     <a href="https://www.litomysl.cz/?id_str=1311055287097"><strong>Klášterní zahrady</strong></a>
+                     <a href="http://litomysl.pano3d.eu//index.html?startscene=0"><img src="img/img-system/title/3d.png" alt="Virtuální prohlídka Lorem ipsum dolor"></a>
+                     <a href="https://www.litomysl.cz/?id_str=1311055287097"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
                  </div>
+             </div>
+            <div class="title-heart" style="top:75%;left:30%;">
+                <img src="img/img-system/title/heart.png" alt="Smetanovo náměstí">
+                <div class="heart-popup">
+                    <a href="https://www.litomysl.cz/?id_str=1311055259565"><strong>Smetanovo náměstí</strong></a>
+                    <a href="http://litomysl.pano3d.eu//index.html?startscene=5"><img src="img/img-system/title/3d.png" alt="Virtuální prohlídka Lorem ipsum dolor"></a>
+                    <a href="https://www.litomysl.cz/?id_str=1311055259565"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
+                </div>
+            </div>
+            <div class="cleaner"></div>
         </div>
 
         
 <!--  -----------------------------------Novinky a kalendář-----------------------------------------------  -->
         
         
-        <section id="novinky-kalendar">
+        <section id="novinky-kalendar" class="red-layout">
             <div class="wrap-main">
-                <div class="pad-main">
+                <div class="pad-main-left">
                     <div id="news-header">
                         <ul id="news-tabs">
-                            <li> <a href="#">z města</a> </li>
-                            <li> <a href="#">z kultury</a> </li>
-                            <li> <a href="#">ze sportu</a> </li>
+                            <li>ze sportu</li>
+                            <li>z kultury</li>
+                            <li>z města</li>
+                            <li class="tab-selected">vše</li>
                         </ul>
                         <form class="fulltext-form" method="post" action="#">
-                            <input type="text" name="search">
-                            <input type="submit" name="vyhledat" value="vyhledat">
+                            <input class="search-text" type="text" name="search">
+                            <input class="search-submit" type="submit" name="vyhledat" value="vyhledat">
                         </form>
+                        <div class="cleaner"></div>
                     </div>
                     <div id="news-wrap">
                         <div id="news-top">
-                            <a href="" id="news-primary">
-                                <img src="img/img-system/title/news-lorem-ipsum-l.jpg" alt="Lorem ipsum dolor">
+                            <a href="" class="news-title news-primary">
+                                <img src="img/img-articles/L/news-lorem-ipsum-l.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-cover"> </div>
                                 <div class="news-text">
                                     <h4>Aktualita 1 dolor sit amet consectetuer adip</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
                                 </div>
                             </a>
-                            <a href="" class="news-secondary">
-                                <img src="img/img-system/title/news-lorem-ipsum-m.jpg" alt="Lorem ipsum dolor">
+                            <a href="" class="news-title news-secondary news-secondary-first">
+                                <img src="img/img-articles/M/news-lorem-ipsum-m.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-cover"> </div>
                                 <div class="news-text">
                                     <h5>Aktualita 1 dolor sit amet consectetuer adip</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
                                 </div>
                             </a>
-                            <a href="" class="news-secondary">
-                                <img src="img/img-system/title/news-lorem-ipsum-m.jpg" alt="Lorem ipsum dolor">
+                            <a href="" class="news-title news-secondary">
+                                <img src="img/img-articles/M/news-lorem-ipsum-m.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-cover"> </div>
                                 <div class="news-text">
                                     <h5>Aktualita 1 dolor sit amet consectetuer adip</h5>
@@ -69,33 +78,37 @@
                             </a>
                         </div>
                         <div id="news-other">
-                            <a href="" class="news-mini">
-                                <img src="img/img-system/title/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
+                            <a href="" class="news-title news-mini">
+                                <img src="img/img-articles/S/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-text">
                                     <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
                                 </div>
+                                <div class="cleaner"></div>
                             </a>
-                            <a href="" class="news-mini">
-                                <img src="img/img-system/title/news-consectetur-s.jpg" alt="Lorem ipsum dolor">
+                            <a href="" class="news-title news-mini">
+                                <img src="img/img-articles/S/news-consectetur-s.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-text">
                                     <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
                                 </div>
+                                <div class="cleaner"></div>
                             </a>
-                            <a class="news-mini">
-                                <img src="img/img-system/title/news-dolor-sit-2-s.jpg" alt="Lorem ipsum dolor">
+                            <a class="news-title news-mini">
+                                <img src="img/img-articles/S/news-dolor-sit-2-s.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-text">
                                     <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
                                 </div>
+                                <div class="cleaner"></div>
                             </a>
-                            <a href="" class="news-mini">
-                                <img src="img/img-system/title/news-lore-ipsum-s.jpg" alt="Lorem ipsum dolor">
+                            <a href="" class="news-title news-mini">
+                                <img src="img/img-articles/S/news-lore-ipsum-s.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-text">
                                     <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
                                 </div>
+                                <div class="cleaner"></div>
                             </a>
                             <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality">
                                 <div class="more-news-mini">
@@ -107,8 +120,9 @@
                             </a>
                         </div>
                     </div>
+                    <div class="cleaner"></div>
                     <nav id='news-footer-nav'>
-                        <ul class="selected-menu-group">
+                        <ul>
                             <li> <a href=""><img src="img/img-system/title/newspaper.2.3.1.png" alt="Městský měsíčník Lilie"> lilie</a> </li>
                             <li> <a href=""><img src="img/img-system/title/video camera 1.2.3.1.png" alt="video reportáž"> video reportáž</a> </li>
                             <li> <a href=""><img src="img/img-system/title/presentation.png" alt="úřední deska"> úřední deska</a> </li>
@@ -117,12 +131,12 @@
                     </nav>
                 </div>
             </div>
-            <div class="wrap-side side-red">
-                <div class="pad-main">
+            <div class="wrap-side bg-red">
+                <div class="pad-main-right">
                     <h2 class="today-events-title">KAM DNES?</h2>
                     <a class="calendar-title-link" href="">kalendář akcí</a>
-    
-                    <div class="calendar-title">
+
+                    <div id="calendar-title">
                         <a href="">
                             <img src="img/img-system/title/event-drama.png" alt="divadlo">
                             <div>
@@ -137,8 +151,9 @@
                                 <p>8.00 / Smetanovo náměstí</p>
                             </div>
                         </a>
-    
-                        <div class="separator-long-term-events"><span>PROBÍHAJÍCÍ AKCE</span></div>
+
+                        <div class="separator-long-term-events">&nbsp;</div>
+                        <div class="separator-long-term-events-text">PROBÍHAJÍCÍ AKCE</div>
     
                         <a href="">
                             <img src="img/img-system/title/event-discussion.png" alt="přednáška">
@@ -149,47 +164,49 @@
                         </a>
                     </div>
     
-                    <div calendar-title-links>
+                    <div class="calendar-title-links">
                         <a class="link-tommorrow" href="">kam zítra</a>
                         <a class="top-events" href="">TOP akce</a>
                     </div>
                 </div>
+                <div class="cleaner"></div>
             </div>
             <a class="next-section-link" href="#sluzby">Služby</a>
+            <div class="cleaner"></div>
         </section>
 
         
 <!--  -------------------------------------Služby---------------------------------------------  -->
         
         
-        <section id="sluzby">
+        <section id="sluzby" class="gray-layout">
             <div class="wrap-main">
-                <div class="pad-main">
+                <div class="pad-main-left">
                     <h2>Služby</h2>
-                    <a href="">Hlášení závad</a>
-    
+                    <a class="but but-section-top but-red-empty float-right" href="">Hlášení závad</a>
+
                     <nav id='service-nav-icons'>
-                        <ul>
-                            <li><a href=""><img src="img/img-system/services/house.png" alt="Bydlení">Bydlení</a></li>
-                            <li><a href=""><img src="img/img-system/services/road straight.3.3.1.png" alt="Doprava">Doprava</a></li>
-                            <li><a href=""><img src="img/img-system/services/briefcase.3.3.1.png" alt="Práce">Práce</a></li>
-                            <li><a href=""><img src="img/img-system/services/wedding.png" alt="Svatby">Svatby</a></li>
-                            <li><a href=""><img src="img/img-system/services/grave.png" alt="Hřbitov">Hřbitov</a></li>
-                            <li><a href=""><img src="img/img-system/services/coins 2.3.3.1.png" alt="Dotace města">Dotace města</a></li>
+                        <ul class="col-md-4">
+                            <li><a href=""><img src="img/img-system/services/house.png" alt="Bydlení"><span>Bydlení</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/road straight.3.3.1.png" alt="Doprava"><span>Doprava</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/briefcase.3.3.1.png" alt="Práce"><span>Práce</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/wedding.png" alt="Svatby"><span>Svatby</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/grave.png" alt="Hřbitov"><span>Hřbitov</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/coins 2.3.3.1.png" alt="Dotace města"><span>Dotace města</span></a></li>
                         </ul>
     
-                        <ul class="service-nav-icons-red">
-                            <li><a href=""><img src="img/img-system/services/plus.png" alt="Zdravotnictví">Zdravotnictví</a></li>
-                            <li><a href=""><img src="img/img-system/services/police officer.3.3.1.png" alt="Městská policie">Městská policie</a></li>
-                            <li><a href=""><img src="img/img-system/services/heart care.3.3.1.png" alt="Sociální péče">Sociální péče</a></li>
-                            <li><a href=""><img src="img/img-system/services/fire.3.3.1.png" alt="Hasiči">Hasiči</a></li>
+                        <ul class="col-md-4 service-nav-icons-red">
+                            <li><a href=""><img src="img/img-system/services/plus.png" alt="Zdravotnictví"><span>Zdravotnictví</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/police officer.3.3.1.png" alt="Městská policie"><span>Městská policie</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/heart care.3.3.1.png" alt="Sociální péče"><span>Sociální péče</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/fire.3.3.1.png" alt="Hasiči"><span>Hasiči</span></a></li>
                         </ul>
     
-                        <ul>
-                            <li><a href=""><img src="img/img-system/services/bin 1.3.3.1.png" alt="Odpady">Odpady</a></li>
-                            <li><a href=""><img src="img/img-system/services/water drop.3.3.1.png" alt="Voda a kanalizace">Voda a kanalizace</a></li>
-                            <li><a href=""><img src="img/img-system/services/lawn mower.3.3.1.png" alt="Sekání trávy">Sekání trávy</a></li>
-                            <li><a href=""><img src="img/img-system/services/search.3.3.1.png" alt="Ztráty a nálezy">Ztráty a nálezy</a></li>
+                        <ul class="col-md-4">
+                            <li><a href=""><img src="img/img-system/services/bin 1.3.3.1.png" alt="Odpady"><span>Odpady</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/water drop.3.3.1.png" alt="Voda a kanalizace"><span>Voda a kanalizace</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/lawn mower.3.3.1.png" alt="Sekání trávy"><span>Sekání trávy</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/search.3.3.1.png" alt="Ztráty a nálezy"><span>Ztráty a nálezy</span></a></li>
                         </ul>
                     </nav>
     
@@ -197,7 +214,7 @@
     
                         <h3>Potřebuji si zařídit - TOP 20</h3>
                         <nav>
-                            <ul>
+                            <ul class="col-md-3">
                                 <li><a href="">Doklady lorem ispum</a></li>
                                 <li><a href="">Poplatky</a></li>
                                 <li><a href="">Vyhlášky lorem ispum</a></li>
@@ -205,7 +222,7 @@
                                 <li><a href="">Lorem ipsum</a></li>
                             </ul>
     
-                            <ul>
+                            <ul class="col-md-3">
                                 <li><a href="">Doklady lorem ispum</a></li>
                                 <li><a href="">Poplatky</a></li>
                                 <li><a href="">Vyhlášky lorem ispum</a></li>
@@ -213,7 +230,7 @@
                                 <li><a href="">Lorem ipsum</a></li>
                             </ul>
     
-                            <ul>
+                            <ul class="col-md-3">
                                 <li><a href="">Doklady lorem ispum</a></li>
                                 <li><a href="">Poplatky</a></li>
                                 <li><a href="">Vyhlášky lorem ispum</a></li>
@@ -221,21 +238,21 @@
                                 <li><a href="">Lorem ipsum</a></li>
                             </ul>
     
-                            <ul>
+                            <ul class="col-md-3">
                                 <li><a href="">Doklady lorem ispum</a></li>
                                 <li><a href="">Poplatky</a></li>
                                 <li><a href="">Vyhlášky lorem ispum</a></li>
                                 <li><a href="">Parkovací karta</a></li>
                                 <li><a href="">Lorem ipsum</a></li>
                             </ul>
+                            <div class="cleaner"></div>
                         </nav>
                     </div>
                 </div>
             </div>
-            <div class="wrap-side  side-gray">
-                <div class="pad-main">
-                    <a class="but but-emergency" href="">
-                        <img src="img/img-system/title/event-discussion.png" alt="přednáška">
+            <div class="wrap-side ">
+                <div class="pad-main-right">
+                    <a class="but but-section-top but-red-empty but-emergency" href="">
                         <strong>Pohotovosti </strong>
                         <span>Rozpis služeb</span>
                     </a>
@@ -254,32 +271,34 @@
                             <li><a href="">Městské lesy</a></li>
                             <li><a href="">Katalog firem a podnikatelů</a></li>
                             <li><a href="">Živnostenský úřad</a></li>
-                        </ul>
+                        </ul><div class="cleaner"></div>
                     </nav>
-    
+
                     <nav id='service-tourists'>
                         <ul>
-                            <li><a href=""><img src="img/img-system/services/bed single.3.3.1.png" alt="Ubytování">Ubytování</a></li>
-                            <li><a href=""><img src="img/img-system/services/fork knife.3.3.1.png" alt="Stravování">Stravování</a></li>
+                            <li><a href=""><img src="img/img-system/services/bed single.3.3.1.png" alt="Ubytování"><span>Ubytování</span></a></li>
+                            <li><a href=""><img src="img/img-system/services/fork knife.3.3.1.png" alt="Stravování"><span>Stravování</span></a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
             <a class="next-section-link" href="#mestsky-urad">Městský úřad</a>
+            <div class="cleaner"></div>
         </section>
 
 
 <!--  -------------------------------------Městský úřad---------------------------------------------  -->
 
 
-        <section id="mestsky-urad">
+        <section id="mestsky-urad" class="red-layout">
+            <img class="lilly" src="img/img-system/office/lilly.png" alt="Lilie">
             <div class="wrap-main">
-                <div class="pad-main">
+                <div class="pad-main-left">
                     <div class="col-md-3">
                         <h2>Městský úřad</h2>
                     </div>
                     <div class="col-md-9">
-                        <div class="col-md-12 bubble bubble-red">
+                        <div class="col-md-11 bubble bubble-red">
                             <div class="pad">
                                 <h3>Upozornění lorem ipsum dolor</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero tempore. Lorem ipsum dolor sit amet. <a href="">Více...</a></p>
@@ -346,7 +365,7 @@
                                     <li><a href="">Vyhlášky a nařízení města</a></li>
                                 </ul>
                             </nav>
-    
+                            <div class="cleaner"></div>
                         </div>
                         <div class="col-md-6 office-links">
     
@@ -389,7 +408,7 @@
                                 </ul>
                             </nav>
     
-                            <div class="col-md-2">
+                            <div class="col-md-2">&nbsp;
                             </div>
                             <nav class="col-md-10">
                                 <h3>Jiné</h3>
@@ -400,12 +419,14 @@
                                     <li><a href="">Pardubický kraj</a></li>
                                 </ul>
                             </nav>
+                            <div class="cleaner"></div>
                         </div>
                     </div>
                 </div>
+                <div class="cleaner"></div>
             </div>
-            <div class="wrap-side side-red">
-                <div class="pad-main">
+            <div class="wrap-side bg-red">
+                <div class="pad-main-right">
                     <h3>Otevírací doba MÚ</h3>
     
                     <table>
@@ -416,26 +437,27 @@
                         <tr><th>Pá</th><td>8:00 - 11:30</td><td>12:30 - 14:00*</td></tr>
                     </table>
                     <p>(* V tyto dny mohou být pracovníci služebně mimo pracoviště)</p>
-                    <a href="but-white-empty">Otevírací doba</a>
+                    <a href="" class="but but-white-empty">Otevírací doba</a>
 
                     <h3 class="mar-top-30">Rychlý kontakt</h3>
                     <p>
                         info@loremispum.cz<br />
                         722 569 489
                     </p>
-                    <a href="but-white-empty">Otevírací doba</a>
-                </div>
+                    <a href="" class="but but-white-empty">Všechny kontakty</a>
+                </div> <div class="cleaner"></div>
             </div>
             <a class="next-section-link" href="#lide">Lidé</a>
+            <div class="cleaner"></div>
         </section>
 
 
 <!--  --------------------------------------Lidé--------------------------------------------  -->
 
 
-        <section id="lide">
+        <section id="lide" class="gray-layout">
             <div class="wrap-main">
-                <div class="pad-main">
+                <div class="pad-main-left">
                     <h2>Lidé</h2>
                     <div class="col-md-6">
                         <div class="people-circles people-mid"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><h3>Místostarosta</h3><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
@@ -522,8 +544,8 @@
                     <a href="but-red">Více o organizační struktuře</a>
                 </div>
             </div>
-            <div class="wrap-side side-gray">
-                <div class="pad-main">
+            <div class="wrap-side">
+                <div class="pad-main-right">
                     <h3>Městský úřad</h3>
                     <div class="people-line">
                         <div class="people-circles people-small"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><h3>Tajemník</h3><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
@@ -546,16 +568,18 @@
                 </div>
             </div>
             <a class="next-section-link" href="#education">Vzdělávání</a>
+            <div class="cleaner"></div>
         </section>
 
 
 <!--  -----------------------------------Vzdělávání-----------------------------------------------  -->
 
 
-        <section id="vzdelavani">
+        <section id="vzdelavani" class="red-layout">
             <div class="wrap-main">
-                <div class="pad-main">
+                <div class="pad-main-left">
                     <h2>Vzdělávání</h2>
+                    <div class="cleaner"></div>
                     <nav class="col-md-3">
                         <img class="big-circle" src="img/img-system/education/ms.png" alt="Mateřské školy">
                         <ul>
@@ -595,12 +619,12 @@
 
 
                     <nav class="col-md-12 education-other">
-                        <a href=""><img src="img/img-system/education/zus.png" alt="Logo ZUŠ - Základní umělecká škola">ZUŠ - Základní umělecká škola</a>
-                        <a href=""><img src="img/img-system/education/svc.png" alt="Logo Středisko volného času">Středisko volného času</a>
-                        <a href=""><img src="img/img-system/education/zn.png" alt="Logo Škola na zámku">Škola na zámku</a>
-                        <a href=""><img src="img/img-system/education/szus.png" alt="Logo Soukromá základní umělecká škola">Soukromá základní umělecká škola</a>
-                        <a href=""><img src="img/img-system/education/library.png" alt="Logo LU3V - univerzita třetího věku">LU3V - univerzita třetího věku</a>
-                        <a href=""><img src="img/img-system/education/skaut.png" alt="Logo Skaut">Skaut</a>
+                        <a class="col-md-2" href=""><img src="img/img-system/education/zus.png" alt="Logo ZUŠ - Základní umělecká škola"><span>ZUŠ - Základní umělecká škola</span></a>
+                        <a class="col-md-2" href=""><img src="img/img-system/education/svc.png" alt="Logo Středisko volného času"><span>Středisko volného času</span></a>
+                        <a class="col-md-2" href=""><img src="img/img-system/education/zn.png" alt="Logo Škola na zámku"><span>Škola na zámku</span></a>
+                        <a class="col-md-2" href=""><img src="img/img-system/education/szus.png" alt="Logo Soukromá základní umělecká škola"><span>Soukromá základní umělecká škola</span></a>
+                        <a class="col-md-2" href=""><img src="img/img-system/education/library.png" alt="Logo LU3V - univerzita třetího věku"><span>LU3V - univerzita třetího věku</span></a>
+                        <a class="col-md-2" href=""><img src="img/img-system/education/skaut.png" alt="Logo Skaut"><span>Skaut</span></a>
                     </nav>
 
 
@@ -630,12 +654,13 @@
                     </nav>
                 </div>
             </div>
-            <div class="wrap-side side-red">
-                <div class="pad-main">
-                    <img src="img/img-system/education/conference.png" alt="Přednášky a semináře">
-                    <h3>Přednášky a semináře</h3>
+            <div class="wrap-side bg-red">
+                <div class="pad-main-right">
+                    <img class="seminars-img" src="img/img-system/education/conference.png" alt="Přednášky a semináře">
+                    <h3>Přednášky a&nbsp;semináře</h3>
+                    <div class="cleaner"></div>
 
-                    <div class="pad-main">
+                    <div class="seminar-list">
                         <a href="">
                             <h4>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h4>
                             <p>25.2. / 8:00 / Smetanovo náměstí</p>
@@ -652,8 +677,10 @@
                     </div>
                 </div>
             </div>
+            <div class="cleaner"></div>
         </section>
 
         <?php  include("layouts/_footer.php");  ?>
+        <?php  include('layouts/_facebookSide.php');  ?>
     </body>
 </html>
