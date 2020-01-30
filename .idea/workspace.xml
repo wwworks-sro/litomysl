@@ -16,8 +16,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/css/main.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="552">
-                    <caret line="71" column="52" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
+                  <state relative-caret-position="433">
+                    <caret line="168" column="22" lean-forward="true" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="35" />
                   </state>
                 </provider>
               </entry>
@@ -40,37 +40,37 @@
         <counts>
           <entry key="css" value="6" />
           <entry key="js" value="1" />
-          <entry key="php" value="8" />
+          <entry key="php" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="6" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="8" />
+          <entry key="PHP" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="9232" />
-          <entry key="php" value="5270" />
+          <entry key="css" value="9239" />
+          <entry key="php" value="7059" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="9232" />
-          <entry key="PHP" value="5270" />
+          <entry key="CSS" value="9239" />
+          <entry key="PHP" value="7059" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="187" column="29" lean-forward="true" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="46" />
+            <state relative-caret-position="402">
+              <caret line="254" column="20" lean-forward="true" selection-start-line="254" selection-start-column="20" selection-end-line="257" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -80,6 +80,18 @@
                 <element signature="e#28181#28187#1#HTML" expanded="true" />
                 <element signature="e#41870#41876#1#HTML" expanded="true" />
                 <element signature="e#43066#43072#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/turista.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="448" column="32" selection-start-line="448" selection-start-column="32" selection-end-line="448" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/layouts/_footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="39" />
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -143,11 +155,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bubble-red</find>
-      <find>mar-top-30</find>
-      <find>office-links</find>
       <find>mestsky-urad</find>
-      <find>but</find>
       <find>seminars-img</find>
       <find>seminar-list</find>
       <find>calendar-title-links</find>
@@ -167,17 +175,23 @@
       <find>col-horizontal-line</find>
       <find>people-circles</find>
       <find>people-major</find>
-      <find>but-red</find>
       <find>major-left-pad</find>
       <find>vertical-line-separator-1</find>
       <find>people-links</find>
       <find>service-nav-icons</find>
       <find>title-banner</find>
+      <find>but-red</find>
+      <find>but</find>
+      <find>about</find>
+      <find>plus</find>
+      <find>emergency</find>
     </findStrings>
     <replaceStrings>
       <replace>services</replace>
       <replace>&quot;img/img-</replace>
       <replace>&lt;td&gt;info@loremispum.cz&lt;/td&gt;&lt;td&gt;722 569 489&lt;/td&gt;</replace>
+      <replace>href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;img/img-system/tourist/youtube.png&quot;</replace>
+      <replace>lendmarks</replace>
       <replace>horizontal</replace>
     </replaceStrings>
     <dirStrings>
@@ -202,6 +216,7 @@
         <option value="$PROJECT_DIR$/layouts/_footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/turista.php" />
       </list>
     </option>
   </component>
@@ -212,9 +227,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2566" />
+    <option name="x" value="-1595" />
     <option name="y" value="546" />
-    <option name="width" value="945" />
+    <option name="width" value="1601" />
     <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
@@ -257,6 +272,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\litomysl" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -280,18 +300,18 @@
       <option name="presentableId" value="Default" />
       <updated>1579952734346</updated>
       <workItem from="1579952735465" duration="19841000" />
-      <workItem from="1580214140522" duration="48338000" />
+      <workItem from="1580214140522" duration="63046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68179000" />
+    <option name="totallyTimeSpent" value="82887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2566" y="546" width="945" height="1416" extended-state="0" />
+    <frame x="-1595" y="546" width="1601" height="1416" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.13333334" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994641" visible="true" weight="0.076573655" />
       <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.1552" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -353,14 +373,14 @@
     <entry file="file://$PROJECT_DIR$/layouts/_footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="39" />
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="187" column="29" lean-forward="true" selection-start-line="187" selection-start-column="29" selection-end-line="187" selection-end-column="46" />
+        <state relative-caret-position="402">
+          <caret line="254" column="20" lean-forward="true" selection-start-line="254" selection-start-column="20" selection-end-line="257" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
@@ -376,8 +396,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="71" column="52" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
+        <state relative-caret-position="433">
+          <caret line="168" column="22" lean-forward="true" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turista.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="448" column="32" selection-start-line="448" selection-start-column="32" selection-end-line="448" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

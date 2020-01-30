@@ -110,7 +110,7 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 /*  -----------------------------------Novinky a kalendář-----------------------------------------------  */
 
 /*News*/
-#news-header {width:100%;clear:both; float:none;margin-bottom:30px;}
+#news-header,#calendar-title-header {width:100%;clear:both; float:none;margin-bottom:30px;}
 #news-tabs{width:420px;float:left;margin-left:23px;}
 #news-tabs li{margin:0px;margin-left:-30px;float:right;display:block;background: url(../img/img-system/title/tab-white.png) no-repeat top right;padding:15px 40px 10px 30px;line-height:30px;}
 #news-tabs li.tab-selected,#news-tabs li:hover {background: url(../img/img-system/title/tab-red.png) no-repeat top right;color:white;}
@@ -165,9 +165,9 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 /*  -----------------------------------Služby-----------------------------------------------  */
 
 .wrap-main h2 {color:#c20116;font-size:3em;font-weight:700;float:left;}
-.but-emergency {margin-bottom:40px;background: url(../img/img-system/services/emergency.png) no-repeat left;background-position-x:20px;background-size:30px;height:45px; }
-.but-emergency strong {font-weight:bold; clear:both;display:block;line-height:1.1em;height:10px;margin-top:3px;}
-.but-emergency span {font-size:0.8em;}
+.but-emergency,.but-calendar {margin-bottom:40px;background: url(../img/img-system/services/emergency.png) no-repeat left;background-position-x:20px;background-size:30px;height:45px; }
+.but-emergency strong,.but-calendar strong {font-weight:bold; clear:both;display:block;line-height:1.1em;height:10px;margin-top:3px;}
+.but-emergency span,.but-calendar span {font-size:0.8em;}
 
 #service-nav-icons,#service-nav-bottom {width:100%;clear:both;padding-top:40px;}
 #service-nav-icons li, #service-tourists li {width:50%;float:left;text-align:center;margin:0px;padding:0px;margin-bottom:10px;display:block;}
