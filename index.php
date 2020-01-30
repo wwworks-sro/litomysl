@@ -51,7 +51,7 @@
                         <div class="cleaner"></div>
                     </div>
                     <div id="news-wrap">
-                        <div id="news-top">
+                        <div class="news-top">
                             <a href="" class="news-title news-primary">
                                 <img src="img/img-articles/L/news-lorem-ipsum-l.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-cover"> </div>
@@ -77,7 +77,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div id="news-other">
+                        <div class="news-other">
                             <a href="" class="news-title news-mini">
                                 <img src="img/img-articles/S/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-text">

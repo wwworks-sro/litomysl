@@ -121,9 +121,9 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 .search-text {width:67%;float:left;}
 .search-submit {width:30%;float:left;background-color:#c20116;color:white;height:40px !important;}
 
-#news-top {margin-right:1%;margin-bottom:1%;}
-#news-top {float:left;width:56%;}
-#news-other {float:left;width:42%;}
+.news-top {margin-right:1%;margin-bottom:1%;}
+.news-top {float:left;width:56%;}
+.news-other {float:left;width:42%;}
 .news-primary, .news-secondary {position:relative;display:block;}
 .news-primary,.news-primary img, .news-secondary img {width:100%;}
 .news-secondary {float:left;width:49%;margin-top:1%;}

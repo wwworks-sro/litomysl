@@ -319,16 +319,16 @@
 
                 <div class="col-md-7 empty-heading">
                     <div class="col-md-12"> </div>
-                    <a href="" class="col-md-3" href=""><img src="img/img-system/lendmarks/zamek.jpg" alt="Zámecký areál"/> <span>Zámecký areál</span> </a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/dum-u-rytiru.jpg" alt="Dům U Rytířů"/><span>Dům U Rytířů </span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/smetanovo-namesti.jpg" alt="Smetanovo náměstí"/><span>Smetanovo náměstí</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/litomyslsky-orloj.jpg" alt="Litomyšlský orloj"/><span>Litomyšlský orloj </span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/kustel-husitsky.jpg" alt="Toulovcovo náměstí"/><span>Toulovcovo náměstí</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/klasterni-zahrady.jpg" alt="Klášterní zahrady"/><span>Klášterní zahrady</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/portmoneum.jpg" alt="Portmoneum"/><span>Portmoneum</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/smetanuv-dum.jpg" alt="Smetanův dům"/><span>Smetanův dům</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/rodinny-byt-bedricha-smetany.jpg" alt="Rodný byt Bedřicha Smetany"/><span>Rodný byt Bedřicha Smetany</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/mestsky-hrbitov.jpg" alt="Městský hřbitov"/><span>Městský hřbitov</span></a>
+                    <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/zamek.jpg" alt="Zámecký areál"/> <span>Zámecký areál</span> </a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/dum-u-rytiru.jpg" alt="Dům U Rytířů"/><span>Dům U Rytířů </span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/smetanovo-namesti.jpg" alt="Smetanovo náměstí"/><span>Smetanovo náměstí</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/litomyslsky-orloj.jpg" alt="Litomyšlský orloj"/><span>Litomyšlský orloj </span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kustel-husitsky.jpg" alt="Toulovcovo náměstí"/><span>Toulovcovo náměstí</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/klasterni-zahrady.jpg" alt="Klášterní zahrady"/><span>Klášterní zahrady</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/portmoneum.jpg" alt="Portmoneum"/><span>Portmoneum</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/smetanuv-dum.jpg" alt="Smetanův dům"/><span>Smetanův dům</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/rodinny-byt-bedricha-smetany.jpg" alt="Rodný byt Bedřicha Smetany"/><span>Rodný byt Bedřicha Smetany</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/mestsky-hrbitov.jpg" alt="Městský hřbitov"/><span>Městský hřbitov</span></a>
                     <div class="col-md-6 landmarks-extra-links">
                         <a href="">Otevírací doby</a>
                         <a href="">Fotogalerie</a>
@@ -338,25 +338,25 @@
                 </div>
                 <div class="col-md-7">
                     <h2 class="col-md-12">Litomyšlské sedmikostelí</h2>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/kostel-povyseni-sv-krize.jpg" alt="Kostel Povýšení sv. Kříže"/><span>Kostel Povýšení sv. Kříže</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/novy-kostel.jpg" alt="Nový kostel Církve bratrské"/><span>Nový kostel Církve bratrské</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/chram-nalezeni.jpg" alt="Chrám nalezení sv. Kříže"/><span>Chrám nalezení sv. Kříže</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/kostel-husite.jpg" alt="Kostel Českoslov. církve husitské"/><span>Kostel Českoslov. církve husitské</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/kostel-ce.jpg" alt="Kostel Českobratrské c. evangelické"/><span>Kostel Českobratrské c. evangelické</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/kostel-rozeslani-apostolu.jpg" alt="Kostel Rozeslání sv. Apoštolů"/><span>Kostel Rozeslání sv. Apoštolů</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/kostel-sv-anny.jpg" alt="Kostel sv. Anny"/><span>Kostel sv. Anny</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-povyseni-sv-krize.jpg" alt="Kostel Povýšení sv. Kříže"/><span>Kostel Povýšení sv. Kříže</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/novy-kostel.jpg" alt="Nový kostel Církve bratrské"/><span>Nový kostel Církve bratrské</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/chram-nalezeni.jpg" alt="Chrám nalezení sv. Kříže"/><span>Chrám nalezení sv. Kříže</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-husite.jpg" alt="Kostel Českoslov. církve husitské"/><span>Kostel Českoslov. církve husitské</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-ce.jpg" alt="Kostel Českobratrské c. evangelické"/><span>Kostel Českobratrské c. evangelické</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-rozeslani-apostolu.jpg" alt="Kostel Rozeslání sv. Apoštolů"/><span>Kostel Rozeslání sv. Apoštolů</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-sv-anny.jpg" alt="Kostel sv. Anny"/><span>Kostel sv. Anny</span></a>
                     <div class="col-md-6 landmarks-extra-links">
                         <a href="">Církve a církevní organizace</a>
                     </div>
                 </div>
                 <div class="col-md-7">
                     <h2 class="col-md-12">Moderní architektura</h2>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/bazen.jpg" alt="Bazén"/><span>Bazén</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/piaristicka-kolej.jpg" alt="Piaristická přístavba"/><span>Piaristická přístavba</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/pristavba-pivovaru.jpg" alt="Přestavba pivovaru"/><span>Přestavba pivovaru</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/nabrezi.jpg" alt="Nábřeží"/><span>Nábřeží</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/promeny.jpg" alt="Proměny"/><span>Proměny</span></a>
-                    <a href="" class="col-md-3"><img src="img/img-system/lendmarks/novy-kostel-2.jpg" alt="Nový kostel"/><span>Nový kostel</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/bazen.jpg" alt="Bazén"/><span>Bazén</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/piaristicka-kolej.jpg" alt="Piaristická přístavba"/><span>Piaristická přístavba</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/pristavba-pivovaru.jpg" alt="Přestavba pivovaru"/><span>Přestavba pivovaru</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/nabrezi.jpg" alt="Nábřeží"/><span>Nábřeží</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/promeny.jpg" alt="Proměny"/><span>Proměny</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/novy-kostel-2.jpg" alt="Nový kostel"/><span>Nový kostel</span></a>
                     <div class="col-md-6 landmarks-extra-links">
                         <a href="">Další moderní architektura</a>
                         <a href="">Kongresová turistika</a>
@@ -378,7 +378,7 @@
 
  <!--  -------------------------------------Tipy na výlet---------------------------------------------  -->
 
-        <section id="tipy-na-vylet" class="white-layout">
+        <section id="tipy-na-vylet" class="white-layout section-shadow">
             <div id="show-map-link">Tipy na výlet <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/></div>
             <div class="wrap-main">
                 <img src="img/img-system/trip/mapa.jpg" alt="Mapa - tipy na výlet"/>
@@ -406,8 +406,9 @@
             <div class="cleaner"></div>
         </section>
 
-<!--  --------------------------------------Kultura--------------------------------------------  -->
 
+
+<!--  --------------------------------------Kultura--------------------------------------------  -->
 
         <section id="kultura" class="red-layout">
             <div class="wrap-main">
@@ -415,31 +416,160 @@
                     <h2>Kultura</h2>
                     <div class="col-md-7">
                         <p>Moderní historické město. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec iaculis gravida nulla. Aliquam in lorem sit amet leo accumsan lacinia. Pellentesque sapien.</p>
-                        <a href="">Základní údaje</a>
-                        <a href="">Ke stažení</a>
                     </div>
                     <div class="col-md-5">
                         <a class="but but-section-top but-red-empty but-calendar" href="">
                             <strong>Kalendář</strong> <span>kulturních akcí</span>
                         </a>
                     </div>
-                </div>
-                <div class="wrap-side bg-red">
-                    <div class="pad-main-right">
-                        <div class="col-md-7 empty-heading">
-                            <div class="col-md-12"> </div>
-                            <a href="" class="col-md-3" href=""><img src="img/img-system/lendmarks/zamek.jpg" alt="Zámecký areál"/> <span>Zámecký areál</span> </a>
-                            <a href="" class="col-md-3"><img src="img/img-system/lendmarks/dum-u-rytiru.jpg" alt="Dům U Rytířů"/><span>Dům U Rytířů </span></a>
-                            <a href="" class="col-md-3"><img src="img/img-system/lendmarks/smetanovo-namesti.jpg" alt="Smetanovo náměstí"/><span>Smetanovo náměstí</span></a>
-                            <a href="" class="col-md-3"><img src="img/img-system/lendmarks/litomyslsky-orloj.jpg" alt="Litomyšlský orloj"/><span>Litomyšlský orloj </span></a>
-                            <a href="" class="col-md-3"><img src="img/img-system/lendmarks/kustel-husitsky.jpg" alt="Toulovcovo náměstí"/><span>Toulovcovo náměstí</span></a>
-                            <a href="" class="col-md-3"><img src="img/img-system/lendmarks/klasterni-zahrady.jpg" alt="Klášterní zahrady"/><span>Klášterní zahrady</span></a>
-                            <a href="" class="col-md-3"><img src="img/img-system/lendmarks/portmoneum.jpg" alt="Portmoneum"/><span>Portmoneum</span></a>
-                            <a href="" class="col-md-3"><img src="img/img-system/lendmarks/smetanuv-dum.jpg" alt="Smetanův dům"/><span>Smetanův dům</span></a>
-                            <a href="" class="col-md-3"><img src="img/img-system/lendmarks/rodinny-byt-bedricha-smetany.jpg" alt="Rodný byt Bedřicha Smetany"/><span>Rodný byt Bedřicha Smetany</span></a>
-                            <a href="" class="col-md-3"><img src="img/img-system/lendmarks/mestsky-hrbitov.jpg" alt="Městský hřbitov"/><span>Městský hřbitov</span></a>
+                    <div class="col-md-12">
+                        <div class="col-md-8 empty-heading">
+                            <h2 class="col-md-12">Kulturní zařízení a organizace</h2>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/kino.jpg" alt="Kino Sokol"/> <span>Kino Sokol</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/mestska-knihovna.jpg" alt="Městská knihovna"/> <span>Městská knihovna</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/mestska-galerie.jpg" alt="Městská galerie"/> <span>Městská galerie</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/regionalni-muzeum.jpg" alt="Regionální muzeum"/> <span>Regionální muzeum</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/smetanuv-dum.jpg" alt="Smetanův dům"/> <span>Smetanův dům</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/zamek.jpg" alt="Zámek"/> <span>Zámek</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/zamecke-navrsi.jpg" alt="Zámecké návrší"/> <span>Zámecké návrší</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/portmoneum.jpg" alt="Portmoneum"/> <span>Portmoneum</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/rodny-byt-bedricha-smetany.jpg" alt="Rodný byt Bedřicha Smetany"/> <span>Rodný byt Bedřicha Smetany</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/zamecke-sklepeni.jpg" alt="Zámecké sklepení"/> <span>Zámecké sklepení</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/mestska-obrazarna.jpg" alt="Městská obrazárna"/> <span>Městská obrazárna</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/litomysleni.jpg" alt="Litomyšlení"/> <span>Litomyšlení</span> </a>
                             <a href="" class="next-square">Další</a>
+                            <div class="col-md-12">
+                                <div class="col-md-3">
+                                    <h5>Spolky</h5>
+                                    <a href="">Přehled místních spolkových organizací</a>
+                                </div>
+                                <div class="col-md-3">
+                                    <h5>Církve a církevní organizace</h5>
+                                    <a href="">Přehled místních církví a církevních organizací</a>
+                                    <a href="">Litomyšlské sedmikostelí</a>
+                                    <a href="">Noc kostelů</a>
+                                </div>
+                                <div class="col-md-3">
+                                    <h5>Podpora</h5>
+                                    <a href="">Jak si zažádat o dotaci</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 empty-heading">
+                            <div class="col-md-12"> </div>
+                            <h2 class="col-md-12">Kulturní zařízení a organizace</h2>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/sl.jpg" alt="Národní festival Smetanova Litomyšl"/> <span>Národní festival Smetanova Litomyšl</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/svl.jpg" alt="Smetanova výtvarná Litomyšl"/> <span>Smetanova výtvarná Litomyšl</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/toulovcovy-patky.jpg" alt="Toulovcovy prázdninové pátky"/> <span>Toulovcovy prázdninové pátky</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/archimysl.jpg" alt="ArchiMyšl"/> <span>ArchiMyšl</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/msl.jpg" alt="Mladá Smetanova Litomyšl"/> <span>Mladá Smetanova Litomyšl</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/houslove-kurzy.jpg" alt="Mezinárodní houslové kurzy"/> <span>Mezinárodní houslové kurzy</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/gastroslavnosti.jpg" alt="Gastroslavnosti"/> <span>Gastroslavnosti</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/lazne-ducha.jpg" alt="Lázně ducha"/> <span>Lázně ducha</span> </a>
+                        </div>
+                    </div>
+                    <div class="cleaner"></div>
+                </div>
+            </div>
+            <div class="wrap-side bg-red">
+                <div class="pad-main-right">
+                    <h3>Aktuality z kultury</h3>
+                    <a href="" class="news-title news-primary">
+                        <img src="img/img-articles/L/news-lorem-ipsum-l.jpg" alt="Lorem ipsum dolor">
+                        <div class="news-cover"> </div>
+                        <div class="news-text">
+                            <h4>Aktualita 1 dolor sit amet consectetuer adip</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                        </div>
+                    </a>
+                    <div class="news-other">
+                        <a href="" class="news-title news-mini">
+                            <img src="img/img-articles/S/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
+                            <div class="news-text">
+                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            </div>
+                            <div class="cleaner"></div>
+                        </a>
+                        <a href="" class="news-title news-mini">
+                            <img src="img/img-articles/S/news-consectetur-s.jpg" alt="Lorem ipsum dolor">
+                            <div class="news-text">
+                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            </div>
+                            <div class="cleaner"></div>
+                        </a>
+                        <a class="news-title news-mini">
+                            <img src="img/img-articles/S/news-dolor-sit-2-s.jpg" alt="Lorem ipsum dolor">
+                            <div class="news-text">
+                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            </div>
+                            <div class="cleaner"></div>
+                        </a>
+                        <a href="" class="news-title news-mini">
+                            <img src="img/img-articles/S/news-lore-ipsum-s.jpg" alt="Lorem ipsum dolor">
+                            <div class="news-text">
+                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            </div>
+                            <div class="cleaner"></div>
+                        </a>
+                        <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality">
+                            <div class="more-news-mini">
+                                <img src="img/img-system/title/dots.png" alt="Lorem ipsum dolor">
+                            </div>
+                            <div class="news-text">
+                                Další aktuality
+                            </div>
+                        </a>
 
+                        <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality?topic=kultura">
+                            <div class="more-news-mini">
+                                <img src="img/img-system/title/dots.png" alt="Lorem ipsum dolor">
+                            </div>
+                            <div class="news-text">
+                                Další aktuality
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a class="next-section-link" href="#sport">Sport</a>
+            <div class="cleaner"></div>
+        </section>
+
+
+        <!--  --------------------------------------Sport--------------------------------------------  -->
+
+        <section id="kultura" class="red-layout">
+            <div class="wrap-main">
+                <div class="pad-main-left">
+                    <h2>Sport</h2>
+                    <div class="col-md-7">
+                        <p>Moderní historické město. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec iaculis gravida nulla. Aliquam in lorem sit amet leo accumsan lacinia. Pellentesque sapien.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <a class="but but-section-top but-red-empty but-calendar" href="">
+                            <strong>Kalendář</strong> <span>sportovních akcí</span>
+                        </a>
+                    </div>
+                    <div class="col-md-12">
+                        <h2 class="col-md-12">Volně přístupná sportoviště </h2>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/Městská sportovní hala.jpg" alt=""/> <span>Městská sportovní hala</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Areál Černá hora"/> <span>Areál Černá hora</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Městský bazén a koupaliště"/> <span>Městský bazén a koupaliště</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Hala Jiskra"/> <span>Hala Jiskra</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Zimní stadion"/> <span>Zimní stadion</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Fotbalgolf"/> <span>Fotbalgolf</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Areál za sokolovnou"/> <span>Areál za sokolovnou</span> </a>
+                        <a href="" class="square-pic next-square">Sportovní zázemí pro organizovaný sport</a>
+                        <div class="col-md-6 landmarks-extra-links">
+                            <a href="">Sportovní organizace</a>
+                            <a href="">Jak si zažádat o podporu</a>
+                        </div>
+                        <div class="col-md-12">
                             <div class="col-md-3">
                                 <h5>Spolky</h5>
                                 <a href="">Přehled místních spolkových organizací</a>
@@ -455,126 +585,160 @@
                                 <a href="">Jak si zažádat o dotaci</a>
                             </div>
                         </div>
-
-
-
+                    </div>
+                    <div class="col-md-12">
+                        <h2 class="col-md-12">Volně přístupná sportoviště </h2>
+                        <ul>
+                            <li> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Cyklostezky - mapa">Cyklostezky - mapa</a> </li>
+                            <li> <a href=""><img src="img/img-system/sport/newspaper.2.3.1.png" alt="Cyklostezky - leták s jízdními řády a mapou">Cyklostezky - leták s jízdními řády a mapou</a> </li>
+                            <li> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Dětská hřiště">Dětská hřiště</a> </li>
+                            <li> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Běžkařské tratě">Běžkařské tratě</a> </li>
+                        </ul>
                     </div>
                     <div class="cleaner"></div>
-                </div>
-                <a class="next-section-link" href="#o-litomysli">O Litomyšli</a>
-                <div class="cleaner"></div>
-        </section>
-
-
-<!--  -----------------------------------Vzdělávání-----------------------------------------------  -->
-
-
-        <section id="vzdelavani" class="red-layout">
-            <div class="wrap-main">
-                <div class="pad-main-left">
-                    <h2>Vzdělávání</h2>
-                    <div class="cleaner"></div>
-                    <nav class="col-md-3">
-                        <img class="big-circle" src="img/img-system/education/ms.png" alt="Mateřské školy">
-                        <ul>
-                            <li><a href="">I. mateřská škola</a></li>
-                            <li><a href="">II. mateřská škola</a></li>
-                            <li><a href="">III. mateřská škola</a></li>
-                            <li><a href="">Miniškolka</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="col-md-3">
-                        <img class="big-circle" src="img/img-system/education/zs.png" alt="Základní školy">
-                        <ul>
-                            <li><a href="">ZŠ 1 - žlutá</a></li>
-                            <li><a href="">ZŠ 2 - červená</a></li>
-                            <li><a href="">ZŠ 3 - modrá</a></li>
-                            <li><a href="">Školamyšl - zelená</a></li>
-                            <li><a href="">Speciální ZŠ Litomyšl</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="col-md-3">
-                        <img class="big-circle" src="img/img-system/education/ss.png" alt="Střední školy">
-                        <ul>
-                            <li><a href="">Gymnázium A. Jiráska</a></li>
-                            <li><a href="">Trading Centre</a></li>
-                            <li><a href="">SŠ zahradnická a technická</a></li>
-                            <li><a href="">SŠ pedagogická</a></li>
-                        </ul>
-                    </nav>
-                    <nav class="col-md-3">
-                        <img class="big-circle" src="img/img-system/education/vs.png" alt="Vysoké školy">
-                        <ul>
-                            <li><a href="">VŠ - Fakulta restaurování</a></li>
-                            <li><a href="">Univerzity Pardubice</a></li>
-                            <li><a href="">VOŠ pedagogická</a></li>
-                        </ul>
-                    </nav>
-
-
-                    <nav class="col-md-12 education-other">
-                        <a class="col-md-2" href=""><img src="img/img-system/education/zus.png" alt="Logo ZUŠ - Základní umělecká škola"><span>ZUŠ - Základní umělecká škola</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/svc.png" alt="Logo Středisko volného času"><span>Středisko volného času</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/zn.png" alt="Logo Škola na zámku"><span>Škola na zámku</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/szus.png" alt="Logo Soukromá základní umělecká škola"><span>Soukromá základní umělecká škola</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/library.png" alt="Logo LU3V - univerzita třetího věku"><span>LU3V - univerzita třetího věku</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/skaut.png" alt="Logo Skaut"><span>Skaut</span></a>
-                    </nav>
-
-                    <div class="cleaner">&nbsp;</div>
-                    <div id="education-footer">
-                        <nav class="col-md-6">
-                            <h3>Projekty</h3>
-                            <ul>
-                                <li><a href="">MAP I - Místní akční plán rozvoje vzdělávání I</a></li>
-                                <li><a href="">MAP II - Místní akční plán rozvoje vzdělávání II</a></li>
-                                <li><a href="">CVP - Cestou vzájemného porozumění</a></li>
-                            </ul>
-                        </nav>
-                        <nav class="col-md-3">
-                            <h3>Každoroční akce</h3>
-                            <ul>
-                                <li><a href="">Konference sociální péče</a></li>
-                                <li><a href="">Nakopněte svoji školu</a></li>
-                                <li><a href="">Litomyšlské fórum</a></li>
-                            </ul>
-                        </nav>
-                        <nav class="col-md-3">
-                            <h3>Aktivity</h3>
-                            <ul>
-                                <li><a href="">Lorem ipsum dolor sit amet</a></li>
-                                <li><a href="">Dum dolor sit amet</a></li>
-                                <li><a href="">Ipsum dolor sit amet</a></li>
-                            </ul>
-                        </nav><div class="cleaner"></div>
-                    </div>
                 </div>
             </div>
             <div class="wrap-side bg-red">
                 <div class="pad-main-right">
-                    <img class="seminars-img" src="img/img-system/education/conference.png" alt="Přednášky a semináře">
-                    <h3>Přednášky a&nbsp;semináře</h3>
-                    <div class="cleaner"></div>
+                    <h3>Aktuality ze sportu</h3>
+                    <a href="" class="news-title news-primary">
+                        <img src="img/img-articles/L/news-lorem-ipsum-l.jpg" alt="Lorem ipsum dolor">
+                        <div class="news-cover"> </div>
+                        <div class="news-text">
+                            <h4>Aktualita 1 dolor sit amet consectetuer adip</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                        </div>
+                    </a>
+                    <div class="news-other">
+                        <a href="" class="news-title news-mini">
+                            <img src="img/img-articles/S/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
+                            <div class="news-text">
+                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            </div>
+                            <div class="cleaner"></div>
+                        </a>
+                        <a href="" class="news-title news-mini">
+                            <img src="img/img-articles/S/news-consectetur-s.jpg" alt="Lorem ipsum dolor">
+                            <div class="news-text">
+                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            </div>
+                            <div class="cleaner"></div>
+                        </a>
+                        <a class="news-title news-mini">
+                            <img src="img/img-articles/S/news-dolor-sit-2-s.jpg" alt="Lorem ipsum dolor">
+                            <div class="news-text">
+                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            </div>
+                            <div class="cleaner"></div>
+                        </a>
+                        <a href="" class="news-title news-mini">
+                            <img src="img/img-articles/S/news-lore-ipsum-s.jpg" alt="Lorem ipsum dolor">
+                            <div class="news-text">
+                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            </div>
+                            <div class="cleaner"></div>
+                        </a>
+                        <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality">
+                            <div class="more-news-mini">
+                                <img src="img/img-system/title/dots.png" alt="Lorem ipsum dolor">
+                            </div>
+                            <div class="news-text">
+                                Další aktuality
+                            </div>
+                        </a>
 
-                    <div class="seminar-list">
-                        <a href="">
-                            <h4>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h4>
-                            <p>25.2. / 8:00 / Smetanovo náměstí</p>
+                        <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality?topic=kultura">
+                            <div class="more-news-mini">
+                                <img src="img/img-system/title/dots.png" alt="Lorem ipsum dolor">
+                            </div>
+                            <div class="news-text">
+                                Další aktuality
+                            </div>
                         </a>
-                        <a href="">
-                            <h4>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h4>
-                            <p>25.2. / 8:00 / Smetanovo náměstí</p>
-                        </a>
-                        <a href="">
-                            <h4>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h4>
-                            <p>25.2. / 8:00 / Smetanovo náměstí</p>
-                        </a>
-                        <a href="" class="seminary-more"><span>Další...</span></a>
                     </div>
                 </div>
             </div>
+
+            <a class="next-section-link" href="#sport">Sport</a>
             <div class="cleaner"></div>
         </section>
+
+
+
+        <!--  -------------------------------------Nabídka sportů---------------------------------------------  -->
+
+        <section id="tipy-na-vylet" class="white-layout section-shadow">
+            <div id="show-map-link">Nabídka sportů <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/></div>
+            <div class="wrap-main">
+                <h2>Nabídka sportů a sportovních klubů</h2>
+                <div class="col-md-4">
+                    <h3 class="col-md-12">Volnočasové</h3>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/skate.png" alt="Bruslení"/><span>Bruslení</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/bicycle road.3.3.1.png" alt="Cyklistika"/><span>Cyklistika</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/dumbbell 2.3.3.1.png" alt="Fitness"/><span>Fitness</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ball golf.3.3.2.png" alt="Fotbalgolf"/><span>Fotbalgolf</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ball golf.3.3.1.png" alt="Indoor golf"/><span>Indoor golf</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/rocking horse.3.3.1.png" alt="Jízda na koni"/><span>Jízda na koni</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/8 ball.3.3.1.png" alt="Kulečník"/><span>Kulečník</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/basketball hoop.3.3.1.png" alt="Let balónem"/><span>Let balónem</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ski.3.3.1.png" alt="Lyžování"/><span>Lyžování</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ball golf.3.3.1.png" alt="Minigolf"/><span>Minigolf</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/helmet motorcycle.3.3.1.png" alt="Motokáry"/><span>Motokáry</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/target.3.3.1.png" alt="Šipka"/><span>Šipka</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/back pack.3.3.1.png" alt="Turistika"/><span>Turistika</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/sonic run.3.3.1.png" alt="Úniková hra"/><span>Úniková hra</span></a>
+                </div>
+
+                <div class="col-md-2">
+                    <h3 class="col-md-12">Kolektivní</h3>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ball basketball.3.3.1.png" alt="Basketbal"/><span>Basketbal</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ball soccer.3.3.1.png" alt="Fotbal"/><span>Fotbal</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/hockey.3.3.1.png" alt="Lední hokej"/><span>Lední hokej</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ball soccer.3.3.1.png" alt="Minikopaná"/><span>Minikopaná</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ball soccer.3.3.1.png" alt="Nohejbal"/><span>Nohejbal</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ball soccer.3.3.1.png" alt="Sálová kopaná"/><span>Sálová kopaná</span></a>
+                </div>
+
+                <div class="col-md-2">
+                    <h3 class="col-md-12">Vodní</h3>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/boat sail 3.1.png" alt="Jachting"/><span>Jachting</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/paddle.png" alt="Padlle-boarding"/><span>Padlle-boarding</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/swimming pool.7.3.1.png" alt="Plavání"/><span>Plavání</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/surfing.png" alt="Windsurfing"/><span>Windsurfing</span></a>
+                </div>
+
+                <div class="col-md-2">
+                    <h3 class="col-md-12">Halové</h3>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/martial art robe.3.3.1.png" alt="Bojová umění"/><span>Bojová umění</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/hockey.3.3.2.png" alt="Florbal"/><span>Florbal</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/joga.png" alt="Jóga"/><span>Jóga</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/hockey.3.3.1.png" alt="Stolní hokej"/><span>Stolní hokej</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/pingpong.3.3.1.png" alt="Stolní tenis"/><span>Stolní tenis</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/chess piece.3.3.1.png" alt="Šachy"/><span>Šachy</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/high heels.3.3.1.png" alt="Tanec"/><span>Tanec</span></a>
+                </div>
+
+                <div class="col-md-2">
+                    <h3 class="col-md-12">Jiné</h3>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/running-icon.png" alt="Atletika"/><span>Atletika</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/car wheel.3.3.1.png" alt="Automoto"/><span>Automoto</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/ball badminton.3.3.1.png" alt="Badminton"/><span>Badminton</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/bicycle road.3.3.1.png" alt="Baikerské disciplíny"/><span>Baikerské disciplíny</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/helmet motorcycle.3.3.1.png" alt="Motokros"/><span>Motokros</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/forest 1.3.3.1.png" alt="Myslivost"/><span>Myslivost</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/fencing sword.3.3.1.png" alt="Šerm"/><span>Šerm</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/tennis.3.3.1.png" alt="Tenis"/><span>Tenis</span></a>
+                    <a href="" class="square-pic"><img src="img/img-system/sport-options/pet dog walk.3.3.1.png" alt="Výcvik psů"/><span>Výcvik psů</span></a>
+                </div>
+
+            </div>
+            <div class="cleaner"></div>
+        </section>
+
 
         <?php  include("layouts/_footer.php");  ?>
         <?php  include('layouts/_facebookSide.php');  ?>
