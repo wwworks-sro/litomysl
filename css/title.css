@@ -1,0 +1,161 @@
+
+
+/*  -----------------------------------Banner + vyskakovací pro srdce i níže pro stránku Lidé-----------------------------------------------  */
+
+/*Banner title*/
+#title-banner {margin-top:100px;z-index:1 !important;position:relative;margin-bottom:-11px;}
+.title-banner-img {width:100%;height:auto;}
+div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
+.banner-text h2{color:white;font-weight:bold;line-height:1.2em;font-size:2.2em;margin-bottom:15px;clear:both;padding-top:10px;}
+.banner-text p {color:white;}
+.title-heart {position:relative;position:absolute;padding:0px;}
+.title-heart img {margin:0px;}
+.title-heart .heart-popup,.people-circles div {display:none;opacity:0;-webkit-transition:all 2s ease-in-out;-moz-transition: all 2s ease-in-out;-ms-transition: all 2s ease-in-out;-o-transition: all 2s ease-in-out;transition: all 2s ease-in-out;}
+:hover.title-heart .heart-popup,:hover.people-circles div {opacity:1;position:absolute; top:50%;left:50%;display:block; width:200px;height:auto;min-height:50px;background-color:white;  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);padding: 10px 15px 5px 15px;}
+
+
+/*  -----------------------------------Novinky a kalendář-----------------------------------------------  */
+
+/*News*/
+#news-header,#calendar-title-header {width:100%;clear:both; float:none;margin-bottom:30px;}
+#news-tabs{width:420px;float:left;margin-left:23px;}
+#news-tabs li{margin:0px;margin-left:-30px;float:right;display:block;background: url(../img/img-system/title/tab-white.png) no-repeat top right;padding:15px 40px 10px 30px;line-height:30px;}
+#news-tabs li.tab-selected,#news-tabs li:hover {background: url(../img/img-system/title/tab-red.png) no-repeat top right;color:white;}
+#news-tabs li:hover {cursor:pointer;}
+
+.fulltext-form {width:30%;float:right;margin-top:10px;}
+.fulltext-form input {clear:none;margin:0px;height:30px;}
+.search-text {width:67%;float:left;}
+.search-submit {width:30%;float:left;background-color:#c20116;color:white;height:40px !important;}
+
+.news-top {margin-right:1%;margin-bottom:1%;}
+.news-top {float:left;width:56%;}
+.news-other {float:left;width:42%;}
+.news-primary, .news-secondary {position:relative;display:block;}
+.news-primary,.news-primary img, .news-secondary img {width:100%;}
+.news-secondary {float:left;width:49%;margin-top:1%;}
+.news-secondary-first{margin-right:2%;}
+.news-primary .news-text, .news-secondary .news-text {position:absolute; bottom:30px;width:90%;margin-left:5%;color:white;}
+.news-secondary  h5, .news-primary h4 {color:white !important;}
+.news-cover {background: url(../img/img-system/title/cover.png) no-repeat bottom left;background-size: contain;width:100%;height:100%;position:absolute; bottom:0px; left:0px;}
+.news-secondary {background-color:black;}
+.news-secondary img {opacity:0.6;}
+
+.news-mini {clear:both; float:none;margin-bottom:2%;display:block;}
+.news-mini img {width:33%;float:left;margin-right:2%;}
+.more-news-mini {width:33%;background-color:#c20116;height:64px;text-align:center;float:left;margin-right:2%;}
+.more-news-mini img {margin-top:25px;}
+.news-text {line-height:3em;}
+
+#news-footer-nav {width:100%;clear:both; float:none;margin-top:15px;height:80px;}
+#news-footer-nav li, #news-footer-nav img {float:left;}
+#news-footer-nav a {line-height:2.2em;text-decoration:none;}
+
+/*Calendar*/
+#calendar-title {clear:both;}
+#calendar-title a {clear:both;display:block;}
+#calendar-title p {margin-bottom:20px;}
+#calendar-title a img{max-width:10%; float:left;}
+#calendar-title a div{width:87%; float:right;}
+h2.today-events-title {font-size:1.3em;margin-top:13px;}
+#calendar-title h6 {color:white; line-height:1.1em;}
+.today-events-title {float:left;}
+.calendar-title-link {float:right;line-height:30px;margin-top:15px;margin-bottom:40px;}
+.separator-long-term-events {display:block;border-bottom:1px solid white;clear:both;width:100%;margin-top:50px;}
+.separator-long-term-events-text {background-color:#c20116;line-height:2em;text-align:center;display:block;width:170px;margin:0 auto; margin-top:-35px;margin-bottom:30px;}
+.top-events {float:right;}
+.next-section-link{background: url(../img/img-system/layout/arrow-down.png) no-repeat bottom left;  padding-left: 30px; background-size: contain;display:block; position:absolute; bottom:8vh;left:94%;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+.red-layout .next-section-link {color:white;}
+.calendar-title-links {clear:both;}
+.calendar-title-links a {text-decoration:underline;}
+
+/*  -----------------------------------Služby-----------------------------------------------  */
+
+.but-emergency,.but-calendar {margin-bottom:40px;background: url(../img/img-system/services/emergency.png) no-repeat left;background-position-x:20px;background-size:30px;height:45px; }
+.but-emergency strong,.but-calendar strong {font-weight:bold; clear:both;display:block;line-height:1.1em;height:10px;margin-top:3px;}
+.but-emergency span,.but-calendar span {font-size:0.8em;}
+
+#service-nav-icons,#service-nav-bottom {width:100%;clear:both;padding-top:40px;}
+#service-nav-icons li, #service-tourists li {width:50%;float:left;text-align:center;margin:0px;padding:0px;margin-bottom:10px;display:block;}
+#service-nav-icons li {max-width:150px;float:left;}
+#service-nav-icons a, #service-tourists a {display:block;text-decoration:none;text-align:center;width:100%;min-height:158px;}
+#service-nav-icons img, #service-tourists img {max-width:100%;clear:both;float:none;margin-bottom:2px;}
+#service-nav-icons span, #service-tourists span {display:block; text-align:center;}
+
+#service-nav-bottom {margin-bottom:40px;}
+#service-nav-bottom li{padding-left:0px;text-align:left;}
+#service-nav-bottom h3 {margin-bottom:20px;}
+
+.wrap-side nav {display:block;}
+#service-tourists ul {margin-top:5vh;}
+
+
+/*  -----------------------------------Městský úřad-----------------------------------------------  */
+
+#mestsky-urad .lilly {position:absolute; left:0px; top:30vh;width:20%;}
+#mestsky-urad .bubble {float:right;}
+.bubble a {text-decoration:underline;}
+.bubble-red {background-color:#c20116;color:white;margin-bottom:5vh;}
+.bubble-red .pad {padding:15px 30px;}
+.bubble-red h3,.bubble-red a {color:white;}
+.office-links {margin-bottom:7vh;}
+.office-links nav {margin-bottom:3vh;text-align:left;}
+.office-links li,.office-links h3 {padding-left:0px;text-align:left;}
+.office-side {padding-top:10vh;}
+.office-side h3{margin-bottom:25px;}
+.office-side .but{margin-top:25px;}
+.office-side table{margin-bottom:10px;width:100%;}
+.office-side th {padding-right:10px;}
+
+
+/*  -----------------------------------Lidé-----------------------------------------------  */
+
+#lide h2{margin-bottom:5vh;}
+.people-circles {position:relative;float:left;}
+.people-big {width:30%;}
+.people-mid {width:20%;}
+.people-small {width:12%;}
+.people-circles img {max-width:100%;}
+.people-second {clear:both;}
+.people-big.people-first {margin-left:15%;}
+.people-mid.people-first {margin-left:10%;}
+.people-small.people-first {margin-left:6%;}
+nav.people-links {float:right;margin-top:40px;}
+nav.people-links, nav.people-links h3,nav.people-links li {text-align:left;padding-left:0px;}
+.vertical-line-separator {text-align:center;width:64%;margin:15px 0;}
+.vertical-line-separator-1 {margin-top:-30px;}
+.col-horizontal-line {text-align:center;margin-top:70px;}
+.horizontal-line {margin-left:20%;width:60%;}
+.people-mid h3 {text-align:center;width:100%;}
+.vertical-line-separator .but-red {margin:0 auto;margin-top:15px;margin-bottom:30px;}
+.people-mid-left {height:40px;border:1px solid pink;}
+.bubble-white {background-color:white;  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);margin-top:-10vh;}
+.bubble-white .pad {padding:25px 25px;}
+a.more-answers {color:#c20116;float:right;margin-bottom:5px;font-weight:bold; }
+#lide h3 {font-size:1.3em;font-weight:700;}
+.people-circles h3{text-align:center; width:100%;}
+.people-major img{width:70%;margin-left:15%;margin-top:20%;}
+div.major-left-pad {width:8%;}
+
+#lide .people-line{margin-top:30px;margin-bottom:30px;border-left:3px solid #c20116;}
+#lide .people-line a, .people-line div {clear:both;display:block; padding:10px 0 10px 15%;background: url(../img/img-system/people/dot.png) no-repeat left;margin-left:-11px;}
+
+.people-line div {padding-left:0px;clear:both;width:100%;height:60px;}
+.people-line div img {clear:none;float:left;width:60px;margin-left:-20px;margin-top:-10px;}
+.people-line div h3 {text-align:left;margin-left:10px;}
+
+/*  -----------------------------------Vzdělávání-----------------------------------------------  */
+
+#education-footer {border-top:5px solid #eaeaea;margin-top:40px;padding-top:30px;margin-bottom:30px;}
+#education-footer li,#education-fotter h3{text-align:left;padding-left:0px;}
+#education-footer h3 {font-size:21px;text-align:left;}
+#vzdelavani h2{margin-bottom:30px;}
+.wrap-main nav,.education-other {text-align:center;}
+.education-other {margin-top:5vh;margin-bottom:30px;}
+.education-other span {display:block;clear:both;padding:0 10px;}
+
+.seminars-img {float:left;}
+.seminar-list {margin-top:40px;}
+.seminar-list a{clear:both;margin-bottom:15px;display:block;border-left:4px solid white;padding-left:20px;}
+.seminar-list h4 {font-size:1.0em;}
+.seminary-more {text-decoration:underline;}

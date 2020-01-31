@@ -1,0 +1,185 @@
+/*  -----------------------------------Turista-----------------------------------------------  */
+
+/*Banner title*/
+#subtitle-banner{margin-top:103px;}
+
+
+#subtitle-banner .pad-main-right {padding-top:50px;padding-right:0px;padding-bottom:0px;}
+.tourist-top-link {display:block; clear:both;margin-top:10px;width:400px;}
+.tourist-top-link-text-img {float:left;width:22%;}
+.tourist-top-link-text {float:left;width:75%;margin-left:3%;}
+.tourist-top-link-text span{color:gray;font-size:0.8em;}
+.tourist-top-link-text strong {display:block;margin-top:13px;font-size:1.1em;}
+
+.wrap-side form {width:90%;float:left;margin-top:20px;}
+
+/*Tourist calendar*/
+#calendar-wrap-mid,#calendar-wrap-mini{box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);width:90%;border-top:5px solid #c20116;min-height:70vh;margin-bottom:10px;}
+#calendar-wrap-mini {width:100%;}
+#calendar-wrap-mid {clear:both;}
+.calendar-item-mini, .calendar-item-mid {display:block;width:100%;clear:both;}
+.calendar-item-mini img, .calendar-item-mid img {float:left;max-width:6%;height:auto;width:26px;margin-rigth:2%;margin-left:2%;margin-top:45px;}
+.calendar-text-mini, .calendar-text-mid {width:90%;float:right;margin-top:20px;margin-bottom:20px;}
+.calendar-text-mid div,.calendar-text-mid a {color:#c20116;}
+.calendar-text-mid h4, .calendar-item-mini h6 {font-weight:bold;}
+.calendar-text-mid h4 {font-size:1.1em;margin-bottom:5px;}
+.calendar-item-mini h6 {font-size:0.9em;}
+.calendar-text-mid p {font-size:0.9em;}
+.calendar-text-mini p {font-size:0.9em;}
+a.more-calendar-link {color:#c20116;text-decoration:underline;margin-bottom:30px;}
+.calendar-title-header {margin-bottom:0px;width:90%;height:55px; }
+.calendar-title-header #news-tabs {width:259px;margin-left:0px;}
+.calendar-title-header #news-tabs li {font-weight:bold;}
+.calendar-title-header #news-tabs li strong {font-size:1.2em;}
+.calendar-link {float:right;margin-top:20px;}
+
+/*Services*/
+.tourist-icon-link,.tourist-button-link {clear:both;display:block;padding-top:10px;}
+.tourist-icon-link img,.tourist-button-link img {float:left;margin-right:15px;}
+.tourist-icon-link strong,.tourist-button-link strong {padding-top:10%;display:block;}
+.tourist-button-link { box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);margin-top:15px;}
+.tourist-button-link img {max-height:25px;max-width:35px;margin:5px 10px 10px 10px;}
+.more-services{margin-top:30px;display:block; text-decoration:underline;}
+
+
+/*  -----------------------------------O Litomyšli-----------------------------------------------  */
+
+#o-litomysli h2{float:none;clear:both;}
+.title-description {margin-bottom:3vh;}
+.title-description p {font-size:0.9em;margin-bottom:10px;padding-right:40px;}
+.title-description a {text-decoration:underline;padding-right:20px;font-size:0.9em;}
+.about-photo-wrap {position:relative;}
+.about-photo {width:100%;}
+.statistics-circle {display:block; width:100px;height:100px;border-radius: 300px;background-color:white;position:absolute;text-align:center;text-align:center;font-size:0.8em; }
+.statistics-circle strong {font-size:1.4em;color:#c20116;clear:both;display:block;padding:20px 7px 2px 7px;}
+.statistics-circle span {padding:0 10px;display:block;}
+
+.youtube-list img{width:20px;float:left;margin-right:10px;}
+
+.about-box {background-color:rgba(255, 255, 255, 0.8);top:8vh;position:absolute; right:70px;}
+.about-box .pad {padding:20px;font-size:0.8em;}
+
+.video-title {margin-bottom:15px;display:block;width:100%;}
+.video-box-left iframe{float:left;}
+.video-box-right iframe{float:right;}
+
+/*History line*/
+.history-line{background: url(../img/img-system/about/lines.png) repeat-y left;}
+.history-line-item,.history-line-item-big {margin-top:15px; margin-bottom:15px;clear:both;width:100%;}
+.history-text h4{font-weight:bold;font-size:0.8em;}
+.history-text p{font-size:0.8em;}
+.history-date {font-size:0.8em;text-align:center;background-color:#eaeaea;margin-top:5px;height:30px;line-height:30px;margin-left:-15px;margin-right:15px;}
+.history-line-item-big .history-date{margin-top:20px;}
+.text-more{font-size:0.9em;}
+.text-more {display:none;}
+
+.personalities {margin-top:5vh;}
+.personalities h4 {font-weight:bold;margin-bottom:10px;}
+.history-pic img {width:95%;clear:both;}
+.history-pic span {font-size:0.8em;display:block; width:95%;}
+.personalities .but-white {margin-top:10px;clear:both;}
+
+
+
+    /*  -----------------------------------Památky a architektura-----------------------------------------------  */
+
+#pamatky-architektura {}
+.landmarks-list {margin-top:5vh;}
+#pamatky-architektura h3{font-size:1.2em;}
+.landmarks-col-left {margin-top:30px;}
+.square-pic {float:left;margin-right:1%;margin-top:1%;width:19%;min-height:186px;}
+.square-pic img {clear:both;float:none;width:100%;}
+.square-pic span {display:block;font-size:0.75em;max-width:100%;}
+.text-mini {font-size:0.8em;}
+.landmarks-lam {text-align:right;margin-top:20px;}
+.landmarks-lam a {float:right;width:200px;margin-left:10px;}
+.landmarks-lam p {display:block;}
+
+.landmarks-col-left,.landmarks-col-center ,.landmarks-col-right {float:left;}
+.landmarks-col-left .square-pic{width:24%;margin-right:1%;}
+.landmarks-col-center .square-pic{width:32%;margin-right:1%;}
+.landmarks-col-right .square-pic{width:32%;margin-right:1%;}
+.landmarks-col-left {width:37%;margin-right:4%;}
+.landmarks-col-center {width:27.5%;margin-right:4%;}
+.landmarks-col-right {width:27.5%;}
+
+.landmarks-extra-links,.sport-extra-links {width:48%;padding-top:15px;}
+.landmarks-extra-links a {display:block;padding-left:15%;}
+.sport-extra-links a {display:block;line-height:1.5em;font-size:0.9em;}
+.landmarks-col-right .landmarks-extra-links {width:100%;}
+
+
+/*  -----------------------------------Tipy na výlet-----------------------------------------------  */
+
+.section-shadow {margin-top:-5px;}
+.about-photo,.tips-map {width:100%;}
+#show-map-link,#sport-list{width:400px; text-align:center;margin:0 auto; margin-top:-55px;line-height:50px;height:50px;background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);}
+#show-map-link img,#sport-list img {width:15px;margin-left:10px;margin-top:4px;}
+#tipy-na-vylet h2{margin-bottom:20px;margin-top:-20px;}
+
+.tips-links {margin-top:30px;}
+.tips-links-buttons {margin-top:20px;}
+.tips-links li,.tips-links-buttons li {padding-left:0px;}
+.tips-links-buttons a {margin-bottom:7px;}
+.tips-links a {line-height:1.6em;font-size:0.9em;}
+.tips-links-buttons li a {font-size:0.9em;}
+.tips-links-buttons li a.but-double-line {line-height:1.2;font-size:0.8em;padding:5px 0;}
+
+
+
+/*  -----------------------------------Kultura-----------------------------------------------  */
+
+a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repeat left !important;background-position-x:20px !important;background-size:30px !important;}
+#kultura h2     {width:100%;}
+.wrap-side .news-primary h4{font-size:0.9em;font-weight:bold;}
+.wrap-side .news-primary p{font-size:0.8em;}
+.wrap-side .news-primary .news-text {bottom:20px;}
+.wrap-side .news-other {width:100%;}
+.wrap-side h3 {margin-bottom:30px;margin-top:10px;}
+.news-mini {clear:both;margin-top:20px;}
+.news-mini h6{font-weight:bold;font-size:0.8em;}
+.bg-red .news-mini h6{color:white; }
+.news-mini p {font-size:0.8em;}
+.news-mini img {width:16%;}
+.news-mini .news-text {display:block;width:82%;float:right;}
+.bg-red .more-news-mini {width:16%;background-color:white;height:40px;margin-top:10px;}
+.bg-red .more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
+#kultura h3{font-size: 1.2em;}
+.col-square-2 .square-pic {width:49%;margin-right:1%;}
+.next-square {position:relative; text-align:center;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);min-height:0px;}
+.next-square span {position:absolute; top:46%;width:100%;text-align:center;text-decoration:underline;}
+.extra-link-box h5{font-size:0.8em;font-weight:bold;}
+.extra-link-box a{font-size:0.8em;}
+.extra-link-box a,.extra-link-box h5 {padding-right:30px;}
+.extra-link-box a {text-decoration:underline;display:block;}
+
+/*  -----------------------------------Sport-----------------------------------------------  */
+
+#sport h2 {width:100%;}
+#sport h3,#nabidka-sportu h3 { font-size: 1.2em;}
+.col-square-8 .square-pic,.col-square-8 .next-square {width:11.5%}
+.col-square-8 .next-square span{top:20%;}
+.sport-bottom {margin-top:5vh;}
+.sport-bottom ul{margin-top:50px;}
+.sport-bottom li {padding-left:0px;}
+.sport-bottom img {float:left;}
+.sport-bottom span {font-size:0.8em;}
+
+
+/*  -----------------------------------Nabídka sportů-----------------------------------------------  */
+
+#nabidka-sportu {padding-bottom:7vh;}
+#nabidka-sportu h2 {margin-bottom:5vh;}
+#nabidka-sportu .section-shadow{margin-bottom:-10px;}
+#nabidka-sportu #sport-list{margin-top:-50px;}
+.sports-list-col-1 {width:25%;margin-right:5%;}
+.sports-list-col-2,.sports-list-col-3 {width:10%;margin-right:5%;}
+.sports-list-col-4 {width:15%;margin-right:5%;}
+.sports-list-col-5 {width:20%;}
+
+.sports-list-col-1 .square-pic{width:19%;}
+.sports-list-col-2 .square-pic,.sports-list-col-3 .square-pic{width:49%;}
+.sports-list-col-4 .square-pic{width:32%;}
+.sports-list-col-5 .square-pic{width:24%;}
+
+#nabidka-sportu .square-pic {min-height: 140px;}

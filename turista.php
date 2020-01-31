@@ -8,28 +8,29 @@
 
 <!--  -----------------------------------Banner-----------------------------------------------  -->
 
-        <section id="subtitle-banner" class="red-layout">
+        <section id="subtitle-banner" class="white-layout">
             <div class="wrap-main subtitle-banner">
-                <img class="title-banner-img" src="img/img-system/title/banner.jpg" alt="Letecký pohled - Litomyšl">
-                <h2 class="pad-main-left">Banner lorem ipsum</h2>
-                <p>Lorem ipsum dolor sit amet</p>
+                <img class="title-banner-img" src="img/img-system/banners/banner-1.jpg" alt="Letecký pohled - Litomyšl">
+                <div class="pad-main-left banner-text">
+                    <h2>Banner lorem ipsum</h2>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
                 <div class="cleaner"></div>
             </div>
-            <div class="wrap-side bg-red">
+            <div class="wrap-side">
                 <div class="pad-main-right">
                     <a href="" class="tourist-top-link">
                         <img class="tourist-top-link-text-img" src="img/img-system/tourist/ic.png" alt="Infocentrum Litomyšl ">
                         <div class="tourist-top-link-text">
                             <strong>Infocentrum Litomyšl</strong>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <img src="img/img-system/tourist/mobile phone 2.2.3.1.png" alt="Telefonní číslo">
                                 <span>461 612 161</span>
-                            </div>
-                            <div class="col-md-6">
                                 <img src="img/img-system/tourist/logo email.2.3.1.png" alt="Email">
                                 <span>ic@litomysl.cz</span>
                             </div>
                         </div>
+                        <div class="cleaner"></div>
                     </a>
                     <a href="" class="tourist-top-link">
                         <img class="tourist-top-link-text-img" src="img/img-system/tourist/map 1.3.3.1.png" alt="Mapa">
@@ -37,6 +38,7 @@
                             <strong>Mapa </strong>
                             <span>města a parkování</span>
                         </div>
+                        <div class="cleaner"></div>
                     </a>
                     <a href="" class="tourist-top-link">
                         <img class="tourist-top-link-text-img" src="img/img-system/tourist/map pin 1.3.3.1.png" alt="Webový průvodce">
@@ -44,13 +46,13 @@
                             <strong>Webový průvodce </strong>
                             <span>architekturou města 1900 - 2018</span>
                         </div>
+                        <div class="cleaner"></div>
                     </a>
+                    <form class="fulltext-form" method="post" action="#">
+                        <input class="search-text" type="text" name="search">
+                        <input class="search-submit" type="submit" name="vyhledat" value="vyhledat">
+                    </form>
                 </div>
-
-                <form class="fulltext-form" method="post" action="#">
-                    <input class="search-text" type="text" name="search">
-                    <input class="search-submit" type="submit" name="vyhledat" value="vyhledat">
-                </form>
                 <div class="cleaner"></div>
             </div>
         </section>
@@ -63,57 +65,61 @@
                 <div class="pad-main-left">
 
                     <div class="col-md-8">
-                        <div id="calendar-title-header">
+                        <div class="calendar-title-header">
                             <ul id="news-tabs">
                                 <li>zítra</li>
-                                <li class="tab-selected">Kam dnes</li>
+                                <li class="tab-selected"><strong>Kam dnes</strong></li>
                             </ul>
                             <a href="" class="calendar-link">Kalendář akcí</a>
                             <div class="cleaner"></div>
                         </div>
-                        <div id="calendar-mid-wrap" >
-                            <div class="calendar-mid">
-                                <img src="img/img-system/title/event-drama.png" alt="divadlo">
-                                <div class="calendar-mid-text">
-                                    <h4>Aktualita 1 dolor sit amet consectetuer adip</h4>
+                        <div id="calendar-wrap-mid">
+                            <div class="calendar-item-mid">
+                                <img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+                                <div class="calendar-text-mid">
+                                    <a href=""><h4>Aktualita 1 dolor sit amet tetuer adip</h4></a>
                                     <div>8:00  /  <a href="">Smetanovo náměstí</a>  /  <a href="">Vstupenky</a></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                    <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                                 </div>
                             </div>
-                            <div class="calendar-mid">
-                                <img src="img/img-system/title/event-music.png" alt="divadlo">
-                                <div class="calendar-mid-text">
-                                    <h4>Aktualita 1 dolor sit amet consectetuer adip</h4>
+                            <div class="calendar-item-mid">
+                                <img src="img/img-system/tourist/event-red-music.png" alt="koncert">
+                                <div class="calendar-text-mid">
+                                    <a href=""><h4>Aktualita 1 dolor sit amet tetuer adip</h4></a>
                                     <div>8:00  /  <a href="">Smetanovo náměstí</a>  /  <a href="">Vstupenky</a></div>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                    <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                                 </div>
                             </div>
-                        </div>
-                        <a href="">Roční kalendář akcí</a>
-                    </div>
-                    <div class="col-md-4">
-                        <div id="calendar-title-header">
-                            Probíhající akce
                             <div class="cleaner"></div>
                         </div>
-                        <div id="calendar-mid-wrap" >
-                            <a href="">
-                                <img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
-                                <div>
-                                    <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
-                                    <p>8.00 / Smetanovo náměstí</p>
-                                </div>
-                            </a>
-                            <a href="">
-                                <img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
-                                <div>
-                                    <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
-                                    <p>8.00 / Smetanovo náměstí</p>
-                                </div>
-                            </a>
-                        </div>
-                        <a href="">Další akce...</a>
+                        <a class="more-calendar-link" href="">Roční kalendář akcí</a>
                     </div>
+                    <div class="col-md-4">
+                        <div class="calendar-title-header">
+                            <strong>Probíhající akce</strong>
+                            <div class="cleaner"></div>
+                        </div>
+                        <div id="calendar-wrap-mini" >
+                            <a class="calendar-item-mini" href="">
+                                <img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+                                <div class="calendar-text-mini">
+                                    <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
+                                    <p>8.00 / Smetanovo náměstí</p>
+                                </div>
+                            </a>
+                            <a class="calendar-item-mini" href="">
+                                <img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+                                <div class="calendar-text-mini">
+                                    <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
+                                    <p>8.00 / Smetanovo náměstí</p>
+                                </div>
+                            </a>
+                            <div class="cleaner"></div>
+                        </div>
+                        <a class="more-calendar-link" href="">Další akce...</a>
+                    </div>
+                    <div class="cleaner"></div>
+                </div>
             </div>
             <div class="wrap-side bg-red">
                 <div class="pad-main-right">
@@ -138,27 +144,27 @@
                         <img src="img/img-system/tourist/swimming-pool.png" alt="Bazén">
                         <strong>Bazén</strong>
                     </a>
+                    <div class="cleaner"></div>
 
-
-                    <a href="" class="tourist-button-link">
+                    <a href="" class="but tourist-button-link">
                         <img src="img/img-system/tourist/UNESCO_logo.png" alt="Zámecký areál UNESCO">
                         <span>Zámecký areál UNESCO</span>
                     </a>
-                    <a href="" class="tourist-button-link">
+                    <a href="" class="but tourist-button-link">
                         <img src="img/img-system/tourist/sl.png" alt="Smetanova Litomyšl">
                         <span>Smetanova Litomyšl</span>
                     </a>
-                    <a href="" class="tourist-button-link">
+                    <a href="" class="but tourist-button-link">
                         <img src="img/img-system/tourist/zn.png" alt="Zámecké návrší">
                         <span>Zámecké návrší</span>
                     </a>
 
-                    <a href="">Další...</a>
+                    <a class="more-services" href="">Další...</a>
 
                 </div>
                 <div class="cleaner"></div>
             </div>
-            <a class="next-section-link" href="#o-litomysli">O Litomyšli</a>
+            <a class="next-section-link" href="#o-litomysli">O&nbsp;Litomyšli</a>
             <div class="cleaner"></div>
         </section>
 
@@ -170,133 +176,135 @@
             <div class="wrap-main">
                 <div class="pad-main-left">
                     <h2>O Litomyšli</h2>
-                    <div class="col-md-7">
-                        <p>Moderní historické město. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec iaculis gravida nulla. Aliquam in lorem sit amet leo accumsan lacinia. Pellentesque sapien.</p>
+                    <div class="col-md-7 title-description">
+                        <p>Moderní historické město. Lorem ipsum dolor sit amet, tetuer adipiscing elit. Donec iaculis gravida nulla. Aliquam in lorem sit amet leo accumsan lacinia. Pellentesque sapien.</p>
                         <a href="">Základní údaje</a>
                         <a href="">Ke stažení</a>
                     </div>
-
-                    <div class="col-md-12 about-photo-wrap">
-                        <img src="img/img-system/about/litomysl.jpg" alt="Litomyšl - letecké foto"/>
-                        <div class="statistics-circle" style="top:40%;"> <strong>10 300</strong> <span>počet obyvatel</span></div>
-                        <div class="statistics-circle"> <strong>330</strong> <span>nadmořská výška</span></div>
-                        <div class="statistics-circle"> <strong>2 580</strong> <span>kulturních akcí ročně</span></div>
-                        <a class="statistics-circle"> <strong>...</strong> <span>více</span></a>
-                        <div class="cleaner"></div>
-                    </div>
-                    <div class="col-md-4 float-right">
-                        <div class="pad">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/76DAxhQmgUc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            Animované video s představením historie města
-                            <div class="col-md-6">
-                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/76DAxhQmgUc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                Minutový film UNESCO
-                            </div>
-                            <div class="col-md-6">
-                                <iframe width="100%" height="315" src="https://www.youtube.com/embed/76DAxhQmgUc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                Virtuální prohlídka
-                            </div>
-
-                            <ul>
-                                <li><a href="" target="_blank"><img src="img/img-system/tourist/youtube.png" alt="Youtube video"/>Další virtuální prohlídky</a></li>
-                                <li><a href="" target="_blank"><img src="img/img-system/tourist/youtube.png" alt="Youtube video"/>Webkamera</a><br /></li>
-                                <li><a href="" target="_blank"><img src="img/img-system/tourist/youtube.png" alt="Youtube video"/>Regionální televize CMS TV</a></li>
-                                <li><a href="" target="_blank"><img src="img/img-system/tourist/youtube.png" alt="Youtube video"/>ČT o Litomyšli</a></li>
-                                <li><a href="" target="_blank"><img src="img/img-system/tourist/youtube.png" alt="Youtube video"/>Krvavý román</a></li>
-                                <li><a href="" target="_blank"><img src="img/img-system/tourist/youtube.png" alt="Youtube video"/>Otevření lázeňské sezóny</a></li>
-                                <li><a href="" target="_blank"><img src="img/img-system/tourist/youtube.png" alt="Youtube video"/>Architektura v Litomyšli proStory</a><br /></li>
-                                <li><a href=""><img src="img/img-system/tourist/youtube-blank.png" alt="Youtube video" target="_blank"/>Další videa</a></li>
-                            </ul>
+                </div>
+                <div class="col-md-12 about-photo-wrap">
+                    <img class="about-photo" src="img/img-system/about/litomysl.jpg" alt="Litomyšl - letecké foto"/>
+                    <div class="statistics-circle" style="top:20%;left:10%;"><strong>10 300</strong> <span>počet obyvatel</span></div>
+                    <div class="statistics-circle" style="top:40%;left:30%;"><strong>330</strong><span>nadmořská výška</span></div>
+                    <div class="statistics-circle" style="top:60%;left:20%;"><strong>2 580</strong> <span>kulturních akcí ročně</span></div>
+                    <a class="statistics-circle" style="top:75%;left:60%;"><strong>...</strong> <span>více</span></a>
+                    <div class="cleaner"></div>
+                </div>
+                <div class="col-md-4 about-box ">
+                    <div class="pad">
+                        <iframe width="100%" height="20%" src="https://www.youtube.com/embed/76DAxhQmgUc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <span class="video-title">Animované video s představením historie města</span>
+                        <div class="col-md-6 video-box-left">
+                            <iframe width="98%" height="10%" src="https://www.youtube.com/embed/76DAxhQmgUc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <span class="video-title">Minutový film UNESCO</span>
                         </div>
+                        <div class="col-md-6 video-box-right">
+                            <iframe width="98%" height="10%" src="https://www.youtube.com/embed/76DAxhQmgUc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <span class="video-title">Virtuální prohlídka</span>
+                        </div>
+
+                        <ul class="youtube-list">
+                            <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>Další virtuální prohlídky</a></li>
+                            <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>Webkamera</a><br /></li>
+                            <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>Regionální televize CMS TV</a></li>
+                            <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>ČT o Litomyšli</a></li>
+                            <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>Krvavý román</a></li>
+                            <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>Otevření lázeňské sezóny</a></li>
+                            <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>Architektura v Litomyšli proStory</a><br /></li>
+                            <li><a href=""><img src="img/img-system/about/youtube-blank.png" alt="Youtube video" target="_blank"/>Další videa</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="wrap-side ">
                 <div class="pad-main-right">
                     <h3>Historie</h3>
-    
-                    <article class="history-line-item">
-                        <div class="col-md-1 history-date">981</div>
-                        <div class="col-md-3 history-pic">
-                            <img src="img/img-system/about/history-981.jpg" alt="Lorem ipsum"/>
-                        </div>
-                        <div class="col-md-8 history-text">
-                            <h4>Lorem ipsum</h4>
-                            <p>Vehicula eu diam. Pelentesque rhoncllentesque rhoncus aliquam</p>
-                        </div>
-                        <div class="col-md-8 history-text-more">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
-                        </div>
-                    </article>
 
-                    <article class="history-line-item">
-                        <div class="col-md-1 history-date">1145</div>
-                        <div class="col-md-11 history-text">
-                            <p>Vehicula eu diam. Pelentesque rhoncllentesque rhoncus aliquam</p>
-                        </div>
-                        <div class="col-md-11 history-text-more">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
-                        </div>
-                    </article>
+                    <div class="history-line">
+                        <article class="history-line-item-big">
+                            <div class="col-md-1 history-date">981</div>
+                            <div class="col-md-3 history-pic">
+                                <img src="img/img-system/about/history-981.jpg" alt="Lorem ipsum"/>
+                            </div>
+                            <div class="col-md-8 history-text">
+                                <h4 class="trigger-more">Lorem ipsum</h4>
+                                <p>Vehicula eu diam lentesque rhoncllentesque rhoncus aliquam</p>
+                            </div>
+                            <div class="col-md-12 text-more">
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
+                            </div><div class="cleaner"></div>
+                        </article>
 
-                    <article class="history-line-item">
-                        <div class="col-md-1 history-date">1259</div>
-                        <div class="col-md-3 history-pic">
-                            <img src="img/img-system/about/history-1259.jpg" alt="Lorem ipsum"/>
-                        </div>
-                        <div class="col-md-8 history-text">
-                            <h4>Lorem ipsum</h4>
-                            <p>Vehicula eu diam. Pelentesque rhoncllentesque rhoncus aliquam</p>
-                        </div>
-                        <div class="col-md-8 history-text-more">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
-                        </div>
-                    </article>
+                        <article class="history-line-item">
+                            <div class="col-md-1 history-date">1145</div>
+                            <div class="col-md-11 history-text">
+                                <p>Vehicula eu diam lentesque rhoncllentesque rhoncus aliquam</p>
+                            </div>
+                            <div class="col-md-12 text-more">
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
+                            </div><div class="cleaner"></div>
+                        </article>
 
-                    <article class="history-line-item">
-                        <div class="col-md-1 history-date">1350</div>
-                        <div class="col-md-11 history-text">
-                            <p>Vehicula eu diam. Pelentesque rhoncllentesque rhoncus aliquam</p>
-                        </div>
-                        <div class="col-md-11 history-text-more">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
-                        </div>
-                    </article>
+                        <article class="history-line-item-big">
+                            <div class="col-md-1 history-date">1259</div>
+                            <div class="col-md-3 history-pic">
+                                <img src="img/img-system/about/history-1259.jpg" alt="Lorem ipsum"/>
+                            </div>
+                            <div class="col-md-8 history-text">
+                                <h4>Lorem ipsum</h4>
+                                <p>Vehicula eu diam lentesque rhoncllentesque rhoncus aliquam</p>
+                            </div>
+                            <div class="col-md-12 text-more">
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
+                            </div><div class="cleaner"></div>
+                        </article>
 
-                    <article class="history-line-item">
-                        <div class="col-md-1 history-date">1459</div>
-                        <div class="col-md-3 history-pic">
-                            <img src="img/img-system/about/history-1459.jpg" alt="Lorem ipsum"/>
-                        </div>
-                        <div class="col-md-8 history-text">
-                            <h4>Lorem ipsum</h4>
-                            <p>Vehicula eu diam. Pelentesque rhoncllentesque rhoncus aliquam</p>
-                        </div>
-                        <div class="col-md-8 history-text-more">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
-                        </div>
-                    </article>
+                        <article class="history-line-item">
+                            <div class="col-md-1 history-date">1350</div>
+                            <div class="col-md-11 history-text">
+                                <p>Vehicula eu entesque rhoncllentesque rhoncus aliquam</p>
+                            </div>
+                            <div class="col-md-12 text-more">
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
+                            </div><div class="cleaner"></div>
+                        </article>
 
+                        <article class="history-line-item-big">
+                            <div class="col-md-1 history-date">1459</div>
+                            <div class="col-md-3 history-pic">
+                                <img src="img/img-system/about/history-1459.jpg" alt="Lorem ipsum"/>
+                            </div>
+                            <div class="col-md-8 history-text">
+                                <h4>Lorem ipsum</h4>
+                                <p>Vehicula eu diam. Pelentesque rhoncllentesque rhoncus aliquam</p>
+                            </div>
+                            <div class="col-md-12 text-more">
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat. Integer in sapien. Vivamus luctus egestas leo. Maecenas fermentum</p>
+                            </div><div class="cleaner"></div>
+                        </article>
+                        <div class="cleaner"></div>
+                    </div>
                     <a href="" class="but but-white">Kronika města</a>
 
+                    <div class="personalities">
+                        <h4>Osobnosti Litomyšle</h4>
 
-                    <h4>Osobnosti Litomyšle</h4>
+                        <a class="col-md-4 history-pic">
+                            <img src="img/img-system/about/smetana.jpg" alt="Lorem ipsum"/>
+                            <span>Bedřich Smetana</span>
+                        </a>
+                        <a class="col-md-4 history-pic">
+                            <img src="img/img-system/about/smetana.jpg" alt="Lorem ipsum"/>
+                            <span>M. D. Rettigová</span>
+                        </a>
+                        <a class="col-md-4 history-pic">
+                            <img src="img/img-system/about/smetana.jpg" alt="Lorem ipsum"/>
+                            <span>Josef Váchal</span>
+                        </a>
 
-                    <a class="col-md-3 history-pic">
-                        <img src="img/img-system/about/smetana.jpg" alt="Lorem ipsum"/>
-                        <span>Bedřich Smetana</span>
-                    </a>
-                    <a class="col-md-3 history-pic">
-                        <img src="img/img-system/about/smetana.jpg" alt="Lorem ipsum"/>
-                        <span>M. D. Rettigová</span>
-                    </a>
-                    <a class="col-md-3 history-pic">
-                        <img src="img/img-system/about/smetana.jpg" alt="Lorem ipsum"/>
-                        <span>Josef Váchal</span>
-                    </a>
-
-                    <a href="" class="but but-white">Další osobnosti</a>
-
+                        <div class="cleaner"></div>
+                        <a href="" class="but but-white">Další osobnosti</a>
+                    </div>
                 </div>
             </div>
             <a class="next-section-link" href="#mestsky-urad">Městský úřad</a>
@@ -308,65 +316,66 @@
 
 
         <section id="pamatky-architektura" class="white-layout">
-            <div class="wrap-main">
-                <div class="pad-main-left">
-                    <h2 class="col-md-5">Památky a architektura</h2>
-                    <a class="col-md-5">
-                        Projděte si město s webovým průvodcem
-                        přehled skvostů Litomyšle 1900 - 2018
-                    </a>
-                </div>
 
-                <div class="col-md-7 empty-heading">
-                    <div class="col-md-12"> </div>
-                    <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/zamek.jpg" alt="Zámecký areál"/> <span>Zámecký areál</span> </a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/dum-u-rytiru.jpg" alt="Dům U Rytířů"/><span>Dům U Rytířů </span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/smetanovo-namesti.jpg" alt="Smetanovo náměstí"/><span>Smetanovo náměstí</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/litomyslsky-orloj.jpg" alt="Litomyšlský orloj"/><span>Litomyšlský orloj </span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kustel-husitsky.jpg" alt="Toulovcovo náměstí"/><span>Toulovcovo náměstí</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/klasterni-zahrady.jpg" alt="Klášterní zahrady"/><span>Klášterní zahrady</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/portmoneum.jpg" alt="Portmoneum"/><span>Portmoneum</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/smetanuv-dum.jpg" alt="Smetanův dům"/><span>Smetanův dům</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/rodinny-byt-bedricha-smetany.jpg" alt="Rodný byt Bedřicha Smetany"/><span>Rodný byt Bedřicha Smetany</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/mestsky-hrbitov.jpg" alt="Městský hřbitov"/><span>Městský hřbitov</span></a>
-                    <div class="col-md-6 landmarks-extra-links">
-                        <a href="">Otevírací doby</a>
-                        <a href="">Fotogalerie</a>
-                        <a href="">Mapa</a>
-                        <a href="">Kultura</a>
+                <div class="pad-main">
+                    <div class="col-md-7">
+                        <h2 class="section-heading">Památky a architektura</h2>
                     </div>
-                </div>
-                <div class="col-md-7">
-                    <h2 class="col-md-12">Litomyšlské sedmikostelí</h2>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-povyseni-sv-krize.jpg" alt="Kostel Povýšení sv. Kříže"/><span>Kostel Povýšení sv. Kříže</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/novy-kostel.jpg" alt="Nový kostel Církve bratrské"/><span>Nový kostel Církve bratrské</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/chram-nalezeni.jpg" alt="Chrám nalezení sv. Kříže"/><span>Chrám nalezení sv. Kříže</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-husite.jpg" alt="Kostel Českoslov. církve husitské"/><span>Kostel Českoslov. církve husitské</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-ce.jpg" alt="Kostel Českobratrské c. evangelické"/><span>Kostel Českobratrské c. evangelické</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-rozeslani-apostolu.jpg" alt="Kostel Rozeslání sv. Apoštolů"/><span>Kostel Rozeslání sv. Apoštolů</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/kostel-sv-anny.jpg" alt="Kostel sv. Anny"/><span>Kostel sv. Anny</span></a>
-                    <div class="col-md-6 landmarks-extra-links">
-                        <a href="">Církve a církevní organizace</a>
+                    <div class="col-md-5 landmarks-lam">
+                        <a href="" class="but but-red">Online prohlídka</a>
+                        <p class="text-mini">Projděte se s webovým průvodcem<br >
+                        přehled skvostů Litomyšle 1900 - 2018</p>
                     </div>
-                </div>
-                <div class="col-md-7">
-                    <h2 class="col-md-12">Moderní architektura</h2>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/bazen.jpg" alt="Bazén"/><span>Bazén</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/piaristicka-kolej.jpg" alt="Piaristická přístavba"/><span>Piaristická přístavba</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/pristavba-pivovaru.jpg" alt="Přestavba pivovaru"/><span>Přestavba pivovaru</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/nabrezi.jpg" alt="Nábřeží"/><span>Nábřeží</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/promeny.jpg" alt="Proměny"/><span>Proměny</span></a>
-                    <a href="" class="square-pic"><img src="img/img-system/lendmarks/novy-kostel-2.jpg" alt="Nový kostel"/><span>Nový kostel</span></a>
-                    <div class="col-md-6 landmarks-extra-links">
-                        <a href="">Další moderní architektura</a>
-                        <a href="">Kongresová turistika</a>
+                    <div class="cleaner"></div>
+
+                    <div class="landmarks-list">
+                        <div class="landmarks-col-left">
+                            <a href="" class="square-pic" href=""><img src="img/img-system/landmarks/zamek.jpg" alt="Zámecký areál"/> <span>Zámecký areál</span> </a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/dum-u-rytiru.jpg" alt="Dům U Rytířů"/><span>Dům U Rytířů </span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/smetanovo-namesti.jpg" alt="Smetanovo náměstí"/><span>Smetanovo náměstí</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/litomyslsky-orloj.jpg" alt="Litomyšlský orloj"/><span>Litomyšlský orloj </span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/kustel-husitsky.jpg" alt="Toulovcovo náměstí"/><span>Toulovcovo náměstí</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/klasterni-zahrady.jpg" alt="Klášterní zahrady"/><span>Klášterní zahrady</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/portmoneum.jpg" alt="Portmoneum"/><span>Portmoneum</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/smetanuv-dum.jpg" alt="Smetanův dům"/><span>Smetanův dům</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/rodinny-byt-bedricha-smetany.jpg" alt="Rodný byt Bedřicha Smetany"/><span>Rodný byt Bedřicha Smetany</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/mestsky-hrbitov.jpg" alt="Městský hřbitov"/><span>Městský hřbitov</span></a>
+                            <div class="col-md-6 landmarks-extra-links">
+                                <a href="">Otevírací doby</a>
+                                <a href="">Fotogalerie</a>
+                                <a href="">Mapa</a>
+                                <a href="">Kultura</a>
+                            </div>
+                        </div>
+                        <div class="landmarks-col-center">
+                            <h3 class="col-md-12">Litomyšlské sedmikostelí</h3>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/kostel-povyseni-sv-krize.jpg" alt="Kostel Povýšení sv. Kříže"/><span>Kostel Povýšení sv. Kříže</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/novy-kostel.jpg" alt="Nový kostel Církve bratrské"/><span>Nový kostel Církve bratrské</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/chram-nalezeni.jpg" alt="Chrám nalezení sv. Kříže"/><span>Chrám nalezení sv. Kříže</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/kostel-husite.jpg" alt="Kostel Českoslov. církve husitské"/><span>Kostel Českoslov. církve husitské</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/kostel-ce.jpg" alt="Kostel Českobratrské c. evangelické"/><span>Kostel Českobratrské c. evangelické</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/kostel-rozeslani-apostolu.jpg" alt="Kostel Rozeslání sv. Apoštolů"/><span>Kostel Rozeslání sv. Apoštolů</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/kostel-sv-anny.jpg" alt="Kostel sv. Anny"/><span>Kostel sv. Anny</span></a>
+                            <div class="col-md-6 landmarks-extra-links">
+                                <a href="">Církve a církevní organizace</a>
+                            </div>
+                        </div>
+                        <div class="landmarks-col-right">
+                            <h3 class="col-md-12">Moderní architektura</h3>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/bazen.jpg" alt="Bazén"/><span>Bazén</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/piaristicka-kolej.jpg" alt="Piaristická přístavba"/><span>Piaristická přístavba</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/pristavba-pivovaru.jpg" alt="Přestavba pivovaru"/><span>Přestavba pivovaru</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/nabrezi.jpg" alt="Nábřeží"/><span>Nábřeží</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/promeny.jpg" alt="Proměny"/><span>Proměny</span></a>
+                            <a href="" class="square-pic"><img src="img/img-system/landmarks/novy-kostel-2.jpg" alt="Nový kostel"/><span>Nový kostel</span></a>
+                            <div class="col-md-6 landmarks-extra-links">
+                                <a href="">Další moderní architektura</a>
+                                <a href="">Kongresová turistika</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
                 <div class="cleaner"></div>
-            </div>
-            <div class="wrap-side ">
-                <a href="" class="but but-red">LAM - online prohlídka</a>
             </div>
 
 
@@ -378,29 +387,33 @@
 
  <!--  -------------------------------------Tipy na výlet---------------------------------------------  -->
 
-        <section id="tipy-na-vylet" class="white-layout section-shadow">
+        <section id="tipy-na-vylet" class="white-layout">
+            <img class="section-shadow" src="img/img-system/trip/section-shadow.png"/>
+
             <div id="show-map-link">Tipy na výlet <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/></div>
             <div class="wrap-main">
-                <img src="img/img-system/trip/mapa.jpg" alt="Mapa - tipy na výlet"/>
+                <img class="tips-map" src="img/img-system/trip/mapa.jpg" alt="Mapa - tipy na výlet"/>
             </div>
             <div class="wrap-side ">
-                <h2>Tipy na výlet</h2>
+                <div class="pad-main-right">
+                    <h2 class="section-heading">Tipy na výlet</h2>
 
-                <ul class="tips-links">
-                    <li><a href="">Užijte si Litomyšl</a></li>
-                    <li><a href="">Litomyšl přátelská rodině</a></li>
-                    <li><a href="">Geofun - hra, co svět neviděl</a></li>
-                </ul>
+                    <ul class="tips-links">
+                        <li><a href="">Užijte si Litomyšl</a></li>
+                        <li><a href="">Litomyšl přátelská rodině</a></li>
+                        <li><a href="">Geofun - hra, co svět neviděl</a></li>
+                    </ul>
 
-                <ul class="tips-links-buttons">
-                    <li><a href="">UNESCO</a></li>
-                    <li><a href="">Českomoravské pomezí</a></li>
-                    <li><a href="">Česká inspirace</a></li>
-                    <li><a href="">Sdružení historických sídel Čech, Moravy a Slezska</a></li>
-                    <li><a href="">Mikroregion Litomyšlsko</a></li>
-                    <li><a href="">Kraj Smetany a Martinů</a></li>
-                    <li><a href="">Východní Čechy</a></li>
-                </ul>
+                    <ul class="tips-links-buttons">
+                        <li><a class="but but-white" href="">UNESCO</a></li>
+                        <li><a class="but but-white" href="">Českomoravské pomezí</a></li>
+                        <li><a class="but but-white" href="">Česká inspirace</a></li>
+                        <li><a class="but but-white but-double-line" href="">Sdružení historických sídel Čech, Moravy a Slezska</a></li>
+                        <li><a class="but but-white" href="">Mikroregion Litomyšlsko</a></li>
+                        <li><a class="but but-white" href="">Kraj Smetany a Martinů</a></li>
+                        <li><a class="but but-white" href="">Východní Čechy</a></li>
+                    </ul>
+                </div>
             </div>
 
             <div class="cleaner"></div>
@@ -413,37 +426,40 @@
         <section id="kultura" class="red-layout">
             <div class="wrap-main">
                 <div class="pad-main-left">
-                    <h2>Kultura</h2>
                     <div class="col-md-7">
-                        <p>Moderní historické město. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec iaculis gravida nulla. Aliquam in lorem sit amet leo accumsan lacinia. Pellentesque sapien.</p>
+                        <h2>Kultura</h2>
+                        <div class="title-description">
+                            <p>Moderní historické město. Lorem ipsum dolor sit amet, tetuer adipiscing elit. Donec iaculis gravida nulla. Aliquam in lorem sit amet leo accumsan lacinia. Pellentesque sapien.</p>
+                        </div>
                     </div>
                     <div class="col-md-5">
-                        <a class="but but-section-top but-red-empty but-calendar" href="">
+                        <a class="but but-section-top but-red-empty but-calendar float-right" href="">
                             <strong>Kalendář</strong> <span>kulturních akcí</span>
                         </a>
                     </div>
+                    <div class="cleaner"></div>
                     <div class="col-md-12">
-                        <div class="col-md-8 empty-heading">
-                            <h2 class="col-md-12">Kulturní zařízení a organizace</h2>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/kino.jpg" alt="Kino Sokol"/> <span>Kino Sokol</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/mestska-knihovna.jpg" alt="Městská knihovna"/> <span>Městská knihovna</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/mestska-galerie.jpg" alt="Městská galerie"/> <span>Městská galerie</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/regionalni-muzeum.jpg" alt="Regionální muzeum"/> <span>Regionální muzeum</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/smetanuv-dum.jpg" alt="Smetanův dům"/> <span>Smetanův dům</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/zamek.jpg" alt="Zámek"/> <span>Zámek</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/zamecke-navrsi.jpg" alt="Zámecké návrší"/> <span>Zámecké návrší</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/portmoneum.jpg" alt="Portmoneum"/> <span>Portmoneum</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/rodny-byt-bedricha-smetany.jpg" alt="Rodný byt Bedřicha Smetany"/> <span>Rodný byt Bedřicha Smetany</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/zamecke-sklepeni.jpg" alt="Zámecké sklepení"/> <span>Zámecké sklepení</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/mestska-obrazarna.jpg" alt="Městská obrazárna"/> <span>Městská obrazárna</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/litomysleni.jpg" alt="Litomyšlení"/> <span>Litomyšlení</span> </a>
-                            <a href="" class="next-square">Další</a>
-                            <div class="col-md-12">
-                                <div class="col-md-3">
+                        <div class="col-md-8">
+                            <h3 class="col-md-12"><br />Kulturní zařízení a organizace</h3>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/kino.jpg" alt="Kino Sokol"/> <span>Kino Sokol</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/mestska-knihovna.jpg" alt="Městská knihovna"/> <span>Městská knihovna</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/mestska-galerie.jpg" alt="Městská galerie"/> <span>Městská galerie</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/regionalni-muzeum.jpg" alt="Regionální muzeum"/> <span>Regionální muzeum</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/smetanuv-dum.jpg" alt="Smetanův dům"/> <span>Smetanův dům</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/zamek.jpg" alt="Zámek"/> <span>Zámek</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/zamecke-navrsi.jpg" alt="Zámecké návrší"/> <span>Zámecké návrší</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/portmoneum.jpg" alt="Portmoneum"/> <span>Portmoneum</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/rodny-byt-bedricha-smetany.jpg" alt="Rodný byt Bedřicha Smetany"/> <span>Rodný byt Bedřicha Smetany</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/zamecke-sklepeni.jpg" alt="Zámecké sklepení"/> <span>Zámecké sklepení</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/mestska-obrazarna.jpg" alt="Městská obrazárna"/> <span>Městská obrazárna</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/litomysleni.jpg" alt="Litomyšlení"/> <span>Litomyšlení</span> </a>
+                            <a href="" class="square-pic next-square"><img src="img/img-system/culture/empty.jpg" alt="Litomyšlení"/><span>Další</span></a>
+                            <div class="col-md-12 extra-link-box">
+                                <div class="col-md-4">
                                     <h5>Spolky</h5>
                                     <a href="">Přehled místních spolkových organizací</a>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-5">
                                     <h5>Církve a církevní organizace</h5>
                                     <a href="">Přehled místních církví a církevních organizací</a>
                                     <a href="">Litomyšlské sedmikostelí</a>
@@ -455,17 +471,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 empty-heading">
-                            <div class="col-md-12"> </div>
-                            <h2 class="col-md-12">Kulturní zařízení a organizace</h2>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/sl.jpg" alt="Národní festival Smetanova Litomyšl"/> <span>Národní festival Smetanova Litomyšl</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/svl.jpg" alt="Smetanova výtvarná Litomyšl"/> <span>Smetanova výtvarná Litomyšl</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/toulovcovy-patky.jpg" alt="Toulovcovy prázdninové pátky"/> <span>Toulovcovy prázdninové pátky</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/archimysl.jpg" alt="ArchiMyšl"/> <span>ArchiMyšl</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/msl.jpg" alt="Mladá Smetanova Litomyšl"/> <span>Mladá Smetanova Litomyšl</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/houslove-kurzy.jpg" alt="Mezinárodní houslové kurzy"/> <span>Mezinárodní houslové kurzy</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/gastroslavnosti.jpg" alt="Gastroslavnosti"/> <span>Gastroslavnosti</span> </a>
-                            <a href="" class="square-pic" href=""><img src="img/img-system/lendmarks/lazne-ducha.jpg" alt="Lázně ducha"/> <span>Lázně ducha</span> </a>
+                        <div class="col-md-1">&nbsp;</div>
+                        <div class="col-md-3 col-square-2">
+                            <h3 class="col-md-12">Kulturní zařízení a organizace</h3>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/sl.jpg" alt="Národní festival Smetanova Litomyšl"/> <span>Národní festival Smetanova Litomyšl</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/svl.jpg" alt="Smetanova výtvarná Litomyšl"/> <span>Smetanova výtvarná Litomyšl</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/toulovcovy-patky.jpg" alt="Toulovcovy prázdninové pátky"/> <span>Toulovcovy prázdninové pátky</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/archimysl.jpg" alt="ArchiMyšl"/> <span>ArchiMyšl</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/msl.jpg" alt="Mladá Smetanova Litomyšl"/> <span>Mladá Smetanova Litomyšl</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/houslove-kurzy.jpg" alt="Mezinárodní houslové kurzy"/> <span>Mezinárodní houslové kurzy</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/gastroslavnosti.jpg" alt="Gastroslavnosti"/> <span>Gastroslavnosti</span> </a>
+                            <a href="" class="square-pic" href=""><img src="img/img-system/culture/lazne-ducha.jpg" alt="Lázně ducha"/> <span>Lázně ducha</span> </a>
                         </div>
                     </div>
                     <div class="cleaner"></div>
@@ -478,55 +494,46 @@
                         <img src="img/img-articles/L/news-lorem-ipsum-l.jpg" alt="Lorem ipsum dolor">
                         <div class="news-cover"> </div>
                         <div class="news-text">
-                            <h4>Aktualita 1 dolor sit amet consectetuer adip</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            <h4>Aktualita 1 dolor sit amet tetuer adip</h4>
+                            <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                         </div>
                     </a>
                     <div class="news-other">
                         <a href="" class="news-title news-mini">
                             <img src="img/img-articles/S/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
                             <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                             </div>
                             <div class="cleaner"></div>
                         </a>
                         <a href="" class="news-title news-mini">
                             <img src="img/img-articles/S/news-consectetur-s.jpg" alt="Lorem ipsum dolor">
                             <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                             </div>
                             <div class="cleaner"></div>
                         </a>
                         <a class="news-title news-mini">
                             <img src="img/img-articles/S/news-dolor-sit-2-s.jpg" alt="Lorem ipsum dolor">
                             <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                             </div>
                             <div class="cleaner"></div>
                         </a>
                         <a href="" class="news-title news-mini">
                             <img src="img/img-articles/S/news-lore-ipsum-s.jpg" alt="Lorem ipsum dolor">
                             <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                             </div>
                             <div class="cleaner"></div>
                         </a>
                         <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality">
                             <div class="more-news-mini">
-                                <img src="img/img-system/title/dots.png" alt="Lorem ipsum dolor">
-                            </div>
-                            <div class="news-text">
-                                Další aktuality
-                            </div>
-                        </a>
-
-                        <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality?topic=kultura">
-                            <div class="more-news-mini">
-                                <img src="img/img-system/title/dots.png" alt="Lorem ipsum dolor">
+                                <img src="img/img-system/culture/dots.png" alt="Lorem ipsum dolor">
                             </div>
                             <div class="news-text">
                                 Další aktuality
@@ -543,115 +550,93 @@
 
         <!--  --------------------------------------Sport--------------------------------------------  -->
 
-        <section id="kultura" class="red-layout">
+        <section id="sport" class="gray-layout">
             <div class="wrap-main">
                 <div class="pad-main-left">
-                    <h2>Sport</h2>
                     <div class="col-md-7">
-                        <p>Moderní historické město. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec iaculis gravida nulla. Aliquam in lorem sit amet leo accumsan lacinia. Pellentesque sapien.</p>
+                        <h2>Sport</h2>
+                        <div class="title-description">
+                            <p>Moderní historické město. Lorem ipsum dolor sit amet, tetuer adipiscing elit. Donec iaculis gravida nulla. Aliquam in lorem sit amet leo accumsan lacinia. Pellentesque sapien.</p>
+                        </div>
                     </div>
                     <div class="col-md-5">
-                        <a class="but but-section-top but-red-empty but-calendar" href="">
+                        <a class="but but-section-top but-red-empty but-calendar float-right" href="">
                             <strong>Kalendář</strong> <span>sportovních akcí</span>
                         </a>
                     </div>
-                    <div class="col-md-12">
-                        <h2 class="col-md-12">Volně přístupná sportoviště </h2>
-                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/Městská sportovní hala.jpg" alt=""/> <span>Městská sportovní hala</span> </a>
-                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Areál Černá hora"/> <span>Areál Černá hora</span> </a>
-                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Městský bazén a koupaliště"/> <span>Městský bazén a koupaliště</span> </a>
-                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Hala Jiskra"/> <span>Hala Jiskra</span> </a>
-                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Zimní stadion"/> <span>Zimní stadion</span> </a>
-                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Fotbalgolf"/> <span>Fotbalgolf</span> </a>
-                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/.jpg" alt="Areál za sokolovnou"/> <span>Areál za sokolovnou</span> </a>
-                        <a href="" class="square-pic next-square">Sportovní zázemí pro organizovaný sport</a>
-                        <div class="col-md-6 landmarks-extra-links">
+                    <div class="col-md-12 col-square-8">
+                        <h3 class="col-md-12">Volně přístupná sportoviště </h3>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/mestska-sportovni-hala.jpg" alt="Městská sportovní hala"/> <span>Městská sportovní hala</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/areal-za-sokolovnou.jpg" alt="Areál Černá hora"/> <span>Areál Černá hora</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/bazen.jpg" alt="Městský bazén a koupaliště"/> <span>Městský bazén a koupaliště</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/jiskra.jpg" alt="Hala Jiskra"/> <span>Hala Jiskra</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/zimni-stadion.jpg" alt="Zimní stadion"/> <span>Zimní stadion</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/fotbalpark.jpg" alt="Fotbalgolf"/> <span>Fotbalgolf</span> </a>
+                        <a href="" class="square-pic" href=""><img src="img/img-system/sport/areal-za-sokolovnou.jpg" alt="Areál za sokolovnou"/> <span>Areál za sokolovnou</span> </a>
+                        <a href="" class="square-pic next-square"><img src="img/img-system/culture/empty.jpg" alt="Sportovní zázemí pro organizovaný sport"/><span>Sportovní zázemí pro organizovaný sport</span></a>
+
+                        <div class="col-md-6 sport-extra-links">
                             <a href="">Sportovní organizace</a>
                             <a href="">Jak si zažádat o podporu</a>
                         </div>
-                        <div class="col-md-12">
-                            <div class="col-md-3">
-                                <h5>Spolky</h5>
-                                <a href="">Přehled místních spolkových organizací</a>
-                            </div>
-                            <div class="col-md-3">
-                                <h5>Církve a církevní organizace</h5>
-                                <a href="">Přehled místních církví a církevních organizací</a>
-                                <a href="">Litomyšlské sedmikostelí</a>
-                                <a href="">Noc kostelů</a>
-                            </div>
-                            <div class="col-md-3">
-                                <h5>Podpora</h5>
-                                <a href="">Jak si zažádat o dotaci</a>
-                            </div>
-                        </div>
                     </div>
-                    <div class="col-md-12">
-                        <h2 class="col-md-12">Volně přístupná sportoviště </h2>
+                    <div class="col-md-12 sport-bottom">
+                        <h3 class="col-md-12">Volně přístupná sportoviště </h3>
                         <ul>
-                            <li> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Cyklostezky - mapa">Cyklostezky - mapa</a> </li>
-                            <li> <a href=""><img src="img/img-system/sport/newspaper.2.3.1.png" alt="Cyklostezky - leták s jízdními řády a mapou">Cyklostezky - leták s jízdními řády a mapou</a> </li>
-                            <li> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Dětská hřiště">Dětská hřiště</a> </li>
-                            <li> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Běžkařské tratě">Běžkařské tratě</a> </li>
+                            <li class="col-md-3"> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Cyklostezky - mapa"><span>Cyklostezky - mapa</span></a> </li>
+                            <li class="col-md-3 "> <a href=""><img src="img/img-system/sport/newspaper.2.3.1.png" alt="Cyklostezky - leták s jízdními řády a mapou"><span>Cyklostezky - leták s jízdními řády a mapou</span></a> </li>
+                            <li class="col-md-3 "> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Dětská hřiště"><span>Dětská hřiště</span></a> </li>
+                            <li class="col-md-3 "> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Běžkařské tratě"><span>Běžkařské tratě</span></a> </li>
                         </ul>
                     </div>
                     <div class="cleaner"></div>
                 </div>
             </div>
-            <div class="wrap-side bg-red">
+            <div class="wrap-side">
                 <div class="pad-main-right">
                     <h3>Aktuality ze sportu</h3>
                     <a href="" class="news-title news-primary">
                         <img src="img/img-articles/L/news-lorem-ipsum-l.jpg" alt="Lorem ipsum dolor">
                         <div class="news-cover"> </div>
                         <div class="news-text">
-                            <h4>Aktualita 1 dolor sit amet consectetuer adip</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                            <h4>Aktualita 1 dolor sit amet tetuer adip</h4>
+                            <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                         </div>
                     </a>
                     <div class="news-other">
                         <a href="" class="news-title news-mini">
                             <img src="img/img-articles/S/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
                             <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                             </div>
                             <div class="cleaner"></div>
                         </a>
                         <a href="" class="news-title news-mini">
                             <img src="img/img-articles/S/news-consectetur-s.jpg" alt="Lorem ipsum dolor">
                             <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                             </div>
                             <div class="cleaner"></div>
                         </a>
                         <a class="news-title news-mini">
                             <img src="img/img-articles/S/news-dolor-sit-2-s.jpg" alt="Lorem ipsum dolor">
                             <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                             </div>
                             <div class="cleaner"></div>
                         </a>
                         <a href="" class="news-title news-mini">
                             <img src="img/img-articles/S/news-lore-ipsum-s.jpg" alt="Lorem ipsum dolor">
                             <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
+                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
                             </div>
                             <div class="cleaner"></div>
                         </a>
                         <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality">
-                            <div class="more-news-mini">
-                                <img src="img/img-system/title/dots.png" alt="Lorem ipsum dolor">
-                            </div>
-                            <div class="news-text">
-                                Další aktuality
-                            </div>
-                        </a>
-
-                        <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality?topic=kultura">
                             <div class="more-news-mini">
                                 <img src="img/img-system/title/dots.png" alt="Lorem ipsum dolor">
                             </div>
@@ -665,17 +650,21 @@
 
             <a class="next-section-link" href="#sport">Sport</a>
             <div class="cleaner"></div>
+            <img class="section-shadow" src="img/img-system/trip/section-shadow.png"/>
+
         </section>
 
 
 
         <!--  -------------------------------------Nabídka sportů---------------------------------------------  -->
 
-        <section id="tipy-na-vylet" class="white-layout section-shadow">
-            <div id="show-map-link">Nabídka sportů <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/></div>
-            <div class="wrap-main">
-                <h2>Nabídka sportů a sportovních klubů</h2>
-                <div class="col-md-4">
+        <section id="nabidka-sportu" class="white-layout">
+            <div id="sport-list">Nabídka sportů <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/></div>
+            <div class="pad-main">
+                <h2 class="section-heading">Nabídka sportů a sportovních klubů</h2>
+
+                <div class="cleaner"></div>
+                <div class="col-md-4 sports-list-col-1">
                     <h3 class="col-md-12">Volnočasové</h3>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/skate.png" alt="Bruslení"/><span>Bruslení</span></a>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/bicycle road.3.3.1.png" alt="Cyklistika"/><span>Cyklistika</span></a>
@@ -693,7 +682,7 @@
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/sonic run.3.3.1.png" alt="Úniková hra"/><span>Úniková hra</span></a>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-md-1 sports-list-col-2">
                     <h3 class="col-md-12">Kolektivní</h3>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/ball basketball.3.3.1.png" alt="Basketbal"/><span>Basketbal</span></a>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/ball soccer.3.3.1.png" alt="Fotbal"/><span>Fotbal</span></a>
@@ -703,7 +692,7 @@
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/ball soccer.3.3.1.png" alt="Sálová kopaná"/><span>Sálová kopaná</span></a>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-md-1 sports-list-col-3">
                     <h3 class="col-md-12">Vodní</h3>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/boat sail 3.1.png" alt="Jachting"/><span>Jachting</span></a>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/paddle.png" alt="Padlle-boarding"/><span>Padlle-boarding</span></a>
@@ -711,7 +700,7 @@
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/surfing.png" alt="Windsurfing"/><span>Windsurfing</span></a>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-md-2 sports-list-col-4">
                     <h3 class="col-md-12">Halové</h3>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/martial art robe.3.3.1.png" alt="Bojová umění"/><span>Bojová umění</span></a>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/hockey.3.3.2.png" alt="Florbal"/><span>Florbal</span></a>
@@ -722,7 +711,7 @@
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/high heels.3.3.1.png" alt="Tanec"/><span>Tanec</span></a>
                 </div>
 
-                <div class="col-md-2">
+                <div class="col-md-2 sports-list-col-5">
                     <h3 class="col-md-12">Jiné</h3>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/running-icon.png" alt="Atletika"/><span>Atletika</span></a>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/car wheel.3.3.1.png" alt="Automoto"/><span>Automoto</span></a>
@@ -734,7 +723,6 @@
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/tennis.3.3.1.png" alt="Tenis"/><span>Tenis</span></a>
                     <a href="" class="square-pic"><img src="img/img-system/sport-options/pet dog walk.3.3.1.png" alt="Výcvik psů"/><span>Výcvik psů</span></a>
                 </div>
-
             </div>
             <div class="cleaner"></div>
         </section>

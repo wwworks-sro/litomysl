@@ -1,3 +1,8 @@
+<?php
+/* Třída "selected-menu-group" určuje zda aktuální stránka spadá pod kategorii "občan" nebo "turista/volný čas"*/
+$fileName = basename($_SERVER['PHP_SELF']);
+?>
+
 <header>
     <div id="header-wrap">
         <a id="logo" class="col-md-2" href="/">
@@ -5,7 +10,8 @@
         </a>
 
         <nav id='main-navigation' class="col-md-9">
-            <ul class="col-md-6 selected-menu-group">
+
+            <ul class="col-md-6 <?php  if($fileName != 'turista.php'){ ?>selected-menu-group<?php  } ?>">
                 <li>
                     <a class="menu-group-title" href="">občan / radnice</a>
                     <ul>
@@ -18,9 +24,9 @@
                     <img class="selected-menu-shadow" src="img/img-system/header/shadow.png" alt="Vybrané menu">
                 </li>
             </ul>
-            <ul class="col-md-6">
+            <ul class="col-md-6 <?php  if($fileName == 'turista.php'){ ?>selected-menu-group<?php  } ?>">
                 <li>
-                    <a class="menu-group-title" href="">volný čas / turista</a>
+                    <a class="menu-group-title" href="">turista / volný čas</a>
                     <ul>
                         <li> <a href="">o Litomyšli</a> </li>
                         <li> <a href="">památky</a> </li>

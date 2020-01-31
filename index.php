@@ -10,15 +10,17 @@
 
         <div id="title-banner">
             <img class="title-banner-img" src="img/img-system/title/banner.jpg" alt="Letecký pohled - Litomyšl">
-            <h2 class="pad-main-left">moderní historické město</h2>
-             <div class="title-heart" style="top:40%;left:60%;">
+            <div class="pad-main-left banner-text">
+                <h2>moderní <br>historické <br>město</h2>
+            </div>
+            <div class="title-heart" style="top:40%;left:60%;">
                  <img src="img/img-system/title/heart.png" alt="Klášterní zahrady">
                  <div class="heart-popup">
                      <a href="https://www.litomysl.cz/?id_str=1311055287097"><strong>Klášterní zahrady</strong></a>
                      <a href="http://litomysl.pano3d.eu//index.html?startscene=0"><img src="img/img-system/title/3d.png" alt="Virtuální prohlídka Lorem ipsum dolor"></a>
                      <a href="https://www.litomysl.cz/?id_str=1311055287097"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
                  </div>
-             </div>
+            </div>
             <div class="title-heart" style="top:75%;left:30%;">
                 <img src="img/img-system/title/heart.png" alt="Smetanovo náměstí">
                 <div class="heart-popup">
