@@ -123,44 +123,49 @@
             </div>
             <div class="wrap-side bg-red">
                 <div class="pad-main-right">
-                    <h3>Služby</h3>
-                    <a href="" class="tourist-icon-link">
-                        <img src="img/img-system/tourist/bed single.3.3.1 kopie.png" alt="">
-                        <strong>Ubytování</strong>
-                    </a>
-                    <a href="" class="tourist-icon-link">
-                        <img src="img/img-system/tourist/fork knife.3.3.1 kopie.png" alt="Stravování">
-                        <strong>Stravování</strong>
-                    </a>
-                    <a href="" class="tourist-icon-link">
-                        <img src="img/img-system/tourist/binoculars.3.3.1.png" alt="Prohlídka města">
-                        <strong>Prohlídka města</strong>
-                    </a>
-                    <a href="" class="tourist-icon-link">
-                        <img src="img/img-system/tourist/clock 2.3.3.1.png" alt="Otevírací doby">
-                        <strong>Otevírací doby</strong>
-                    </a>
-                    <a href="" class="tourist-icon-link">
-                        <img src="img/img-system/tourist/swimming-pool.png" alt="Bazén">
-                        <strong>Bazén</strong>
-                    </a>
-                    <div class="cleaner"></div>
+                    <div class="col-tb-4">
+                        <h3>Služby</h3>
+                        <a href="" class="tourist-icon-link">
+                            <img src="img/img-system/tourist/bed single.3.3.1 kopie.png" alt="">
+                            <strong>Ubytování</strong>
+                        </a>
+                        <a href="" class="tourist-icon-link">
+                            <img src="img/img-system/tourist/fork knife.3.3.1 kopie.png" alt="Stravování">
+                            <strong>Stravování</strong>
+                        </a>
+                    </div>
+                    <div class="col-tb-4">
+                        <a href="" class="tourist-icon-link">
+                            <img src="img/img-system/tourist/binoculars.3.3.1.png" alt="Prohlídka města">
+                            <strong>Prohlídka města</strong>
+                        </a>
+                        <a href="" class="tourist-icon-link">
+                            <img src="img/img-system/tourist/clock 2.3.3.1.png" alt="Otevírací doby">
+                            <strong>Otevírací doby</strong>
+                        </a>
+                        <a href="" class="tourist-icon-link">
+                            <img src="img/img-system/tourist/swimming-pool.png" alt="Bazén">
+                            <strong>Bazén</strong>
+                        </a>
+                        <div class="cleaner"></div>
 
-                    <a href="" class="but tourist-button-link">
-                        <img src="img/img-system/tourist/UNESCO_logo.png" alt="Zámecký areál UNESCO">
-                        <span>Zámecký areál UNESCO</span>
-                    </a>
-                    <a href="" class="but tourist-button-link">
-                        <img src="img/img-system/tourist/sl.png" alt="Smetanova Litomyšl">
-                        <span>Smetanova Litomyšl</span>
-                    </a>
-                    <a href="" class="but tourist-button-link">
-                        <img src="img/img-system/tourist/zn.png" alt="Zámecké návrší">
-                        <span>Zámecké návrší</span>
-                    </a>
+                    </div>
+                    <div class="col-tb-4">
+                        <a href="" class="but tourist-button-link">
+                            <img src="img/img-system/tourist/UNESCO_logo.png" alt="Zámecký areál UNESCO">
+                            <span>Zámecký areál UNESCO</span>
+                        </a>
+                        <a href="" class="but tourist-button-link">
+                            <img src="img/img-system/tourist/sl.png" alt="Smetanova Litomyšl">
+                            <span>Smetanova Litomyšl</span>
+                        </a>
+                        <a href="" class="but tourist-button-link">
+                            <img src="img/img-system/tourist/zn.png" alt="Zámecké návrší">
+                            <span>Zámecké návrší</span>
+                        </a>
 
-                    <a class="more-services" href="">Další...</a>
-
+                        <a class="more-services" href="">Další...</a>
+                </div>
                 </div>
                 <div class="cleaner"></div>
             </div>
@@ -186,8 +191,8 @@
                     <img class="about-photo" src="img/img-system/about/litomysl.jpg" alt="Litomyšl - letecké foto"/>
                     <div class="statistics-circle" style="top:20%;left:10%;"><strong>10 300</strong> <span>počet obyvatel</span></div>
                     <div class="statistics-circle" style="top:40%;left:30%;"><strong>330</strong><span>nadmořská výška</span></div>
-                    <div class="statistics-circle" style="top:60%;left:20%;"><strong>2 580</strong> <span>kulturních akcí ročně</span></div>
-                    <a class="statistics-circle" style="top:75%;left:60%;"><strong>...</strong> <span>více</span></a>
+                    <div class="statistics-circle" style="top:60%;left:15%;"><strong>2 580</strong> <span>kulturních akcí ročně</span></div>
+                    <a class="statistics-circle" style="top:75%;left:40%;"><strong>...</strong> <span>více</span></a>
                     <div class="cleaner"></div>
                 </div>
                 <div class="col-md-4 about-box ">
@@ -397,8 +402,6 @@
             </div>
         </section>
 
-
-
 <!--  --------------------------------------Kultura--------------------------------------------  -->
 
         <section id="kultura" class="red-layout">
@@ -518,7 +521,7 @@
                             </div>
                         </a>
                     </div>
-                </div>
+                </div><div class="cleaner"></div>
             </div>
 
             <a class="next-section-link" href="#sport">Sport</a>

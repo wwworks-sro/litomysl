@@ -5,13 +5,17 @@ $fileName = basename($_SERVER['PHP_SELF']);
 
 <header>
     <div id="header-wrap">
+        <div class="menu animated fadeIn" id="trigger-overlay">
+            <img src='img/img-system/header/menu-icon-2' alt='Menu' />
+        </div>
+
         <a id="logo" class="col-md-2" href="/">
             <img src="img/img-system/header/litomysl-logo.png" alt="Logo Litomyšl">
         </a>
 
         <nav id='main-navigation' class="col-md-9">
 
-            <ul class="col-md-6 <?php  if($fileName != 'turista.php'){ ?>selected-menu-group<?php  } ?>">
+            <ul class="col-md-5 <?php  if($fileName != 'turista.php'){ ?>selected-menu-group<?php  } ?>">
                 <li>
                     <a class="menu-group-title" href="">občan / radnice</a>
                     <ul>
@@ -24,7 +28,7 @@ $fileName = basename($_SERVER['PHP_SELF']);
                     <img class="selected-menu-shadow" src="img/img-system/header/shadow.png" alt="Vybrané menu">
                 </li>
             </ul>
-            <ul class="col-md-6 <?php  if($fileName == 'turista.php'){ ?>selected-menu-group<?php  } ?>">
+            <ul class="col-md-7 <?php  if($fileName == 'turista.php'){ ?>selected-menu-group<?php  } ?>">
                 <li>
                     <a class="menu-group-title" href="">turista / volný čas</a>
                     <ul>

@@ -54,7 +54,8 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 /*Calendar*/
 #calendar-title {clear:both;}
 #calendar-title a {clear:both;display:block;}
-#calendar-title p {margin-bottom:20px;}
+#calendar-title p {margin-bottom:20px;font-size:0.8em;}
+.news-text p {font-size:0.8em;}
 #calendar-title a img{max-width:10%; float:left;}
 #calendar-title a div{width:87%; float:right;}
 h2.today-events-title {font-size:1.3em;margin-top:13px;}
@@ -131,8 +132,12 @@ nav.people-links, nav.people-links h3,nav.people-links li {text-align:left;paddi
 .people-mid-left {height:40px;border:1px solid pink;}
 .bubble-white {background-color:white;  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);margin-top:-10vh;}
 .bubble-white .pad {padding:25px 25px;}
+#lide .bubble-white h3{font-size:1.2em;margin-bottom:15px;color:#c20116;}
+.bubble-white h4,.bubble-white h4 span {font-size:1em;font-weight:700 !important;}
+.bubble-white p {font-size:0.9em;}
+.bubble-white article {margin-bottom:10px;}
 a.more-answers {color:#c20116;float:right;margin-bottom:5px;font-weight:bold; }
-#lide h3 {font-size:1.3em;font-weight:700;}
+#lide h3 {font-size:1.1em;font-weight:700;}
 .people-circles h3{text-align:center; width:100%;}
 .people-major img{width:70%;margin-left:15%;margin-top:20%;}
 div.major-left-pad {width:8%;}
@@ -148,6 +153,7 @@ div.major-left-pad {width:8%;}
 
 #education-footer {border-top:5px solid #eaeaea;margin-top:40px;padding-top:30px;margin-bottom:30px;}
 #education-footer li,#education-fotter h3{text-align:left;padding-left:0px;}
+#education-footer li {padding-right:10px;}
 #education-footer h3 {font-size:21px;text-align:left;}
 #vzdelavani h2{margin-bottom:30px;}
 .wrap-main nav,.education-other {text-align:center;}
@@ -159,3 +165,73 @@ div.major-left-pad {width:8%;}
 .seminar-list a{clear:both;margin-bottom:15px;display:block;border-left:4px solid white;padding-left:20px;}
 .seminar-list h4 {font-size:1.0em;}
 .seminary-more {text-decoration:underline;}
+
+
+
+
+
+
+/*  -----------------------------------Mobil-----------------------------------------------  */
+
+@media screen and (max-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1500px) {
+
+}
+
+
+@media screen and (max-width: 1350px) {
+
+}
+
+@media screen and (max-width: 1250px) {
+
+}
+
+@media screen and (max-width: 1100px) {
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+}
+
+
+@media screen and (max-width: 850px) {
+    .news-primary .news-text, .news-secondary .news-text{bottom:15px;}
+    .news-primary .news-text {margin-left:3%;}
+    #service-nav-icons .col-md-4 {width:25%;margin-right:8%;font-size:0.9em;}
+    #service-nav-bottom a{font-size:0.8em;}
+    #service-nav-right li {width:28%;margin-right:3%;float:left;font-size:0.8em;padding-left:0px;}
+    #service-nav-bottom {padding-top:20px;padding-bottom:0px;margin-bottom:0px;}
+    #service-tourists li {width:150px;}
+    .office-side {padding-top:0px;}
+    .office-links h3 {margin-top:0px;}
+    .office-links a {font-size:0.8em;}
+    .bubble-red {margin-top:30px;}
+    .bubble-red h3 {margin-top:10px;}
+    .lilly {display:none;}
+    #education-footer a {font-size:0.8em;}
+    .seminars-img {width:70px;margin-right:20px;}
+    .title-heart{display:none;}
+    .big-circle{width:60%;margin-left:20%;}
+    #vzdelavani {font-size:0.8em;}
+}
+
+
+@media screen and (max-width: 450px) {
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+}
+
+
+
+
+

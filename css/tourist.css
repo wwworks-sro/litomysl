@@ -23,9 +23,10 @@
 .calendar-text-mid p {font-size:0.9em;}
 .calendar-text-mini p {font-size:0.9em;}
 .calendar-title-header {margin-bottom:0px;width:90%;height:55px; }
-.calendar-title-header #news-tabs {width:259px;margin-left:0px;}
+.calendar-title-header #news-tabs {width:266px;margin-left:0px;}
 .calendar-title-header #news-tabs li {font-weight:bold;}
 .calendar-title-header #news-tabs li strong {font-size:1.2em;}
+.col-md-4 .calendar-title-header strong{display:block; padding-top:20px;}
 .calendar-link {float:right;margin-top:20px;}
 a.more-calendar-link {color:#c20116;text-decoration:underline;margin-bottom:30px;}
 
@@ -67,6 +68,7 @@ a.more-calendar-link {color:#c20116;text-decoration:underline;margin-bottom:30px
 .history-date {font-size:0.8em;text-align:center;background-color:#eaeaea;margin-top:5px;height:30px;line-height:30px;margin-left:-15px;margin-right:15px;}
 .history-line-item-big .history-date{margin-top:20px;}
 .text-more{font-size:0.9em;display:none;}
+.history-line .text-more p{padding-left:15px;}
 
 .personalities {margin-top:5vh;}
 .personalities h4 {font-weight:bold;margin-bottom:10px;}
@@ -77,7 +79,7 @@ a.more-calendar-link {color:#c20116;text-decoration:underline;margin-bottom:30px
 
 /*  -----------------------------------Památky a architektura-----------------------------------------------  */
 
-#pamatky-architektura h3{font-size:1.2em;}
+
 .landmarks-list {margin-top:5vh;}
 .landmarks-col-left {margin-top:30px;}
 .square-pic {float:left;margin-right:1%;margin-top:1%;width:19%;min-height:186px;}
@@ -127,7 +129,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 .wrap-side .news-primary p{font-size:0.8em;}
 .wrap-side .news-primary .news-text {bottom:20px;}
 .wrap-side .news-other {width:100%;}
-.wrap-side h3 {margin-bottom:30px;margin-top:10px;}
+.wrap-side h3 {margin-bottom:10px;margin-top:10px;}
 
 .news-mini {clear:both;margin-top:20px;}
 .news-mini h6{font-weight:bold;font-size:0.8em;}
@@ -138,7 +140,6 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 .bg-red .more-news-mini {width:16%;background-color:white;height:40px;margin-top:10px;}
 .bg-red .more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
-#kultura h3{font-size: 1.2em;}
 .col-square-2 .square-pic {width:49%;margin-right:1%;}
 .next-square {position:relative; text-align:center;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);min-height:0px;}
 .next-square span {position:absolute; top:46%;width:100%;text-align:center;text-decoration:underline;}
@@ -152,7 +153,6 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 /*  -----------------------------------Sport-----------------------------------------------  */
 
 #sport h2 {width:100%;}
-#sport h3,#nabidka-sportu h3 { font-size: 1.2em;}
 .col-square-8 .square-pic,.col-square-8 .next-square {width:11.5%}
 .col-square-8 .next-square span{top:20%;}
 #sport .more-news-mini {width:16%;height:40px;margin-top:10px;}
@@ -183,4 +183,83 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 .sports-list-col-2 .square-pic,.sports-list-col-3 .square-pic{width:49%;}
 .sports-list-col-4 .square-pic{width:32%;}
 .sports-list-col-5 .square-pic{width:24%;}
+
+
+
+
+/*  -----------------------------------Mobil-----------------------------------------------  */
+
+
+
+
+@media screen and (max-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1500px) {
+    .tourist-top-link-text-img {float:left;width:15%;}
+}
+
+
+@media screen and (max-width: 1350px) {
+    .tourist-top-link-text-img {width:10%;float:left;}
+    .tourist-icon-link img {width:20%;float:left; margin-right: 7px;}
+    .tourist-top-link-text strong {font-size:0.9em;margin-top:0px;}
+    .tourist-top-link-text img {height:15px;}
+    .wrap-side form {width:60%;  margin-top: 10px;}
+    .tourist-icon-link strong, .tourist-button-link strong {padding-top: 5%;font-size:0.9em;}
+    .tourist-button-link {font-size:0.8em;width:110%;}
+    .tourist-button-link img {max-height:20px;max-width:25px;margin:5px 5px 10px 5px;}
+    .tourist-button-link span {margin:0px 10px 0px 10px;}
+}
+
+@media screen and (max-width: 1250px) {
+    .history-text p{font-size:0.7em;}
+    .text-more{font-size:0.8em;}
+    .history-line,.personalities {width:95%;}
+    #o-litomysli .but-white {width:95%;}
+}
+
+@media screen and (max-width: 1100px) {
+    #subtitle-banner .pad-main-right {padding-top:20px;}
+    .calendar-link{width:70px;text-align:right;margin-top:10px;font-size:0.8em;}
+    .history-line {margin-left:-15px;}
+    .tourist-button-link span {margin:0px 3px 0px 3px;}
+    .history-date {font-size:0.8em;}
+}
+
+
+@media screen and (max-width: 1000px) {
+    .history-line {margin-left:0px;}
+}
+
+
+@media screen and (max-width: 850px) {
+    a.tourist-top-link {float:left;width:30%;clear:none;margin-top:0px;}
+    .tourist-top-link-text-img {width:20%;}
+    .tourist-top-link-text img {display:none;}
+    .tourist-top-link-text span{width:80%;display:block;}
+    #calendar-wrap-mid, #calendar-wrap-mini {min-height:0 !important;}
+    a.tourist-button-link {padding-top:0px;padding-bottom:0px;margin-top:5px;}
+    .fulltext-form {margin-bottom:40px;clear:both;padding-top:20px;}
+
+    .landmarks-col-left,.landmarks-col-center ,.landmarks-col-right {float:left;}
+    .landmarks-col-left .square-pic,.landmarks-col-center .square-pic,.landmarks-col-right .square-pic{width:19%;margin-right:1%;}
+    .landmarks-col-left,.landmarks-col-center,.landmarks-col-right {width:100%;margin-right:0;}
+    .landmarks-extra-links {margin-bottom:30px;}
+    .landmarks-extra-links a  {padding-left:0px !important;}
+    .col-md-8,.col-square-2{width:100%;}
+    .col-md-1{display:none;}
+    .col-square-2 a.square-pic {width:19%;margin-right:1%;}
+}
+
+
+@media screen and (max-width: 450px) {
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+}
 

@@ -45,5 +45,23 @@ $( document ).ready(function() {
         }
     });
 
+    /*Mobile menu*/
+    $('.overlay-close').click(function(){
+        $(".overlay").hide();
+        $(".overlay-hugeinc.open").removeClass('overlay-hugeinc.open');
+    });
+    $('#trigger-overlay').hover(function(){
+        $(".overlay").show();
+    });
+    $('#trigger-overlay').click(function(){
+        $(".overlay-hugeinc").removeClass('overlay-hugeinc').addClass('overlay-hugeinc.open');
+    });
+
+    $('.overlay-close').click(function(){
+        $(".overlay").hide();
+        $(".overlay-hugeinc.open").removeClass('overlay-hugeinc.open');
+    });
+
+
 });
 

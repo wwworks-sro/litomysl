@@ -296,11 +296,11 @@
             <img class="lilly" src="img/img-system/office/lilly.png" alt="Lilie">
             <div class="wrap-main">
                 <div class="pad-main-left">
-                    <div class="col-md-3">
-                        <h2>Městský úřad</h2>
+                    <div class="col-md-3 col-tb-12">
+                        <h2 class="col-tb-12">Městský úřad</h2>
                     </div>
-                    <div class="col-md-9">
-                        <div class="col-md-11 bubble bubble-red">
+                    <div class="col-md-9 col-tb-12">
+                        <div class="col-md-11 col-tb-12 bubble bubble-red">
                             <div class="pad">
                                 <h3>Upozornění lorem ipsum dolor</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero tempore. Lorem ipsum dolor sit amet. <a href="">Více...</a></p>
@@ -479,11 +479,11 @@
                             <div class="pad">
                                 <h3>Starostova odpovědna</h3>
                                 <article>
-                                    <h3><span>Upozornění lorem ipsum dolor</span> / 25.7.2019</h3>
+                                    <h4><span>Upozornění lorem ipsum dolor</span> / 25.7.2019</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero tempore. Lorem ipsum dolor sit amet. <a href="">Více...</a></p>
                                 </article>
                                 <article>
-                                    <h3><span>Upozornění lorem ipsum dolor</span> / 25.7.2019</h3>
+                                    <h4><span>Upozornění lorem ipsum dolor</span> / 25.7.2019</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero tempore. Lorem ipsum dolor sit amet. <a href="">Více...</a></p>
                                 </article>
                                 <a class="more-answers" href="">Další odpověďi</a>
@@ -700,7 +700,7 @@
                         </a>
                         <a href="" class="seminary-more"><span>Další...</span></a>
                     </div>
-                </div>
+                </div><div class="cleaner"></div>
             </div>
             <div class="cleaner"></div>
         </section>
