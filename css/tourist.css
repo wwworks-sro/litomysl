@@ -108,7 +108,7 @@ a.more-calendar-link {color:#c20116;text-decoration:underline;margin-bottom:30px
 
 .section-shadow {margin-top:-5px;}
 .about-photo,.tips-map {width:100%;}
-#trips-map,#sport-list{width:400px; text-align:center;margin:0 auto; margin-top:-55px;line-height:50px;height:50px;background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);}
+#trips-map,#sport-list{width:400px; text-align:center;margin:0 auto; margin-top:-57px;line-height:50px;height:46px;background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);}
 #trips-map img,#sport-list img {width:15px;margin-left:10px;margin-top:4px;}
 #tipy-na-vylet h2{margin-bottom:20px;margin-top:-20px;}
 
@@ -239,7 +239,8 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .tourist-top-link-text-img {width:20%;}
     .tourist-top-link-text img {display:none;}
     .tourist-top-link-text span{width:80%;display:block;}
-    #calendar-wrap-mid, #calendar-wrap-mini {min-height:0 !important;}
+    #calendar-wrap-mid, #calendar-wrap-mini {min-height:0 !important;width:100%;}
+    #kalendar-sluzby div.col-md-4 {width:100%;}
     a.tourist-button-link {padding-top:0px;padding-bottom:0px;margin-top:5px;}
     .fulltext-form {margin-bottom:40px;clear:both;padding-top:20px;}
 
@@ -254,18 +255,25 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     #header-right{display:block;}
     .history-date {display:block;background-color:white;}
     .col-square-2 a.square-pic {width:19%;margin-right:1%;}
+    #tipy-na-vylet,#nabidka-sportu {margin-top:10vh;margin-bottom:10vh;clear:both;}
+    #tipy-na-vylet {margin-top:0vh;}
+    a.but-calendar {background-position-x:10px !important;background-size:20px !important;}
+    #sport .square-pic {width:23%;}
+    div.landmarks-extra-links {width:48% !important;clear:none !important;float:left !important;}
+    .about-photo{margin-top:10vh;}
 }
 
 
 @media screen and (max-width: 750px) {
-    .pad-main-left, .pad-main-right, .pad-main{width:90%;}
+    .pad-main-left, .pad-main-right, .pad-main{}
     #kalendar-sluzby .pad-main-right {width:90%;}
     #news-tabs{width:266px; !important;float:left;}
     #kalendar-sluzby .col-md-4 {width:90%;}
     .tourist-button-link {line-height:1.2em;}
     .tourist-button-link span {padding-top:3px;display:block; float:right;width:70%;}
     .about-box {right:30px;width:40%;}
-    .history-pic {width:20%;}
+    .history-pic {width:12%;}
+    .youtube-list li {padding-left:0px;font-size:0.8em;clear:both;display:block;}
 }
 
 

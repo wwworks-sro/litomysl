@@ -196,15 +196,33 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     .fulltext-form{margin:0px;padding:0px;}
     #logo {width:24%;clear:none !important;float:left !important;}
     #header-right {clear:none;}
+    html, body { max-width: 100%; overflow-x: hidden; }
+    a.next-section-link{display:none;}
+    footer th{width:42%;font-size:0.7em;}
+    .col-email{width:36%;}
+    .col-tel{width:22%;}
+    footer .wrap-main{width:100%;}
+    .more-contacts {font-size:1.2em;line-height:1.6em;padding-top:15px;display:block;}
+    footer .wrap-side {padding-top:0px;}
+    h2 {font-size:2em;}
 }
 
 
 @media screen and (max-width: 650px) {
-    .col, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{width:100%;clear:both;float:none;}
+    .rblikebox {display:none;}
+    .col-mob-12 {margin-top:7vh;}
+    #lide .col-mob-12 {width:100%;clear:both;}
+
 }
 
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width: 450px) {
+    .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{width:100%;clear:both;float:none;}
+    .col-md-5,.col-md-6 {width:100%;clear:both;float:none;}
+    .but {width:100% !important;clear:both;float:none;}
+    .col-md-2, .col-md-4,.col-md-3 {width:46% !important;}
+    #service-nav-icons .col-md-4 {width:100% !important;}
+    #service-nav-icons .col-md-4 li {width:23%;}
+    .education-other {padding-top:10vh;}
 }
 
 

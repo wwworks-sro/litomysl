@@ -647,7 +647,7 @@
             </div>
             <div class="cleaner"></div>
         </section>
-
+        <div class="cleaner"></div>
 
         <?php  include("layouts/_footer.php");  ?>
         <?php  include('layouts/_facebookSide.php');  ?>

@@ -5,7 +5,7 @@
             <div class="cleaner"></div>
             <div class="col-md-6">
                 <table>
-                    <tr><th>Městský úřad</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
+                    <tr><th>Městský úřad</th><td class="col-email">info@loremispum.cz</td><td class="col-tel">722 569 489</td></tr>
                     <tr><th>Informační centrum</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
                     <tr><th>Městská policie</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
                     <tr><th>Nemocnice</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
@@ -18,7 +18,7 @@
             </div>
             <div class="col-md-6">
                 <table>
-                    <tr><th>Lilie (městský zpravodaj)</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
+                    <tr><th>Lilie (městský zpravodaj)</th><td class="col-email">info@loremispum.cz</td><td class="col-tel">722 569 489</td></tr>
                     <tr><th>Regionální muzeum</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
                     <tr><th>Zámecké návrší</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
                     <tr><th>Zámek</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
@@ -26,7 +26,7 @@
                     <tr><th>Smetanův dům</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
                     <tr><th>Středisko volného času</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
                     <tr><th>Centrum sociální pomoci</th><td>info@loremispum.cz</td><td>722 569 489</td></tr>
-                    <tr><th><a href="">Další kontakty</a></th><td></td></tr>
+                    <tr><th><a class="more-contacts" href="">Další kontakty</a></th><td></td></tr>
                 </table>
             </div>
             <div class="cleaner"></div>
