@@ -46,6 +46,7 @@
                             <li>z města</li>
                             <li class="tab-selected">vše</li>
                         </ul>
+                        <div class="cleaner-mobile"></div>
                         <form class="fulltext-form" method="post" action="#">
                             <input class="search-text" type="text" name="search">
                             <input class="search-submit" type="submit" name="vyhledat" value="vyhledat">
@@ -78,6 +79,7 @@
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
                                 </div>
                             </a>
+                            <div class="cleaner"></div>
                         </div>
                         <div class="news-other">
                             <a href="" class="news-title news-mini">

@@ -222,6 +222,33 @@ div.major-left-pad {width:8%;}
 }
 
 
+@media screen and (max-width: 750px) {
+    .news-top,.news-other,.fulltext-form,.cleaner-mobile {width:100%;clear:both; float:none;}
+    #news-tabs{clear:both; float:none;  margin-left: 7px;}
+    .fulltext-form  {margin-top:20px !important;}
+    .news-other {border-top:5px solid white;}
+    .news-other img,.more-news-mini {width:15%;}
+    .news-other .news-text {padding-top:5px;}
+    #news-footer-nav {margin-top:40px;margin-bottom:30px;}
+    #service-nav-icons .col-md-4 { width: 29%; margin-right: 4%; font-size: 0.8em;}
+    #service-nav-icons a, #service-tourists a {min-height:130px;}
+    #service-nav-bottom .col-md-3 {width:48%;}
+    .people-major{width:80px;}
+    .people-major h3{font-size:0.8em !important;}
+    .people-major img {  width: 100%;  margin-left: 0%; margin-top: 20%;}
+    .people-line {width:90%;margin-left:30px;}
+    footer .col-md-6 {width:100%;}
+    footer table {width:100%;}
+    footer .wrap-side {width:100%;}
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .news-other img,.more-news-mini {width:22%;}
+    .news-other .news-text {padding-top:0px;}
+}
+
 @media screen and (max-width: 450px) {
 
 }
