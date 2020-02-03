@@ -150,7 +150,7 @@
                         <div class="cleaner"></div>
 
                     </div>
-                    <div class="col-tb-4">
+                    <div class="col-tb-4 tourist-button-link-box">
                         <a href="" class="but tourist-button-link">
                             <img src="img/img-system/tourist/UNESCO_logo.png" alt="Zámecký areál UNESCO">
                             <span>Zámecký areál UNESCO</span>

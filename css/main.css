@@ -223,13 +223,26 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     #service-nav-icons .col-md-4 {width:100% !important;}
     #service-nav-icons .col-md-4 li {width:23%;}
     .education-other {padding-top:10vh;}
+    #header-wrap{margin-right:10px;}
+    #header-right{font-size:0.8em;margin-top:13px;}
+    #social-box a {margin-left:3px;}
+    div.banner-text, div.banner-text h2{width:90% !important;}
+    div.banner-text p {display:none;}
+    .search-text {width:60% !important;    }
+    .landmarks-col-left .square-pic,.landmarks-col-center .square-pic,.landmarks-col-right .square-pic, #kultura .square-pic,#sport .square-pic,#nabidka-sportu .square-pic  {width:32% !important;min-height:165px;}
+    .next-square {min-height:0 !important;margin-bottom:30px;}
+    .extra-link-box .col-md-4,.extra-link-box  .col-md-5{width:100% !important;clear:both; }
+    .extra-link-box h5{padding-top:30px !important;}
+    #logo {margin-left:5px;}
+    .banner-text h2 {font-size:1em !important;}
+    #service-nav-right li {margin-top:10px;}
+    #sport-options-wrap .col-md-4, #sport-options-wrap .col-md-2,#sport-options-wrap .col-md-3,#sport-options-wrap .col-md-1 {width:100% !important;}
+    #sport-options-wrap .square-pic span {text-align:center !important;}
 }
 
-
-@media screen and (max-width: 450px) {
-
+@media screen and (max-width: 350px) {
+    #header-wrap {margin-left:10px !important;}
 }
-
 
 
 

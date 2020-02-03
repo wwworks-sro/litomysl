@@ -259,9 +259,18 @@ div.major-left-pad {width:8%;}
     .office-links .col-md-2 {width:16.66666667% !important;}
     .office-links .col-md-10 {width:83.33333333% !important;}
     .office-links {margin-bottom:0px;}
+    .news-secondary .news-text p {display:none;}
+    .news-secondary .news-text h5 {font-size:0.8em;}
+    .people-col-mid .people-wrap {margin-right:-20%;}
+    #news-footer-nav li {clear:both;width:100%;text-align:left;}
+    #news-footer-nav {margin-bottom:30px;}
+    .office-links img{width:80%;}
 }
 
 @media screen and (max-width: 450px) {
+    .banner-text{top:0px !important;}
+    #novinky-kalendar #news-tabs {width:300px !important;}
+    #news-tabs li{padding-left:25px !important;padding-right:20px !important;}
 
 }
 

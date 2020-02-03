@@ -272,21 +272,38 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .tourist-button-link {line-height:1.2em;}
     .tourist-button-link span {padding-top:3px;display:block; float:right;width:70%;}
     .about-box {right:30px;width:40%;}
-    .history-pic {width:12%;}
+    div.history-pic {width:20% !important;}
+    div.history-text {float:left !important;clear:none !important;}
     .youtube-list li {padding-left:0px;font-size:0.8em;clear:both;display:block;}
 }
 
 
 
 @media screen and (max-width: 650px) {
-
+    .calendar-title-header {width:100%;margin-left:-13px;}
+    .tourist-icon-link {font-size:0.8em;}
+    #kalendar-sluzby .wrap-side .col-tb-4{width:48%;}
+    #kalendar-sluzby .wrap-side .tourist-button-link-box {margin-top:30px;width:100%;}
+    .tourist-button-link span {line-height:30px;width:85%;}
+    .tourist-button-link {max-width:320px;}
+    .about-photo {margin-top:0px;}
+    .about-box {width:100% !important;position:static; }
+    .about-box .pad {padding:10px;}
+    .about-box .col-md-6{width:48% !important;clear:none !important;float:left !important;}
+    .youtube-list li {font-size:1em;margin-top:3px;}
 }
 
 @media screen and (max-width: 450px) {
-
+    a.tourist-top-link{width:100%;clear:both;float:none;}
+    .calendar-title-header ul#news-tabs{width:180px; !important;float:left;margin-left:30px;}
+    .calendar-title-header ul#news-tabs li{padding-left:25px !important;padding-right:35px !important;}
+    .calendar-title-header #news-tabs li,.calendar-title-header #news-tabs li strong {font-size:0.9em;}
+    #kalendar-sluzby .col-md-4 {width:100% !important;}
+    .statistics-circle {display:none;}
+    #kultura .col-md-3{width:100% !important;clear:both;}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
 
 }
 
