@@ -6,7 +6,7 @@ $fileName = basename($_SERVER['PHP_SELF']);
 <header>
     <div id="header-wrap">
         <div class="menu animated fadeIn" id="trigger-overlay">
-            <img src='img/img-system/header/menu-icon-2' alt='Menu' />
+            <img src='img/img-system/header/menu-icon-2.png' alt='Menu' />
         </div>
 
         <a id="logo" class="col-md-2" href="/">

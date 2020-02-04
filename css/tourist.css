@@ -291,6 +291,10 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .about-box .pad {padding:10px;}
     .about-box .col-md-6{width:48% !important;clear:none !important;float:left !important;}
     .youtube-list li {font-size:1em;margin-top:3px;}
+    .landmarks-lam {padding-top:20px;}
+    .landmarks-lam .text-mini {text-align:left;}
+    .col-md-4 .calendar-title-header {margin-top:30px;}
+    .col-md-4 .calendar-title-header strong {margin-left:10px;}
 }
 
 @media screen and (max-width: 450px) {
@@ -301,6 +305,8 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     #kalendar-sluzby .col-md-4 {width:100% !important;}
     .statistics-circle {display:none;}
     #kultura .col-md-3{width:100% !important;clear:both;}
+    form.fulltext-form {width:100% !important;margin-top:0px !important;}
+    .landmarks-list {margin-top:0px;}
 }
 
 @media screen and (max-width: 350px) {
