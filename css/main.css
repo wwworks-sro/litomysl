@@ -144,7 +144,7 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 @media screen and (max-width: 1500px) {
     #header-wrap {margin:0 40px;}
     .pad-main-right{padding:50px 40px;}
-    .pad-main-left{padding:40px 50px ;}
+    .pad-main-left{padding:40px 40px ;}
     .pad-main {padding:50px ;}
 }
 
@@ -155,19 +155,19 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     #main-navigation ul li a{line-height:1.4;}
     footer .wrap-main{width:85%;}
     footer .wrap-side{width:15%;font-size:0.8em;}
+    body{    font-size:1em;}
+    .wrap-side .pad-main-right {max-width:75%;padding:50px 40px 50px 40px;}
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
     h3 {font-size:1.0em;}
-
+    .rblikebox {display:none;}
+    body{    font-size: 0.9em;}
 }
 
-@media screen and (max-width: 1100px) {
+
+@media screen and (max-width: 1050px) {
     #lang-box {min-width:85px !important;}
-}
-
-
-@media screen and (max-width: 1000px) {
     #social-box {min-width:85px !important;}
     .pad-main-right{padding:30px 20px;}
     .pad-main-left{padding:20px 30px ;}
@@ -184,7 +184,7 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .wrap-main,.wrap-side{width:100%;clear:both;float:none;}
     .pad-main-left,.pad-main-right,.pad-main {padding:30px 5%;width:90%;}
     #header-wrap {margin-left:5%;margin-right:5%;}
@@ -244,6 +244,12 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 
 @media screen and (max-width: 350px) {
 }
+
+
+
+
+
+
 
 
 

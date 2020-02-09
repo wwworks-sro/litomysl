@@ -45,7 +45,7 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 .news-mini img {width:33%;float:left;margin-right:2%;}
 .more-news-mini {width:33%;background-color:#c20116;height:64px;text-align:center;float:left;margin-right:2%;}
 .more-news-mini img {margin-top:25px;}
-.news-text {line-height:3em;width:76%;float:right;}
+.news-text {line-height:3em;width:65%;float:right;}
 
 #news-footer-nav {width:100%;clear:both; float:none;margin-top:15px;height:80px;}
 #news-footer-nav li, #news-footer-nav img {float:left;}
@@ -175,24 +175,43 @@ div.major-left-pad {width:8%;}
 /*  -----------------------------------Mobil-----------------------------------------------  */
 
 @media screen and (max-width: 1600px) {
+    #service-nav-icons .col-md-4 {width:27%;margin-right:6%;}
+    .more-news-mini {height:57px;}
 
 }
 
 @media screen and (max-width: 1500px) {
-
+    #news-tabs{margin-left:10px;}
 }
 
 
 @media screen and (max-width: 1350px) {
 
+    #news-tabs{margin-left:-15px;}
 }
 
-@media screen and (max-width: 1250px) {
-
+@media screen and (max-width: 1200px) {
+    .news-secondary p,.news-secondary h5,.news-mini p, .news-mini h6{font-size:0.8em;}
+    .news-secondary .news-text {bottom:10px;}
+    .news-primary .news-text {bottom:15px;margin-left:2%;width:95%;}
+    .more-news-mini {height:43px;}
+    .more-news-mini img {margin-top:17px;}
+    #more-news-mini .news-text {line-height:2.2em;}
+    #calendar-title h6,.calendar-title-link {font-size:0.8em;}
+    .calendar-title-link {margin-top:10px;}
+    h2.today-events-title  {font-size: 1em;}
+    #news-tabs{margin-left:-32px;}
 }
 
 @media screen and (max-width: 1100px) {
-
+    .news-mini img,.more-news-mini {width:21%;}
+    .more-news-mini {height:33px;}
+    .more-news-mini img {margin-top:12px;}
+    #more-news-mini .news-text {line-height:2em;}
+    .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
+    .news-secondary p {display:none;    }
+    .fulltext-form {width:26%}
+    .search-text {width:65%;}
 }
 
 
@@ -201,7 +220,7 @@ div.major-left-pad {width:8%;}
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .news-primary .news-text, .news-secondary .news-text{bottom:15px;}
     .news-primary .news-text {margin-left:3%;}
     #service-nav-icons .col-md-4 {width:25%;margin-right:8%;font-size:0.9em;}
@@ -220,6 +239,8 @@ div.major-left-pad {width:8%;}
     .title-heart{display:none;}
     .big-circle{width:60%;margin-left:20%;}
     #vzdelavani {font-size:0.8em;}
+    .news-mini img,.more-news-mini {width:31%;}
+    .news-mini .news-text,#more-news-mini .news-text  {width:66%;}
 }
 
 

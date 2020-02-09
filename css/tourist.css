@@ -234,7 +234,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     a.tourist-top-link {float:left;width:30%;clear:none;margin-top:0px;}
     .tourist-top-link-text-img {width:20%;}
     .tourist-top-link-text img {display:none;}
