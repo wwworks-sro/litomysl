@@ -62,6 +62,9 @@ $( document ).ready(function() {
         $(".overlay-hugeinc.open").removeClass('overlay-hugeinc.open');
     });
 
+    $('.header-search ').click(function(){
+        $('.fulltext-form').toggle("slow");
+    });
 
 });
 

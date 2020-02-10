@@ -12,9 +12,13 @@ h1 {margin-left:0px !important;clear:both;width:100%;margin-bottom:30px;}
 
 
 /*  -----------------------------------Kalendář-----------------------------------------------  */
-.cal-detail-img{float:left;}
-
-
+.cal-item-detail {background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);margin-bottom:2px;border-left:5px solid #c20116;}
+.cal-detail-icon{float:left;width:10%;}
+.cal-detail-text {float:left;width:60%;margin-top:30px;padding-bottom:30px;}
+.cal-detail-image {float:left;width:20%;}
+.cal-detail-link {float:right;width:10%;height:100%;background-color:#c20116;display:block; }
+.cal-detail-icon img {width:70%;margin-left:15%;margin-top:40px;}
+.cal-detail-image img {width:100%;margin-top:30px;}
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
 

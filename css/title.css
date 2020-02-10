@@ -12,7 +12,7 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 .title-heart img {margin:0px;}
 .title-heart .heart-popup,.people-circles div {display:none;opacity:0;-webkit-transition:all 2s ease-in-out;-moz-transition: all 2s ease-in-out;-ms-transition: all 2s ease-in-out;-o-transition: all 2s ease-in-out;transition: all 2s ease-in-out;}
 :hover.title-heart .heart-popup,:hover.people-circles div {opacity:1;position:absolute; top:50%;left:50%;display:block; width:200px;height:auto;min-height:50px;background-color:white;  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);padding: 10px 15px 5px 15px;}
-
+#mobile-title-links,.mobile-news-header {display:none;}
 
 /*  -----------------------------------Novinky a kalendář-----------------------------------------------  */
 
@@ -240,16 +240,17 @@ div.major-left-pad {width:8%;}
     .big-circle{width:60%;margin-left:20%;}
     #vzdelavani {font-size:0.8em;}
     .news-mini img,.more-news-mini {width:31%;}
-    .news-mini .news-text,#more-news-mini .news-text  {width:66%;}
+    .news-mini .news-text,#more-news-mini .news-text  {width:66%;font-size:0.9em;}
+    #news-tabs{margin-left: 30px;}
 }
 
 
 @media screen and (max-width: 750px) {
     .news-top,.news-other,.fulltext-form,.cleaner-mobile {width:100%;clear:both; float:none;}
-    #news-tabs{clear:both; float:none;  margin-left: 7px;}
-    .fulltext-form  {margin-top:20px !important;}
+    #news-tabs{clear:both; float:none;  margin-left: 30px;}
     .news-other {border-top:5px solid white;}
     .news-other img,.more-news-mini {width:15%;}
+    .news-mini .news-text,#more-news-mini .news-text  {width:83%;}
     .news-other .news-text {padding-top:5px;}
     #news-footer-nav {margin-top:40px;margin-bottom:30px;}
     #service-nav-icons .col-md-4 { width: 29%; margin-right: 4%; font-size: 0.8em;}
@@ -262,14 +263,27 @@ div.major-left-pad {width:8%;}
     footer .col-md-6 {width:100%;}
     footer table {width:100%;}
     footer .wrap-side {width:100%;}
+    .title-banner-img {display:none;}
+    #title-banner {background: url(../img/img-system/title/banner-mobile.jpg) no-repeat center;background-size:cover;height:50vh;}
+    #title-banner .banner-text{font-size: 0.9em;}
+    #mobile-title-links {position:absolute; bottom:0px; width:94%;margin-left:3%;display:block;}
+    #mobile-title-links a {display:block; width:50%;background-color:#c20116;color:white;float:left;height:45px;line-height:45px;text-align:center;}
+    #mobile-title-links a.selected-mobile-menu {font-weight:bold;color:#c20116;background-color:white;box-shadow: 1px -9px 7px 2px rgba(0, 0, 0, 0.50);}
+    #mobile-title-links a:hover.selected-mobile-menu {opacity:1;cursor:default ;}
+    #news-header {margin-bottom:0px;}
+    .news-secondary p {display:block;    }
+    .mobile-news-header {display:block;}
+    .mobile-news-header h3{float:left;color:#c20116;font-size:1.6em;margin-bottom:15px;}
+    .mobile-news-header a{float:right;margin-top:40px;text-decoration:underline;}
 }
 
 
 
 @media screen and (max-width: 650px) {
     .news-other img,.more-news-mini {width:22%;}
+    .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
     .news-other .news-text {padding-top:0px;}
-    .banner-text h2 {font-size:1.2em;}
+    .banner-text h2 {font-size:1.6em;}
     .col-horizontal-line {display:none;}
     .people-links {width:100% !important;margin-top:0px !important;clear:both;display:block; margin-bottom:30px;}
     .people-links li,.people-links h3 {text-align:center !important;}
@@ -286,12 +300,23 @@ div.major-left-pad {width:8%;}
     #news-footer-nav li {clear:both;width:100%;text-align:left;}
     #news-footer-nav {margin-bottom:30px;}
     .office-links img{width:80%;}
+    .news-secondary p {display:none;    }
+    #news-tabs {margin-left:30px;}
 }
 
 @media screen and (max-width: 450px) {
     .banner-text{top:0px !important;}
+    #title-banner .banner-text{text-align:center;font-size: 2em;margin-top:10px;}
+    #title-banner .banner-text br {display:none !important;}
     #novinky-kalendar #news-tabs {width:300px !important;}
     #news-tabs li{padding-left:25px !important;padding-right:20px !important;}
+    #news-tabs {margin-left:5px;}
+    #title-banner {background: url(../img/img-system/title/banner-mobile-mini.jpg) no-repeat center;}
+
+}
+
+@media screen and (max-width: 350px) {
+    #news-tabs {margin-left:-15px;}
 
 }
 

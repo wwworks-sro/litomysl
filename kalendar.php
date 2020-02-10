@@ -27,8 +27,8 @@
                     </div>
                     <div class="cal-links-main">
                         <div class="cal-item-detail">
-                            <div class="cal-detail-text">
-                                <img class="cal-detail-img" src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+                            <div class="cal-detail-icon">
+                                <img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
                             </div>
                             <div class="cal-detail-text">
                                 <a href=""><h4>Lorem ipsum dolor smet, lo ipsum dolor</h4></a>
@@ -38,19 +38,18 @@
                                     Více...</p>
                                 </div>
                                 <div class="cal-perex">
-                                    <a href="">
-                                        Přidat do Google kalendáře
-                                    </a>
                                     <a class="cal-google-link" href="">Přidat do Google kalendáře</a>
                                     <a class="cal-web=link" href="">web akce</a>
                                     <a class="cal-organisation-link" href="">Smetanův dům</a>
                                 </div>
                             </div>
                             <div class="cal-detail-image">
-                                <img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
-                                share,
+                                <img src="img/img-calendar/S/lorem-ipsum-s.jpg" alt="divadlo">
+                                <a class="cal-web=link" href="">web akce</a>
+                                <a class="cal-organisation-link" href="">Smetanův dům</a>
                             </div>
-                            <a class="cal-detail-link cal-detail-link" href=""></a>
+                            <a class="cal-detail-link" href=""></a>
+                            <div class="cleaner"></div>
                         </div>
 
                     </div>

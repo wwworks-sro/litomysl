@@ -70,6 +70,7 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 #logo{display:block;margin-top:20px; }
 #logo .img{width:100%;}
 .menu {display:none;}
+.header-search {display:none;}
 
 #main-navigation .col-md-5{width:44%;}
 #main-navigation .col-md-7{width:56%;}
@@ -95,8 +96,12 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 footer{background-color:#3d3d3d;color:white;}
 footer .pad-main {padding:7vh 0;}
 footer h3 {color:#838383;font-size:3em;font-weight:700;margin-bottom:30px;}
-footer table{width:90%;}
-footer th, footer td, footer a {color:white;text-align:left;font-size:0.8em;}
+footer .cont-table{width:90%;}
+footer div, footer a {color:white;text-align:left;}
+.cont-th {font-weight:bold;width:33%;}
+.cont-line {clear:both;padding-top:5px;}
+.cont-line div {width:33%;float:left;font-size:12px !important;}
+.more-contacts {color:white !important;padding-top:10px;font-size:16px !important;display:block;text-decoration:underline;}
 footer .social-links {margin-top:10vh;}
 footer .social-links img {height:20px;}
 footer th a {color:white !important;font-weight:300;text-decoration:underline;}
@@ -116,10 +121,10 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 /* Overlay closing cross */
 .overlay button.overlay-close {  width: 25px;  height: 25px;  position: absolute;  right: 20px;  top: 20px;  overflow: hidden;  border: none;  background: url(../img/img-system/header/cross_lines.png) no-repeat center center;  text-indent: 200%;  color: transparent;  outline: none;  z-index: 100;  }
 /* Menu style */
-.overlay nav {  text-align: center;  position: relative;  top: 45%;  height: 60%;  font-size: 3em;  -webkit-transform: translateY(-50%);  transform: translateY(-50%);  }
+.overlay nav {  text-align: center;  position: relative;  top: 35%;  height: 60%;  font-size: 3em;  -webkit-transform: translateY(-50%);  transform: translateY(-50%);  }
 .overlay ul {  list-style: none;  padding: 0;  margin: 0 auto;  display: inline-block;   position: relative;  }
 .overlay ul li {  display: block;  height: 10%;  height: calc(10%);  min-height: 33px;  margin-right:0px;  }
-.overlay ul li a {  font-weight: 400;  display: block;  color: #5f6062;font-size:22px;  text-decoration: none;  -webkit-transition: color 0.2s;  transition: color 0.2s;  text-align:center;  }
+.overlay ul li a {  font-weight: 400;  display: block;  font-size:22px;  text-decoration: none;  -webkit-transition: color 0.2s;  transition: color 0.2s;  text-align:center;  }
 .overlay ul li a:hover, .overlay ul li a:focus {  color: #8d4143;  text-decoration: underline;  }
 /* Effects */
 .overlay-hugeinc {  opacity: 0;  visibility: hidden;  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;  transition: opacity 0.5s, visibility 0s 0.5s;  }
@@ -131,6 +136,8 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 .overlay-hugeinc nav a {color:black;text-decoration:none;}
 :hover#trigger-overlay{  cursor:pointer; }
 #trigger-overlay{font-size:38px;  }
+.lang-mobile {display:block;}
+.lang-mobile a {font-size:20px !important; text-decoration:none;font-weight:bold;}
 
 
 
@@ -156,6 +163,8 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     footer .wrap-main{width:85%;}
     footer .wrap-side{width:15%;font-size:0.8em;}
     body{    font-size:1em;}
+    #main-navigation {margin-top:15px;}
+    #logo {margin-top:30px;}
     .wrap-side .pad-main-right {max-width:75%;padding:50px 40px 50px 40px;}
 }
 
@@ -181,10 +190,13 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     #logo {margin-left:20px;margin-top:35px;}
     #header-right {float:right;text-align:right;}
     #header-right {width:90px;}
+
 }
 
 
 @media screen and (max-width: 950px) {
+    html, body { max-width: 100%; overflow-x: hidden; }
+    body{    font-size: 1.2em;}
     .wrap-main,.wrap-side{width:100%;clear:both;float:none;}
     .pad-main-left,.pad-main-right,.pad-main {padding:30px 5%;width:90%;}
     #header-wrap {margin-left:5%;margin-right:5%;}
@@ -196,28 +208,30 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     .text-mini {clear:both;}
     h3 {margin-top:30px;}
     .fulltext-form{margin:0px;padding:0px;}
-    #logo {width:24%;clear:none !important;float:left !important;}
+    #logo {width:140px !important;clear:none !important;float:left !important;}
     #header-right {clear:none;}
-    html, body { max-width: 100%; overflow-x: hidden; }
     a.next-section-link{display:none;}
-    footer th{width:42%;font-size:0.7em;}
-    .col-email{width:36%;}
-    .col-tel{width:22%;}
     footer .wrap-main{width:100%;}
-    .more-contacts {font-size:1.2em;line-height:1.6em;padding-top:15px;display:block;}
     footer .wrap-side {padding-top:0px;}
     h2 {font-size:2em;}
+    .footer-contact-col {width:100%;}
+
 }
 
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
     .rblikebox {display:none;}
     .col-mob-12 {margin-top:7vh;}
     #lide .col-mob-12 {width:100%;clear:both;}
-
+    #social-box, #contacts-link {display:none;}
+    .header-search {display:block;float:right;clear:both;max-width:100%;margin-top:20px;margin-bottom:10px;}
+    :hover.header-search {cursor:pointer;}
+    .fulltext-form {display:none;position:fixed;top:0;left:0;height:50px;background-color:white;width:65% !important;z-index:4 !important;padding-top:10px;padding-left:5%;}
+    .fulltext-form  {margin-top:20px !important;}
 }
 
+
 @media screen and (max-width: 450px) {
+    body{    font-size: 1em;}
     .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{width:100%;clear:both;float:none;}
     .col-md-5,.col-md-6 {width:100%;clear:both;float:none;}
     .but {width:100% !important;clear:both;float:none;}
@@ -226,8 +240,14 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     #service-nav-icons .col-md-4 li {width:23%;}
     .education-other {padding-top:10vh;}
 
-    #header-right{font-size:0.8em;margin-top:13px;}
+    #header-right{font-size:0.8em;margin-top:13px;width:50px;}
     #social-box a {margin-left:3px;}
+    .header-search {margin-top:5px;}
+    header {height:60px;}
+    .menu {margin-top:10px;}
+    #logo {margin-top:15px;}
+    #title-banner,#subtitle-banner {margin-top:45px !important;}
+    #lang-box {display:none;}
     div.banner-text, div.banner-text h2{width:90% !important;}
     div.banner-text p {display:none;}
     .search-text {width:67% !important;    }
@@ -235,14 +255,19 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     .next-square {min-height:0 !important;margin-bottom:30px;}
     .extra-link-box .col-md-4,.extra-link-box  .col-md-5{width:100% !important;clear:both; }
     .extra-link-box h5{padding-top:30px !important;}
-    #logo {margin-left:5px;}
+    #logo {margin-left:5px;width:24%;}
     .banner-text h2 {font-size:1em !important;}
     #service-nav-right li {margin-top:10px;}
     #sport-options-wrap .col-md-4, #sport-options-wrap .col-md-2,#sport-options-wrap .col-md-3,#sport-options-wrap .col-md-1 {width:100% !important;}
     #sport-options-wrap .square-pic span {text-align:center !important;}
+    .cont-line {padding-top:15px;}
+    .cont-line div {width:100%;clear:both;}
+    .fulltext-form {margin-top:0 !important;}
+
 }
 
 @media screen and (max-width: 350px) {
+    body{    font-size: 0.9em;}
 }
 
 

@@ -29,6 +29,11 @@
                     <a href="https://www.litomysl.cz/?id_str=1311055259565"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
                 </div>
             </div>
+
+            <div id="mobile-title-links">
+                <a class="selected-mobile-menu" href="#"><strong>občan / radnice</strong></a>
+                <a href="turista.php">turista / volný čas</a>
+            </div>
             <div class="cleaner"></div>
         </div>
 
@@ -39,6 +44,12 @@
         <section id="novinky-kalendar" class="red-layout">
             <div class="wrap-main">
                 <div class="pad-main-left">
+
+                    <div class="mobile-news-header">
+                        <h3>Aktuality</h3>
+                        <a href="kalendar.php">kalendář akcí</a>
+                    </div>
+
                     <div id="news-header">
                         <ul id="news-tabs">
                             <li>ze sportu</li>

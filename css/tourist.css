@@ -23,7 +23,7 @@
 .calendar-text-mid p {font-size:0.9em;}
 .calendar-text-mini p {font-size:0.9em;}
 .calendar-title-header {margin-bottom:0px;width:90%;height:55px; }
-.calendar-title-header #news-tabs {width:266px;margin-left:0px;}
+.calendar-title-header #news-tabs {width:266px;margin-left:-13px;}
 .calendar-title-header #news-tabs li {font-weight:bold;}
 .calendar-title-header #news-tabs li strong {font-size:1.2em;}
 .col-md-4 .calendar-title-header strong{display:block; padding-top:20px;}
@@ -211,6 +211,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .tourist-button-link {font-size:0.8em;width:110%;}
     .tourist-button-link img {max-height:20px;max-width:25px;margin:5px 5px 10px 5px;}
     .tourist-button-link span {margin:0px 10px 0px 10px;}
+    .calendar-title-header #news-tabs {margin-left:-25px;}
 }
 
 @media screen and (max-width: 1250px) {
@@ -218,6 +219,10 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .text-more{font-size:0.8em;}
     .history-line,.personalities {width:95%;}
     #o-litomysli .but-white {width:95%;}
+}
+
+@media screen and (max-width: 1200px) {
+    .calendar-title-header #news-tabs {margin-left:-39px;}
 }
 
 @media screen and (max-width: 1100px) {
@@ -240,6 +245,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .tourist-top-link-text img {display:none;}
     .tourist-top-link-text span{width:80%;display:block;}
     #calendar-wrap-mid, #calendar-wrap-mini {min-height:0 !important;width:100%;}
+    .calendar-title-header #news-tabs {margin-left:0px;}
     #kalendar-sluzby div.col-md-4 {width:100%;}
     a.tourist-button-link {padding-top:0px;padding-bottom:0px;margin-top:5px;}
     .fulltext-form {margin-bottom:40px;clear:both;padding-top:20px;}
@@ -295,11 +301,12 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .landmarks-lam .text-mini {text-align:left;}
     .col-md-4 .calendar-title-header {margin-top:30px;}
     .col-md-4 .calendar-title-header strong {margin-left:10px;}
+    .calendar-title-header #news-tabs {margin-left:13px;}
 }
 
 @media screen and (max-width: 450px) {
     a.tourist-top-link{width:100%;clear:both;float:none;}
-    .calendar-title-header ul#news-tabs{width:180px; !important;float:left;margin-left:30px;}
+    .calendar-title-header ul#news-tabs{width:180px; !important;float:left;margin-left:20px;}
     .calendar-title-header ul#news-tabs li{padding-left:25px !important;padding-right:35px !important;}
     .calendar-title-header #news-tabs li,.calendar-title-header #news-tabs li strong {font-size:0.9em;}
     #kalendar-sluzby .col-md-4 {width:100% !important;}
@@ -307,9 +314,12 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     #kultura .col-md-3{width:100% !important;clear:both;}
     form.fulltext-form {width:100% !important;margin-top:0px !important;}
     .landmarks-list {margin-top:0px;}
+    .tourist-button-link span {width:80%;}
 }
 
 @media screen and (max-width: 350px) {
+    .calendar-title-header ul#news-tabs{margin-left:10px;}
+    .tourist-button-link span {width:75%;}
 
 }
 
