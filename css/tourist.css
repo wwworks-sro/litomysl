@@ -131,15 +131,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 .wrap-side .news-other {width:100%;}
 .wrap-side h3 {margin-bottom:10px;margin-top:10px;}
 
-.news-mini {clear:both;margin-top:20px;}
-.news-mini h6{font-weight:bold;font-size:0.8em;}
-.bg-red .news-mini h6{color:white; }
-.news-mini p {font-size:0.8em;}
-.news-mini img {width:16%;}
-.news-mini .news-text {display:block;width:82%;float:right;}
 
-.bg-red .more-news-mini {width:16%;background-color:white;height:40px;margin-top:10px;}
-.bg-red .more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
 .col-square-2 .square-pic {width:49%;margin-right:1%;}
 .next-square {position:relative; text-align:center;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);min-height:0px;}
 .next-square span {position:absolute; top:46%;width:100%;text-align:center;text-decoration:underline;}

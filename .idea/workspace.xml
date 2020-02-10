@@ -40,28 +40,28 @@
         <counts>
           <entry key="css" value="20" />
           <entry key="js" value="1" />
-          <entry key="php" value="15" />
+          <entry key="php" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="20" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="15" />
+          <entry key="PHP" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="27989" />
+          <entry key="css" value="28730" />
           <entry key="js" value="321" />
-          <entry key="php" value="11389" />
+          <entry key="php" value="11575" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="27989" />
+          <entry key="CSS" value="28730" />
           <entry key="JavaScript" value="321" />
-          <entry key="PHP" value="11389" />
+          <entry key="PHP" value="11575" />
         </counts>
       </usages-collector>
     </session>
@@ -71,10 +71,22 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/aktuality.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/kalendar.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="287">
-                  <caret line="138" column="48" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="48" />
+                <state relative-caret-position="627">
+                  <caret line="65" column="30" selection-start-line="55" selection-start-column="36" selection-end-line="65" selection-end-column="30" />
                   <folding>
                     <element signature="e#1695#1701#0#HTML" expanded="true" />
                     <element signature="e#1701#1707#0#HTML" expanded="true" />
@@ -95,7 +107,7 @@
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="268">
-                  <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+                  <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -103,8 +115,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/turista.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="472">
-                  <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+                <state relative-caret-position="-578">
+                  <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -139,8 +151,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/layouts/_head.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="71" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="71" />
+                <state relative-caret-position="170">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
                 </state>
               </provider>
             </entry>
@@ -179,8 +191,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="676">
-                  <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="26" />
+                <state relative-caret-position="404">
+                  <caret line="148" column="53" lean-forward="true" selection-start-line="148" selection-start-column="53" selection-end-line="148" selection-end-column="53" />
                 </state>
               </provider>
             </entry>
@@ -188,8 +200,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/title.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+                <state relative-caret-position="-4">
+                  <caret line="262" column="38" selection-start-line="262" selection-start-column="38" selection-end-line="262" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -197,8 +209,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/tourist.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="337">
-                  <caret line="224" column="57" selection-start-line="224" selection-start-column="57" selection-end-line="224" selection-end-column="57" />
+                <state relative-caret-position="167">
+                  <caret line="133" selection-start-line="133" selection-end-line="133" />
                 </state>
               </provider>
             </entry>
@@ -206,8 +218,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/subpages.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="41" />
+                <state relative-caret-position="659">
+                  <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -226,11 +238,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>search-submit</find>
       <find>tourist-button-link</find>
       <find>search-text</find>
       <find>service-nav-icons</find>
-      <find>news-mini</find>
       <find>news-min</find>
       <find>#news-tabs</find>
       <find>social-box</find>
@@ -246,16 +256,18 @@
       <find>title-banner</find>
       <find>mobile-news-header</find>
       <find>fulltext-form</find>
-      <find>#subtitle-banner</find>
       <find>param</find>
       <find>shadow</find>
       <find>header-right</find>
       <find>&lt;/tr&gt;</find>
-      <find>&lt;form</find>
       <find>cal-detail-image</find>
       <find>form</find>
       <find>sub-header-side</find>
+      <find>detail-link</find>
       <find>calendar-search</find>
+      <find>#subtitle-banner</find>
+      <find>&lt;form</find>
+      <find>news-mini</find>
     </findStrings>
     <replaceStrings>
       <replace>services</replace>
@@ -291,16 +303,17 @@
         <option value="$PROJECT_DIR$/_nabidka-sportu.php" />
         <option value="$PROJECT_DIR$/_tipy-na-vylet.php" />
         <option value="$PROJECT_DIR$/layouts/_head.php" />
-        <option value="$PROJECT_DIR$/css/tourist.css" />
         <option value="$PROJECT_DIR$/layouts/_header.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/layouts/_footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/turista.php" />
-        <option value="$PROJECT_DIR$/css/title.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/kalendar.php" />
+        <option value="$PROJECT_DIR$/css/title.css" />
+        <option value="$PROJECT_DIR$/css/tourist.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/subpages.css" />
+        <option value="$PROJECT_DIR$/aktuality.php" />
       </list>
     </option>
   </component>
@@ -358,8 +371,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\litomysl\css" />
       <recent name="C:\wamp64\www\litomysl" />
+      <recent name="C:\wamp64\www\litomysl\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,12 +403,12 @@
       <workItem from="1580413323187" duration="72181000" />
       <workItem from="1580758414092" duration="2756000" />
       <workItem from="1580794764746" duration="8857000" />
-      <workItem from="1581279592793" duration="30669000" />
+      <workItem from="1581279592793" duration="35396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205350000" />
+    <option name="totallyTimeSpent" value="210077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1063" extended-state="6" />
@@ -454,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tourist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="224" column="57" selection-start-line="224" selection-start-column="57" selection-end-line="224" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -475,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/_head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/_footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -492,35 +491,21 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
-          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/turista.php">
+    <entry file="file://$PROJECT_DIR$/layouts/_head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/title.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="62" column="25" lean-forward="true" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kalendar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="138" column="48" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="48" />
+        <state relative-caret-position="627">
+          <caret line="65" column="30" selection-start-line="55" selection-start-column="36" selection-end-line="65" selection-end-column="30" />
           <folding>
             <element signature="e#1695#1701#0#HTML" expanded="true" />
             <element signature="e#1701#1707#0#HTML" expanded="true" />
@@ -536,10 +521,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/title.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="262" column="38" selection-start-line="262" selection-start-column="38" selection-end-line="262" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tourist.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turista.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="148" column="53" lean-forward="true" selection-start-line="148" selection-start-column="53" selection-end-line="148" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/subpages.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="41" />
+        <state relative-caret-position="659">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aktuality.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
