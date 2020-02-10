@@ -66,5 +66,8 @@ $( document ).ready(function() {
         $('.fulltext-form').toggle("slow");
     });
 
+    $('.cal-detail-link').height($('.cal-item-detail').height());
+
+
 });
 

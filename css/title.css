@@ -24,9 +24,8 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 #news-tabs li:hover {cursor:pointer;}
 
 .fulltext-form {width:30%;float:right;margin-top:10px;}
-.fulltext-form input {clear:none;margin:0px;height:30px;}
 .search-text {width:67%;float:left;}
-.search-submit {width:30%;float:left;background-color:#c20116;color:white;height:40px !important;border:none;}
+.fulltext-form .search-submit {background: #c20116 url(../img/img-system/title/search.png) no-repeat center;}
 
 .news-top {margin-right:1%;margin-bottom:1%;}
 .news-top {float:left;width:56%;}

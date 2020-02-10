@@ -56,6 +56,11 @@ header, footer, section,#title-banner,.wrap-main,.wrap-side {position:relative;}
 .gray-layout{background: url(../img/img-system/layout/bg-gray.jpg) repeat-y top right; background-size: contain;}
 .float-right {float:right;}
 
+input, select {clear:none;margin:0px;height:30px !important;}
+select {height:38px !important;}
+.submit {width:30%;float:left;background-color:#c20116;color:white;height:38px !important;border:none;}
+.half-input {  width: 47%; float:left;margin-right:0.5%;clear:none;}
+.thirds-input {  width: 31%; float:left;margin-right:0.5%;clear:none;}
 .but {display:block; width:300px; max-width:100%;text-align:center;line-height:40px; height:40px;}
 .but-section-top {margin-top:15px;}
 .but-red-empty {border:2px solid #c20116; color:#c20116 !important;background-color:transparent;}

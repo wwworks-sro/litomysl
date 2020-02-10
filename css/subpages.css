@@ -2,6 +2,7 @@
 /*  -----------------------------------General-----------------------------------------------  */
 
 .sub-page{padding-top:103px;}
+.sub-header {margin-top:5vh;}
 .subpage-icon {float:left;margin-right:15px;}
 .header-text {padding-left:0px;float:left;}
 .breadcrumb {clear:both;font-size:0.9em;opacity:0.6;}
@@ -12,13 +13,34 @@ h1 {margin-left:0px !important;clear:both;width:100%;margin-bottom:30px;}
 
 
 /*  -----------------------------------Kalendář-----------------------------------------------  */
-.cal-item-detail {background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);margin-bottom:2px;border-left:5px solid #c20116;}
-.cal-detail-icon{float:left;width:10%;}
-.cal-detail-text {float:left;width:60%;margin-top:30px;padding-bottom:30px;}
-.cal-detail-image {float:left;width:20%;}
-.cal-detail-link {float:right;width:10%;height:100%;background-color:#c20116;display:block; }
+
+#kalendar .sub-header{min-height:180px;}
+.sub-header-side{min-height:160px;}
+.cal-item-detail {height:auto;width:100%;background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);margin-bottom:2px;border-left:5px solid #c20116;}
+.cal-detail-icon{float:left;width:8%;}
+.cal-detail-text {float:left;width:61%;margin-top:30px;padding-bottom:30px;font-size:0.9em;}
+.cal-detail-text h4 {font-size:1.4em;}
+.cal-detail-image {float:left;width:18%;margin-left:2%;margin-right:3%;}
+.cal-detail-link {float:right;width:8%;min-height:100%;text-align:center;background: #c20116 url(../img/img-system/title/dots.png) no-repeat center;}
 .cal-detail-icon img {width:70%;margin-left:15%;margin-top:40px;}
 .cal-detail-image img {width:100%;margin-top:30px;}
+.fb-like {margin-bottom:0 !important;}
+.cal-social {min-height:45px;}
+.cal-date-location,.cal-date-location a {color: #c20116;}
+.cal-perex {margin-top:10px;margin-bottom:10px;}
+.cal-perex-links a{color: #c20116;font-size:0.8em;display:block; float:left;line-height:25px;margin-right:10px;}
+.cal-perex-links img {width:16px;margin-top:5px;float:left;margin-right:5px;margin-left:5px;}
+.cal-google-link {border:1px solid #c20116; float:left;display:block;display:block; padding:2px;}
+#continuous-events h3{color:#c20116;margin-top:5vh;font-size:1.4em;}
+#continuous-events .cal-item-detail{background-color:transparent;box-shadow: none;border-left-color:#f1f1f1;border-bottom:3px solid #d4d4d4;}
+#continuous-events .cal-detail-link{box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);background: white url(../img/img-system/calendar/...red.png) no-repeat center;}
+.cal-lilie-link{font-weight:bold;display:block; margin-top:6vh;}
+.cal-lilie-link img {width:25%;float:left;}
+.cal-lilie-link strong {width:74%;float:right;margin-top:15px;}
+.cal-lilie-link span {clear:both;display:block;font-size:0.8em;}
+.calendar-search {margin-bottom:30px;clear:both;float:none;}
+#calendar-search-month select {width:33%;}
+#calendar-search-day .datepicker{width:66%}
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
 
@@ -27,11 +49,22 @@ h1 {margin-left:0px !important;clear:both;width:100%;margin-bottom:30px;}
 
 
 
+
+
 @media screen and (max-width: 1350px) {
+    .cal-detail-icon{width:7%;}
+    .cal-detail-text {width:60%;}
+    .cal-detail-image {width:21%;}
+    .cal-detail-link {width:7%;}
 
 }
 
 
+@media screen and (max-width: 1100px) {
+    .cal-detail-text {width:58%;}
+    .cal-detail-image {width:23%;}
+
+}
 
 @media screen and (max-width: 1000px) {
 

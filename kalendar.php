@@ -32,26 +32,91 @@
                             </div>
                             <div class="cal-detail-text">
                                 <a href=""><h4>Lorem ipsum dolor smet, lo ipsum dolor</h4></a>
-                                <div class="cal-date-location"><strong>30. září</strong>, 8:00   /  <a href=""><img src="img/img-system/calendar/pointer.png" alt="Místo"> Smetanovo náměstí</a></div>
+                                <div class="cal-date-location"><strong>30. září</strong>, 8:00   &nbsp;&nbsp;&nbsp;&nbsp;  <a href=""><img src="img/img-system/calendar/pointer.png" alt="Místo"> Smetanovo náměstí</a></div>
                                 <div class="cal-perex">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero. Nam libero tempore. Ipsum dolor si Dolor sit amet, elit. Nam libero tempore. Lorem ipsum dolor sit amet, consectetuer ero tempore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero. Sit amet, elit. Nam libero tempore.
-                                    Více...</p>
+                                        <a class="cal-more" href="">Více...</a></p>
                                 </div>
-                                <div class="cal-perex">
-                                    <a class="cal-google-link" href="">Přidat do Google kalendáře</a>
-                                    <a class="cal-web=link" href="">web akce</a>
-                                    <a class="cal-organisation-link" href="">Smetanův dům</a>
+                                <div class="cal-perex-links">
+                                    <a class="cal-google-link"  target="_blank"  href="https://www.google.com/calendar/render?action=TEMPLATE&text=<?php echo urlencode('Název akce');?>&dates=<?php echo time();?>&details=<?php echo urlencode('Lorem ipsum dolor');?>&location=<?php echo urlencode('Lorem ipsum dolor');?>&sf=true&output=xml" >
+                                        <img src="img/img-system/calendar/calendar-add.png" alt="Kalendář"> Přidat do Google kalendáře
+                                    </a>
+                                    <a class="cal-web-link" href="">
+                                        <img src="img/img-system/calendar/network.png" alt="Web akce"> web akce
+                                    </a>
+                                    <a class="cal-organisation-link" href="">
+                                        <img src="img/img-system/calendar/person.png" alt="Pořadatel"> Smetanův dům
+                                    </a>
                                 </div>
                             </div>
                             <div class="cal-detail-image">
                                 <img src="img/img-calendar/S/lorem-ipsum-s.jpg" alt="divadlo">
-                                <a class="cal-web=link" href="">web akce</a>
-                                <a class="cal-organisation-link" href="">Smetanův dům</a>
+
+                                <div class="cal-social">
+                                    <div id="fb-root"></div>
+                                    <script>(function(d, s, id) {
+                                            var js, fjs = d.getElementsByTagName(s)[0];
+                                            if (d.getElementById(id)) return;
+                                            js = d.createElement(s); js.id = id;
+                                            js.src = 'https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v3.0';
+                                            fjs.parentNode.insertBefore(js, fjs);
+                                        }(document, 'script', 'facebook-jssdk'));</script>
+
+                                    <div class="fb-like" style="margin-top:5px; margin-bottom:30px;" data-href="url-stranky-akce" data-layout="button" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
+                                </div>
                             </div>
-                            <a class="cal-detail-link" href=""></a>
+                            <a class="cal-detail-link" href="">  </a>
                             <div class="cleaner"></div>
                         </div>
+                    </div>
 
+
+                    <div id="continuous-events">
+                        <h3>Probíhající akce</h3>
+                        <div class="cal-links-main">
+                            <div class="cal-item-detail">
+                                <div class="cal-detail-icon">
+                                    <img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+                                </div>
+                                <div class="cal-detail-text">
+                                    <a href=""><h4>Lorem ipsum dolor smet, lo ipsum dolor</h4></a>
+                                    <div class="cal-date-location"><strong>30. září</strong>, 8:00   &nbsp;&nbsp;&nbsp;&nbsp;  <a href=""><img src="img/img-system/calendar/pointer.png" alt="Místo"> Smetanovo náměstí</a></div>
+                                    <div class="cal-perex">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero. Nam libero tempore. Ipsum dolor si Dolor sit amet, elit. Nam libero tempore. Lorem ipsum dolor sit amet, consectetuer ero tempore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero. Sit amet, elit. Nam libero tempore.
+                                            <a class="cal-more" href="">Více...</a></p>
+                                    </div>
+                                    <div class="cal-perex-links">
+                                        <a class="cal-google-link"  target="_blank"  href="https://www.google.com/calendar/render?action=TEMPLATE&text=<?php echo urlencode('Název akce');?>&dates=<?php echo time();?>&details=<?php echo urlencode('Lorem ipsum dolor');?>&location=<?php echo urlencode('Lorem ipsum dolor');?>&sf=true&output=xml" >
+                                            <img src="img/img-system/calendar/calendar-add.png" alt="Kalendář"> Přidat do Google kalendáře
+                                        </a>
+                                        <a class="cal-web-link" href="">
+                                            <img src="img/img-system/calendar/network.png" alt="Web akce"> web akce
+                                        </a>
+                                        <a class="cal-organisation-link" href="">
+                                            <img src="img/img-system/calendar/person.png" alt="Pořadatel"> Smetanův dům
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="cal-detail-image">
+                                    <img src="img/img-calendar/S/lorem-ipsum-s.jpg" alt="divadlo">
+
+                                    <div class="cal-social">
+                                        <div id="fb-root"></div>
+                                        <script>(function(d, s, id) {
+                                                var js, fjs = d.getElementsByTagName(s)[0];
+                                                if (d.getElementById(id)) return;
+                                                js = d.createElement(s); js.id = id;
+                                                js.src = 'https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v3.0';
+                                                fjs.parentNode.insertBefore(js, fjs);
+                                            }(document, 'script', 'facebook-jssdk'));</script>
+
+                                        <div class="fb-like" style="margin-top:5px; margin-bottom:30px;" data-href="url-stranky-akce" data-layout="button" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
+                                    </div>
+                                </div>
+                                <a class="cal-detail-link" href="">  </a>
+                                <div class="cleaner"></div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="cleaner"></div>
@@ -59,6 +124,40 @@
             </div>
             <div class="wrap-side">
                 <div class="pad-main-right">
+
+                    <div class="sub-header-side">
+                        <a class="cal-lilie-link" href="">
+                            <img src="img/img-system/calendar/newspaper.2.3.1.png" alt="divadlo">
+                            <strong>
+                                Lilie kalendář akcí
+                                <span>(formát pdf, velikost 319,86 KB)</span>
+                            </strong>
+                        </a>
+                    </div>
+
+                    <form id="calendar-search-day" class="calendar-search" method="post" action="#">
+                        <input class="datepicker" type="text" name="calDate">
+                        <input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit">
+                        <div class="cleaner"></div>
+                    </form> <div class="cleaner"></div>
+                    <form id="calendar-search-month" class="calendar-search " method="post" action="#">
+                        <select class=" thirds-input" name="month" id="cars">
+                            <option value="09">zaří</option>
+                            <option value="10">říjen</option>
+                        </select>
+                        <select  class="thirds-input"  name="month" id="cars">
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                        </select>
+                        <input class="thirds-input submit search-submit" type="submit" name="vyhledat" value="zobrazit">
+                        <div class="cleaner"></div>
+                    </form> <div class="cleaner"></div>
+                    <form id="calendar-search-span" class="calendar-search" method="post" action="#">
+                        <input class="datepicker thirds-input" name="calStart"></input>
+                        <input class="datepicker thirds-input" name="calEnd"></input>
+                        <input class="thirds-input submit search-submit" type="submit" name="vyhledat" value="zobrazit">
+                        <div class="cleaner"></div>
+                    </form>
 
                 </div>
                 <div class="cleaner"></div>

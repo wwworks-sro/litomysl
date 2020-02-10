@@ -60,7 +60,7 @@
                         <div class="cleaner-mobile"></div>
                         <form class="fulltext-form" method="post" action="#">
                             <input class="search-text" type="text" name="search">
-                            <input class="search-submit" type="submit" name="vyhledat" value="vyhledat">
+                            <input class="submit search-submit" type="submit" name="vyhledat" value="">
                         </form>
                         <div class="cleaner"></div>
                     </div>
