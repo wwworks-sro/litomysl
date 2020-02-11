@@ -24,7 +24,10 @@ a {text-decoration:none;}
 a:hover,:hover.trigger-more {cursor:pointer !important;opacity:0.6;}
 a:link, a:visited { color:black;}
 nav a {text-decoration:underline;}
-ul li { padding-left:15px;}
+ul{margin-left:15px;}
+li { padding-left:15px;list-style-type: disc;}
+nav ul{margin-left:0px;}
+nav li {list-style-type: none;}
 input, textarea, button { clear:both; float:left; padding:2px 1px; }
 button { cursor:pointer; margin-right:-2px !important; font-style:normal}
 ol li { list-style:decimal inside; padding:5px 0}
@@ -32,6 +35,8 @@ blockquote { border-left:5px solid black; font-style:italic; padding:10px; margi
 img {border:none;max-width:100%;}
 .mar-top-30 {margin-top:7vh;}
 nav li {line-height:1.4em;}
+
+
 
 /*Basic layout*/
 html {font-size: 100%;}
@@ -159,6 +164,11 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 .sub-page .bg-red .more-news-mini {width:16%;background-color:white;height:40px;margin-top:10px;}
 .sub-page .bg-red .more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
 
+.pagination {margin-top:30px;}
+.pagination a,.news-mini-filter a {color:#c20116;float:left;display:block; padding:0 3%;text-decoration:underline;}
+.bg-red .pagination a,.bg-red .news-mini-filter a  {color:white;}
+.nav-active {font-weight:bold !important;text-decoration:none !important;}
+.news-mini-filter {font-size:0.9em;padding-top:40px;padding-bottom:40px;clear:both;}
 
 
 /*  -----------------------------------Mobil-----------------------------------------------  */

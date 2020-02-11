@@ -6,9 +6,9 @@
     <body class="sub-page">
         <?php  include('layouts/_header.php');  ?>
 
-<!--  -----------------------------------Aktuality-----------------------------------------------  -->
+<!--  -----------------------------------Kalendář-----------------------------------------------  -->
 
-        <section id="aktuality" class="red-layout">
+        <section id="tri-sloupce" class="red-layout">
             <div class="wrap-main">
                 <div class="pad-main-left">
                     <div class="sub-header">

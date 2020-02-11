@@ -11,8 +11,20 @@
 .subpage-title{display:block; float:left;}
 h1 {margin-left:0px !important;clear:both;width:100%;margin-bottom:30px;}
 
+.sidebar-nav li {padding:10px 0;border-bottom:3px solid white;width:100%;}
+.sidebar-nav li ul {margin-left:10%;}
+.sidebar-nav a {text-decoration:none;}
+.sidebar-nav .active {padding-bottom:0;}
+.sidebar-nav .active a {color:#c20116;font-weight:bold;}
+.sidebar-nav .active li a  {color:black;font-weight:normal;}
+.sidebar-nav .active .active  a  {color:#c20116;font-weight:bold;}
+.sidebar-nav .active li:last-child{border-bottom:0px;}
 
-/*  -----------------------------------Kalendář-----------------------------------------------  */
+
+
+
+
+    /*  -----------------------------------Kalendář-----------------------------------------------  */
 
 #kalendar .sub-header{min-height:180px;}
 .sub-header-side{min-height:160px;}
