@@ -134,31 +134,43 @@
                             </strong>
                         </a>
                     </div>
-
-                    <form id="calendar-search-day" class="calendar-search" method="post" action="#">
-                        <input class="datepicker" type="text" name="calDate">
-                        <input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit">
-                        <div class="cleaner"></div>
-                    </form> <div class="cleaner"></div>
-                    <form id="calendar-search-month" class="calendar-search " method="post" action="#">
-                        <select class=" thirds-input" name="month" id="cars">
-                            <option value="09">zaří</option>
-                            <option value="10">říjen</option>
-                        </select>
-                        <select  class="thirds-input"  name="month" id="cars">
-                            <option value="2019">2019</option>
-                            <option value="2020">2020</option>
-                        </select>
-                        <input class="thirds-input submit search-submit" type="submit" name="vyhledat" value="zobrazit">
-                        <div class="cleaner"></div>
-                    </form> <div class="cleaner"></div>
-                    <form id="calendar-search-span" class="calendar-search" method="post" action="#">
-                        <input class="datepicker thirds-input" name="calStart"></input>
-                        <input class="datepicker thirds-input" name="calEnd"></input>
-                        <input class="thirds-input submit search-submit" type="submit" name="vyhledat" value="zobrazit">
-                        <div class="cleaner"></div>
-                    </form>
-
+                    <div class="calendar-search-set">
+                        <form id="calendar-search-day" class="calendar-search" method="post" action="#">
+                            <div class="col-md-8"><input class="datepicker" type="text" name="calDate"></div>
+                            <div class="col-md-4"><input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit"></div>
+                            <div class="cleaner"></div>
+                        </form> <div class="cleaner"></div>
+                        <form id="calendar-search-month" class="calendar-search " method="post" action="#">
+                            <div class="col-md-4">
+                                <select name="month" id="cars">
+                                    <option value="09">zaří</option>
+                                    <option value="10">říjen</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select  name="month" id="cars">
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit">
+                            </div>
+                            <div class="cleaner"></div>
+                        </form> <div class="cleaner"></div>
+                        <form id="calendar-search-span" class="calendar-search" method="post" action="#">
+                            <div class="col-md-4">
+                                <input class="datepicker" name="calStart"></input>
+                            </div>
+                            <div class="col-md-4">
+                                <input class="datepicker" name="calEnd"></input>
+                            </div>
+                            <div class="col-md-4">
+                                <input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit">
+                            </div>
+                            <div class="cleaner"></div>
+                        </form>
+                    </div>
                 </div>
                 <div class="cleaner"></div>
             </div>

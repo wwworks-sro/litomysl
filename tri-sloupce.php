@@ -6,11 +6,43 @@
     <body class="sub-page">
         <?php  include('layouts/_header.php');  ?>
 
-<!--  -----------------------------------Kalendář-----------------------------------------------  -->
+<!--  -----------------------------------Tři sloupce-----------------------------------------------  -->
 
-        <section id="tri-sloupce" class="red-layout">
-            <div class="wrap-main">
+        <section id="tri-sloupce" class="three-layout">
+
+            <div class="wrap-side-three">
                 <div class="pad-main-left">
+                    <div class="sub-header-side">  </div>
+                    <nav class="sidebar-nav">
+                        <ul>
+                            <li><a href="">Lorem ipsum dolor</a></li>
+                            <li class="active"><a href="">Služby</a>
+                                <ul>
+                                    <li class="active"><a href="">Lorem ipsum</a></li>
+                                    <li><a href="">Dolor sit amet</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Dolor sit amet lacinia</a></li>
+                            <li><a href="">Informační povinnost</a></li>
+                            <li><a href="">správce osobních údajů</a></li>
+                            <li><a href="">Mapa města, parkování</a></li>
+                            <li><a href="">Úsekové měření</a></li>
+                            <li><a href="">Historie města</a></li>
+                            <li><a href="">Moderní architektura</a></li>
+                            <li><a href="">Ocenění města</a></li>
+                            <li><a href="">Partnerská města</a></li>
+                            <li><a href="">Církve a církevní zařízení</a></li>
+                            <li><a href="">Organizace a zařízení</a></li>
+                            <li><a href="">Digitální povodňový plán</a></li>
+                            <li><a href="">ORP</a></li>
+                            <li><a href="">Digitální povodňový plán města Litomyšle</a></li>
+                        </ul>
+                    </nav>
+                    <div class="cleaner"></div>
+                </div>
+            </div>
+            <div class="wrap-main-three">
+                <div class="pad-main-center">
                     <div class="sub-header">
                         <img class="subpage-icon" src="img/img-system/subpages/newspaper.3.3.1.png" alt="kalendář">
                         <div class="header-text">
@@ -50,104 +82,15 @@
                     <div class="cleaner"></div>
                 </div>
             </div>
-            <div class="wrap-side  bg-red">
+            <div class="wrap-side-three ">
                 <div class="pad-main-right">
-                    <div class="sub-header-side">
-                        <div id="fb-root"></div>
-                        <script>(function(d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0];
-                                if (d.getElementById(id)) return;
-                                js = d.createElement(s); js.id = id;
-                                js.src = 'https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v3.0';
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }(document, 'script', 'facebook-jssdk'));</script>
-                        <div class="fb-like" style="margin-top:5px; margin-bottom:30px;" data-href="url-stranky-akce" data-layout="button" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
-                    </div>
-
-                    <div class="news-other">
-                        <div class="news-mini-filter">
-                            <a href="" class="nav-active"> vše </a>
-                            <a href="">z města</a>
-                            <a href="">z kultury</a>
-                            <a href="">ze sportu</a>
-                        </div>
-                        <a href="" class="news-title news-mini">
-                            <img src="img/img-articles/S/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
-                            <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
-                            </div>
-                            <div class="cleaner"></div>
-                        </a>
-                        <a href="" class="news-title news-mini">
-                            <img src="img/img-articles/S/news-consectetur-s.jpg" alt="Lorem ipsum dolor">
-                            <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
-                            </div>
-                            <div class="cleaner"></div>
-                        </a>
-                        <a class="news-title news-mini">
-                            <img src="img/img-articles/S/news-dolor-sit-2-s.jpg" alt="Lorem ipsum dolor">
-                            <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
-                            </div>
-                            <div class="cleaner"></div>
-                        </a>
-                        <a href="" class="news-title news-mini">
-                            <img src="img/img-articles/S/news-lore-ipsum-s.jpg" alt="Lorem ipsum dolor">
-                            <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
-                            </div>
-                            <div class="cleaner"></div>
-                        </a>
-                        <a href="" class="news-title news-mini">
-                            <img src="img/img-articles/S/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
-                            <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
-                            </div>
-                            <div class="cleaner"></div>
-                        </a>
-                        <a href="" class="news-title news-mini">
-                            <img src="img/img-articles/S/news-consectetur-s.jpg" alt="Lorem ipsum dolor">
-                            <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
-                            </div>
-                            <div class="cleaner"></div>
-                        </a>
-                        <a class="news-title news-mini">
-                            <img src="img/img-articles/S/news-dolor-sit-2-s.jpg" alt="Lorem ipsum dolor">
-                            <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
-                            </div>
-                            <div class="cleaner"></div>
-                        </a>
-                        <a href="" class="news-title news-mini">
-                            <img src="img/img-articles/S/news-lore-ipsum-s.jpg" alt="Lorem ipsum dolor">
-                            <div class="news-text">
-                                <h6>Aktualita 1 dolor sit amet tetuer adip</h6>
-                                <p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
-                            </div>
-                            <div class="cleaner"></div>
-                        </a>
-                        <div class="pagination">
-                            <a href=""> << </a>
-                            <a href=""> 1 </a>
-                            <a href="" class="nav-active"> 2 </a>
-                            <a href=""> 3 </a>
-                            <a href=""> 4 </a>
-                            <a href=""> 5 </a>
-                            <a href=""> >> </a>
-                        </div>
-
-                    </div>
-                </div><div class="cleaner"></div>
+                    <div class="sub-header-side">  </div>
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce suscipit libero eget elit. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Integer in sapien. Aliquam in lorem sit amet leo accumsan lacinia. Integer in sapien. Nulla non arcu lacinia neque faucibus fringilla. Nulla quis diam. Aenean vel massa quis mauris vehicula lacinia. Vivamus luctus egestas leo. Phasellus et lorem id felis nonummy placerat.
+                    </p>
+                    <div class="cleaner"></div>
                 </div>
+            </div>
             <div class="cleaner"></div>
         </section>
 

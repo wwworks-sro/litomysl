@@ -2,14 +2,13 @@
 /*  -----------------------------------General-----------------------------------------------  */
 
 .sub-page{padding-top:103px;}
-.sub-header {margin-top:5vh;}
-.subpage-icon {float:left;margin-right:15px;}
-.header-text {padding-left:0px;float:left;}
+.sub-header {margin-top:5vh;margin-bottom:30px;}
+.subpage-icon {float:left;margin-right:2%;width:10%;max-width:99px;}
+.header-text {padding-left:0px;float:left;width:88%;}
 .breadcrumb {clear:both;font-size:0.9em;opacity:0.6;}
 .breadcrumb a {font-size:0.9em;}
 .subpage-title strong{clear:both;display:block; color:black; font-size:0.45em;font-weight:400;line-height:1.5em;}
 .subpage-title{display:block; float:left;}
-h1 {margin-left:0px !important;clear:both;width:100%;margin-bottom:30px;}
 
 .sidebar-nav li {padding:10px 0;border-bottom:3px solid white;width:100%;}
 .sidebar-nav li ul {margin-left:10%;}
@@ -20,14 +19,16 @@ h1 {margin-left:0px !important;clear:both;width:100%;margin-bottom:30px;}
 .sidebar-nav .active .active  a  {color:#c20116;font-weight:bold;}
 .sidebar-nav .active li:last-child{border-bottom:0px;}
 
+.news-detail-gallery a {width:20%;display:block;float:left;}
+.news-detail-gallery a img {width:98%;margin-right:2%;}
 
+.three-layout {background: url(../img/img-system/subpages/bg-three.jpg) repeat-y top ; background-size: contain;}
 
+/*  -----------------------------------Kalendář-----------------------------------------------  */
 
-
-    /*  -----------------------------------Kalendář-----------------------------------------------  */
-
-#kalendar .sub-header{min-height:180px;}
-.sub-header-side{min-height:160px;}
+#kalendar .sub-header{min-height:145px;}
+.sub-header-side{min-height:180px;}
+#kalendar .sub-header-side{min-height:155px;}
 .cal-item-detail {height:auto;width:100%;background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);margin-bottom:2px;border-left:5px solid #c20116;}
 .cal-detail-icon{float:left;width:8%;}
 .cal-detail-text {float:left;width:61%;margin-top:30px;padding-bottom:30px;font-size:0.9em;}
@@ -51,8 +52,7 @@ h1 {margin-left:0px !important;clear:both;width:100%;margin-bottom:30px;}
 .cal-lilie-link strong {width:74%;float:right;margin-top:15px;}
 .cal-lilie-link span {clear:both;display:block;font-size:0.8em;}
 .calendar-search {margin-bottom:30px;clear:both;float:none;}
-#calendar-search-month select {width:33%;}
-#calendar-search-day .datepicker{width:66%}
+#calendar-search-day input {width:94% !important;}
 
 
 /*  -----------------------------------Aktuality-----------------------------------------------  */
@@ -64,6 +64,11 @@ h1 {margin-left:0px !important;clear:both;width:100%;margin-bottom:30px;}
 .news-detail-footer {margin-bottom:30px;margin-top:30px;}
 
 
+/*  -----------------------------------Three cols-----------------------------------------------  */
+
+.wrap-main-three,.wrap-side-three {float:left;}
+.wrap-main-three {width:48%;}
+.wrap-side-three {width:26%;}
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
 
@@ -83,14 +88,10 @@ h1 {margin-left:0px !important;clear:both;width:100%;margin-bottom:30px;}
 
 }
 
-@media screen and (max-width: 1000px) {
-
-}
-
-
 
 @media screen and (max-width: 950px) {
     .subpage-title  {font-size:1.8em;}
+    h2 {color:#c20116;font-size:1.3em;}
     #kalendar .header-text {width:48%;}
     #kalendar .subpage-icon {width:15%;}
 

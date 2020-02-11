@@ -3,7 +3,7 @@
 
     <?php  include("layouts/_head.php");  ?>
 
-    <body class="index-page">
+    <body class="index-page multiple-line-page">
         <?php  include('layouts/_header.php');  ?>
 
 <!--  -----------------------------------Banner-----------------------------------------------  -->

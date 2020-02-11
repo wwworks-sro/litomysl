@@ -27,7 +27,18 @@
                     <div class="news-detail-images">
                         <img class="img-news-main" src="img/img-articles/L/news-lorem-ipsum-l.jpg" alt="Lorem ipsum dolor">
                         <div class="news-detail-gallery">
-
+                            <a data-fancybox='gallery' href="img/img-gallery/L/gal-1-1.jpg">
+                                <img src="img/img-gallery/S/gal-1-1.jpg" alt="Lorem ipsum dolor">
+                            </a>
+                            <a data-fancybox='gallery' href="img/img-gallery/L/gal-1-1.jpg">
+                                <img src="img/img-gallery/S/gal-1-1.jpg" alt="Lorem ipsum dolor">
+                            </a>
+                            <a data-fancybox='gallery' href="img/img-gallery/L/gal-1-1.jpg">
+                                <img src="img/img-gallery/S/gal-1-1.jpg" alt="Lorem ipsum dolor">
+                            </a>
+                            <a data-fancybox='gallery' href="img/img-gallery/L/gal-1-1.jpg">
+                                <img src="img/img-gallery/S/gal-1-1.jpg" alt="Lorem ipsum dolor">
+                            </a>
                         </div>
                     </div>
                     <div class="perex">
@@ -153,5 +164,9 @@
 
         <?php  include("layouts/_footer.php");  ?>
         <?php  include('layouts/_facebookSide.php');  ?>
+
+        <link rel="stylesheet" type="text/css" href="js/lightbox3/dist/jquery.fancybox.min.css" />
+        <script src="js/lightbox3/dist/jquery.fancybox.min.js"></script>
+
     </body>
 </html>

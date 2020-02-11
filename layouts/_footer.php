@@ -83,9 +83,9 @@
 </div>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
 <?php if($fileName != 'turista.php' && $fileName != 'index.php' ){ ?>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>  $( function() {  $( ".datepicker" ).datepicker();   } ); </script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <?php } ?>
+<script type="text/javascript" src="js/main.js"></script>
