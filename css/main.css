@@ -70,6 +70,12 @@ textarea {width:93%;}
 .but-white-empty {border:2px solid white; color:white !important;}
 .but-white{background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);color:#c20116 !important;}
 
+.fulltext-form {width:30%;float:right;margin-top:10px;}
+input.search-text {width:64%;float:left;}
+input.search-submit {width:28%;}
+.fulltext-form .search-submit {background: #c20116 url(../img/img-system/title/search.png) no-repeat center;}
+.search-submit,.search-text {clear:none !important;}
+
 img {border:none;max-width:100%;}
 
 

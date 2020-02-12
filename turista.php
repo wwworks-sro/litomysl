@@ -208,7 +208,7 @@
                             <span class="video-title">Virtuální prohlídka</span>
                         </div>
 
-                        <ul class="youtube-list">
+                        <ul class="youtube-list hidden-bullets">
                             <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>Další virtuální prohlídky</a></li>
                             <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>Webkamera</a><br /></li>
                             <li><a href="" target="_blank"><img src="img/img-system/about/youtube.png" alt="Youtube video"/>Regionální televize CMS TV</a></li>
@@ -563,7 +563,7 @@
                     </div>
                     <div class="col-md-12 sport-bottom">
                         <h3 class="col-md-12">Volně přístupná sportoviště </h3>
-                        <ul>
+                        <ul class="hidden-bullets">
                             <li class="col-md-3"> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Cyklostezky - mapa"><span>Cyklostezky - mapa</span></a> </li>
                             <li class="col-md-3 "> <a href=""><img src="img/img-system/sport/newspaper.2.3.1.png" alt="Cyklostezky - leták s jízdními řády a mapou"><span>Cyklostezky - leták s jízdními řády a mapou</span></a> </li>
                             <li class="col-md-3 "> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Dětská hřiště"><span>Dětská hřiště</span></a> </li>
