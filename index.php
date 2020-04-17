@@ -220,45 +220,57 @@
                         <ul class="col-md-4">
                             <li><a href=""><img src="img/img-system/services/bin 1.3.3.1.png" alt="Odpady"><span>Odpady</span></a></li>
                             <li><a href=""><img src="img/img-system/services/water drop.3.3.1.png" alt="Voda a kanalizace"><span>Voda a kanalizace</span></a></li>
-                            <li><a href=""><img src="img/img-system/services/lawn mower.3.3.1.png" alt="Sekání trávy"><span>Sekání trávy</span></a></li>
+                            <li class="hint-list-trigger">
+                                <a href=""><img src="img/img-system/services/gis.png" alt="GIS portál"><span>GIS portál</span></a>
+                                <div class="hint-list">
+                                    <div class="pad">
+                                        1. letecké snímky<br />
+                                        2. části obcí<br />
+                                        3. katastrální území<br />
+                                        4. katastrální mapa<br />
+                                        5. parcely v majetku města<br />
+                                        6. silnice<br />
+                                        7. ulice<br />
+                                        8. budovy<br />
+                                        9. čísla popisná<br />
+                                        10. technická mapa - polohopis<br />
+                                        11. technická mapa - sítě<br />
+                                        12. sečené plochy<br />
+                                        13. stromy<br />
+                                        14. požární ochrana - hydranty<br />
+                                        15. kontejnery na odpad<br />
+                                    </div>
+                                </div>
+                            </li>
                             <li><a href=""><img src="img/img-system/services/search.3.3.1.png" alt="Ztráty a nálezy"><span>Ztráty a nálezy</span></a></li>
                         </ul>
                     </nav>
     
                     <div id='service-nav-bottom'>
     
-                        <h3>Potřebuji si zařídit - TOP 20</h3>
+                        <h3>Potřebuji si zařídit</h3>
                         <nav>
                             <ul class="col-md-3">
-                                <li><a href="">Doklady lorem ispum</a></li>
-                                <li><a href="">Poplatky</a></li>
-                                <li><a href="">Vyhlášky lorem ispum</a></li>
-                                <li><a href="">Parkovací karta</a></li>
-                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Doprava</a></li>
+                                <li><a href="">Majetek města</a></li>
+                                <li><a href="">Podnikání</a></li>
                             </ul>
     
                             <ul class="col-md-3">
-                                <li><a href="">Doklady lorem ispum</a></li>
                                 <li><a href="">Poplatky</a></li>
-                                <li><a href="">Vyhlášky lorem ispum</a></li>
-                                <li><a href="">Parkovací karta</a></li>
-                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Radnice</a></li>
+                                <li><a href="">Sociální záležitosti</a></li>
                             </ul>
     
                             <ul class="col-md-3">
-                                <li><a href="">Doklady lorem ispum</a></li>
-                                <li><a href="">Poplatky</a></li>
-                                <li><a href="">Vyhlášky lorem ispum</a></li>
-                                <li><a href="">Parkovací karta</a></li>
-                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Správní agendy</a></li>
+                                <li><a href="">Stavební úřad</a></li>
+                                <li><a href="">Školství a sport</a></li>
                             </ul>
     
                             <ul class="col-md-3">
-                                <li><a href="">Doklady lorem ispum</a></li>
-                                <li><a href="">Poplatky</a></li>
-                                <li><a href="">Vyhlášky lorem ispum</a></li>
-                                <li><a href="">Parkovací karta</a></li>
-                                <li><a href="">Lorem ipsum</a></li>
+                                <li><a href="">Kultura</a></li>
+                                <li><a href="">Životní prostředí</a></li>
                             </ul>
                             <div class="cleaner"></div>
                         </nav>

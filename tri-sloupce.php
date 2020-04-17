@@ -10,7 +10,7 @@
 
         <section id="tri-sloupce" class="three-layout">
 
-            <div class="wrap-side-three">
+            <div class="wrap-side-three wrap-side-three-left">
                 <div class="pad-main-left">
                     <div class="sub-header-side">  </div>
                     <nav class="sidebar-nav">
@@ -41,7 +41,7 @@
                     <div class="cleaner"></div>
                 </div>
             </div>
-            <div class="wrap-main-three">
+            <div class="wrap-main-three wrap-side-three-center">
                 <div class="pad-main-center">
                     <div class="sub-header">
                         <img class="subpage-icon" src="img/img-system/subpages/newspaper.3.3.1.png" alt="kalendář">
@@ -82,7 +82,7 @@
                     <div class="cleaner"></div>
                 </div>
             </div>
-            <div class="wrap-side-three ">
+            <div class="wrap-side-three  wrap-side-three-right">
                 <div class="pad-main-right">
                     <div class="sub-header-side">  </div>
                     <h3>Lorem ipsum</h3>

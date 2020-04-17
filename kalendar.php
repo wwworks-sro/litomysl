@@ -11,6 +11,7 @@
         <section id="kalendar" class="gray-layout">
             <div class="wrap-main">
                 <div class="pad-main-left">
+                    <a href="#calendar-search" class="calendar-search-mobile-link">Vyhledávání v kalendáři</a>
                     <div class="sub-header">
                         <img class="subpage-icon" src="img/img-system/calendar/calendar-detail.png" alt="kalendář">
                         <div class="header-text">
@@ -68,6 +69,49 @@
                             <a class="cal-detail-link" href="">  </a>
                             <div class="cleaner"></div>
                         </div>
+
+                        <div class="cal-item-detail">
+                            <div class="cal-detail-icon">
+                                <img src="img/img-system/tourist/event-red-sport.png" alt="divadlo">
+                            </div>
+                            <div class="cal-detail-text">
+                                <a href=""><h4>Lorem ipsum dolor smet, lo ipsum dolor</h4></a>
+                                <div class="cal-date-location"><strong>30. září</strong>, 8:00   &nbsp;&nbsp;&nbsp;&nbsp;  <a href=""><img src="img/img-system/calendar/pointer.png" alt="Místo"> Smetanovo náměstí</a></div>
+                                <div class="cal-perex">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero. Nam libero tempore. Ipsum dolor si Dolor sit amet, elit. Nam libero tempore. Lorem ipsum dolor sit amet, consectetuer ero tempore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero. Sit amet, elit. Nam libero tempore.
+                                        <a class="cal-more" href="">Více...</a></p>
+                                </div>
+                                <div class="cal-perex-links">
+                                    <a class="cal-google-link"  target="_blank"  href="https://www.google.com/calendar/render?action=TEMPLATE&text=<?php echo urlencode('Název akce');?>&dates=<?php echo time();?>&details=<?php echo urlencode('Lorem ipsum dolor');?>&location=<?php echo urlencode('Lorem ipsum dolor');?>&sf=true&output=xml" >
+                                        <img src="img/img-system/calendar/calendar-add.png" alt="Kalendář"> Přidat do Google kalendáře
+                                    </a>
+                                    <a class="cal-web-link" href="">
+                                        <img src="img/img-system/calendar/network.png" alt="Web akce"> web akce
+                                    </a>
+                                    <a class="cal-organisation-link" href="">
+                                        <img src="img/img-system/calendar/person.png" alt="Pořadatel"> Smetanův dům
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="cal-detail-image">
+                                <img src="img/img-calendar/S/lorem-ipsum-s.jpg" alt="divadlo">
+
+                                <div class="cal-social">
+                                    <div id="fb-root"></div>
+                                    <script>(function(d, s, id) {
+                                            var js, fjs = d.getElementsByTagName(s)[0];
+                                            if (d.getElementById(id)) return;
+                                            js = d.createElement(s); js.id = id;
+                                            js.src = 'https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v3.0';
+                                            fjs.parentNode.insertBefore(js, fjs);
+                                        }(document, 'script', 'facebook-jssdk'));</script>
+
+                                    <div class="fb-like" style="margin-top:5px; margin-bottom:30px;" data-href="url-stranky-akce" data-layout="button" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
+                                </div>
+                            </div>
+                            <a class="cal-detail-link" href="">  </a>
+                            <div class="cleaner"></div>
+                        </div>
                     </div>
 
 
@@ -76,7 +120,7 @@
                         <div class="cal-links-main">
                             <div class="cal-item-detail">
                                 <div class="cal-detail-icon">
-                                    <img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+                                    <img src="img/img-system/tourist/event-red-social.png" alt="divadlo">
                                 </div>
                                 <div class="cal-detail-text">
                                     <a href=""><h4>Lorem ipsum dolor smet, lo ipsum dolor</h4></a>
@@ -123,7 +167,7 @@
                 </div>
             </div>
             <div class="wrap-side">
-                <div class="pad-main-right">
+                <div class="pad-main-right" id="calendar-search">
 
                     <div class="sub-header-side">
                         <a class="cal-lilie-link" href="">
@@ -135,37 +179,78 @@
                         </a>
                     </div>
                     <div class="calendar-search-set">
-                        <form id="calendar-search-day" class="calendar-search" method="post" action="#">
-                            <div class="col-md-8"><input class="datepicker" type="text" name="calDate"></div>
-                            <div class="col-md-4"><input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit"></div>
+
+                        <h2>Vyhledávání</h2>
+
+
+                            <div class="col-md-12 search-type">
+                                <div class="col-md-4 cal-type-trigger search-active" calType="den">
+                                    <div>den</div>
+                                </div>
+                                <div class="col-md-4 cal-type-trigger" calType="mesic">
+                                    <div>měsíc</div>
+                                </div>
+                                <div class="col-md-4 cal-type-trigger" calType="oddo">
+                                    <div>od do</div>
+                                </div>
+                            </div>
+                            <form id="calendar-search-day" class="calendar-search cal-type-den" method="post" action="#">
+                            <div class="col-md-12">
+                                <select  name="month" id="cars">
+                                    <option value="vše">všechny typy akcí</option>
+                                    <option value="kulturní akce">kulturní akce</option>
+                                    <option value="sportovní akce">sportovní akce</option>
+                                    <option value="společenské akce">společenské akce</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12"><input class="datepicker" type="text" name="calDate"></div>
+                            <div class="col-md-12"><input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit"></div>
                             <div class="cleaner"></div>
                         </form> <div class="cleaner"></div>
-                        <form id="calendar-search-month" class="calendar-search " method="post" action="#">
-                            <div class="col-md-4">
-                                <select name="month" id="cars">
+                        <form id="calendar-search-month" class="calendar-search cal-type-mesic" method="post" action="#">
+
+                            <div class="col-md-12">
+                                <select  name="month" id="cars">
+                                    <option value="vše">všechny typy akcí</option>
+                                    <option value="kulturní akce">kulturní akce</option>
+                                    <option value="sportovní akce">sportovní akce</option>
+                                    <option value="společenské akce">společenské akce</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <select name="month" id="mesic">
                                     <option value="09">zaří</option>
                                     <option value="10">říjen</option>
                                 </select>
                             </div>
-                            <div class="col-md-4">
-                                <select  name="month" id="cars">
+                            <div class="col-md-6">
+                                <select  name="year" id="rok">
                                     <option value="2019">2019</option>
                                     <option value="2020">2020</option>
                                 </select>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-12">
                                 <input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit">
                             </div>
                             <div class="cleaner"></div>
                         </form> <div class="cleaner"></div>
-                        <form id="calendar-search-span" class="calendar-search" method="post" action="#">
-                            <div class="col-md-4">
+                        <form id="calendar-search-span" class="calendar-search cal-type-oddo" method="post" action="#">
+
+                            <div class="col-md-12">
+                                <select  name="month" id="cars">
+                                    <option value="vše">všechny typy akcí</option>
+                                    <option value="kulturní akce">kulturní akce</option>
+                                    <option value="sportovní akce">sportovní akce</option>
+                                    <option value="společenské akce">společenské akce</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 form-compensate-padding">
                                 <input class="datepicker" name="calStart"></input>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6 form-compensate-padding">
                                 <input class="datepicker" name="calEnd"></input>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-12">
                                 <input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit">
                             </div>
                             <div class="cleaner"></div>

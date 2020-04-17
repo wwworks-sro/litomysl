@@ -312,7 +312,7 @@
                     </div>
                 </div>
             </div>
-            <a class="next-section-link" href="#mestsky-urad">Městský úřad</a>
+            <a class="next-section-link" href="#pamatky-architektura">Památky a architektura</a>
             <div class="cleaner"></div>
         </section>
 
@@ -375,7 +375,6 @@
                             <a href="" class="square-pic"><img src="img/img-system/landmarks/novy-kostel-2.jpg" alt="Nový kostel"/><span>Nový kostel</span></a>
                             <div class="col-md-6 landmarks-extra-links">
                                 <a href="">Další moderní architektura</a>
-                                <a href="">Kongresová turistika</a>
                             </div>
                         </div>
                     </div>
@@ -384,7 +383,7 @@
             </div>
 
 
-            <a class="next-section-link" href="#lide">Lidé</a>
+            <a class="next-section-link" href="#kultura">Kultura</a>
             <div class="cleaner"></div>
         </section>
 
@@ -454,7 +453,7 @@
                         </div>
                         <div class="col-md-1">&nbsp;</div>
                         <div class="col-md-3 col-square-2">
-                            <h3 class="col-md-12">Kulturní zařízení a organizace</h3>
+                            <h3 class="col-md-12">Festivaly</h3>
                             <a href="" class="square-pic" href=""><img src="img/img-system/culture/sl.jpg" alt="Národní festival Smetanova Litomyšl"/> <span>Národní festival Smetanova Litomyšl</span> </a>
                             <a href="" class="square-pic" href=""><img src="img/img-system/culture/svl.jpg" alt="Smetanova výtvarná Litomyšl"/> <span>Smetanova výtvarná Litomyšl</span> </a>
                             <a href="" class="square-pic" href=""><img src="img/img-system/culture/toulovcovy-patky.jpg" alt="Toulovcovy prázdninové pátky"/> <span>Toulovcovy prázdninové pátky</span> </a>
@@ -564,8 +563,8 @@
                     <div class="col-md-12 sport-bottom">
                         <h3 class="col-md-12">Volně přístupná sportoviště </h3>
                         <ul class="hidden-bullets">
-                            <li class="col-md-3"> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Cyklostezky - mapa"><span>Cyklostezky - mapa</span></a> </li>
-                            <li class="col-md-3 "> <a href=""><img src="img/img-system/sport/newspaper.2.3.1.png" alt="Cyklostezky - leták s jízdními řády a mapou"><span>Cyklostezky - leták s jízdními řády a mapou</span></a> </li>
+                            <li class="col-md-3"> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Cyklostezky"><span>Cyklostezky</span></a> </li>
+                            <li class="col-md-3 "> <a href=""><img src="img/img-system/sport/newspaper.2.3.1.png" alt="Cyklobus - jízdní řády"><span>Cyklobus - jízdní řády</span></a> </li>
                             <li class="col-md-3 "> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Dětská hřiště"><span>Dětská hřiště</span></a> </li>
                             <li class="col-md-3 "> <a href=""><img src="img/img-system/sport/map 1.2.3.1 kopie 2.png" alt="Běžkařské tratě"><span>Běžkařské tratě</span></a> </li>
                         </ul>
@@ -629,7 +628,6 @@
                 </div>
             </div>
 
-            <a class="next-section-link" href="#sport">Sport</a>
             <div class="cleaner"></div>
 
         </section>

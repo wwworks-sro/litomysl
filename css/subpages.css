@@ -18,6 +18,8 @@
 .sidebar-nav .active li a  {color:black;font-weight:normal;}
 .sidebar-nav .active .active  a  {color:#c20116;font-weight:bold;}
 .sidebar-nav .active li:last-child{border-bottom:0px;}
+.sidebar-nav-mobile {display:none;background-color:#f1f1f1;padding:30px 0 !important;margin:30px 0 !important;}
+.overlay .sidebar-nav-mobile a{font-size: 16px; line-height:1.2em;}
 
 .news-detail-gallery a {width:20%;display:block;float:left;}
 .news-detail-gallery a img {width:98%;margin-right:2%;}
@@ -52,10 +54,22 @@
 .cal-lilie-link strong {width:74%;float:right;margin-top:15px;}
 .cal-lilie-link span {clear:both;display:block;font-size:0.8em;}
 .calendar-search {margin-bottom:30px;clear:both;float:none;}
-#calendar-search-day input {width:94% !important;}
+.calendar-search-set input, .calendar-search-set select {width:100%;}
+.form-compensate-padding input{width:94%;}
+#calendar-search-day .datepicker {width:97%;}
+.calendar-search-set label {clear:both;width:100%;display:block;}
+.calendar-search-set form div {margin-bottom:15px;}
+.search-type {margin-bottom:50px;}
+.search-type .col-md-4 {border-bottom:1px solid #c20116;}
+.search-type .col-md-4 div {text-align:center;line-height:30px;margin-bottom:0px;}
+.search-type .search-active, .search-type :hover.col-md-4 {font-weight:bold;background: #c20116;color:white;cursor:pointer;}
+.calendar-search-set form {display:none;}
+#calendar-search-day {display:block;}
+.calendar-search-set {max-width:301px;}
+.overlay {overflow-y:auto;}
 
 
-/*  -----------------------------------Aktuality-----------------------------------------------  */
+    /*  -----------------------------------Aktuality-----------------------------------------------  */
 
 .perex {font-size:1.4em; margin-bottom:15px;}
 .news-detail-images{width:50%;float:left;}
@@ -99,21 +113,47 @@
     #kalendar .wrap-side .pad-main-right{max-width:100% !important;padding-top:30px !important;padding-left:0px !important;padding-right:0px !important; padding-bottom:0px !important; }
     .calendar-search {margin-bottom:10px !important;width:100%;}
     .cal-lilie-link {margin-top:0px;}
-    .sub-header-side{min-height:60px;}
+    .sub-header-side{min-height:60px !important;max-height:60px !important;}
     .cal-lilie-link strong span {font-size:0.7em !important;}
     .cal-lilie-link img {width:18%;}
     .cal-lilie-link strong {width:80%;margin-top:5px;}
     .cal-social{display:none;}
+    #kalendar .sub-header-side {display:none;}
+    #kalendar .subpage-icon {display:none;}
+    #kalendar .subpage-title {font-size:1.2em;}
+    .calendar-search-set form div{margin-bottom:1px;}
+    .search-type{margin-bottom:0px;font-size:0.9em;}
+
+    .wrap-side-three-left {display:none;}
+    .wrap-side-three-center {width:72%;}
+
+    .three-layout{background: url(../img/img-system/layout/bg-gray.jpg) repeat-y top right; background-size: contain;}
+    .sidebar-nav-mobile {display:block;}
 }
 
 
 
 @media screen and (max-width: 750px) {
+    .cal-detail-link{background-size:70% !important;}
+    .three-layout{background-image:none; background-color:#f1f1f1;}
+    .wrap-side-three-center {width:100%;}
+    .wrap-side-three-right {width:100%;}
 
 }
 
 
 
 @media screen and (max-width: 450px) {
+    .search-type div{font-size:0.9em !important;}
+    .calendar-search-set h2 {font-size:1.2em;margin-top:40px;}
+    #kalendar .wrap-side {width:95%;position:static;margin-left:5%;}
+    #kalendar .header-text {width:100%;}
+    #kalendar .subpage-icon {display:block;}
+    #kalendar .sub-header {margin-top:0px;}
+    #kalendar .subpage-title {font-size:1.8em;}
+    #kalendar .sub-header-side {display:block;}
+    .calendar-search-mobile-link {display:block;margin-top:-30px;margin-bottom:40px; text-decoration:underline;color:#c20116;}
+    .calendar-search-set {margin-bottom:10vh;}
+    .search-type .col-md-4 {width:33% !important;margin-bottom:30px;}
 
 }

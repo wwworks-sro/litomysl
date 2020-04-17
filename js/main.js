@@ -72,6 +72,25 @@ $( document ).ready(function() {
     /*Height of the links on calendar page*/
     $('.cal-detail-link').height($('.cal-item-detail').height());
 
+    $('.hint-list-trigger').hover(function(){
+        $(this).find('.hint-list').fadeIn('slow');
+        $(this).find('.hint-list .pad').slideDown('slow');
+    });
+
+    $('.hint-list-trigger').mouseleave(function(){
+        $(this).find('.hint-list').fadeOut('slow');
+        $(this).find('.hint-list .pad').slideUp('slow');
+    });
+
+
+    $('.cal-type-trigger').click(function(){
+        var calType = $(this).attr('calType');
+        $('.search-active').removeClass('search-active');
+        $(this).addClass('search-active');
+        $('.calendar-search-set form').hide();
+        var className = '.cal-type-'+calType;
+        $(className).fadeIn('slow');
+    });
 
 });
 

@@ -54,7 +54,31 @@
                 <a class="menu-group-title" href="">občan / radnice</a>
                 <ul>
                     <li> <a href="">služby</a> </li>
-                    <li> <a href="">úřad</a> </li>
+                    <li> <a href="">úřad</a>
+                        <ul class="sidebar-nav-mobile">
+                            <li><a href="">Lorem ipsum dolor</a></li>
+                            <li class="active"><a href="">Služby</a>
+                                <ul>
+                                    <li class="active"><a href="">Lorem ipsum</a></li>
+                                    <li><a href="">Dolor sit amet</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Dolor sit amet lacinia</a></li>
+                            <li><a href="">Informační povinnost</a></li>
+                            <li><a href="">správce osobních údajů</a></li>
+                            <li><a href="">Mapa města, parkování</a></li>
+                            <li><a href="">Úsekové měření</a></li>
+                            <li><a href="">Historie města</a></li>
+                            <li><a href="">Moderní architektura</a></li>
+                            <li><a href="">Ocenění města</a></li>
+                            <li><a href="">Partnerská města</a></li>
+                            <li><a href="">Církve a církevní zařízení</a></li>
+                            <li><a href="">Organizace a zařízení</a></li>
+                            <li><a href="">Digitální povodňový plán</a></li>
+                            <li><a href="">ORP</a></li>
+                            <li><a href="">Digitální povodňový plán města Litomyšle</a></li>
+                        </ul>
+                    </li>
                     <li> <a href="">lidé</a> </li>
                     <li> <a href="">vzdělávání</a> </li>
                     <li> <a href="">kontakty</a> </li>
