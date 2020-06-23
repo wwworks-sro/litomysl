@@ -29,6 +29,11 @@
                     </div>
                     <div class="cleaner-heigh">&nbsp;</div>
 
+                    <p class="chyba">Chyba v červeném orámování</p>
+
+                    <p class="zvyrazneni">Zvýraznění - v oranžovém obdelníku</p>
+
+                    <div class="cleaner-heigh">&nbsp;</div>
                     <div class="col-md-6">
                         <h2>Seznam jednoduchý</h2>
                         <ul>

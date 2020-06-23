@@ -51,13 +51,12 @@
                     </div>
 
                     <div id="news-header">
-                        <ul id="news-tabs">
-                            <li>ze sportu</li>
-                            <li>z kultury</li>
-                            <li>z města</li>
-                            <li class="tab-selected">vše</li>
+                        <ul id="news-tabs-simple">
+                            <li news="all" class="tab-selected">vše</li>
+                            <li news="town">z města</li>
+                            <li news="culture">z kultury</li>
+                            <li news="sport">ze sportu</li>
                         </ul>
-                        <div class="cleaner-mobile"></div>
                         <form class="fulltext-form" method="post" action="#">
                             <input class="search-text" type="text" name="search">
                             <input class="submit search-submit" type="submit" name="vyhledat" value="">
@@ -148,6 +147,8 @@
             </div>
             <div class="wrap-side bg-red">
                 <div class="pad-main-right">
+
+
                     <h2 class="today-events-title">KAM DNES?</h2>
                     <a class="calendar-title-link" href="">kalendář akcí</a>
 
@@ -186,7 +187,6 @@
                 </div>
                 <div class="cleaner"></div>
             </div>
-            <a class="next-section-link" href="#sluzby">Služby</a>
             <div class="cleaner"></div>
         </section>
 
@@ -309,7 +309,6 @@
                     </nav>
                 </div>
             </div>
-            <a class="next-section-link" href="#mestsky-urad">Městský úřad</a>
             <div class="cleaner"></div>
         </section>
 
@@ -474,7 +473,6 @@
                     <a href="" class="but but-white-empty">Všechny kontakty</a>
                 </div> <div class="cleaner"></div>
             </div>
-            <a class="next-section-link" href="#lide">Lidé</a>
             <div class="cleaner"></div>
         </section>
 
@@ -616,7 +614,6 @@
                     <a href="" class="but but-red-empty">Volná pracovní místa</a>
                 </div>
             </div>
-            <a class="next-section-link" href="#education">Vzdělávání</a>
             <div class="cleaner"></div>
         </section>
 

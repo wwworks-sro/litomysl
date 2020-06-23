@@ -17,7 +17,7 @@ $( document ).ready(function() {
         if(!par.find('.section-heading').length){
             $('#sport-options-wrap').slideUp();
             jQuery.ajax({
-                'url': 'http://litomysl.wwworks.cz/_nabidka-sportu.php',
+                'url': 'http://litomysl.wwworks.cz/_nabidka-sportu.php',                    /***Upravit podle nové adresy***/
                 'cache': false,
                 'success': function (html) {
                     jQuery('#sport-options-wrap').html(html)
@@ -35,7 +35,7 @@ $( document ).ready(function() {
         if(!par.find('.section-heading').length){
             $('#trips-wrap').slideUp();
             jQuery.ajax({
-                'url': 'http://litomysl.wwworks.cz/_tipy-na-vylet.php',
+                'url': 'http://litomysl.wwworks.cz/_tipy-na-vylet.php',                     /***Upravit podle nové adresy***/
                 'cache': false,
                 'success': function (html) {
                     jQuery('#trips-wrap').html(html)
@@ -45,6 +45,21 @@ $( document ).ready(function() {
         }else{
             $('#trips-wrap').slideToggle();
         }
+    });
+
+    $('#news-tabs-simple li').click(function(){
+        var par = $(this).parent();
+        var news = $(this).attr('news');
+
+        jQuery.ajax({
+            'url': 'http://litomysl.wwworks.cz/_news-ajax.php',                        /***Upravit podle nové adresy***/
+            'cache': false,
+            'success': function (html) {
+                jQuery('#news-wrap').html(html)
+            }
+        });
+        $(".tab-selected").removeClass('tab-selected');
+        $(this).addClass('tab-selected');
     });
 
     /*Mobile menu*/
@@ -91,6 +106,8 @@ $( document ).ready(function() {
         var className = '.cal-type-'+calType;
         $(className).fadeIn('slow');
     });
+
+
 
 });
 

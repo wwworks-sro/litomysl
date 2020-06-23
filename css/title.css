@@ -17,11 +17,17 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 /*  -----------------------------------Novinky a kalendář-----------------------------------------------  */
 
 /*News*/
-#news-header,#calendar-title-header {width:100%;clear:both; float:none;margin-bottom:30px;}
+#news-header,#calendar-title-header,#news-tabs-simple {margin-bottom:0px;}
+#news-header {width:100%;clear:both; float:none;}
 #news-tabs{width:420px;float:left;margin-left:23px;}
 #news-tabs li{margin:0px;margin-left:-30px;float:right;display:block;background: url(../img/img-system/title/tab-white.png) no-repeat top right;padding:15px 40px 10px 30px;line-height:30px;}
 #news-tabs li.tab-selected,#news-tabs li:hover {background: url(../img/img-system/title/tab-red.png) no-repeat top right;color:white;}
 #news-tabs li:hover {cursor:pointer;}
+
+#news-tabs-simple {margin-left:0px;width:52%;padding-top:8px;clear:none;float:left;}
+#news-tabs-simple li{list-style:none;float:left;margin-right:20px;padding-left:0px;margin-left:0px;}
+#news-tabs-simple .tab-selected {color:#c20116;font-weight:bold;}
+#news-tabs-simple li:hover {color:#c20116;cursor:pointer;}
 
 .news-top {margin-right:1%;margin-bottom:1%;}
 .news-top {float:left;width:56%;}
@@ -35,22 +41,25 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 .news-cover {background: url(../img/img-system/title/cover.png) no-repeat bottom left;background-size: contain;width:100%;height:100%;position:absolute; bottom:0px; left:0px;}
 .news-secondary {background-color:black;}
 .news-secondary img {opacity:0.6;}
+.news-title h4,.news-title h5{margin-bottom:5px;}
 
-#news-footer-nav {width:100%;clear:both; float:none;margin-top:15px;height:80px;}
+#news-footer-nav {width:100%;clear:both; float:none;margin-top:25px;height:80px;}
 #news-footer-nav li, #news-footer-nav img {float:left;}
-#news-footer-nav a {line-height:2.2em;text-decoration:none;}
+#news-footer-nav img {width:35px;}
+#news-footer-nav a {line-height:2.0em;text-decoration:none;margin-right:20px;}
 
 /*Calendar*/
 #calendar-title {clear:both;}
 #calendar-title a {clear:both;display:block;}
 #calendar-title p {margin-bottom:20px;font-size:0.8em;}
-.news-text p {font-size:0.8em;}
+div.news-text p {font-size:0.8em;line-height:1.4em !important;padding-top:0px !important;}
 #calendar-title a img{max-width:10%; float:left;}
 #calendar-title a div{width:87%; float:right;}
-h2.today-events-title {font-size:1.3em;margin-top:13px;}
+h2.today-events-title {font-size:1.3em;margin-top:8px;}
 #calendar-title h6 {color:white; line-height:1.1em;}
 .today-events-title {float:left;}
-.calendar-title-link {float:right;line-height:30px;margin-top:15px;margin-bottom:40px;}
+.pad-main-right .today-events-title{clear:none;margin-left:0px;width:135px;}
+.calendar-title-link {float:right;line-height:30px;margin-top:10px;margin-bottom:30px;}
 .separator-long-term-events {display:block;border-bottom:1px solid white;clear:both;width:100%;margin-top:50px;}
 .separator-long-term-events-text {background-color:#c20116;line-height:2em;text-align:center;display:block;width:170px;margin:0 auto; margin-top:-35px;margin-bottom:30px;}
 .top-events {float:right;}
@@ -61,8 +70,9 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 
 /*  -----------------------------------Služby-----------------------------------------------  */
 
-.but-emergency,.but-calendar {margin-bottom:40px;background: url(../img/img-system/services/emergency.png) no-repeat left;background-position-x:20px;background-size:30px;height:45px; }
-.but-emergency strong,.but-calendar strong {font-weight:bold; clear:both;display:block;line-height:1.1em;height:10px;margin-top:3px;}
+#sluzby h2 {width:160px !important;clear:none;}
+.but-emergency,.but-calendar {margin-bottom:40px;line-height:1.8em; background: url(../img/img-system/services/emergency.png) no-repeat left;background-position-x:20px;background-size:30px;height:42px; }
+.but-emergency strong,.but-calendar strong {font-weight:bold; clear:both;display:block;line-height:1.1em;height:10px;margin-top:6px;}
 .but-emergency span,.but-calendar span {font-size:0.8em;}
 
 #service-nav-icons,#service-nav-bottom {width:100%;clear:both;padding-top:40px;}
@@ -83,7 +93,7 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 .hint-list-trigger{position:relative;}
 /*  -----------------------------------Městský úřad-----------------------------------------------  */
 
-#mestsky-urad .lilly {position:absolute; left:0px; top:30vh;width:20%;}
+#mestsky-urad .lilly {position:absolute; left:-20px; top:30vh;width:18%;}
 #mestsky-urad .bubble {float:right;}
 .bubble a {text-decoration:underline;}
 .bubble-red {background-color:#c20116;color:white;margin-bottom:5vh;}
@@ -92,7 +102,9 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 .office-links {margin-bottom:7vh;}
 .office-links nav {margin-bottom:3vh;text-align:left;}
 .office-links li,.office-links h3 {padding-left:0px;text-align:left;}
-.office-side {padding-top:10vh;}
+.office-links img {width:37px;}
+.office-links .col-md-2 {text-align:center;}
+.office-links h3{margin-bottom:5px;}
 .office-side h3{margin-bottom:25px;}
 .office-side .but{margin-top:25px;}
 .office-side table{margin-bottom:10px;width:100%;}
@@ -112,6 +124,7 @@ h2.today-events-title {font-size:1.3em;margin-top:13px;}
 .people-big.people-first {margin-left:15%;}
 .people-mid.people-first {margin-left:10%;}
 .people-small.people-first {margin-left:6%;}
+div.people-small h3 {clear:none;float:left;width:60%;}
 
 nav.people-links {float:right;margin-top:40px;}
 nav.people-links, nav.people-links h3,nav.people-links li {text-align:left;padding-left:0px;}
@@ -148,14 +161,16 @@ div.major-left-pad {width:8%;}
 #education-footer li {padding-right:10px;}
 #education-footer h3 {font-size:21px;text-align:left;}
 #vzdelavani h2{margin-bottom:30px;}
+#vzdelavani .col-md-3 img {max-width:120px;margin:0 auto;}
 .wrap-main nav,.education-other {text-align:center;}
 .education-other {margin-top:5vh;margin-bottom:30px;}
 .education-other span {display:block;clear:both;padding:0 10px;}
 
-.seminars-img {float:left;}
+#vzdelavani .wrap-side h3{max-width:80%;float:left;clear:none;}
+.seminars-img {float:left;max-width:20%;}
 .seminar-list {margin-top:40px;}
 .seminar-list a{clear:both;margin-bottom:15px;display:block;border-left:4px solid white;padding-left:20px;}
-.seminar-list h4 {font-size:1.0em;}
+.seminar-list h4 {font-size:1.0em;margin-bottom:0px;}
 .seminary-more {text-decoration:underline;}
 
 
@@ -173,6 +188,7 @@ div.major-left-pad {width:8%;}
 
 @media screen and (max-width: 1500px) {
     #news-tabs{margin-left:10px;}
+    .more-news-mini {height:55px;}
 }
 
 
@@ -189,12 +205,20 @@ div.major-left-pad {width:8%;}
     .calendar-title-link {margin-top:10px;}
     h2.today-events-title  {font-size: 1em;}
     #news-tabs{margin-left:-32px;}
+    #mestsky-urad .bubble {max-width:80%;}
+    .office-side td {padding:5px;}
+    .more-news-mini {height:45px;}
 }
 
 @media screen and (max-width: 1100px) {
     .news-secondary p {display:none;    }
     .fulltext-form {width:26%}
     .search-text {width:65%;}
+    .news-mini img,.more-news-mini {width:21%;}
+    .more-news-mini {height:33px;}
+    .more-news-mini img {margin-top:12px;}
+    #more-news-mini .news-text {line-height:2em;}
+    .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
 }
 
 
@@ -223,6 +247,9 @@ div.major-left-pad {width:8%;}
     .big-circle{width:60%;margin-left:20%;}
     #vzdelavani {font-size:0.8em;}
     #news-tabs{margin-left: 30px;}
+    #mestsky-urad .bubble {max-width:100%;float:none;}
+    .multiple-line-page h2 {margin-left:0px;}
+    #news-header{margin-bottom:20px;}
 }
 
 
@@ -252,8 +279,15 @@ div.major-left-pad {width:8%;}
     #news-header {margin-bottom:0px;}
     .news-secondary p {display:block;    }
     .mobile-news-header {display:block;}
-    .mobile-news-header h3{float:left;color:#c20116;font-size:1.6em;margin-bottom:15px;}
+    .mobile-news-header h3{float:left;color:#c20116;font-size:1.6em;margin-bottom:0px;}
     .mobile-news-header a{float:right;margin-top:40px;text-decoration:underline;}
+    #news-tabs-simple {width:100%;}
+    #news-header{width:70%;float:left;margin-top:-35px;margin-bottom:20px;}
+    .news-title h4,.news-title h5{margin-bottom:5px;}
+    div.news-text p {font-size:1em;}
+    .news-title h5, .news-title h6{font-size:1.2em;}
+    #service-nav-icons .col-md-4{clear:both; width:100%;margin-bottom:30px;}
+
 }
 
 

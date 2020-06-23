@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="768e4880-67b2-4acd-b748-28ef5c6c9e34" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="768e4880-67b2-4acd-b748-28ef5c6c9e34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_news-ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aktuality.php" beforeDir="false" afterPath="$PROJECT_DIR$/aktuality.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/subpages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/subpages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tourist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tourist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_facebookSide.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_facebookSide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_head.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seznamy.php" beforeDir="false" afterPath="$PROJECT_DIR$/seznamy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turista.php" beforeDir="false" afterPath="$PROJECT_DIR$/turista.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -22,192 +58,6 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1500288451">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="css" value="20" />
-          <entry key="htaccess" value="1" />
-          <entry key="js" value="3" />
-          <entry key="php" value="28" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="20" />
-          <entry key="JavaScript" value="3" />
-          <entry key="PHP" value="28" />
-          <entry key="htaccess" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="32705" />
-          <entry key="js" value="787" />
-          <entry key="php" value="13338" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="32705" />
-          <entry key="JavaScript" value="787" />
-          <entry key="PHP" value="13338" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4965812">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tri-sloupce.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="663">
-                  <caret line="39" column="26" selection-start-line="15" selection-start-column="19" selection-end-line="39" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/layouts/_header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/aktuality.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="41" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/kalendar.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2924">
-                  <caret line="172" column="58" lean-forward="true" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/layouts/_footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="969">
-                  <caret line="57" column="53" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="53" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4267">
-                  <caret line="251" column="29" selection-start-line="251" selection-start-column="29" selection-end-line="251" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/turista.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="9622">
-                  <caret line="566" column="171" selection-start-line="566" selection-start-column="171" selection-end-line="566" selection-end-column="171" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/layouts/_head.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="72" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="72" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/seznamy.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="48" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1768">
-                  <caret line="104" column="111" lean-forward="true" selection-start-line="104" selection-start-column="111" selection-end-line="105" selection-end-column="113" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/title.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1360">
-                  <caret line="80" column="131" selection-start-line="80" selection-start-column="131" selection-end-line="80" selection-end-column="131" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/tourist.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2261">
-                  <caret line="133" selection-start-line="133" selection-end-line="133" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/subpages.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1513">
-                  <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -216,116 +66,13 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>param</find>
-      <find>header-right</find>
-      <find>cal-detail-image</find>
-      <find>form</find>
-      <find>calendar-search</find>
-      <find>&lt;/tr&gt;</find>
-      <find>detail-link</find>
-      <find>&lt;/li&gt;</find>
-      <find>subpage-title</find>
-      <find>&lt;form</find>
-      <find>sub-header</find>
-      <find>thirds-input</find>
-      <find>h1</find>
-      <find>third</find>
-      <find>layout</find>
-      <find>news-mini</find>
-      <find>#subtitle-banner</find>
-      <find>th</find>
-      <find>pad-main-left</find>
-      <find>#calendar-search-month select</find>
-      <find>sub-header-side</find>
-      <find>pad-main-center</find>
-      <find>.search-text</find>
-      <find>disc</find>
-      <find>youtube-li</find>
-      <find>localhost</find>
-      <find>shadow</find>
-      <find>Sekání trávyGis</find>
-      <find>Cyklostezky - mapa</find>
-      <find>calendar-search-set</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>services</replace>
-      <replace>&quot;img/img-</replace>
-      <replace>&lt;td&gt;info@loremispum.cz&lt;/td&gt;&lt;td&gt;722 569 489&lt;/td&gt;</replace>
-      <replace>href=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;img/img-system/tourist/youtube.png&quot;</replace>
-      <replace>lendmarks</replace>
-      <replace>square-pic</replace>
-      <replace>horizontal</replace>
-      <replace>landmarks</replace>
-      <replace>culture</replace>
-      <replace>trips-map</replace>
-      <replace>tetuer</replace>
-      <replace>text-more</replace>
-      <replace>&lt;/a&gt;&lt;/li&gt;</replace>
-      <replace>td</replace>
-      <replace>&lt;/div&gt;</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>C:\wamp64\www\litomysl</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/css/basic.css" />
-        <option value="$PROJECT_DIR$/layout/_meta.php" />
-        <option value="$PROJECT_DIR$/layout/_footer.php" />
-        <option value="$PROJECT_DIR$/layout/_header.php" />
-        <option value="$PROJECT_DIR$/layouts/_meta.php" />
-        <option value="$PROJECT_DIR$/layouts/_facebookSide.php" />
-        <option value="$PROJECT_DIR$/_nabidka-sportu.php" />
-        <option value="$PROJECT_DIR$/_tipy-na-vylet.php" />
-        <option value="$PROJECT_DIR$/layouts/_head.php" />
-        <option value="$PROJECT_DIR$/css/tourist.css" />
-        <option value="$PROJECT_DIR$/aktuality.php" />
-        <option value="$PROJECT_DIR$/seznamy.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="&lt;4462798b-849e-4c2c-adea-703ae4fbd98b&gt;/sub/litomysl/js/main.js" />
-        <option value="$PROJECT_DIR$/css/title.css" />
-        <option value="$PROJECT_DIR$/turista.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/kalendar.php" />
-        <option value="$PROJECT_DIR$/tri-sloupce.php" />
-        <option value="$PROJECT_DIR$/layouts/_header.php" />
-        <option value="$PROJECT_DIR$/layouts/_footer.php" />
-        <option value="$PROJECT_DIR$/css/subpages.css" />
-        <option value="&lt;f171664a-d95d-45c6-8004-59047cbf543a&gt;/index.php" />
-        <option value="&lt;f171664a-d95d-45c6-8004-59047cbf543a&gt;/www/index.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/js/lightbox3/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-2568" />
-    <option name="y" value="538" />
-    <option name="width" value="1296" />
-    <option name="height" value="1426" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
+  <component name="ProjectId" id="1deob0o4QILmbnTTdoVAW9Wf5K1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -334,27 +81,17 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\wamp64\www\litomysl" />
       <recent name="C:\wamp64\www\litomysl\css" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -378,167 +115,22 @@
       <workItem from="1582009389471" duration="629000" />
       <workItem from="1583988727813" duration="16356000" />
       <workItem from="1584114816451" duration="104000" />
+      <workItem from="1592794994801" duration="27637000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251512000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-2568" y="538" width="1296" height="1426" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994641" weight="0.052066773" />
-      <window_info id="Structure" order="1" sideWeight="0.5005359" side_tool="true" weight="0.1552" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" id="Remote Host" order="3" visible="true" weight="0.24838188" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="File Transfer" order="12" visible="true" weight="0.32946634" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32964602" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/layout/_meta.php" />
-    <entry file="file://$PROJECT_DIR$/layout/_footer.php" />
-    <entry file="file://$PROJECT_DIR$/layout/_header.php" />
-    <entry file="file://$PROJECT_DIR$/layouts/_facebookSide.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_tipy-na-vylet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_nabidka-sportu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tri-sloupce.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="26" selection-start-line="15" selection-start-column="19" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aktuality.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kalendar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2924">
-          <caret line="172" column="58" lean-forward="true" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="53" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4267">
-          <caret line="251" column="29" selection-start-line="251" selection-start-column="29" selection-end-line="251" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turista.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9622">
-          <caret line="566" column="171" selection-start-line="566" selection-start-column="171" selection-end-line="566" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/_head.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="72" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seznamy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="111" lean-forward="true" selection-start-line="104" selection-start-column="111" selection-end-line="105" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/title.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="131" selection-start-line="80" selection-start-column="131" selection-end-line="80" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tourist.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2261">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/subpages.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

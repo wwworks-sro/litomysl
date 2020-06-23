@@ -8,6 +8,7 @@
 .tourist-top-link-text span{color:gray;font-size:0.8em;}
 .tourist-top-link-text strong {display:block;margin-top:13px;font-size:1.1em;}
 .wrap-side form {width:90%;float:left;margin-top:20px;}
+.wrap-side form.fulltext-form {width:100%;maragin-top:30px;}
 
 /*Tourist calendar*/
 #calendar-wrap-mid,#calendar-wrap-mini{box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);width:90%;border-top:5px solid #c20116;min-height:70vh;margin-bottom:10px;}
@@ -198,7 +199,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .tourist-icon-link img {width:20%;float:left; margin-right: 7px;}
     .tourist-top-link-text strong {font-size:0.9em;margin-top:0px;}
     .tourist-top-link-text img {height:15px;}
-    .wrap-side form {width:60%;  margin-top: 10px;}
+    .wrap-side form {width:60%;  margin-top: 30px;}
     .tourist-icon-link strong, .tourist-button-link strong {padding-top: 5%;font-size:0.9em;}
     .tourist-button-link {font-size:0.8em;width:110%;}
     .tourist-button-link img {max-height:20px;max-width:25px;margin:5px 5px 10px 5px;}

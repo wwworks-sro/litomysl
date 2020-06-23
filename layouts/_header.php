@@ -43,20 +43,12 @@ $fileName = basename($_SERVER['PHP_SELF']);
             </ul>
         </nav>
 
-        <div id="header-right" class="col-md-1">
+        <div id="header-right">
             <img class="header-search" src="img/img-system/header/search-icon.png" alt="Vyhledávat na webu">
-            <div id="lang-box">
-                <a href="">fr</a>
-                <a href="">de</a>
-                <a href="">en</a>
-            </div>
-            <div id="social-box">
-                <a target="_blank" href="https://www.instagram.com/lazneduchalitomysl/?hl=cs"><img src="img/img-system/header/but-instagram.png" alt="Instagram Litomyšl"></a>
-                <a target="_blank" href="#"><img src="img/img-system/header/but-youtube.png" alt="Youtube Litomyšl"></a>
-                <a target="_blank" href="https://www.facebook.com/Litomysl.oficialni/"><img src="img/img-system/header/but-facebook.png" alt="Facebook Litomyšl"></a>
-            </div>
-            <a id="contacts-link" href="">kontakty</a>
         </div>
+    </div>
+    <div id="lang-box">
+        <a href="">en</a>
     </div>
 </header>
 

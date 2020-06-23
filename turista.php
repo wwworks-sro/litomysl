@@ -169,7 +169,6 @@
                 </div>
                 <div class="cleaner"></div>
             </div>
-            <a class="next-section-link" href="#o-litomysli">O&nbsp;Litomyšli</a>
             <div class="cleaner"></div>
         </section>
 
@@ -312,7 +311,6 @@
                     </div>
                 </div>
             </div>
-            <a class="next-section-link" href="#pamatky-architektura">Památky a architektura</a>
             <div class="cleaner"></div>
         </section>
 
@@ -382,8 +380,6 @@
                 <div class="cleaner"></div>
             </div>
 
-
-            <a class="next-section-link" href="#kultura">Kultura</a>
             <div class="cleaner"></div>
         </section>
 
@@ -523,7 +519,6 @@
                 </div><div class="cleaner"></div>
             </div>
 
-            <a class="next-section-link" href="#sport">Sport</a>
             <div class="cleaner"></div>
         </section>
 
