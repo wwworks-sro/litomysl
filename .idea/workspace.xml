@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="768e4880-67b2-4acd-b748-28ef5c6c9e34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/datepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/subpages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/subpages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kalendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/kalendar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_footer.php" afterDir="false" />
-    </list>
+    <list default="true" id="768e4880-67b2-4acd-b748-28ef5c6c9e34" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +102,7 @@
       <workItem from="1583988727813" duration="16356000" />
       <workItem from="1584114816451" duration="104000" />
       <workItem from="1592794994801" duration="30017000" />
-      <workItem from="1595563954392" duration="4864000" />
+      <workItem from="1595563954392" duration="5169000" />
     </task>
     <servers />
   </component>
