@@ -184,14 +184,17 @@
 
 
                             <div class="col-md-12 search-type">
-                                <div class="col-md-4 cal-type-trigger search-active" calType="den">
+                                <div class="col-md-3 cal-type-trigger search-active" calType="den">
                                     <div>den</div>
                                 </div>
-                                <div class="col-md-4 cal-type-trigger" calType="mesic">
+                                <div class="col-md-3 cal-type-trigger" calType="mesic">
                                     <div>měsíc</div>
                                 </div>
-                                <div class="col-md-4 cal-type-trigger" calType="oddo">
+                                <div class="col-md-3 cal-type-trigger" calType="oddo">
                                     <div>od do</div>
+                                </div>
+                                <div class="col-md-3 cal-type-trigger" calType="nazev">
+                                    <div>název</div>
                                 </div>
                             </div>
                             <form id="calendar-search-day" class="calendar-search cal-type-den" method="post" action="#">
@@ -206,7 +209,8 @@
                             <div class="col-md-12"><input class="datepicker" type="text" name="calDate"></div>
                             <div class="col-md-12"><input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit"></div>
                             <div class="cleaner"></div>
-                        </form> <div class="cleaner"></div>
+                        </form>
+                        <div class="cleaner"></div>
                         <form id="calendar-search-month" class="calendar-search cal-type-mesic" method="post" action="#">
 
                             <div class="col-md-12">
@@ -253,6 +257,13 @@
                             <div class="col-md-12">
                                 <input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit">
                             </div>
+                            <div class="cleaner"></div>
+                        </form>
+                        <div class="cleaner"></div>
+
+                        <form id="calendar-search-name" class="calendar-search cal-type-nazev" method="post" action="#">
+                            <div class="col-md-12"><input type="text" name="calName"></div>
+                            <div class="col-md-12"><input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit"></div>
                             <div class="cleaner"></div>
                         </form>
                     </div>

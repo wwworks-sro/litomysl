@@ -55,15 +55,15 @@
 .cal-lilie-link strong {width:74%;float:right;margin-top:15px;}
 .cal-lilie-link span {clear:both;display:block;font-size:0.8em;}
 .calendar-search {margin-bottom:30px;clear:both;float:none;}
-.calendar-search-set input, .calendar-search-set select {width:100%;}
+.calendar-search-set input, .calendar-search-set select {width:100%;max-width:100%;}
 .form-compensate-padding input{width:94%;}
 #calendar-search-day .datepicker {width:97%;}
 .calendar-search-set label {clear:both;width:100%;display:block;}
 .calendar-search-set form div {margin-bottom:15px;}
 .search-type {margin-bottom:50px;}
-.search-type .col-md-4 {border-bottom:1px solid #c20116;}
-.search-type .col-md-4 div {text-align:center;line-height:30px;margin-bottom:0px;}
-.search-type .search-active, .search-type :hover.col-md-4 {font-weight:bold;background: #c20116;color:white;cursor:pointer;}
+.search-type .col-md-3 {border-bottom:1px solid #c20116;}
+.search-type .col-md-3 div {text-align:center;line-height:30px;margin-bottom:0px;}
+.search-type .search-active, .search-type :hover.col-md-3 {font-weight:bold;background: #c20116;color:white;cursor:pointer;}
 .calendar-search-set form {display:none;}
 #calendar-search-day {display:block;}
 .calendar-search-set {max-width:301px;}
@@ -137,9 +137,8 @@
 @media screen and (max-width: 750px) {
     .cal-detail-link{background-size:70% !important;}
     .three-layout{background-image:none; background-color:#f1f1f1;}
-    .wrap-side-three-center {width:100%;}
-    .wrap-side-three-right {width:100%;}
-
+    .wrap-side-three-center,.wrap-side-three-right,.cal-description,.cal-params {width:100%;}
+    .cal-params {margin:30px 0;}
 }
 
 

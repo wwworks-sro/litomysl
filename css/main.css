@@ -74,7 +74,8 @@ textarea {width:93%;}
 .fulltext-form {width:42%;float:right;margin-bottom:30px;clear:none;height:30px;}
 .news-header .fulltext-form {margin-top:10px !important;}
 input.search-text {margin-left:-9px;width:100%;float:left;background:transparent;border:1px solid rgba(0, 0, 0, 0.35);height:33px !important; }
-input.search-submit {width:20%;height:41px !important;margin-left:-20%;}
+input.search-submit {width:20%;height:41px !important;}
+.fulltext-form input.search-submit {margin-left:-20%;}
 .fulltext-form .search-submit {background: transparent url(../img/img-system/header/search-icon.png) no-repeat center;}
 .fulltext-form :hover.search-submit {background: #c20116 url(../img/img-system/header/search-icon.png) no-repeat center;cursor:pointer;}
 .search-submit,.search-text {clear:none !important;}

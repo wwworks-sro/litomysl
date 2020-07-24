@@ -20,21 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="768e4880-67b2-4acd-b748-28ef5c6c9e34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_news-ajax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/datepicker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aktuality.php" beforeDir="false" afterPath="$PROJECT_DIR$/aktuality.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/subpages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/subpages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tourist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tourist.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_facebookSide.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_facebookSide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_head.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seznamy.php" beforeDir="false" afterPath="$PROJECT_DIR$/seznamy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turista.php" beforeDir="false" afterPath="$PROJECT_DIR$/turista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kalendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/kalendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,19 +67,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="C:\wamp64\www\litomysl" />
       <recent name="C:\wamp64\www\litomysl\css" />
@@ -115,7 +109,8 @@
       <workItem from="1582009389471" duration="629000" />
       <workItem from="1583988727813" duration="16356000" />
       <workItem from="1584114816451" duration="104000" />
-      <workItem from="1592794994801" duration="27637000" />
+      <workItem from="1592794994801" duration="30017000" />
+      <workItem from="1595563954392" duration="4864000" />
     </task>
     <servers />
   </component>
@@ -132,5 +127,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2160" y="-445" key="#Deployment" timestamp="1592910460118">
+      <screen x="1280" y="-830" width="2560" height="1440" />
+    </state>
+    <state x="2160" y="-445" key="#Deployment/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1592910460118" />
+    <state x="1380" y="-730" width="2360" height="1240" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595566596373">
+      <screen x="1280" y="-830" width="2560" height="1440" />
+    </state>
+    <state x="1380" y="-730" width="2360" height="1240" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1595566596373" />
+    <state x="2260" y="-379" width="600" height="538" key="find.popup" timestamp="1595569454236">
+      <screen x="1280" y="-830" width="2560" height="1440" />
+    </state>
+    <state x="2260" y="-379" width="600" height="538" key="find.popup/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1595569454236" />
+    <state x="2225" y="-499" width="670" height="676" key="search.everywhere.popup" timestamp="1595567437054">
+      <screen x="1280" y="-830" width="2560" height="1440" />
+    </state>
+    <state x="2225" y="-499" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1595567437054" />
   </component>
 </project>
