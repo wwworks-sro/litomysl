@@ -167,13 +167,13 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 
 
 /*Facebook*/
-.rblikebox{background: url("../img/img-system/header/side-facebook.png") no-repeat scroll left bottom transparent !important;display: block;float: right;height: 502px; padding: 0 5px 0 48px;width: 245px;z-index: 9999999;position:fixed;right:-250px;bottom:85px;}
+.rblikebox{background: url("../img/img-system/header/side-facebook.png") no-repeat scroll left bottom transparent !important;display: block;float: right;height: 502px; padding: 0 5px 0 48px;width: 245px;z-index: 1000;position:fixed;right:-250px;bottom:90px;}
 .rblikebox div{border:none; position:relative;display:block;}
 .rblikebox span{bottom: 12px;font: 8px "lucida grande",tahoma,verdana,arial,sans-serif;position: absolute;right: 7px;text-align: right;z-index: 999;}
 .rblikebox span a{color: gray;text-decoration:none;}
 .rblikebox span a:hover{text-decoration:underline;}
 
-#social-buts{position:fixed;bottom:0px; right:0px;width:48px;}
+#social-buts{position:fixed;bottom:45px; right:0px;width:48px;}
 #social-buts a {display:block; height:45px;}
 /* Menu overlay*/
 /* Overlay style */
@@ -225,6 +225,20 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 /*Alert*/
 .chyba,.zvyrazneni{background-color: rgba(194, 1, 24, 0.50);color:white;padding:40px 50px;text-align:center;width:80%;max-width:70%;margin-left:5%;margin-bottom:30px;margin-top:30px;}
 .zvyrazneni{background-color: rgba(202, 160, 1, 0.35);color:black;}
+
+/*Cookies*/
+#cookie-bar {background:white; height:auto; line-height:24px; color:#3b3b3b; text-align:center; padding:3px 0;box-shadow: black 0px 0px 4px;-webkit-box-shadow: black 0px 0px 4px;-moz-box-shadow:     black 0px 0px 4px;}
+#cookie-bar.fixed {position:fixed; top:0; left:0; width:100%;}
+#cookie-bar.fixed.bottom {bottom:0; top:auto;}
+#cookie-bar p {margin:0; padding:0;font-size:12px;}
+#cookie-bar a {color:#ffffff; display:inline-block; border-radius:1px; text-decoration:none; padding:0 6px; margin-left:8px;}
+#cookie-bar .cb-enable {background:#7eb93b;padding:1px 20px;}
+#cookie-bar .cb-enable:hover {background:#689931;}
+#cookie-bar .cb-disable {background:#990000;}
+#cookie-bar .cb-disable:hover {background:#bb0000;}
+#cookie-bar .cb-policy {background:white;color:gray;text-decoration:underline;}
+#cookie-bar .cb-policy:hover {background:gray;color:white;}
+
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
 

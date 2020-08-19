@@ -46,6 +46,13 @@
     <div class="cleaner"></div>
 </footer>
 
+<div id="cookie-bar" class="fixed bottom">
+    <p>Tyto webové stránky využívají k analýze návštěvnosti soubory cookies. Pokud váš internetový prohlížeč má v nastavení cookies povoleny, je nezbytný váš souhlas s použitím této technologie.<br>
+        <a href="" class="cb-enable">Souhlasím</a>
+        <a href="" class="cb-disable">Nesouhlasím</a>
+        <a href="https://www.google.com/policies/technologies/cookies/" class="cb-policy">Více informací</a>
+    </p></div>
+
 <div class="overlay overlay-hugeinc">
     <button type="button" class="overlay-close"></button>
     <nav>

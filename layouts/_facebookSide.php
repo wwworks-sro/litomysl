@@ -14,6 +14,6 @@
 </div>
 
 <div id="social-buts">
-    <a target="_blank" href="https://www.instagram.com/lazneduchalitomysl/?hl=cs"><img src="img/img-system/header/side-insta.png" alt="Instagram Litomyšl"></a>
+    <?php /*<a target="_blank" href="https://www.instagram.com/lazneduchalitomysl/?hl=cs"><img src="img/img-system/header/side-insta.png" alt="Instagram Litomyšl"></a>*/?>
     <a target="_blank" href="#"><img src="img/img-system/header/side-youtube.png" alt="Youtube Litomyšl"></a>
 </div>

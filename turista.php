@@ -62,7 +62,7 @@
         
         <section id="kalendar-sluzby" class="red-layout">
             <div class="wrap-main">
-                <div class="pad-main-left">
+                <div class="pad-main-left" id="aktuality-wrap">
 
                     <div class="col-md-8">
                         <div class="calendar-title-header">
