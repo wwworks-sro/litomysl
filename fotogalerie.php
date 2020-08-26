@@ -25,7 +25,7 @@
                     </div>
                     <div class="photogallery-wrap">
                         <div class="photogallery-pad">
-                            <a data-fancybox='gallery' href="img/img-gallery/L/gal-1-1.jpg">
+                            <a data-fancybox='gallery' href="img/img-gallery/L/gal-1-1.jpg" data-caption="Popis">
                                 <img src="img/img-gallery/S/gal-1-1.jpg" alt="Lorem ipsum dolor">
                             </a>
                             <a data-fancybox='gallery' href="img/img-gallery/L/gal-1-1.jpg">

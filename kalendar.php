@@ -190,8 +190,8 @@
                                 <div class="col-md-3 cal-type-trigger" calType="mesic">
                                     <div>měsíc</div>
                                 </div>
-                                <div class="col-md-3 cal-type-trigger" calType="oddo">
-                                    <div>od do</div>
+                                <div class="col-md-3 cal-type-trigger" calType="misto">
+                                    <div>místo</div>
                                 </div>
                                 <div class="col-md-3 cal-type-trigger" calType="nazev">
                                     <div>název</div>

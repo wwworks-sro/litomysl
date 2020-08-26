@@ -35,6 +35,29 @@
     <div class="wrap-side">
         <div class="pad-main-right">
             <span class="">© 2011 - 2019 Město Litomyšl struktura webu</span>
+			<div class="breakerAuto">&nbsp;</div>
+			<div class="calendar-search-set">
+				<div class="col-md-12 cal-type-trigger search-active" caltype="pripominka" style="background: yellow;">
+					<p style="color: red; font-weight: bold;">Vaše připomínka k této stránce</p>
+				</div>                                
+
+				<form id="calendar-search-name" class="calendar-search cal-type-pripominka" method="post" action="http://temp.litomysl.cz/pripominka/" style="display: block;">
+					<div class="col-md-12 cal-type-trigger" caltype="">
+						<div>skrýt</div>
+					</div>                                
+					<div class="col-md-12">  
+					  <textarea placeholder="Předem Vám děkujeme za vložení připomínky k této stránce." id="pripominka" name="pripominka" style="width: 100%; height: 6em; outline: none; "></textarea>
+					</div>
+					<div class="col-md-12">
+					  <input type="text" name="jmeno" placeholder="Vaše jméno" style="width: 100%; ">
+					</div>
+					<div class="col-md-12">
+					  <input type="hidden" name="url" value="/svoz_komunalniho_odpadu">
+					  <input type="submit" name="odeslat" value="odeslat" class="submit" onclick="return confirm(&quot;Opravdu chcete odeslat Vaši připomínku?&quot;)">
+					</div>
+					<div class="cleaner"></div>
+				</form>
+			</div>
             <div class="social-links">
                 <a href=""><img src="img/img-system/footer/facebook.png" alt="facebook"></a>
                 <a href=""><img src="img/img-system/footer/youtube.png" alt="youtube"></a>

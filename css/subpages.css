@@ -5,12 +5,13 @@
 .sub-header {margin-top:5vh;margin-bottom:30px;}
 .subpage-icon {float:left;margin-right:2%;width:10%;max-width:99px;}
 .header-text {padding-left:0px;float:left;width:88%;}
-.breadcrumb {clear:both;font-size:0.9em;opacity:0.6;}
-.breadcrumb a {font-size:0.9em;}
+.breadcrumb {clear:both;font-size:0.8em;opacity:0.6;}
+.breadcrumb a {text-decoration: underline;}
 .subpage-title strong{clear:both;display:block; color:black; font-size:0.45em;font-weight:400;line-height:1.5em;}
 .subpage-title{display:block; float:left;}
 
-.sidebar-nav li {padding:10px 0;border-bottom:3px solid white;width:100%;}
+.sidebar-nav li {padding:10px 0;width:100%;}
+.sidebar-nav ul ul li {border-bottom:3px solid white;}
 .sidebar-nav li ul {margin-left:10%;}
 .sidebar-nav a {text-decoration:none;}
 .sidebar-nav .active {padding-bottom:0;}
@@ -70,7 +71,7 @@
 .overlay {overflow-y:auto;}
 
 
-    /*  -----------------------------------Aktuality-----------------------------------------------  */
+/*  -----------------------------------Aktuality-----------------------------------------------  */
 
 .perex {font-size:1.4em; margin-bottom:15px;}
 .news-detail-images{width:50%;float:left;}
@@ -78,6 +79,14 @@
 .news-detail-gallery{width:95%;}
 .news-detail-footer {margin-bottom:30px;margin-top:30px;}
 
+/*  -----------------------------------Kalendář detail-----------------------------------------------  */
+
+.main-info .date, .main-info .location, .main-info .person {float: left; margin-right: 3%;}
+#kalendar-detail .news-detail-images{width:50%;float:right;}
+#kalendar-detail .text-content {width: 50%;}
+#kalendar-detail .date-content {width: 100%;}
+#kalendar-detail .date-content .cal-perex-links div {margin-bottom: 5px;}
+.hline {background: url(../img/img-system/layout/bg-gray.jpg) repeat-y top right; height: 1px; margin-top: 5px; margin-bottom: 5px;}
 
 /*  -----------------------------------Three cols-----------------------------------------------  */
 

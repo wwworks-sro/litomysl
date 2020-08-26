@@ -152,15 +152,15 @@
                     <h2 class="today-events-title">KAM DNES?</h2>
                     <a class="calendar-title-link" href="">kalendář akcí</a>
 
-                    <div id="calendar-title">
-                        <a href="">
+                    <div id="calendar-title" class="hide-image">
+                        <a href="" class="no-image">
                             <img src="img/img-system/title/event-drama.png" alt="divadlo">
                             <div>
                                 <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
                                 <p>8.00 / Smetanovo náměstí</p>
                             </div>
                         </a>
-                        <a href="">
+                        <a href="" class="no-image">
                             <img src="img/img-system/title/event-music.png" alt="koncert">
                             <div>
                                 <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
@@ -171,13 +171,15 @@
                         <div class="separator-long-term-events">&nbsp;</div>
                         <div class="separator-long-term-events-text">PROBÍHAJÍCÍ AKCE</div>
     
-                        <a href="">
+                        <a href=""class="no-image">
                             <img src="img/img-system/title/event-discussion.png" alt="přednáška">
                             <div>
                                 <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
                                 <p>8.00 / Smetanovo náměstí</p>
                             </div>
                         </a>
+						<a class="link-other-events" href="">další probíhající akce</a>
+						<br>
                     </div>
     
                     <div class="calendar-title-links">

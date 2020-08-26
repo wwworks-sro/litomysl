@@ -11,15 +11,13 @@
             <li><a href="">Geofun - hra, co svět neviděl</a></li>
         </ul>
 
-        <ul class="tips-links-buttons">
-            <li><a class="but but-white" href="">UNESCO</a></li>
-            <li><a class="but but-white" href="">Českomoravské pomezí</a></li>
-            <li><a class="but but-white" href="">Česká inspirace</a></li>
-            <li><a class="but but-white but-double-line" href="">Sdružení historických sídel Čech, Moravy a Slezska</a></li>
-            <li><a class="but but-white" href="">Mikroregion Litomyšlsko</a></li>
-            <li><a class="but but-white" href="">Kraj Smetany a Martinů</a></li>
-            <li><a class="but but-white" href="">Východní Čechy</a></li>
-        </ul>
+        <a class="but but-white" href="">UNESCO</a>
+        <a class="but but-white" href="">Českomoravské pomezí</a>
+        <a class="but but-white" href="">Česká inspirace</a>
+        <a class="but but-white but-double-line" href="">Sdružení historických sídel Čech, Moravy a Slezska</a>
+        <a class="but but-white" href="">Mikroregion Litomyšlsko</a>
+        <a class="but but-white" href="">Kraj Smetany a Martinů</a>
+        <a class="but but-white" href="">Východní Čechy</a>
     </div>
 </div>
 <div class="cleaner"></div>

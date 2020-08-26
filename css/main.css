@@ -75,7 +75,7 @@ textarea {width:93%;}
 .but-red {border:none; color:white;background-color:#c20116;}
 .half-input {  width: 47%; float:left;margin-right:0.5%;clear:none;}
 .but-white-empty {border:2px solid white; color:white !important;}
-.but-white{background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);color:#c20116 !important;}
+.but-white{background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);color:#c20116 !important; margin-left: 15px; margin-top: 15px;}
 
 .fulltext-form {width:42%;float:right;margin-bottom:30px;clear:none;height:30px;}
 .news-header .fulltext-form {margin-top:10px !important;}
@@ -167,7 +167,7 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 
 
 /*Facebook*/
-.rblikebox{background: url("../img/img-system/header/side-facebook.png") no-repeat scroll left bottom transparent !important;display: block;float: right;height: 502px; padding: 0 5px 0 48px;width: 245px;z-index: 1000;position:fixed;right:-250px;bottom:90px;}
+.rblikebox{background: url("../img/img-system/header/side-facebook.png") no-repeat scroll left bottom transparent !important;display: block;float: right;height: 502px; padding: 0 5px 0 48px;width: 245px;z-index: 1000;position:fixed;right:-250px;bottom:250px;}
 .rblikebox div{border:none; position:relative;display:block;}
 .rblikebox span{bottom: 12px;font: 8px "lucida grande",tahoma,verdana,arial,sans-serif;position: absolute;right: 7px;text-align: right;z-index: 999;}
 .rblikebox span a{color: gray;text-decoration:none;}
@@ -175,6 +175,15 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 
 #social-buts{position:fixed;bottom:45px; right:0px;width:48px;}
 #social-buts a {display:block; height:45px;}
+
+footer .cont-email {margin-left: 2px; margin-right: 2px;}
+footer .calendar-search-set div.cal-type-trigger[caltype=pripominka] {background: #c20116!important; position: fixed; right: 0px; bottom: 100px; float: none; width: 40px; height: 140px; box-shadow:rgba(0, 0, 0, 0.6) 0px 0px 10px; -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px; -moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px; z-index: 1;}
+footer .calendar-search-set div.cal-type-trigger[caltype=pripominka]:hover {cursor: pointer;}
+footer .calendar-search-set div.cal-type-trigger div {display: none;}
+footer .calendar-search-set div.cal-type-trigger p {color: white!important; font-weight: bold; transform: rotate(270deg); width: 150px; right: -55px; position: fixed; bottom: 175px; font-size: 14px;}
+footer form input[name=jmeno] {border-width: 1px; width: 93%!important;}
+footer form textarea[name=pripominka] {width: 93%!important;}
+footer form input[name=odeslat] {margin-top: 5px; margin-right: 4%; float: right; width: 30%;}
 /* Menu overlay*/
 /* Overlay style */
 .overlay {  position: fixed;  width: 100%;  height: 100%;  top: 0;  left: 0;  background: rgba(255, 255, 255, 0.95);  z-index:5000;  }
@@ -276,6 +285,7 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     .more-news-mini {height:43px;}
     .more-news-mini img {margin-top:17px;}
     #more-news-mini .news-text {line-height:2.2em;}
+    .footer-contact-col {width:100%;}
 }
 
 
@@ -325,7 +335,6 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     footer .wrap-main{width:100%;}
     footer .wrap-side {padding-top:0px;}
     h2 {font-size:2em;}
-    .footer-contact-col {width:100%;}
     .news-mini img,.more-news-mini {width:31%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:66%;font-size:0.9em;}
     #lang-box{right:5%;}
@@ -351,6 +360,11 @@ footer .wrap-side {text-align:right;padding-top:90px;}
 @media screen and (max-width: 650px) {
     .news-other img,.more-news-mini {width:22%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
+}
+
+@media screen and (max-width: 550px) {
+    .cont-line {padding-top:15px;}
+    .cont-line div {width:100%;clear:both;}
 }
 
 @media screen and (max-width: 500px) {
@@ -383,8 +397,6 @@ footer .wrap-side {text-align:right;padding-top:90px;}
     #service-nav-right li {margin-top:10px;}
     #sport-options-wrap .col-md-4, #sport-options-wrap .col-md-2,#sport-options-wrap .col-md-3,#sport-options-wrap .col-md-1 {width:100% !important;}
     #sport-options-wrap .square-pic span {text-align:center !important;}
-    .cont-line {padding-top:15px;}
-    .cont-line div {width:100%;clear:both;}
     .fulltext-form {margin-top:0 !important;}
     th {display:none;}
     tr {    display: table;  width:100%;}

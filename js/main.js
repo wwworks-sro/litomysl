@@ -100,8 +100,10 @@ $( document ).ready(function() {
     });
 
     /*Height of the links on calendar page*/
-    $('.cal-detail-link').height($('.cal-item-detail').height());
-
+	$('.cal-detail-link').each(function(i){
+		$(this).height($(this).parent().height());
+	})
+	
     $('.hint-list-trigger').hover(function(){
         $(this).find('.hint-list').fadeIn('slow');
         $(this).find('.hint-list .pad').slideDown('slow');
