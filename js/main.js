@@ -1,4 +1,24 @@
 $( document ).ready(function() {
+	/* Move view after scroll */
+	 (function($, window) {
+        var adjustAnchor = function() {
+            var $anchor = $(':target'),
+                    fixedElementHeight = 90;
+            if ($anchor.length > 0) {
+                $('html, body')
+                    .stop()
+                    .animate({
+                        scrollTop: $anchor.offset().top - fixedElementHeight
+                    }, 200);
+            }
+        };
+        $(window).on('hashchange load', function() {
+            adjustAnchor();
+        });
+	})(jQuery, window);
+
+	/* Initialize slider */
+	$(".slider").simpleSlider();
 
     /*Showing more content*/
     $('.trigger-more').click(function(){
@@ -75,6 +95,18 @@ $( document ).ready(function() {
         });
         $(".tab-selected").removeClass('tab-selected');
         $(this).addClass('tab-selected');
+    });
+	
+	$('#nabidka-sportu a.square-pic').click(function(){
+        var type = $(this).children().attr('alt');
+		console.log('test '+type);
+        jQuery.ajax({
+            'url': 'http://litomysl.wwworks.cz/_nahled-sportu-ajax.php',                        /***Upravit podle nové adresy***/
+            'cache': false,
+            'success': function (html) {
+                jQuery('#sport-detail-wrap').html(html).addClass('sport-triggered').attr("type", type)
+            }
+        });
     });
 
     /*Mobile menu*/

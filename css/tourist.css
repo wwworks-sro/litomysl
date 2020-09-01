@@ -1,7 +1,7 @@
 /*  -----------------------------------Turista-----------------------------------------------  */
 
 #subtitle-banner{margin-top:103px;}
-#subtitle-banner .pad-main-right {padding-top:50px;padding-right:0px;padding-bottom:0px;}
+#subtitle-banner .pad-main-right {padding-top:30px;padding-right:0px;padding-bottom:0px;}
 .tourist-top-link {display:block; clear:both;margin-top:10px;width:400px;}
 .tourist-top-link-text-img {float:left;width:22%;}
 .tourist-top-link-text {float:left;width:75%;margin-left:3%;}
@@ -10,13 +10,19 @@
 .wrap-side form {width:90%;float:left;margin-top:20px;}
 .wrap-side form.fulltext-form {width:100%;maragin-top:30px;}
 
+.slider{width: 100%; height: 60vh; position: relative; overflow: hidden;}
+.slide{width: 100%; height: 100%; top: 0; left: 0; float: left; position: absolute;}
+.slide .slidecontent {top: 0px; position: absolute; color: white;}
+.slide .slidecontent h2 {color: white; margin-left: 0px;}  
+#slideposition {display: none;}
+
 /*Tourist calendar*/
 #calendar-wrap-mid,#calendar-wrap-mini{box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);width:90%;border-top:5px solid #c20116;min-height:70vh;margin-bottom:10px;}
 #calendar-wrap-mini {width:100%;}
 #calendar-wrap-mid {clear:both;}
-.calendar-item-mini, .calendar-item-mid {display:block;width:100%;clear:both;}
+.calendar-item-mini {display:block;width:100%;clear:both;}
 .calendar-item-mini img, .calendar-item-mid img {float:left;max-width:6%;height:auto;width:26px;margin-rigth:2%;margin-left:2%;margin-top:45px;}
-.calendar-text-mini, .calendar-text-mid {width:90%;float:right;margin-top:20px;margin-bottom:20px;}
+.calendar-text-mini, .calendar-text-mid {width:90%;float:right;margin-top:10px;margin-bottom:10px;}
 .calendar-text-mid div,.calendar-text-mid a {color:#c20116;}
 .calendar-text-mid h4, .calendar-item-mini h6 {font-weight:bold;}
 .calendar-text-mid h4 {font-size:1.1em;margin-bottom:5px;}
@@ -30,6 +36,10 @@
 .col-md-4 .calendar-title-header strong{display:block; padding-top:20px;}
 .calendar-link {float:right;margin-top:20px;}
 a.more-calendar-link {color:#c20116;text-decoration:underline;margin-bottom:30px;}
+.separator-long-term-events {display:block;border-bottom:1px solid #c20116;clear:both;width:100%;margin-top:15px;}
+.separator-long-term-events-text {background-color:white;line-height:2em;text-align:center;display:block;width:170px;margin:0 auto; margin-top:-25px;margin-bottom:30px; color: #c20116;}
+a.link-other-events {display: block;}
+
 
 /*Services*/
 .tourist-icon-link,.tourist-button-link {clear:both;display:block;padding-top:10px;}
@@ -38,6 +48,7 @@ a.more-calendar-link {color:#c20116;text-decoration:underline;margin-bottom:30px
 .tourist-button-link { box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);margin-top:15px;}
 .tourist-button-link img {max-height:25px;max-width:35px;margin:5px 10px 10px 10px;}
 .more-services{margin-top:30px;display:block; text-decoration:underline;}
+#subtitle-banner .wrap-side form.fulltext-form {width: 80%;}
 
 
 /*  -----------------------------------O Litomyšli-----------------------------------------------  */
@@ -175,8 +186,6 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 .sports-list-col-2 .square-pic,.sports-list-col-3 .square-pic{width:49%;}
 .sports-list-col-4 .square-pic{width:32%;}
 .sports-list-col-5 .square-pic{width:24%;}
-
-
 
 
 /*  -----------------------------------Mobil-----------------------------------------------  */

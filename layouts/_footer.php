@@ -143,4 +143,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script type="text/javascript" src="js/datepicker.js"></script>
 <?php } ?>
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/simple-jQuery-slider-master/src/jquery.simpleslider.js"></script>
+<script type="text/javascript" src="js/simple-jQuery-slider-master/src/transit.js"></script>
 <script type="text/javascript" src="js/main.js"></script>

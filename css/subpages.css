@@ -5,8 +5,8 @@
 .sub-header {margin-top:5vh;margin-bottom:30px;}
 .subpage-icon {float:left;margin-right:2%;width:10%;max-width:99px;}
 .header-text {padding-left:0px;float:left;width:88%;}
-.breadcrumb {clear:both;font-size:0.8em;opacity:0.6;}
-.breadcrumb a {text-decoration: underline;}
+.breadcrumb, .arrows.text a {clear:both;font-size:0.8em;opacity:0.6;}
+.breadcrumb a, .arrows.text a {text-decoration: underline;}
 .subpage-title strong{clear:both;display:block; color:black; font-size:0.45em;font-weight:400;line-height:1.5em;}
 .subpage-title{display:block; float:left;}
 
@@ -24,6 +24,7 @@
 
 .news-detail-gallery a {width:20%;display:block;float:left;}
 .news-detail-gallery a img {width:98%;margin-right:2%;}
+#seznamy h3 {margin-top: 15px;}
 
 .three-layout {background: url(../img/img-system/subpages/bg-three.jpg) repeat-y top ; background-size: contain;}
 
@@ -50,7 +51,7 @@
 .cal-google-link {border:1px solid #c20116; float:left;display:block;display:block; padding:2px;}
 #continuous-events h3{color:#c20116;margin-top:5vh;font-size:1.4em;}
 #continuous-events .cal-item-detail{background-color:transparent;box-shadow: none;border-left-color:#f1f1f1;border-bottom:3px solid #d4d4d4;}
-#continuous-events .cal-detail-link{box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);background: white url(../img/img-system/calendar/...red.png) no-repeat center;}
+#continuous-events .cal-detail-link{box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);background: white url(../img/img-system/calendar/red-dots.png) no-repeat center;}
 .cal-lilie-link{font-weight:bold;display:block; margin-top:6vh;}
 .cal-lilie-link img {width:25%;float:left;}
 .cal-lilie-link strong {width:74%;float:right;margin-top:15px;}
@@ -58,7 +59,6 @@
 .calendar-search {margin-bottom:30px;clear:both;float:none;}
 .calendar-search-set input, .calendar-search-set select {width:100%;max-width:100%;}
 .form-compensate-padding input{width:94%;}
-#calendar-search-day .datepicker {width:97%;}
 .calendar-search-set label {clear:both;width:100%;display:block;}
 .calendar-search-set form div {margin-bottom:15px;}
 .search-type {margin-bottom:50px;}
@@ -67,8 +67,11 @@
 .search-type .search-active, .search-type :hover.col-md-3 {font-weight:bold;background: #c20116;color:white;cursor:pointer;}
 .calendar-search-set form {display:none;}
 #calendar-search-day {display:block;}
+#calendar-search-day .datepicker {background: transparent url(../img/img-system/calendar/calendar-search.png) no-repeat; background-position: 10px 7px; background-size: 20px; padding-left: 40px; width: calc(97% - 36px);}
 .calendar-search-set {max-width:301px;}
 .overlay {overflow-y:auto;}
+.arrow-right {float: right;}
+.arrow-rotate {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg);}
 
 
 /*  -----------------------------------Aktuality-----------------------------------------------  */
@@ -81,6 +84,9 @@
 
 /*  -----------------------------------Kalendář detail-----------------------------------------------  */
 
+
+#kalendar-detail a {text-decoration: underline;}
+#kalendar-detail a.cal-google-link {text-decoration: none;}
 .main-info .date, .main-info .location, .main-info .person {float: left; margin-right: 3%;}
 #kalendar-detail .news-detail-images{width:50%;float:right;}
 #kalendar-detail .text-content {width: 50%;}
@@ -93,6 +99,12 @@
 .wrap-main-three,.wrap-side-three {float:left;}
 .wrap-main-three {width:48%;}
 .wrap-side-three {width:26%;}
+
+#sport-detail-wrap {display: none; height: 70vh; position: absolute; width: 50%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 15vh; left: 25%;}
+#sport-detail-wrap.sport-triggered {display: block;}
+.nahled-sportu {margin: 50px;}
+.nahled-sportu h2 {margin-left: 30px;}
+.close-sport {cursor: pointer; position: absolute; top: 5px; right: 10px; font-weight: 800;}
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
 
@@ -116,7 +128,7 @@
 @media screen and (max-width: 950px) {
     .subpage-title  {font-size:1.8em;}
     h2 {color:#c20116;font-size:1.3em;}
-    #kalendar .header-text {width:48%;}
+    #kalendar .sub-header {width:48%;}
     #kalendar .subpage-icon {width:15%;}
 
     #kalendar .wrap-side{min-width:246px;position:absolute; top:0px; right:5px;width:35%;height:auto !important; }
@@ -131,6 +143,8 @@
     #kalendar .sub-header-side {display:none;}
     #kalendar .subpage-icon {display:none;}
     #kalendar .subpage-title {font-size:1.2em;}
+	#kalendar .subpage-title.arrows {font-size: 0.6em;}
+	#kalendar .arrows img {max-height: 15px;}
     .calendar-search-set form div{margin-bottom:1px;}
     .search-type{margin-bottom:0px;font-size:0.9em;}
 
@@ -150,7 +164,9 @@
     .cal-params {margin:30px 0;}
 }
 
-
+@media screen and (max-width: 490px) {
+	#kalendar .sub-header {width: 40%;}
+}
 
 @media screen and (max-width: 450px) {
     .search-type div{font-size:0.9em !important;}
@@ -158,7 +174,7 @@
     #kalendar .wrap-side {width:95%;position:static;margin-left:5%;}
     #kalendar .header-text {width:100%;}
     #kalendar .subpage-icon {display:block;}
-    #kalendar .sub-header {margin-top:0px;}
+    #kalendar .sub-header {margin-top:0px; width: 100%;}
     #kalendar .subpage-title {font-size:1.8em;}
     #kalendar .sub-header-side {display:block;}
     .calendar-search-mobile-link {display:block;margin-top:-30px;margin-bottom:40px; text-decoration:underline;color:#c20116;}

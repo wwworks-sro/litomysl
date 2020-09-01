@@ -473,6 +473,12 @@
                         722 569 489
                     </p>
                     <a href="" class="but but-white-empty">Všechny kontakty</a>
+					
+					<h3 class="mar-top-30">Rezervační systém</h3>
+					<p>
+						Nechce se vám čekat ve frontě? Rezervujte si termín online a budete obslouženi přednostně.
+					</p>
+                    <a href="http://temp.litomysl.cz/mestsky_urad/rezervacni_system" class="but but-white-empty">Online rezervace termínu návštěvy</a>
                 </div> <div class="cleaner"></div>
             </div>
             <div class="cleaner"></div>

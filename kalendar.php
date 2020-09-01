@@ -25,7 +25,19 @@
                                 </h1>
                         </div>
                         <div class="cleaner"></div>
-                    </div>
+						<div class="arrows subpage-title arrow-left">
+							<a href=""><img src="img/img-system/layout/arrow-left-red.png">&nbsp;&nbsp;</a>
+						</div>
+						<div class="arrows subpage-title arrow-left text">
+							<h1><a href=""><strong>předchozí den</strong></a></h1>
+						</div>
+						<div class="arrows subpage-title arrow-right">
+							<a href="">&nbsp;&nbsp;<img src="img/img-system/layout/arrow-left-red.png" class="arrow-rotate"></a>
+						</div>
+						<div class="arrows subpage-title arrow-right text">
+							<h1><a href=""><strong>následující den</strong></a></h1>
+						</div>
+					</div>
                     <div class="cal-links-main">
                         <div class="cal-item-detail">
                             <div class="cal-detail-icon">
@@ -33,7 +45,7 @@
                             </div>
                             <div class="cal-detail-text">
                                 <a href=""><h4>Lorem ipsum dolor smet, lo ipsum dolor</h4></a>
-                                <div class="cal-date-location"><strong>30. září</strong>, 8:00   &nbsp;&nbsp;&nbsp;&nbsp;  <a href=""><img src="img/img-system/calendar/pointer.png" alt="Místo"> Smetanovo náměstí</a></div>
+                                <div class="cal-date-location"><strong>30. září</strong>, 8:00   &nbsp;&nbsp;&nbsp;&nbsp;  <a href="" title="Zobrazit všechny akce na tomto místě"><img src="img/img-system/calendar/pointer.png" alt="Místo"> Smetanovo náměstí</a></div>
                                 <div class="cal-perex">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero. Nam libero tempore. Ipsum dolor si Dolor sit amet, elit. Nam libero tempore. Lorem ipsum dolor sit amet, consectetuer ero tempore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero. Sit amet, elit. Nam libero tempore.
                                         <a class="cal-more" href="">Více...</a></p>
@@ -42,10 +54,10 @@
                                     <a class="cal-google-link"  target="_blank"  href="https://www.google.com/calendar/render?action=TEMPLATE&text=<?php echo urlencode('Název akce');?>&dates=<?php echo time();?>&details=<?php echo urlencode('Lorem ipsum dolor');?>&location=<?php echo urlencode('Lorem ipsum dolor');?>&sf=true&output=xml" >
                                         <img src="img/img-system/calendar/calendar-add.png" alt="Kalendář"> Přidat do Google kalendáře
                                     </a>
-                                    <a class="cal-web-link" href="">
+                                    <a class="cal-web-link" href="" title="Přejít na web akce">
                                         <img src="img/img-system/calendar/network.png" alt="Web akce"> web akce
                                     </a>
-                                    <a class="cal-organisation-link" href="">
+                                    <a class="cal-organisation-link" href="" title="Zobrazit všechny akce tohoto pořadatele">
                                         <img src="img/img-system/calendar/person.png" alt="Pořadatel"> Smetanův dům
                                     </a>
                                 </div>
