@@ -72,8 +72,9 @@
 					<div class="hline"></div>
 					<div class="date-content">
 						<div class="col-md-2">
-							<strong>datum</strong>
+							<strong>data konání</strong>
 						</div>
+						<div class="cleaner"></div>
 						<div class="cal-perex-links col-md-10">
 							<div class="col-md-4">
 								29.8. 2020 15:00
