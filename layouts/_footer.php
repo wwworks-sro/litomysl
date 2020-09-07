@@ -34,6 +34,7 @@
     </div>
     <div class="wrap-side">
         <div class="pad-main-right">
+			<p><a class="big-link" href="">Prohlášení o přístupnosti</a></p>
             <span class="">© 2011 - 2019 Město Litomyšl struktura webu</span>
 			<div class="breakerAuto">&nbsp;</div>
 			<div class="calendar-search-set">

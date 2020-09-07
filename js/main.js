@@ -99,7 +99,7 @@ $( document ).ready(function() {
 	
 	$('#nabidka-sportu a.square-pic').click(function(){
         var type = $(this).children().attr('alt');
-		console.log('test '+type);
+		console.log('test'+type);
         jQuery.ajax({
             'url': 'http://litomysl.wwworks.cz/_nahled-sportu-ajax.php',                        /***Upravit podle nové adresy***/
             'cache': false,

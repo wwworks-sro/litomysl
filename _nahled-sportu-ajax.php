@@ -1,9 +1,3 @@
-
-<!DOCTYPE html>
-
-    <?php  include("layouts/_head.php");  ?>
-	
-
 <!--  -----------------------------------Nahled sportu-----------------------------------------------  -->
 
 <div class="nahled-sportu">
@@ -18,6 +12,7 @@
 			škola paddleboardingu
     </div>
 </div>
+<link rel="stylesheet" type="text/css" href="css/tourist.css" />
 <script type="text/javascript">
 	$('.close-sport').click(function(){
 		$(".sport-triggered").removeClass('sport-triggered').attr('type','');

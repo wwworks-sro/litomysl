@@ -15,6 +15,7 @@
 .slide .slidecontent {top: 0px; position: absolute; color: white;}
 .slide .slidecontent h2 {color: white; margin-left: 0px;}  
 #slideposition {display: none;}
+.slide .white-link {color: white;}
 
 /*Tourist calendar*/
 #calendar-wrap-mid,#calendar-wrap-mini{box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);width:90%;border-top:5px solid #c20116;min-height:70vh;margin-bottom:10px;}
@@ -129,7 +130,7 @@ a.link-other-events {display: block;}
 .tips-links-buttons a {margin-bottom:7px;}
 .tips-links a {line-height:1.6em;font-size:0.9em;}
 .tips-links-buttons li a {font-size:0.9em;}
-.tips-links-buttons li a.but-double-line {line-height:1.2;font-size:0.8em;padding:5px 0;}
+.trips-wrap a.but-double-line {line-height:1.2;font-size:0.8em;padding:5px 0;}
 
 
 /*  -----------------------------------Kultura-----------------------------------------------  */
@@ -166,6 +167,12 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 .sport-bottom li {padding-left:0px;}
 .sport-bottom img {float:left;}
 .sport-bottom span {font-size:0.8em;}
+
+#sport-detail-wrap {display: none; height: 70vh; position: absolute; width: 50%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 15vh; left: 25%;}
+#sport-detail-wrap.sport-triggered {display: block;}
+.nahled-sportu {margin: 50px;}
+.nahled-sportu h2 {margin-left: 30px;}
+.close-sport {cursor: pointer; position: absolute; top: 5px; right: 10px; font-weight: 800;}
 
 
 /*  -----------------------------------Nabídka sportů-----------------------------------------------  */

@@ -22,7 +22,7 @@
 						<img class="title-banner-img" src="img/img-system/banners/banner-1.jpg" alt="Letecký pohled - Litomyšl">
 						<div class='slidecontent pad-main-left'>
 							<h2>Koo two Solar Dolar Wolar</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere cursus euismod.Aenean ut tortor leo.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere cursus euismod.Aenean ut tortor leo.<a class="white-link" href="">Klikněte zde</a></p>
 						</div>
 					</div>
 					<div class='slide'>
@@ -90,59 +90,74 @@
 						<div class="cleaner"></div>
 					</div>
 					<div id="calendar-wrap-mid">
-						<div class="calendar-item-mid col-md-6">
-							<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
-							<div class="calendar-text-mid">
-								<a href=""><h4>Aktualita 1 dolor sit amet tetuer adip</h4></a>
-								<div>8:00  /  <a href="">Smetanovo náměstí</a>  /  <a href="">Vstupenky</a></div>
-								<p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
+						<div class="col-md-6">
+							<div class="col-md-12 calendar-item-mid">
+								<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+								<div class="calendar-text-mid">
+									<a href=""><h4>Aktualita 1 dolor sit amet</h4></a>
+									<div>8:00  /  <a href="">Smetanovo náměstí</a>  /  <a href="">Vstupenky</a></div>
+									<p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
+								</div>
+							</div>
+							<div class="col-md-12 calendar-item-mid">
+								<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+								<div class="calendar-text-mid">
+									<a href=""><h4>Aktualita 1 dolor sit amet</h4></a>
+									<p>Lorem ip </p>
+								</div>
 							</div>
 						</div>
-						<div class="calendar-item-mid col-md-6">
-							<img src="img/img-system/tourist/event-red-music.png" alt="koncert">
-							<div class="calendar-text-mid">
-								<a href=""><h4>Aktualita 1 dolor sit amet tetuer adip</h4></a>
-								<div>8:00  /  <a href="">Smetanovo náměstí</a>  /  <a href="">Vstupenky</a></div>
-								<p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
+						<div class="col-md-6">
+							<div class="col-md-12 calendar-item-mid">
+								<img src="img/img-system/tourist/event-red-music.png" alt="koncert">
+								<div class="calendar-text-mid">
+									<a href=""><h4>Aktualita 1 dolor sit amet tetuer adip</h4></a>
+									<div>8:00  /  <a href="">Smetanovo náměstí</a>  /  <a href="">Vstupenky</a></div>
+									<p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
+								</div>
 							</div>
-						</div>
-						<div class="calendar-item-mid col-md-6">
-							<img src="img/img-system/tourist/event-red-music.png" alt="koncert">
-							<div class="calendar-text-mid">
-								<a href=""><h4>Aktualita 1 dolor sit amet tetuer adip</h4></a>
-								<div>8:00  /  <a href="">Smetanovo náměstí</a>  /  <a href="">Vstupenky</a></div>
-								<p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
+							<div class="col-md-12 calendar-item-mid">
+								<img src="img/img-system/tourist/event-red-music.png" alt="koncert">
+								<div class="calendar-text-mid">
+									<a href=""><h4>Aktualita 1 dolor sit amet tetuer adip</h4></a>
+									<div>8:00  /  <a href="">Smetanovo náměstí</a>  /  <a href="">Vstupenky</a></div>
+									<p>Lorem ipsum dolor sit amet, tetuer adipiscing elit. Nam libero </p>
+								</div>
 							</div>
 						</div>
 						<div class="cleaner"></div>
 						<div class="separator-long-term-events">&nbsp;</div>
 						<div class="separator-long-term-events-text"><strong>PROBÍHAJÍCÍ AKCE</strong></div>
-						<div class="calendar-item-mid col-md-6">
-							<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
-							<div class="calendar-text-mini">
-								<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
-								<p>8.00 / Smetanovo náměstí</p>
+						<div class="col-md-6">
+							<div class="calendar-item-mid col-md-12">
+								<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+								<div class="calendar-text-mini">
+									<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
+									<p>8.00 / Smetanovo náměstí</p>
+								</div>
+							</div>
+							<div class="calendar-item-mid col-md-12">
+								<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+								<div class="calendar-text-mini">
+									<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
+									<p>8.00 / Smetanovo náměstí</p>
+								</div>
 							</div>
 						</div>
-						<div class="calendar-item-mid col-md-6">
-							<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
-							<div class="calendar-text-mini">
-								<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
-								<p>8.00 / Smetanovo náměstí</p>
+						<div class="col-md-6">
+							<div class="calendar-item-mid col-md-12">
+								<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+								<div class="calendar-text-mini">
+									<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
+									<p>8.00 / Smetanovo náměstí</p>
+								</div>
 							</div>
-						</div>
-						<div class="calendar-item-mid col-md-6">
-							<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
-							<div class="calendar-text-mini">
-								<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
-								<p>8.00 / Smetanovo náměstí</p>
-							</div>
-						</div>
-						<div class="calendar-item-mid col-md-6">
-							<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
-							<div class="calendar-text-mini">
-								<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
-								<p>8.00 / Smetanovo náměstí</p>
+							<div class="calendar-item-mid col-md-12">
+								<img src="img/img-system/tourist/event-red-drama.png" alt="divadlo">
+								<div class="calendar-text-mini">
+									<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
+									<p>8.00 / Smetanovo náměstí</p>
+								</div>
 							</div>
 						</div>
 						<div class="cleaner"></div>

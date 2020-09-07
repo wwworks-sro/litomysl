@@ -1,12 +1,3 @@
-
-<!DOCTYPE html>
-
-    <?php  include("layouts/_head.php");  ?>
-
-<body class="sub-page">
-        <?php  include('layouts/_header.php');  ?>
-<section id="nabidka-sportu" class="white-layout">	
-
 <!--  -----------------------------------Nabidka sportu-----------------------------------------------  -->
 	<div class="pad-main">
         <h2 class="section-heading">Nabídka sportů a sportovních klubů</h2>
@@ -73,7 +64,4 @@
         </div>
 		<div id="sport-detail-wrap"></div>
 	</div>
-	<?php  include("layouts/_footer.php");  ?>
-    <?php  include('layouts/_facebookSide.php');  ?>
-</section>
-</body>
+<script type="text/javascript" src="js/main.js"></script>

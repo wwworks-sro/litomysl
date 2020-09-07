@@ -510,7 +510,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-mob-12 ">
+                    <div class="col-md-6 col-mob-12 major-row">
                         <div class="col-md-1 major-left-pad">&nbsp;</div>
                         <div class="col-md-3">
                             <div class="people-circles people-major"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><h3>Místostarosta</h3><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>

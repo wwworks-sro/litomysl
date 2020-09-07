@@ -100,12 +100,6 @@
 .wrap-main-three {width:48%;}
 .wrap-side-three {width:26%;}
 
-#sport-detail-wrap {display: none; height: 70vh; position: absolute; width: 50%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 15vh; left: 25%;}
-#sport-detail-wrap.sport-triggered {display: block;}
-.nahled-sportu {margin: 50px;}
-.nahled-sportu h2 {margin-left: 30px;}
-.close-sport {cursor: pointer; position: absolute; top: 5px; right: 10px; font-weight: 800;}
-
 /*  -----------------------------------Mobil-----------------------------------------------  */
 
 
