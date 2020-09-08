@@ -14,7 +14,10 @@
 .slide{width: 100%; height: 100%; top: 0; left: 0; float: left; position: absolute;}
 .slide .slidecontent {top: 0px; position: absolute; color: white;}
 .slide .slidecontent h2 {color: white; margin-left: 0px;}  
-#slideposition {display: none;}
+#slideposition {position: absolute; right: 0px; bottom: 0px;}
+#slideposition li {list-style-type: none; padding-top: 0px; line-height: 15px;}
+#slideposition li::before {content: "\2022"; color: gray; margin-left: -1em; font-weight: bold;}
+#slideposition li.active::before {color: black;}
 .slide .white-link {color: white;}
 
 /*Tourist calendar*/
