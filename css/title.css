@@ -300,8 +300,8 @@ div.major-left-pad {width:8%;}
     #title-banner .banner-text{font-size: 0.9em;}
     #mobile-title-links {position:absolute; bottom:0px; width:94%;margin-left:3%;display:block;}
     #mobile-title-links a {display:block; width:50%;background-color:#c20116;color:white;float:left;height:45px;line-height:45px;text-align:center;}
-    #mobile-title-links a.selected-mobile-menu {font-weight:bold;color:#c20116;background-color:white;box-shadow: 1px -9px 7px 2px rgba(0, 0, 0, 0.50);}
-    #mobile-title-links a:hover.selected-mobile-menu {opacity:1;cursor:default ;}
+    #mobile-title-links a.not-selected-mobile-menu {font-weight:bold;color:#c20116;background-color:white;box-shadow: 1px -9px 7px 2px rgba(0, 0, 0, 0.50);}
+    #mobile-title-links a:hover.not-selected-mobile-menu {opacity:1;cursor:default ;}
     #news-header {margin-bottom:0px;}
     .news-secondary p {display:block;    }
     .mobile-news-header {display:block;}

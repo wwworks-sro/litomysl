@@ -31,8 +31,8 @@
             </div>
 
             <div id="mobile-title-links">
-                <a class="selected-mobile-menu" href="#"><strong>občan / radnice</strong></a>
-                <a href="turista.php">turista / volný čas</a>
+                <a href="#"><strong>občan / radnice</strong></a>
+                <a class="not-selected-mobile-menu" href="turista.php">turista / volný čas</a>
             </div>
             <div class="cleaner"></div>
         </div>
@@ -42,6 +42,50 @@
         
         
         <section id="novinky-kalendar" class="red-layout">
+			<div class="wrap-side bg-red">
+                <div class="pad-main-right">
+
+
+                    <h2 class="today-events-title">KAM DNES?</h2>
+                    <a class="calendar-title-link" href="">kalendář akcí</a>
+
+                    <div id="calendar-title" class="hide-image">
+                        <a href="" class="no-image">
+                            <img src="img/img-system/title/event-drama.png" alt="divadlo">
+                            <div>
+                                <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
+                                <p>8.00 / Smetanovo náměstí</p>
+                            </div>
+                        </a>
+                        <a href="" class="no-image">
+                            <img src="img/img-system/title/event-music.png" alt="koncert">
+                            <div>
+                                <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
+                                <p>8.00 / Smetanovo náměstí</p>
+                            </div>
+                        </a>
+
+                        <div class="separator-long-term-events">&nbsp;</div>
+                        <div class="separator-long-term-events-text">PROBÍHAJÍCÍ AKCE</div>
+    
+                        <a href=""class="no-image">
+                            <img src="img/img-system/title/event-discussion.png" alt="přednáška">
+                            <div>
+                                <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
+                                <p>8.00 / Smetanovo náměstí</p>
+                            </div>
+                        </a>
+						<a class="link-other-events" href="">další probíhající akce</a>
+						<br>
+                    </div>
+    
+                    <div class="calendar-title-links">
+                        <a class="link-tommorrow" href="">kam zítra</a>
+                        <a class="top-events" href="">TOP akce</a>
+                    </div>
+                </div>
+                <div class="cleaner"></div>
+            </div>
             <div class="wrap-main">
                 <div class="pad-main-left">
 
@@ -144,50 +188,6 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
-            <div class="wrap-side bg-red">
-                <div class="pad-main-right">
-
-
-                    <h2 class="today-events-title">KAM DNES?</h2>
-                    <a class="calendar-title-link" href="">kalendář akcí</a>
-
-                    <div id="calendar-title" class="hide-image">
-                        <a href="" class="no-image">
-                            <img src="img/img-system/title/event-drama.png" alt="divadlo">
-                            <div>
-                                <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
-                                <p>8.00 / Smetanovo náměstí</p>
-                            </div>
-                        </a>
-                        <a href="" class="no-image">
-                            <img src="img/img-system/title/event-music.png" alt="koncert">
-                            <div>
-                                <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
-                                <p>8.00 / Smetanovo náměstí</p>
-                            </div>
-                        </a>
-
-                        <div class="separator-long-term-events">&nbsp;</div>
-                        <div class="separator-long-term-events-text">PROBÍHAJÍCÍ AKCE</div>
-    
-                        <a href=""class="no-image">
-                            <img src="img/img-system/title/event-discussion.png" alt="přednáška">
-                            <div>
-                                <h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
-                                <p>8.00 / Smetanovo náměstí</p>
-                            </div>
-                        </a>
-						<a class="link-other-events" href="">další probíhající akce</a>
-						<br>
-                    </div>
-    
-                    <div class="calendar-title-links">
-                        <a class="link-tommorrow" href="">kam zítra</a>
-                        <a class="top-events" href="">TOP akce</a>
-                    </div>
-                </div>
-                <div class="cleaner"></div>
             </div>
             <div class="cleaner"></div>
         </section>
