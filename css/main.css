@@ -172,6 +172,7 @@ footer .social-links {margin-top:10vh;}
 footer .social-links img {height:20px;}
 footer th a {color:white !important;font-weight:300;text-decoration:underline;}
 footer .wrap-side {text-align:right;padding-top:90px;}
+input.submit:hover {cursor: pointer;}
 
 
 /*Facebook*/

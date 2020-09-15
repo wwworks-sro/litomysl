@@ -19,6 +19,12 @@ $( document ).ready(function() {
 
 	/* Initialize slider */
 	$(".slider").simpleSlider();
+	/* pripominky */
+	$(".cal-type-trigger[caltype=pripominka]").click(function () {
+		var x = $("footer").position();
+		window.scrollTo(x.left, x.top);
+		$(".cal-type-pripominka").show();
+	});
 
     /*Showing more content*/
     $('.trigger-more').click(function(){
@@ -145,17 +151,16 @@ $( document ).ready(function() {
         $(this).find('.hint-list').fadeOut('slow');
         $(this).find('.hint-list .pad').slideUp('slow');
     });
-
-
-    $('.cal-type-trigger').click(function(){
+	
+	$('.cal-type-trigger[caltype!="pripominka"]').click(function(){
         var calType = $(this).attr('calType');
         $('.search-active').removeClass('search-active');
         $(this).addClass('search-active');
         $('.calendar-search-set form').hide();
         var className = '.cal-type-'+calType;
         $(className).fadeIn('slow');
+		$(".cal-type-pripominka").show();
     });
-
 
     $.cookieBar = function(options,val){
         if(options=='cookies'){
