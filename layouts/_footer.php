@@ -1,3 +1,4 @@
+<?php if($fileName != 'index-en.php'){ ?>
 <footer>
     <div class="wrap-main">
         <div class="pad-main-left">
@@ -34,9 +35,8 @@
     </div>
     <div class="wrap-side">
         <div class="pad-main-right">
-			<p><a class="big-link" href="">Prohlášení o přístupnosti</a></p>
-            <span class="">© 2011 - 2019 Město Litomyšl struktura webu</span>
-			<div class="breakerAuto">&nbsp;</div>
+			<a href="" class="more-contacts">Prohlášení o přístupnosti</a>
+            <a href="" class="more-contacts">struktura webu</a>
 			<div class="calendar-search-set">
 				<div class="col-md-12 cal-type-trigger search-active" caltype="pripominka" style="background: yellow;">
 					<p style="color: red; font-weight: bold;">Vaše připomínka k této stránce</p>
@@ -64,11 +64,30 @@
                 <a href=""><img src="img/img-system/footer/youtube.png" alt="youtube"></a>
                 <a href=""><img src="img/img-system/footer/instagram.png" alt="instagram"></a>
             </div>
-            <div class="cleaner"></div>
         </div>
     </div>
+	<div class="cleaner"></div>
+	<div class="col-md-12 sign">
+		<p>© 2011 - 2020 Město Litomyšl, webdesing: <a target="_blank" href="https://wwworks.cz">studio wwworks</a></p>
+	</div>
     <div class="cleaner"></div>
 </footer>
+<?php } else { ?>
+<footer class="en">
+	<div class="col-md-2">&nbsp;</div>
+	<div class="social-links col-md-7 margin-footer">
+		<a href=""><img src="img/img-system/footer/facebook.png" alt="facebook"></a>
+		<a href=""><img src="img/img-system/footer/youtube.png" alt="youtube"></a>
+		<a href=""><img src="img/img-system/footer/instagram.png" alt="instagram"></a>
+	</div>
+	<div class="col-md-2"><a href="" class="more-contacts margin-footer">struktura webu</a></div>
+	<div class="cleaner"></div>
+	<div class="col-md-12 sign">
+		<p>© 2011 - 2020 Město Litomyšl, webdesing: <a target="_blank" href="https://wwworks.cz">studio wwworks</a></p>
+	</div>
+    <div class="cleaner"></div>
+</footer>
+<?php } ?>
 
 <div id="cookie-bar" class="fixed bottom">
     <p>Tyto webové stránky využívají k analýze návštěvnosti soubory cookies. Pokud váš internetový prohlížeč má v nastavení cookies povoleny, je nezbytný váš souhlas s použitím této technologie.<br>

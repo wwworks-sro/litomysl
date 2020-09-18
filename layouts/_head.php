@@ -11,22 +11,22 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-    <?php  if($fileName != 'index.php' ){  ?>
+    <?php  if($fileName != 'index.php'){  ?>
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <?php } ?>
 
     <!--  Jen pro titulku a stránku turista  -->
-    <?php  if($fileName == 'turista.php' || $fileName == 'index.php'){ ?>
+    <?php  if($fileName == 'turista.php' || $fileName == 'index.php' || $fileName == 'index-en.php'){ ?>
         <link rel="stylesheet" type="text/css" href="css/title.css" />
     <?php } ?>
 
 <!--  Jen pro stránku turista/volný čas  -->
-    <?php  if($fileName == 'turista.php'){ ?>
+    <?php  if($fileName == 'turista.php' || $fileName == 'index-en.php'){ ?>
         <link rel="stylesheet" type="text/css" href="css/tourist.css" />
     <?php } ?>
 
 <!--  Podstránky mimo titulku a turistu  -->
-    <?php  if($fileName != 'turista.php' && $fileName != 'index.php' ){  ?>
+    <?php  if($fileName != 'turista.php' && $fileName != 'index.php' && $fileName != 'index-en.php'){  ?>
         <link rel="stylesheet" type="text/css" href="css/subpages.css" />
     <?php } ?>
 
@@ -56,4 +56,3 @@
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
 </head>
-

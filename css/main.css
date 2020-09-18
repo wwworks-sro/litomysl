@@ -172,6 +172,7 @@ footer .social-links {margin-top:10vh;}
 footer .social-links img {height:20px;}
 footer th a {color:white !important;font-weight:300;text-decoration:underline;}
 footer .wrap-side {text-align:right;padding-top:90px;}
+input.submit:hover {cursor: pointer;}
 
 
 /*Facebook*/
@@ -194,6 +195,8 @@ footer form textarea[name=pripominka] {width: 93%!important;}
 footer form input[name=odeslat] {margin-top: 5px; margin-right: 4%; float: right; width: 30%;}
 footer .pad-main-right {padding-top: 10px;}
 footer .big-link {color: white;}
+footer .sign {padding-bottom: 6vh; text-align: center;}
+footer .sign a {text-decoration: underline; color: white; font-size: inherit;}
 /* Menu overlay*/
 /* Overlay style */
 .overlay {  position: fixed;  width: 100%;  height: 100%;  top: 0;  left: 0;  background: rgba(255, 255, 255, 0.95);  z-index:5000;  }
@@ -257,6 +260,34 @@ footer .big-link {color: white;}
 #cookie-bar .cb-disable:hover {background:#bb0000;}
 #cookie-bar .cb-policy {background:white;color:gray;text-decoration:underline;}
 #cookie-bar .cb-policy:hover {background:gray;color:white;}
+
+/*  -----------------------------------en-----------------------------------------------  */
+
+.en#main-navigation {float: left;}
+.en#main-navigation ul {margin-top: 35px;}
+.en-first-row-left,.en-first-row-center ,.en-first-row-right {float:left;}
+.en-first-row-left {width:46%;margin-right:4%;}
+.en-first-row-center {width:23%;margin-right:2%;}
+.en-first-row-right {width:23%;margin-right:2%; margin-top: 30px;}
+.en-first-row-center img, .en .sport-options img {width: 60px;}
+.en-first-row-right form.fulltext-form {width: 80%; float: left; margin-left: 10%; margin-top: 30px;}
+.en #kalendar-sluzby {margin-top: 30px; margin-bottom: 30px;}
+.en .en-first-row-left a div {margin-bottom: 5px;}
+.en .en-first-row-left p {font-size: 12px;}
+.en .en-first-row-left .pad-main-left {padding-top: 0px;}
+.en .events-title {margin-left: 0px; font-size: 1.3em;}
+.en .square-pic {width: 10%; margin-top: 0px;}
+.en .col-square-2 .square-pic {width: 20%;}
+.en #kultura {background-color: #EAEAEA;}
+.en .tourist-icon-link strong {padding-top: 5%;}
+.en #trips {background-color: #F1F1F1;}
+.en #trips .square-pic {width: 35%;}
+.en #trips a.but-double-line {line-height:1.2;padding:5px 0;}
+.en #trips h2 {transform: rotate(270deg); top: 45vh; left: -40%; position: relative;}
+.en #trips .link-line {text-decoration: underline;}
+.en #trips .links {margin-left: 15px;}
+footer .margin-footer {margin-top: 3vh;}
+footer.en more-contacts {float: right;}
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
 
