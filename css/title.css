@@ -13,6 +13,8 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 .title-heart .heart-popup,.people-circles div {display:none;opacity:0;-webkit-transition:all 2s ease-in-out;-moz-transition: all 2s ease-in-out;-ms-transition: all 2s ease-in-out;-o-transition: all 2s ease-in-out;transition: all 2s ease-in-out;}
 :hover.title-heart .heart-popup,:hover.people-circles div {opacity:1;position:absolute; top:50%;left:50%;display:block; width:200px;height:auto;min-height:50px;background-color:white;  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);padding: 10px 15px 5px 15px;}
 #mobile-title-links,.mobile-news-header {display:none;}
+.toggle-title-banner{text-align:right;color:#c20116;text-align:center;position:absolute; top:18px; right:10px;}
+:hover.toggle-title-banner{cursor:pointer;opacity:0.6;}
 
 /*  -----------------------------------Novinky a kalendář-----------------------------------------------  */
 
@@ -24,16 +26,19 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 #news-tabs li.tab-selected,#news-tabs li:hover {background: url(../img/img-system/title/tab-red.png) no-repeat top right;color:white;}
 #news-tabs li:hover {cursor:pointer;}
 
-#news-tabs-simple {margin-left:0px;width:52%;padding-top:8px;clear:none;float:left;}
+#news-tabs-simple {margin-left:0px;width:56%;padding-top:8px;clear:none;float:left;}
 #news-tabs-simple li{list-style:none;float:left;margin-right:20px;padding-left:0px;margin-left:0px;}
 #news-tabs-simple .tab-selected {color:#c20116;font-weight:bold;}
 #news-tabs-simple li:hover {color:#c20116;cursor:pointer;}
 
-#___gcse_0 {width: 48%; float: left;}
+#___gcse_0 {width: 43%; float: right;}
 #___gcse_0 input {background: none;}
 #___gcse_0 .gsc-control-cse, #___gcse_0 .gsc-input {padding: 0px;}
-#___gcse_0 #gs_tti50, #___gcse_0 .gsc-search-button button {height: 38px;}
-#___gcse_0 .gsc-search-button {padding: 0 0 0 20px;}
+#___gcse_0 #gs_tti50 {height: 38px;}
+#___gcse_0 .gsc-search-button button {height: 38px;margin-left:-57px;width:48px;}
+#___gcse_0 .gsc-search-button button svg{margin-left:-5px;}
+table.gsc-search-box td{padding:0px;}
+.gsc-input {width:80%;background:0px !important;}
 
 .news-top {margin-right:1%;margin-bottom:1%;}
 .news-top {float:left;width:56%;}

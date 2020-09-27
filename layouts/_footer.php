@@ -1,6 +1,6 @@
 <?php if($fileName != 'index-en.php'){ ?>
 <footer>
-    <div class="wrap-main">
+    <section class="wrap-main" id="kontakty">
         <div class="pad-main-left">
             <h3>Kontakt</h3>
             <div class="cleaner"></div>
@@ -32,7 +32,7 @@
             </div>
             <div class="cleaner"></div>
         </div>
-    </div>
+    </section>
     <div class="wrap-side">
         <div class="pad-main-right">
 			<a href="" class="more-contacts">Prohlášení o přístupnosti</a>
@@ -89,13 +89,15 @@
 </footer>
 <?php } ?>
 
-<div id="cookie-bar" class="fixed bottom">
-    <p>Tyto webové stránky využívají k analýze návštěvnosti soubory cookies. Pokud váš internetový prohlížeč má v nastavení cookies povoleny, je nezbytný váš souhlas s použitím této technologie.<br>
-        <a href="" class="cb-enable">Souhlasím</a>
-        <a href="" class="cb-disable">Nesouhlasím</a>
-        <a href="https://www.google.com/policies/technologies/cookies/" class="cb-policy">Více informací</a>
-    </p></div>
-
+<?php if (!isset($_COOKIE["disclaimer"])){?>
+    <div id="cookie-bar" class="fixed bottom">
+        <p>Tyto webové stránky využívají k analýze návštěvnosti soubory cookies. Pokud váš internetový prohlížeč má v nastavení cookies povoleny, je nezbytný váš souhlas s použitím této technologie.<br>
+            <a href="" class="cb-enable">Souhlasím</a>
+            <a href="" class="cb-disable">Nesouhlasím</a>
+            <a href="https://www.google.com/policies/technologies/cookies/" class="cb-policy">Více informací</a>
+        </p>
+    </div>
+<?php } ?>
 <div class="overlay overlay-hugeinc">
     <button type="button" class="overlay-close"></button>
     <nav>
@@ -165,7 +167,7 @@
 <?php }else{?>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<?php}
+<?php } ?>
 
 <script type="text/javascript" src="js/simple-jQuery-slider-master/src/jquery.simpleslider.js"></script>
 <script type="text/javascript" src="js/simple-jQuery-slider-master/src/transit.js"></script>

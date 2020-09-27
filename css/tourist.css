@@ -9,12 +9,14 @@
 .tourist-top-link-text strong {display:block;margin-top:13px;font-size:1.1em;}
 .wrap-side form {width:90%;float:left;margin-top:20px;}
 .wrap-side form.fulltext-form {width:100%;maragin-top:30px;}
+#___gcse_0{width:80%;margin-top:20px;float:left;}
 
-.slider{width: 100%; height: 60vh; position: relative; overflow: hidden;}
+.slider{width: 100%;height: 400px; position: relative; overflow: hidden;}
 .slide{width: 100%; height: 100%; top: 0; left: 0; float: left; position: absolute;}
 .slide .slidecontent {top: 0px; position: absolute; color: white;}
-.slide .slidecontent h2 {color: white; margin-left: 0px;}  
-#slideposition {position: absolute; right: 0px; bottom: 0px;}
+.slide .slidecontent.pad-main-left {padding-top:40px;}
+.slide .slidecontent h2 {color: white; margin-left: 0px;margin-bottom: 0px;}
+#slideposition {position: absolute; right: 0px; top: 250px;}
 #slideposition li {list-style-type: none; padding-top: 0px; line-height: 15px;}
 #slideposition li::before {content: "\2022"; color: gray; margin-left: -1em; font-weight: bold;}
 #slideposition li.active::before {color: black;}
@@ -123,7 +125,7 @@ a.link-other-events {display: block;}
 
 .section-shadow {margin-top:-5px;}
 .about-photo,.tips-map {width:100%;}
-#trips-map,#sport-list{width:400px; text-align:center;margin:0 auto; margin-top:-57px;line-height:50px;height:46px;background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);}
+#trips-map,#sport-list{font-weight:bold; font-size: 24px;width:400px; text-align:center;margin:0 auto; margin-top:-73px;line-height:65px;height:61px;background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);}
 #trips-map img,#sport-list img {width:15px;margin-left:10px;margin-top:4px;}
 #tipy-na-vylet h2{margin-bottom:20px;margin-top:-20px;}
 
@@ -223,6 +225,9 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .tourist-button-link img {max-height:20px;max-width:25px;margin:5px 5px 10px 5px;}
     .tourist-button-link span {margin:0px 10px 0px 10px;}
     .calendar-title-header #news-tabs {margin-left:-25px;}
+    .slider{height: 350px;}
+    #slideposition {top: 200px;}
+
 }
 
 @media screen and (max-width: 1250px) {
@@ -242,6 +247,8 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .history-line {margin-left:-15px;}
     .tourist-button-link span {margin:0px 3px 0px 3px;}
     .history-date {font-size:0.8em;}
+    .slider{height: 300px;}
+    #slideposition {top: 180px;}
 }
 
 
@@ -251,6 +258,8 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 
 @media screen and (max-width: 950px) {
+    #kultura .pad-main-right, #sport  .pad-main-right{display:none;}
+
     a.tourist-top-link {float:left;width:30%;clear:none;margin-top:0px;}
     .tourist-top-link-text-img {width:20%;}
     .tourist-top-link-text img {display:none;}

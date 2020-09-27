@@ -9,34 +9,37 @@
 <!--  -----------------------------------Banner-----------------------------------------------  -->
 
         <div id="title-banner">
-            <img class="title-banner-img" src="img/img-system/title/banner.jpg" alt="Letecký pohled - Litomyšl">
-            <div class="pad-main-left banner-text">
-                <h2>moderní <br>historické <br>město</h2>
-            </div>
-            <div class="title-heart" style="top:40%;left:60%;">
-                 <img src="img/img-system/title/heart.png" alt="Klášterní zahrady">
-                 <div class="heart-popup">
-                     <a href="https://www.litomysl.cz/?id_str=1311055287097"><strong>Klášterní zahrady</strong></a>
-                     <a href="http://litomysl.pano3d.eu//index.html?startscene=0"><img src="img/img-system/title/3d.png" alt="Virtuální prohlídka Lorem ipsum dolor"></a>
-                     <a href="https://www.litomysl.cz/?id_str=1311055287097"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
-                 </div>
-            </div>
-            <div class="title-heart" style="top:75%;left:30%;">
-                <img src="img/img-system/title/heart.png" alt="Smetanovo náměstí">
-                <div class="heart-popup">
-                    <a href="https://www.litomysl.cz/?id_str=1311055259565"><strong>Smetanovo náměstí</strong></a>
-                    <a href="http://litomysl.pano3d.eu//index.html?startscene=5"><img src="img/img-system/title/3d.png" alt="Virtuální prohlídka Lorem ipsum dolor"></a>
-                    <a href="https://www.litomysl.cz/?id_str=1311055259565"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
+            <?php if (!isset($_COOKIE["hiddenBanner"])){?>
+            <div class="title-banner-content">
+                <img class="title-banner-img" src="img/img-system/title/banner.jpg" alt="Letecký pohled - Litomyšl">
+                <div class="pad-main-left banner-text">
+                    <h2>moderní <br>historické <br>město</h2>
+                </div>
+                <div class="title-heart" style="top:40%;left:60%;">
+                     <img src="img/img-system/title/heart.png" alt="Klášterní zahrady">
+                     <div class="heart-popup">
+                         <a href="https://www.litomysl.cz/?id_str=1311055287097"><strong>Klášterní zahrady</strong></a>
+                         <a href="http://litomysl.pano3d.eu//index.html?startscene=0"><img src="img/img-system/title/3d.png" alt="Virtuální prohlídka Lorem ipsum dolor"></a>
+                         <a href="https://www.litomysl.cz/?id_str=1311055287097"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
+                     </div>
+                </div>
+                <div class="title-heart" style="top:75%;left:30%;">
+                    <img src="img/img-system/title/heart.png" alt="Smetanovo náměstí">
+                    <div class="heart-popup">
+                        <a href="https://www.litomysl.cz/?id_str=1311055259565"><strong>Smetanovo náměstí</strong></a>
+                        <a href="http://litomysl.pano3d.eu//index.html?startscene=5"><img src="img/img-system/title/3d.png" alt="Virtuální prohlídka Lorem ipsum dolor"></a>
+                        <a href="https://www.litomysl.cz/?id_str=1311055259565"><img src="img/img-system/title/gallery.png" alt="Fotogalerie Lorem ipsum dolor"></a>
+                    </div>
+                </div>
+
+                <div id="mobile-title-links">
+                    <a href="#"><strong>občan / radnice</strong></a>
+                    <a class="not-selected-mobile-menu" href="turista.php">turista / volný čas</a>
                 </div>
             </div>
-
-            <div id="mobile-title-links">
-                <a href="#"><strong>občan / radnice</strong></a>
-                <a class="not-selected-mobile-menu" href="turista.php">turista / volný čas</a>
-            </div>
+            <?php  } ?>
             <div class="cleaner"></div>
         </div>
-
         
 <!--  -----------------------------------Novinky a kalendář-----------------------------------------------  -->
         
@@ -87,6 +90,8 @@
                 <div class="cleaner"></div>
             </div>
             <div class="wrap-main">
+                <div class="toggle-title-banner" ><?php if (!isset($_COOKIE["hiddenBanner"])){echo 'Skrýt';}else{echo 'Zobrazit';}?> banner</div>
+
                 <div class="pad-main-left">
 
                     <div class="mobile-news-header">
