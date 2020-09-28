@@ -136,7 +136,7 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 .menu {display:none;}
 .header-search {display:none;}
 
-#main-navigation {float:right;}
+#main-navigation {float:right;margin-top:15px}
 #main-navigation .col-md-5{width:44%;}
 #main-navigation .col-md-7{width:56%;}
 #main-navigation ul {margin-top:5px;}
@@ -194,12 +194,13 @@ input.submit:hover {cursor: pointer;}
 
 #social-buts{position:fixed;bottom:45px; right:0px;width:48px;}
 #social-buts a {display:block; height:45px;}
+footer .search-active {text-align:center;}
 
 footer .cont-email {margin-left: 2px; margin-right: 2px;}
 footer .calendar-search-set div.cal-type-trigger[caltype=pripominka] {background: #c20116!important; position: fixed; right: 0px; bottom: 100px; float: none; width: 40px; height: 140px; box-shadow:rgba(0, 0, 0, 0.6) 0px 0px 10px; -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px; -moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px; z-index: 1;}
 footer .calendar-search-set div.cal-type-trigger[caltype=pripominka]:hover {cursor: pointer;}
 footer .calendar-search-set div.cal-type-trigger div {display: none;}
-footer .calendar-search-set div.cal-type-trigger p {color: white!important; font-weight: bold; transform: rotate(270deg); width: 150px; right: -55px; position: fixed; bottom: 175px; font-size: 14px;}
+footer .calendar-search-set div.cal-type-trigger p {color: white!important; font-weight: bold; transform: rotate(270deg); width: 150px; right: -55px; position: fixed; bottom: 149px; font-size: 14px;}
 footer form input[name=jmeno] {border-width: 1px; width: 93%!important;}
 footer form textarea[name=pripominka] {width: 93%!important;}
 footer form input[name=odeslat] {margin-top: 5px; margin-right: 4%; float: right; width: 30%;}
@@ -457,7 +458,7 @@ footer.en more-contacts {float: right;}
     #sport-options-wrap .col-md-4, #sport-options-wrap .col-md-2,#sport-options-wrap .col-md-3,#sport-options-wrap .col-md-1 {width:100% !important;}
     #sport-options-wrap .square-pic span {text-align:center !important;}
     .fulltext-form {margin-top:0 !important;}
-    th {display:none;}
+
     tr {    display: table;  width:100%;}
     td {    display: block;width:100%;clear:both;padding:0px; }
     tr td:last-child{padding-bottom:15px; }

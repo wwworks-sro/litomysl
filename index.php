@@ -186,10 +186,10 @@
                     <div class="cleaner"></div>
                     <nav id='news-footer-nav'>
                         <ul>
-                            <li> <a href=""><img src="img/img-system/title/newspaper.2.3.1.png" alt="Městský měsíčník Lilie"> lilie</a> </li>
-                            <li> <a href=""><img src="img/img-system/title/video camera 1.2.3.1.png" alt="video reportáž"> video reportáž</a> </li>
-                            <li> <a href=""><img src="img/img-system/title/presentation.png" alt="úřední deska"> úřední deska</a> </li>
-                            <li> <a href=""><img src="img/img-system/title/stamp.5.3.1.png" alt="potřebuji zařídit"> potřebuji zařídit</a> </li>
+                            <li> <a href=""><img src="img/img-system/title/newspaper.2.3.1.png" alt="Městský měsíčník Lilie"> <span>zpravodaj<br />Lilie</span></a> </li>
+                            <li> <a href=""><img src="img/img-system/title/video camera 1.2.3.1.png" alt="video reportáž"> <span>video<br />reportáže</span></a> </li>
+                            <li> <a href=""><img src="img/img-system/title/presentation.png" alt="úřední deska"> <span>úřední<br />deska</span></a> </li>
+                            <li> <a href=""><img src="img/img-system/title/stamp.5.3.1.png" alt="potřebuji zařídit"> <span>potřebuji<br />zařídit</span></a> </li>
                         </ul>
                     </nav>
                 </div>
@@ -308,12 +308,12 @@
                         </ul><div class="cleaner"></div>
                     </nav>
 
-                    <nav id='service-tourists'>
-                        <ul>
-                            <li><a href=""><img src="img/img-system/services/bed single.3.3.1.png" alt="Ubytování"><span>Ubytování</span></a></li>
-                            <li><a href=""><img src="img/img-system/services/fork knife.3.3.1.png" alt="Stravování"><span>Stravování</span></a></li>
-                        </ul>
-                    </nav>
+                    <a class="but but-section-top but-red-empty but-bed" href="">
+                        <strong>Ubytování </strong>
+                    </a>
+                    <a class="but but-section-top but-red-empty but-food" href="">
+                        <strong>Stravování </strong>
+                    </a>
                 </div>
             </div>
             <div class="cleaner"></div>
@@ -517,18 +517,44 @@
                     </div>
                     <div class="col-md-6 col-mob-12 major-row">
                         <div class="col-md-1 major-left-pad">&nbsp;</div>
-                        <div class="col-md-3">
-                            <div class="people-circles people-major"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><h3>Místostarosta</h3><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
-                        </div>
-                        <div class="col-md-2 col-horizontal-line">
-                            <img class="horizontal-line" src="img/img-system/people/horizontal.png" alt="Linka">
-                        </div>
+                        <div class="col-md-3">&nbsp;</div>
+                        <div class="col-md-3">&nbsp;</div>
                         <div class="col-md-4">
-                            <div class="people-circles  people-wisemajor"><img src="img/img-people/martin-novak.png" alt="Martin Novák"><h3>Starosta</h3><div><p><strong>Martin Novák</strong><br />(KDU-ČSL)<br /><span>789 456 416<br />petr.novak@litomysl.cz</span></p></div></div>
+                            <div class="people-circles people-major"><img src="img/img-people/martin-novak.png" alt="Daniel Brýdl">
+                                <h3>Starosta</h3>
+                                <div>
+                                    <p>
+                                        <strong>Daniel Brýdl</strong><br />
+                                        (SNK "Generace 89")<br />
+                                        <span><a href="tel:602202580">602 202 580</a><br /><a href="mailto:daniel.brydl@litomysl.cz">daniel.brydl@litomysl.cz</a></span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col-md-7 vertical-line-separator vertical-line-separator-1">
+                    <div class="col-md-5 vertical-line-separator vertical-line-nomarg vertical-line-separator-1">
+                        <img class="vertical-line" src="img/img-system/people/vertical.png" alt="Linka">
+                    </div>
+                    <div class="col-md-6 col-mob-12 wisemajor-wrap">
+                        <div class="col-md-1 major-left-pad">&nbsp;</div>
+                        <div class="col-md-3">&nbsp;</div>
+                        <div class="col-md-3 ">&nbsp;</div>
+                        <div class="col-md-4">
+                            <div class="people-circles people-wisemajor ">
+                                <img src="img/img-people/martin-novak.png" alt="Radomil Kašpar">
+                                <h3>Místostarosta</h3>
+                                <div>
+                                    <p>
+                                        <strong>Radomil Kašpar</strong><br />
+                                        (Křesťanská a demokratická unie - Československá strana lidová)<br />
+                                        <span><a href="tel:608882301">608 882 301</a><br /><a href="mailto:radomil.kaspar@litomysl.cz">radomil.kaspar@litomysl.cz</a>
+                      </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 vertical-line-nomarg vertical-line-separator">
                         <img class="vertical-line" src="img/img-system/people/vertical.png" alt="Linka">
                     </div>
                     <div class="cleaner"></div>

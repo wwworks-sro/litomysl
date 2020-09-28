@@ -42,9 +42,7 @@
                         <div class="tourist-top-link-text">
                             <strong>Infocentrum Litomyšl</strong>
                             <div class="col-md-12">
-                                <img src="img/img-system/tourist/mobile phone 2.2.3.1.png" alt="Telefonní číslo">
                                 <span>461 612 161</span>
-                                <img src="img/img-system/tourist/logo email.2.3.1.png" alt="Email">
                                 <span>ic@litomysl.cz</span>
                             </div>
                         </div>
@@ -208,6 +206,10 @@
                         <a href="" class="but tourist-button-link">
                             <img src="img/img-system/tourist/zn.png" alt="Zámecké návrší">
                             <span>Zámecké návrší</span>
+                        </a>
+                        <a href="" class="but tourist-button-link">
+                            <img src="img/img-system/tourist/grandpiano.png" alt="Rodný byt Bedřicha Smetany">
+                            <span>Rodný byt B. Smetany</span>
                         </a>
 
                         <a class="more-services" href="">Další...</a>
@@ -462,7 +464,7 @@
                     <div class="cleaner"></div>
                     <div class="col-md-12">
                         <div class="col-md-8">
-                            <h3 class="col-md-12"><br />Kulturní zařízení a organizace</h3>
+                            <h3 class="col-md-12">Kulturní zařízení a organizace</h3>
                             <a href="" class="square-pic" href=""><img src="img/img-system/culture/kino.jpg" alt="Kino Sokol"/> <span>Kino Sokol</span> </a>
                             <a href="" class="square-pic" href=""><img src="img/img-system/culture/mestska-knihovna.jpg" alt="Městská knihovna"/> <span>Městská knihovna</span> </a>
                             <a href="" class="square-pic" href=""><img src="img/img-system/culture/mestska-galerie.jpg" alt="Městská galerie"/> <span>Městská galerie</span> </a>

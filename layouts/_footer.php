@@ -39,7 +39,7 @@
             <a href="" class="more-contacts">struktura webu</a>
 			<div class="calendar-search-set">
 				<div class="col-md-12 cal-type-trigger search-active" caltype="pripominka" style="background: yellow;">
-					<p style="color: red; font-weight: bold;">Vaše připomínka k této stránce</p>
+					<p style="color: red; font-weight: bold;">Vaše připomínka k&nbsp;této stránce</p>
 				</div>                                
 
 				<form id="calendar-search-name" class="calendar-search cal-type-pripominka" method="post" action="http://temp.litomysl.cz/pripominka/" style="display: block;">

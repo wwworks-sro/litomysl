@@ -23,7 +23,7 @@ $fileName = basename($_SERVER['PHP_SELF']);
 							<li id="menu-mestsky-urad"> <a href="">úřad</a> </li>
 							<li id="menu-lide"> <a href="">lidé</a> </li>
 							<li id="menu-vzdelavani"> <a href="">vzdělávání</a> </li>
-							<li id="menu-kontakty"> <a href="">kontakty</a> </li>
+							<li id="menu-kontakty"> <a href="#kontakty">kontakty</a> </li>
 						</ul>
 						<img class="selected-menu-shadow" src="img/img-system/header/shadow.png" alt="Vybrané menu">
 					</li>
