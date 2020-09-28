@@ -199,9 +199,11 @@
 
         
 <!--  -------------------------------------Služby---------------------------------------------  -->
-        
-        
-        <section id="sluzby" class="gray-layout">
+
+        <a href="#mb-sluzby" id="mb-sluzby" trigger="sluzby" class="mb-trigger" >
+            Služby <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/>
+        </a>
+        <section id="sluzby" class="gray-layout mb-hide">
             <div class="wrap-main">
                 <div class="pad-main-left">
                     <h2>Služby</h2>
@@ -322,8 +324,10 @@
 
 <!--  -------------------------------------Městský úřad---------------------------------------------  -->
 
-
-        <section id="mestsky-urad" class="red-layout">
+        <a href="#mb-mestsky-urad" id="mb-mestsky-urad" trigger="mestsky-urad" class="mb-trigger" >
+            Služby <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/>
+        </a>
+        <section id="mestsky-urad" class="red-layout mb-hide">
             <img class="lilly" src="img/img-system/office/lilly.png" alt="Lilie">
             <div class="wrap-main">
                 <div class="pad-main-left">
@@ -492,8 +496,10 @@
 
 <!--  --------------------------------------Lidé--------------------------------------------  -->
 
-
-        <section id="lide" class="gray-layout">
+        <a href="#mb-lide" id="mb-lide" trigger="lide" class="mb-trigger" >
+            Služby <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/>
+        </a>
+        <section id="lide" class="gray-layout mb-hide">
             <div class="wrap-main">
                 <div class="pad-main-left">
                     <h2>Lidé</h2>
@@ -659,8 +665,10 @@
 
 <!--  -----------------------------------Vzdělávání-----------------------------------------------  -->
 
-
-        <section id="vzdelavani" class="red-layout">
+        <a href="#mb-vzdelavani" id="mb-vzdelavani" trigger="vzdelavani" class="mb-trigger" >
+            Služby <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/>
+        </a>
+        <section id="vzdelavani" class="red-layout mb-hide">
             <div class="wrap-main">
                 <div class="pad-main-left">
                     <h2>Vzdělávání</h2>

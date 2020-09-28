@@ -81,7 +81,6 @@ $( document ).ready(function() {
             )
             {
                 var currentSection = $(this).attr('id');
-                console.log(currentSection);
                 $('.menu-selected').removeClass('menu-selected');
                 $('#menu-'+currentSection).addClass('menu-selected');
 
@@ -275,6 +274,15 @@ $( document ).ready(function() {
             if (r == true) {
                 processTitleBannerChange();
             }
+        }
+    });
+
+    $('.mb-trigger').click(function(){
+        var trid = $(this).attr('trigger');
+        if($(trid).is(":hidden")){
+            $('#'+trid).slideUp();
+        }else{
+            $('#'+trid).slideDown();
         }
     });
 
