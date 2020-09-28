@@ -186,10 +186,10 @@
                     <div class="cleaner"></div>
                     <nav id='news-footer-nav'>
                         <ul>
-                            <li> <a href=""><img src="img/img-system/title/newspaper.2.3.1.png" alt="Městský měsíčník Lilie"> <span>zpravodaj<br />Lilie</span></a> </li>
-                            <li> <a href=""><img src="img/img-system/title/video camera 1.2.3.1.png" alt="video reportáž"> <span>video<br />reportáže</span></a> </li>
-                            <li> <a href=""><img src="img/img-system/title/presentation.png" alt="úřední deska"> <span>úřední<br />deska</span></a> </li>
-                            <li> <a href=""><img src="img/img-system/title/stamp.5.3.1.png" alt="potřebuji zařídit"> <span>potřebuji<br />zařídit</span></a> </li>
+                            <li> <a href="" target="_blank"><img src="img/img-system/title/newspaper.2.3.1.png" alt="Městský měsíčník Lilie"> <span>zpravodaj<br />Lilie</span></a> </li>
+                            <li> <a href="" target="_blank"><img src="img/img-system/title/video camera 1.2.3.1.png" alt="video reportáž"> <span>video<br />reportáže</span></a> </li>
+                            <li> <a href="" target="_blank"><img src="img/img-system/title/presentation.png" alt="úřední deska"> <span>úřední<br />deska</span></a> </li>
+                            <li> <a href="" target="_blank"><img src="img/img-system/title/stamp.5.3.1.png" alt="potřebuji zařídit"> <span>potřebuji<br />zařídit</span></a> </li>
                         </ul>
                     </nav>
                 </div>
@@ -522,7 +522,6 @@
                         </div>
                     </div>
                     <div class="col-md-6 col-mob-12 major-row">
-                        <div class="col-md-1 major-left-pad">&nbsp;</div>
                         <div class="col-md-3">&nbsp;</div>
                         <div class="col-md-3">&nbsp;</div>
                         <div class="col-md-4">
@@ -538,11 +537,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5 vertical-line-separator vertical-line-nomarg vertical-line-separator-1">
-                        <img class="vertical-line" src="img/img-system/people/vertical.png" alt="Linka">
-                    </div>
                     <div class="col-md-6 col-mob-12 wisemajor-wrap">
-                        <div class="col-md-1 major-left-pad">&nbsp;</div>
                         <div class="col-md-3">&nbsp;</div>
                         <div class="col-md-3 ">&nbsp;</div>
                         <div class="col-md-4">

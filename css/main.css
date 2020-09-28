@@ -97,6 +97,7 @@ input.search-submit {width:20%;height:41px !important;}
 img {border:none;max-width:100%;}
 
 table.gsc-search-box td.gsc-search-button {padding-left:0px !important;margin-left:-50px !important;}
+table.gsc-search-box input.gsc-input {background: none;}
 .gsc-search-button {width:50px;}
 
 /*Basic layout*/
@@ -153,7 +154,7 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 
 #lang-box, #social-box, #contacts-link {line-height:1.8em;}
 #social-box, #contacts-link {clear:both;width:100%;}
-#lang-box{position:absolute; right:15px;top:35px;}
+#lang-box{position:absolute; right:15px;top:35px; width: 50px;}
 #lang-box a, #social-box a,#contacts-link {float:right;text-align:right;}
 #lang-box a, #social-box a {margin-left:8px;}
 #social-box a{margin-top:10px;max-width:22%;}
@@ -190,7 +191,7 @@ input.submit:hover {cursor: pointer;}
 
 
 /*Facebook*/
-.rblikebox{background: url("../img/img-system/header/side-facebook.png") no-repeat scroll left bottom transparent !important;display: block;float: right;height: 502px; padding: 0 5px 0 48px;width: 245px;z-index: 1000;position:fixed;right:-250px;bottom:250px;}
+.rblikebox{background: url("../img/img-system/header/side-facebook.png") no-repeat scroll left bottom transparent !important;display: block;float: right;height: calc(100% - 350px); padding: 0 5px 0 48px;width: 245px;z-index: 1000;position:fixed;right:-250px;bottom:250px;}
 .rblikebox div{border:none; position:relative;display:block;}
 .rblikebox span{bottom: 12px;font: 8px "lucida grande",tahoma,verdana,arial,sans-serif;position: absolute;right: 7px;text-align: right;z-index: 999;}
 .rblikebox span a{color: gray;text-decoration:none;}

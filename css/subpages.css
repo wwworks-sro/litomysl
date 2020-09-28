@@ -11,9 +11,8 @@
 .subpage-title{display:block; float:left;}
 
 .sidebar-nav li {padding:10px 0;width:100%;}
-.sidebar-nav ul ul li {border-bottom:3px solid white;}
+.sidebar-nav ul ul li {border-bottom:3px solid white; text-decoration: none;}
 .sidebar-nav li ul {margin-left:10%;}
-.sidebar-nav a {text-decoration:none;}
 .sidebar-nav .active {padding-bottom:0;}
 .sidebar-nav .active a {color:#c20116;font-weight:bold;}
 .sidebar-nav .active li a  {color:black;font-weight:normal;}
@@ -25,6 +24,7 @@
 .news-detail-gallery a {width:20%;display:block;float:left;}
 .news-detail-gallery a img {width:98%;margin-right:2%;}
 #seznamy h3 {margin-top: 15px;}
+#seznamy h4 {margin-left: 20px;}
 
 .three-layout {background: url(../img/img-system/subpages/bg-three.jpg) repeat-y top ; background-size: contain;}
 

@@ -169,7 +169,11 @@ nav.people-links, nav.people-links h3,nav.people-links li {text-align:left;paddi
 a.more-answers {color:#c20116;float:right;margin-bottom:5px;font-weight:bold; }
 #lide h3 {font-size:1.1em;font-weight:700;}
 .people-circles h3{text-align:center; width:100%;}
-.people-wisemajor img{width:80%;margin-left:10%;}
+.people-circles.people-wisemajor {width: 80%;}
+.people-circles.people-major {width: 100%;}
+.people-wisemajor img {width:100%;margin-left:10%;}
+.people-major img {width: 100%;}
+.major-row {margin-top: -100px}
 div.major-left-pad {width:8%;}
 .major-row .people-major {float:right;}
 
@@ -251,10 +255,11 @@ div.major-left-pad {width:8%;}
     #mestsky-urad .bubble {max-width:80%;}
     .office-side td {padding:5px;}
     .more-news-mini {height:45px;}
+	.major-row {margin-top: 0px;}
 }
 
 @media screen and (max-width: 1100px) {
-    .news-secondary p {display:none;    }
+    .news-secondary p {display:none;}
     .fulltext-form {width:26%}
     .search-text {width:65%;}
     .news-mini img,.more-news-mini {width:21%;}
@@ -294,7 +299,8 @@ div.major-left-pad {width:8%;}
     #mestsky-urad .bubble {max-width:100%;float:none;}
     .multiple-line-page h2 {margin-left:0px;}
     #news-header{margin-bottom:20px;}
-	.people-major img {width: 75%; margin-left: 13%; margin-top: 15%;}
+	.people-major img {width: 75%; margin-left: 13%; margin-top: 10vh;}
+	.people-major h3, .people-wisemajor h3 {margin-top: 0px;}
 }
 
 
@@ -334,6 +340,7 @@ div.major-left-pad {width:8%;}
     #service-nav-icons .col-md-4{clear:both; width:100%;margin-bottom:30px;}
 	div.major-left-pad {width: 8%;}
 	div.col-horizontal-line {display: none;}
+	#___gcse_0 {width: 100%;}
 }
 
 

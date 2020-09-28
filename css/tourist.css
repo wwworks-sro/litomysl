@@ -178,10 +178,10 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 .sport-bottom span {font-size:0.8em;}
 
 #sport-detail-wrap {display: none; height: 70vh; position: absolute; width: 50%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 15vh; left: 25%;}
-#sport-detail-wrap.sport-triggered {display: block;}
+#sport-detail-wrap.sport-triggered {display: block; overflow: overlay;}
 .nahled-sportu {margin: 50px;}
 .nahled-sportu h2 {margin-left: 30px;}
-.close-sport {cursor: pointer; position: absolute; top: 5px; right: 10px; font-weight: 800;}
+.close-sport {cursor: pointer; position: absolute; top: 5px; right: 25px; font-weight: 800;}
 
 
 /*  -----------------------------------Nabídka sportů-----------------------------------------------  */
@@ -293,14 +293,17 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .about-photo{margin-top:10vh;}
 }
 
+@media screen and (max-width: 850px) {
+    .tourist-button-link {line-height:1.2em;}
+    .tourist-button-link span {padding-top:3px;display:block; float:right;width:70%;}
+}
+
 
 @media screen and (max-width: 750px) {
     .pad-main-left, .pad-main-right, .pad-main{}
     #kalendar-sluzby .pad-main-right {width:90%;}
     #news-tabs{width:266px; !important;float:left;}
     #kalendar-sluzby .col-md-4 {width:90%;}
-    .tourist-button-link {line-height:1.2em;}
-    .tourist-button-link span {padding-top:3px;display:block; float:right;width:70%;}
     .about-box {right:30px;width:40%;}
     div.history-pic {width:20% !important;}
     div.history-text {float:left !important;clear:none !important;}
@@ -339,6 +342,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     form.fulltext-form {width:100% !important;margin-top:0px !important;}
     .landmarks-list {margin-top:0px;}
     .tourist-button-link span {width:80%;}
+	#service-tourists li {width: 50%;}
 }
 
 @media screen and (max-width: 350px) {

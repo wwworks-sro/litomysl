@@ -167,8 +167,8 @@
             </div>
             <div class="wrap-side bg-red">
                 <div class="pad-main-right">
+					<h3>Služby</h3>
                     <div class="col-tb-4">
-                        <h3>Služby</h3>
                         <a href="" class="tourist-icon-link">
                             <img src="img/img-system/tourist/bed single.3.3.1 kopie.png" alt="">
                             <strong>Ubytování</strong>
