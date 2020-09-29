@@ -95,11 +95,11 @@
                 <div class="pad-main-left">
 
                     <div class="mobile-news-header">
-                        <h3>Aktuality</h3>
                         <a href="kalendar.php">kalendář akcí</a>
                     </div>
 
                     <div id="news-header">
+                        <h3>Aktuality</h3>
                         <ul id="news-tabs-simple">
                             <li news="all" class="tab-selected">vše</li>
                             <li news="town">z města</li>
