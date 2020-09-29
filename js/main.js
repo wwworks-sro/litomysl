@@ -21,8 +21,10 @@ $( document ).ready(function() {
 	$(".slider").simpleSlider();
 	/* pripominky */
 	$(".cal-type-trigger[caltype=pripominka]").click(function () {
-		var x = $("footer").position();
-		window.scrollTo(x.left, x.top);
+		$("html, body").animate({ 
+                    scrollTop: $( 
+                      'html, body').get(0).scrollHeight 
+                }, 2000);
 		$(".cal-type-pripominka").show();
 	});
 

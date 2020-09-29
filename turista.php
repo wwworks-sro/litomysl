@@ -370,7 +370,7 @@
 
                 <div class="pad-main">
                     <div class="col-md-7">
-                        <h2 class="section-heading">Památky a architektura</h2>
+                        <h2 class="section-heading">Památky a&nbsp;architektura</h2>
                     </div>
                     <div class="col-md-5 landmarks-lam">
                         <a href="" class="but but-red">Online prohlídka</a>
@@ -381,6 +381,7 @@
 
                     <div class="landmarks-list">
                         <div class="landmarks-col-left">
+							<h3 class="col-md-12">Nenechte si ujít</h3>
                             <a href="" class="square-pic" href=""><img src="img/img-system/landmarks/zamek.jpg" alt="Zámecký areál"/> <span>Zámecký areál</span> </a>
                             <a href="" class="square-pic"><img src="img/img-system/landmarks/dum-u-rytiru.jpg" alt="Dům U Rytířů"/><span>Dům U Rytířů </span></a>
                             <a href="" class="square-pic"><img src="img/img-system/landmarks/smetanovo-namesti.jpg" alt="Smetanovo náměstí"/><span>Smetanovo náměstí</span></a>

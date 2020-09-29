@@ -205,8 +205,8 @@
         </a>
         <section id="sluzby" class="gray-layout mb-hide">
             <div class="wrap-main">
+				<h2>Služby</h2>
                 <div class="pad-main-left">
-                    <h2>Služby</h2>
                     <a class="but but-section-top but-red-empty float-right" href="">Hlášení závad</a>
 
                     <nav id='service-nav-icons'>
@@ -504,7 +504,7 @@
                 <div class="pad-main-left">
                     <h2>Lidé</h2>
                     <div class="cleaner"></div>
-                    <div class="col-md-6 col-mob-12 float-right">
+                    <div class="col-md-6 float-right">
                         <div class="bubble bubble-white">
                             <div class="pad">
                                 <h3>Starostova odpovědna</h3>
@@ -526,7 +526,13 @@
                         <div class="col-md-3">&nbsp;</div>
                         <div class="col-md-4">
                             <div class="people-circles people-major"><img src="img/img-people/martin-novak.png" alt="Daniel Brýdl">
-                                <h3>Starosta</h3>
+								<h3 class="big-device">Starosta</h3>
+								<nav class="col-md-12 people-links small-mobile" style="display: none;">
+								<h3>Starosta</h3>
+								<ul>
+									<li><a href="">Starostova odpovědna</a></li>
+								</ul>
+								</nav>
                                 <div>
                                     <p>
                                         <strong>Daniel Brýdl</strong><br />

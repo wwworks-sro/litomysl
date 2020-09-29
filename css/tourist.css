@@ -99,14 +99,13 @@ a.link-other-events {display: block;}
 
 
 .landmarks-list {margin-top:5vh;}
-.square-pic {float:left;margin-right:1%;margin-top:1%;width:19%;min-height:186px;}
+.square-pic {float:left;margin-right:1%;margin-top:1%;width:19%;min-height:242px;}
 .square-pic img {clear:both;float:none;width:100%;}
 .square-pic span {display:block;font-size:0.75em;max-width:100%;}
 .text-mini {font-size:0.8em;}
 .landmarks-lam {text-align:right;margin-top:20px;}
 .landmarks-lam a {float:right;width:200px;margin-left:10px;}
 .landmarks-lam p {display:block;}
-
 .landmarks-col-left,.landmarks-col-center ,.landmarks-col-right {float:left;}
 .landmarks-col-left .square-pic{width:24%;margin-right:1%;}
 .landmarks-col-center .square-pic{width:32%;margin-right:1%;}
@@ -153,9 +152,11 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 .wrap-side h3 {margin-bottom:10px;margin-top:10px;}
 
 
+#kultura .square-pic {margin-top: 1px;}
 .col-square-2 .square-pic {width:49%;margin-right:1%;}
-.next-square {position:relative; text-align:center;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);min-height:0px;}
-.next-square span {position:absolute; top:46%;width:100%;text-align:center;text-decoration:underline;}
+.next-square {position:relative; text-align:center;min-height:0px;}
+.next-square img {box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);}
+.next-square span {position:absolute; top:25%;width:100%;text-align:center;text-decoration:underline;}
 
 .extra-link-box h5{font-size:0.8em;font-weight:bold;}
 .extra-link-box a{font-size:0.8em;}
@@ -180,7 +181,6 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 #sport-detail-wrap {display: none; height: 70vh; position: absolute; width: 50%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 15vh; left: 25%;}
 #sport-detail-wrap.sport-triggered {display: block; overflow: overlay;}
 .nahled-sportu {margin: 50px;}
-.nahled-sportu h2 {margin-left: 30px;}
 .close-sport {cursor: pointer; position: absolute; top: 5px; right: 25px; font-weight: 800;}
 
 
@@ -209,8 +209,13 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 2000px) {
+	.square-pic {min-height: 193px;}
+	#nabidka-sportu .square-pic {min-height: 123px;}
+}
 
+@media screen and (max-width: 1600px) {
+	.square-pic {min-height: 174px;}
 }
 
 @media screen and (max-width: 1500px) {
@@ -231,7 +236,8 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .calendar-title-header #news-tabs {margin-left:-25px;}
     .slider{height: 350px;}
     #slideposition {top: 200px;}
-
+	.square-pic {min-height: 160px;}
+	#nabidka-sportu .square-pic {min-height: 100px;}
 }
 
 @media screen and (max-width: 1250px) {
@@ -243,6 +249,10 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 @media screen and (max-width: 1200px) {
     .calendar-title-header #news-tabs {margin-left:-39px;}
+	.square-pic {min-height: 141px;}
+	.sports-list-col-1 .square-pic {width: 24%;}
+	.sports-list-col-4 .square-pic {width: 40%;}
+	.sports-list-col-5 .square-pic {width: 30%;}
 }
 
 @media screen and (max-width: 1100px) {
@@ -253,11 +263,15 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .history-date {font-size:0.8em;}
     .slider{height: 300px;}
     #slideposition {top: 180px;}
+	.landmarks-lam p {clear: both;}
+	#pamatky-architektura h3 {min-height: 56px;}
+	.sport-bottom {margin-bottom: 5vh;}
 }
 
 
 @media screen and (max-width: 1000px) {
     .history-line {margin-left:0px;}
+	.square-pic {min-height: 128px;}
 }
 
 
@@ -286,11 +300,18 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .history-date {display:block;background-color:white;}
     .col-square-2 a.square-pic {width:19%;margin-right:1%;}
     #tipy-na-vylet,#nabidka-sportu {margin-top:10vh;margin-bottom:10vh;clear:both;}
-    #tipy-na-vylet {margin-top:0vh;}
+    #tipy-na-vylet {margin-top:2vh;}
+	#nabidka-sportu .section-shadow {top: -4px;}
     a.but-calendar {background-position-x:10px !important;background-size:20px !important;}
     #sport .square-pic {width:23%;}
     div.landmarks-extra-links {width:48% !important;clear:none !important;float:left !important;}
     .about-photo{margin-top:10vh;}
+	.square-pic {min-height: 205px;}
+	.sport-bottom {margin-bottom: 0px;}
+	.sports-list-col-2, .sports-list-col-3 {display: block!important;}
+	.sports-list-col-1, .sports-list-col-2, .sports-list-col-3, .sports-list-col-4, .sports-list-col-5 {width: 100%; clear: both;}
+	.sports-list-col-1 .square-pic, .sports-list-col-2 .square-pic, .sports-list-col-3 .square-pic, .sports-list-col-4 .square-pic, .sports-list-col-5 .square-pic {width: 8%;}
+	#nabidka-sportu .square-pic {min-height: 110px;}
 }
 
 @media screen and (max-width: 850px) {
@@ -298,6 +319,9 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .tourist-button-link span {padding-top:3px;display:block; float:right;width:70%;}
 }
 
+@media screen and (max-width: 800px) {
+	.sports-list-col-1 .square-pic, .sports-list-col-2 .square-pic, .sports-list-col-3 .square-pic, .sports-list-col-4 .square-pic, .sports-list-col-5 .square-pic {width: 11%;}
+}
 
 @media screen and (max-width: 750px) {
     .pad-main-left, .pad-main-right, .pad-main{}
@@ -308,6 +332,9 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     div.history-pic {width:20% !important;}
     div.history-text {float:left !important;clear:none !important;}
     .youtube-list li {padding-left:0px;font-size:0.8em;clear:both;display:block;}
+	.landmarks-lam {clear: both; float: right; width: 100%;}
+	.landmarks-lam p {clear: none;}
+	.square-pic {min-height: 197px;}
 }
 
 
@@ -329,6 +356,21 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .col-md-4 .calendar-title-header {margin-top:30px;}
     .col-md-4 .calendar-title-header strong {margin-left:10px;}
     .calendar-title-header #news-tabs {margin-left:13px;}
+	a.tourist-top-link {width: 100%;}
+	.tourist-top-link-text-img {width: 10%;}
+	.statistics-circle {display:none;}
+	.square-pic {min-height: 177px;}
+	.sport-bottom span {float: left; clear: both;}
+}
+
+@media screen and (max-width: 600px) {
+	.sports-list-col-1 .square-pic, .sports-list-col-2 .square-pic, .sports-list-col-3 .square-pic, .sports-list-col-4 .square-pic, .sports-list-col-5 .square-pic {width: 14%;}
+}
+
+@media screen and (max-width: 500px) {
+	#tipy-na-vylet, #kultura .but-calendar {margin-bottom: 0px;}
+	.square-pic {min-height: 180px!important;}
+	.sports-list-col-1 .square-pic, .sports-list-col-2 .square-pic, .sports-list-col-3 .square-pic, .sports-list-col-4 .square-pic, .sports-list-col-5 .square-pic {width: 20%!important;}
 }
 
 @media screen and (max-width: 450px) {
@@ -337,7 +379,6 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .calendar-title-header ul#news-tabs li{padding-left:25px !important;padding-right:35px !important;}
     .calendar-title-header #news-tabs li,.calendar-title-header #news-tabs li strong {font-size:0.9em;}
     #kalendar-sluzby .col-md-4 {width:100% !important;}
-    .statistics-circle {display:none;}
     #kultura .col-md-3{width:100% !important;clear:both;}
     form.fulltext-form {width:100% !important;margin-top:0px !important;}
     .landmarks-list {margin-top:0px;}
@@ -345,9 +386,13 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	#service-tourists li {width: 50%;}
 }
 
+@media screen and (max-width: 400px) {
+	.square-pic {min-height: 150px!important;}
+}
+
 @media screen and (max-width: 350px) {
     .calendar-title-header ul#news-tabs{margin-left:10px;}
     .tourist-button-link span {width:75%;}
-
+	#pamatky-architektura h2 {font-size: 2.8em;}
 }
 

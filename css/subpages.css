@@ -1,7 +1,7 @@
 
 /*  -----------------------------------General-----------------------------------------------  */
 
-.sub-page{padding-top:103px;}
+.sub-page{padding-top:30px;}
 .sub-header {margin-top:5vh;margin-bottom:30px;}
 .subpage-icon {float:left;margin-right:2%;width:10%;max-width:99px;}
 .header-text {padding-left:0px;float:left;width:88%;}
@@ -32,7 +32,7 @@
 /*  -----------------------------------Kalendář-----------------------------------------------  */
 
 #kalendar .sub-header{min-height:145px;}
-.sub-header-side{min-height:180px;}
+.sub-header-side{min-height:45px;}
 #kalendar .sub-header-side{min-height:155px;}
 .cal-item-detail {height:auto;width:100%;background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);margin-bottom:2px;border-left:5px solid #c20116;}
 .cal-detail-icon{float:left;width:8%;}
@@ -85,7 +85,7 @@
 /*  -----------------------------------Kalendář detail-----------------------------------------------  */
 
 
-#kalendar-detail a {text-decoration: underline;}
+#kalendar-detail a {text-decoration: underline; overflow-wrap: break-word;}
 #kalendar-detail a.cal-google-link {text-decoration: none;}
 .main-info .date, .main-info .location, .main-info .person {float: left; margin-right: 3%;}
 #kalendar-detail .news-detail-images{width:50%;float:right;}
@@ -160,6 +160,8 @@
 
 @media screen and (max-width: 490px) {
 	#kalendar .sub-header {width: 40%;}
+	#kalendar-detail .text-content {width: 100%;}
+	#kalendar-detail .news-detail-images {display: none;}
 }
 
 @media screen and (max-width: 450px) {

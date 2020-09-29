@@ -215,7 +215,7 @@ footer .sign {padding-bottom: 6vh; text-align: center;}
 footer .sign a {text-decoration: underline; color: white; font-size: inherit;}
 /* Menu overlay*/
 /* Overlay style */
-.overlay {  position: fixed;  width: 100%;  height: 100%;  top: 0;  left: 0;  background: rgba(255, 255, 255, 0.95);  z-index:5000;  }
+.overlay {  position: fixed;  width: 100%;  height: 100%;  top: 0;  left: 0;  background: rgba(255, 255, 255, 0.95);  z-index:5000; overflow: scroll; }
 /* Overlay closing cross */
 .overlay button.overlay-close {  width: 25px;  height: 25px;  position: absolute;  right: 20px;  top: 20px;  overflow: hidden;  border: none;  background: url(../img/img-system/header/cross_lines.png) no-repeat center center;  text-indent: 200%;  color: transparent;  outline: none;  z-index: 100;  }
 /* Menu style */
@@ -332,8 +332,11 @@ footer.en more-contacts {float: right;}
     .menu-group-title {font-size:1.2em;font-weight:800;display:block !important;margin-bottom:7px;}
     #main-navigation ul {margin-top:8px;}
     #main-navigation ul li a{line-height:1.4;}
-    footer .wrap-main{width:85%;}
-    footer .wrap-side{width:15%;font-size:0.8em;}
+    footer .wrap-main{width:75%;}
+    footer .wrap-side{width:25%;font-size:0.8em;}
+	footer .pad-main-right {padding: 0px!important;}
+	footer .social-links {clear: both;}
+	footer #calendar-search-name {width: 100%;}
     body{    font-size:1em;}
     #logo {margin-top:30px;}
     .wrap-side .pad-main-right {max-width:75%;padding:80px 40px 50px 40px;}
@@ -349,6 +352,8 @@ footer.en more-contacts {float: right;}
     .more-news-mini img {margin-top:17px;}
     #more-news-mini .news-text {line-height:2.2em;}
     .footer-contact-col {width:100%;}
+	    footer .wrap-main{width:70%;}
+    footer .wrap-side{width:30%;}
 }
 
 
@@ -398,8 +403,8 @@ footer.en more-contacts {float: right;}
     #logo {width:140px !important;clear:none !important;float:left !important;}
     #header-right {clear:none;}
     a.next-section-link{display:none;}
-    footer .wrap-main{width:100%;}
-    footer .wrap-side {padding-top:0px;}
+    footer .wrap-main{width:70%; clear: none; float: left;}
+    footer .wrap-side {padding-top:100px; clear: none; float: left;}
     h2 {font-size:2em;}
     .news-mini img,.more-news-mini {width:31%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:66%;font-size:0.9em;}
@@ -409,6 +414,9 @@ footer.en more-contacts {float: right;}
     .mb-trigger{display:block;}
 
     .toggle-title-banner{display:none !important}
+	#seznamy .pad-main-left {padding-bottom: 0px;}
+	#seznamy .pad-main-right {padding-top: 0px;}
+	#seznamy .sub-header-side {display: none;}
 }
 
 @media screen and (max-width: 750px) {
@@ -423,6 +431,9 @@ footer.en more-contacts {float: right;}
     .news-other img,.more-news-mini {width:15%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:83%;}
     #lang-box{top:50px;}
+	footer .wrap-main{width:100%; clear: both;}
+    footer .wrap-side {padding-top: 0px; clear: both; margin-left: 10%;}
+	footer .wrap-side .pad-main-right {width: 80%;}
 
 }
 
@@ -443,6 +454,7 @@ footer.en more-contacts {float: right;}
     .col-md-5,.col-md-6 {width:100%;clear:both;float:none;}
     .but {width:100% !important;clear:both;float:none;}
     .col-md-2, .col-md-4,.col-md-3 {width:46% !important;}
+	.col-square-2 {width: 100%!important;}
     #service-nav-icons .col-md-4 {width:100% !important;}
     #service-nav-icons .col-md-4 li {width:23%;}
     .education-other {padding-top:10vh;}
@@ -457,13 +469,12 @@ footer.en more-contacts {float: right;}
     #lang-box {display:none;}
     div.banner-text, div.banner-text h2{width:90% !important;}
     div.banner-text p {display:none;}
-    .search-text {width:67% !important;    }
-    .landmarks-col-left .square-pic,.landmarks-col-center .square-pic,.landmarks-col-right .square-pic, #kultura .square-pic,#sport .square-pic,#nabidka-sportu .square-pic  {width:32% !important;min-height:165px;}
+    .search-text {width:67% !important;}
+    .landmarks-col-left .square-pic,.landmarks-col-center .square-pic,.landmarks-col-right .square-pic, #kultura .square-pic,#sport .square-pic,#nabidka-sportu .square-pic  {width:32% !important;min-height:170px;}
     .next-square {min-height:0 !important;margin-bottom:30px;}
     .extra-link-box .col-md-4,.extra-link-box  .col-md-5{width:100% !important;clear:both; }
     .extra-link-box h5{padding-top:30px !important;}
     #logo {margin-left:5px;width:24%;}
-    .banner-text h2 {font-size:1em !important;}
     #service-nav-right li {margin-top:10px;}
     #sport-options-wrap .col-md-4, #sport-options-wrap .col-md-2,#sport-options-wrap .col-md-3,#sport-options-wrap .col-md-1 {width:100% !important;}
     #sport-options-wrap .square-pic span {text-align:center !important;}
