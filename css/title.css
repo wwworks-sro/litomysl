@@ -90,13 +90,13 @@ h2.today-events-title {font-size:1.3em;margin-top:8px;}
 
 /*  -----------------------------------Služby-----------------------------------------------  */
 
-#sluzby h2 {width:160px !important;clear:none;}
 .but-emergency,.but-calendar {margin-bottom:40px;line-height:1.8em; background: url(../img/img-system/services/emergency.png) no-repeat left;background-position-x:20px;background-size:30px;height:42px; }
 .but-emergency strong,.but-calendar strong {font-weight:bold; clear:both;display:block;line-height:1.1em;height:10px;margin-top:6px;}
 .but-emergency span,.but-calendar span {font-size:0.8em;}
 .but-food {margin-top:5px;background: #eaeaea url(../img/img-system/services/but-ico-fork.png) no-repeat left;background-position-x:20px;background-size:30px;}
 .but-bed {margin-top:40px;background: #eaeaea url(../img/img-system/services/but-ico-bed.png) no-repeat left;background-position-x:20px;background-size:30px;}
 #sluzby .pad-main-left .but-section-top{background: url(../img/img-system/services/wrench-double.png) no-repeat left;background-position-x:20px;background-size:30px;}
+#sluzby h2{margin-bottom:0px;}
 
 
 #service-nav-icons,#service-nav-bottom {width:100%;clear:both;padding-top:40px;}
@@ -329,6 +329,7 @@ div.major-left-pad {width:8%;}
 	#lide nav.people-links {margin-top: 0px;}
     #news-tabs-simple li {font-size:0.8em;}
     #news-tabs-simple h3{font-size:1em;}
+   #novinky-kalendar{margin-bottom:40px;}
 }
 
 
@@ -354,7 +355,7 @@ div.major-left-pad {width:8%;}
     footer .col-md-6 {width:100%;}
     footer table {width:100%;}
     footer .wrap-side {width:100%;}
-    .title-banner-img {display:none;}
+    .index-page .title-banner-img {display:none;}
     #title-banner {background: url(../img/img-system/title/banner-mobile.jpg) no-repeat center;background-size:cover;height:50vh;}
     #title-banner .banner-text{font-size: 0.9em;}
     #mobile-title-links {position:absolute; bottom:0px; width:94%;margin-left:3%;display:block;}

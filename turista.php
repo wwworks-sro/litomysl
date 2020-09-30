@@ -439,7 +439,7 @@
         <section id="tipy-na-vylet" class="white-layout">
             <img class="section-shadow" src="img/img-system/trip/section-shadow.png"/>
 
-            <div id="trips-map">Tipy na výlet <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/></div>
+            <a href="#tipy-na-vylet" id="trips-map">Tipy na výlet <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/></a>
 
             <div id="trips-wrap">
 
@@ -681,7 +681,7 @@
         <!--  -------------------------------------Nabídka sportů---------------------------------------------  -->
 
         <section id="nabidka-sportu" class="white-layout">
-            <div id="sport-list">Nabídka sportů <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/></div>
+            <a href="#nabidka-sportu" id="sport-list">Nabídka sportů <img src="img/img-system/trip/arrow-down.png" alt="Šipka dolů"/></a>
 
             <img class="section-shadow" src="img/img-system/sport-options/section-shadow.png"/>
             <div id="sport-options-wrap">
