@@ -99,13 +99,15 @@
                     </div>
 
                     <div id="news-header">
-                        <h3>Aktuality</h3>
-                        <ul id="news-tabs-simple">
-                            <li news="all" class="tab-selected">vše</li>
-                            <li news="town">z města</li>
-                            <li news="culture">z kultury</li>
-                            <li news="sport">ze sportu</li>
-                        </ul>
+                        <div id="news-tabs-simple">
+                            <h3>Aktuality</h3>
+                            <ul >
+                                <li news="all" class="tab-selected">vše</li>
+                                <li news="town">z města</li>
+                                <li news="culture">z kultury</li>
+                                <li news="sport">ze sportu</li>
+                            </ul>
+                        </div>
                         <form class="fulltext-form" method="post" action="#">
                             <input class="search-text" type="text" name="search">
                             <input class="submit search-submit" type="submit" name="vyhledat" value="">
@@ -205,8 +207,13 @@
         </a>
         <section id="sluzby" class="gray-layout mb-hide">
             <div class="wrap-main">
-				<h2>Služby</h2>
                 <div class="pad-main-left">
+
+                    <h2>Služby</h2>
+                    <div class="col-md-7 title-description">
+                        <p></p>
+                    </div>
+
                     <a class="but but-section-top but-red-empty float-right" href="">Hlášení závad</a>
 
                     <nav id='service-nav-icons'>

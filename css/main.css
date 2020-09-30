@@ -137,10 +137,10 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 .menu {display:none;}
 .header-search {display:none;}
 
-#main-navigation {float:right;margin-top:15px}
+#main-navigation {float:right;margin-top:4px}
 #main-navigation .col-md-5{width:44%;}
 #main-navigation .col-md-7{width:56%;}
-#main-navigation ul {margin-top:5px;}
+#main-navigation ul {margin-top:0px;}
 #main-navigation ul ul{margin-top:-5px;}
 #main-navigation ul li {text-align:center;padding:0 7px;}
 #main-navigation a {text-decoration:none;line-height:1.8em;}
@@ -162,12 +162,13 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 .wrap-side {height:100%;}
 
 .scrolled{height:70px;}
-.scrolled #main-navigation { margin-top:12px;margin-bottom:5px;}
+.scrolled #main-navigation { margin-top:0px;margin-bottom:0px;}
 .scrolled #logo{margin-top:12px;}
 .scrolled #logo img{max-height:50px;}
 .scrolled #lang-box {top:12px;}
 .scrolled .selected-menu-group .selected-menu-shadow{top:70px;}
 .scrolled .trigger-overlay {margin-top:12px;}
+.scrolled .menu-group-title {font-size:1.2em;}
 
 .mb-trigger{font-weight:bold;padding-top:15px;padding-bottom:15px;display:none;width:100%;clear:both;text-align:center;box-shadow:rgba(0, 0, 0, 0.6) 0px 0px 10px; -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px; -moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;}
 .mb-trigger img{width:15px;}
@@ -329,7 +330,8 @@ footer.en more-contacts {float: right;}
 
 
 @media screen and (max-width: 1350px) {
-    .menu-group-title {font-size:1.2em;font-weight:800;display:block !important;margin-bottom:7px;}
+    .menu-group-title {font-size:1.2em;font-weight:800;display:block !important;margin-bottom:3px;}
+    #main-navigation {margin-top:12px;
     #main-navigation ul {margin-top:8px;}
     #main-navigation ul li a{line-height:1.4;}
     footer .wrap-main{width:75%;}
@@ -354,6 +356,8 @@ footer.en more-contacts {float: right;}
     .footer-contact-col {width:100%;}
 	    footer .wrap-main{width:70%;}
     footer .wrap-side{width:30%;}
+    #main-navigation {margin-top:17px;}
+    .scrolled #main-navigation { margin-top:13px;}
 }
 
 

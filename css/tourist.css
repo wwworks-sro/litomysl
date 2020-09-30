@@ -101,7 +101,7 @@ a.link-other-events {display: block;}
 .landmarks-list {margin-top:5vh;}
 .square-pic {float:left;margin-right:1%;margin-top:1%;width:19%;min-height:242px;}
 .square-pic img {clear:both;float:none;width:100%;}
-.square-pic span {display:block;font-size:0.75em;max-width:100%;}
+.square-pic span {display:block;font-size:0.75em;max-width:90%;padding-left:5%;padding-right:5%;}
 .text-mini {font-size:0.8em;}
 .landmarks-lam {text-align:right;margin-top:20px;}
 .landmarks-lam a {float:right;width:200px;margin-left:10px;}
@@ -214,17 +214,28 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	#nabidka-sportu .square-pic {min-height: 123px;}
 }
 
+@media screen and (max-width: 1700px) {
+    .col-square-8 .next-square span{top:10%;}
+}
+
 @media screen and (max-width: 1600px) {
 	.square-pic {min-height: 174px;}
+    .col-square-8 .next-square span{top:10%;}
+    .slider{height:390px;}
+    .tourist-top-link-text-img {width:17%;}
 }
 
 @media screen and (max-width: 1500px) {
     .tourist-top-link-text-img {float:left;width:15%;}
+    .slider{height:370px;}
 }
 
+@media screen and (max-width: 1500px) {
+    .tourist-top-link-text-img {float:left;width:15%;}
+    .slider{height:350px;}
+}
 
 @media screen and (max-width: 1350px) {
-    .tourist-top-link-text-img {width:10%;float:left;}
     .tourist-icon-link img {width:20%;float:left; margin-right: 7px;}
     .tourist-top-link-text strong {font-size:0.9em;margin-top:0px;}
     .tourist-top-link-text img {height:15px;}
@@ -238,6 +249,12 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     #slideposition {top: 200px;}
 	.square-pic {min-height: 160px;}
 	#nabidka-sportu .square-pic {min-height: 100px;}
+    .landmarks-list h3{font-size:1.3em;}
+    .slider{height:330px;}
+    .tourist-top-link-text-img {width:12%;}
+    .calendar-title-header #news-tabs{margin-left:-13px;}
+    #subtitle-banner .wrap-side .pad-main-right{max-width:100%;padding-right:0px;}
+
 }
 
 @media screen and (max-width: 1250px) {
@@ -245,6 +262,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .text-more{font-size:0.8em;}
     .history-line,.personalities {width:95%;}
     #o-litomysli .but-white {width:95%;}
+    .slider{height:300px;}
 }
 
 @media screen and (max-width: 1200px) {
@@ -266,6 +284,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	.landmarks-lam p {clear: both;}
 	#pamatky-architektura h3 {min-height: 56px;}
 	.sport-bottom {margin-bottom: 5vh;}
+    .slider{height:270px;}
 }
 
 
