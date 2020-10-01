@@ -287,6 +287,8 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	.sport-bottom {margin-bottom: 5vh;}
     .slider{height:270px;}
     .square-pic {min-height: 159px;}
+
+    .slide .slidecontent h2 {font-size:2em;}
 }
 
 
@@ -333,6 +335,8 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	.sports-list-col-1, .sports-list-col-2, .sports-list-col-3, .sports-list-col-4, .sports-list-col-5 {width: 100%; clear: both;}
 	.sports-list-col-1 .square-pic, .sports-list-col-2 .square-pic, .sports-list-col-3 .square-pic, .sports-list-col-4 .square-pic, .sports-list-col-5 .square-pic {width: 8%;}
 	#nabidka-sportu .square-pic {min-height: 110px;}
+    .slide .slidecontent h2 {font-size:1.6em;}
+    .slider{height:340px;}
 }
 
 @media screen and (max-width: 850px) {
@@ -356,6 +360,10 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	.landmarks-lam {clear: both; float: right; width: 100%;}
 	.landmarks-lam p {clear: none;}
 	.square-pic {min-height: 197px;}
+    .slider{height:300px;}
+    .slide .slidecontent h2 {font-size:1.8em;}
+    #slideposition{top:20px;}
+    .slidecontent{padding-top:30px;}
 }
 
 
@@ -382,10 +390,13 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	.statistics-circle {display:none;}
 	.square-pic {min-height: 177px;}
 	.sport-bottom span {float: left; clear: both;}
+    .slider{height:270px;}
+    .slide .slidecontent h2 {font-size:1.6em;}
 }
 
 @media screen and (max-width: 600px) {
 	.sports-list-col-1 .square-pic, .sports-list-col-2 .square-pic, .sports-list-col-3 .square-pic, .sports-list-col-4 .square-pic, .sports-list-col-5 .square-pic {width: 14%;}
+    .slider{height:200px;}
 }
 
 @media screen and (max-width: 500px) {
@@ -405,6 +416,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .landmarks-list {margin-top:0px;}
     .tourist-button-link span {width:80%;}
 	#service-tourists li {width: 50%;}
+    .slider{height:170px;}
 }
 
 @media screen and (max-width: 400px) {
