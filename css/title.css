@@ -251,7 +251,7 @@ div.major-left-pad {width:8%;}
 }
 
 @media screen and (max-width: 1350px) {
-    .smetanovo-namesti {top: 68%;}
+    .smetanovo-namesti {top: 68%!important;}
     #news-tabs-simple li{font-size:0.9em;}
 }
 
