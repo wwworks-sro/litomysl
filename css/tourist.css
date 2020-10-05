@@ -82,7 +82,7 @@ a.link-other-events {display: block;}
 .history-line{background: url(../img/img-system/about/lines.png) repeat-y left;}
 .history-line-item,.history-line-item-big {margin-top:15px; margin-bottom:15px;clear:both;width:100%;}
 .history-text h4{font-weight:bold;font-size:0.8em;}
-.history-text p{font-size:0.8em;}
+.history-text p, .history-line-item-big .text-more {font-size:0.8em;}
 .history-date {font-size:0.8em;text-align:center;background-color:#eaeaea;margin-top:5px;height:30px;line-height:30px;margin-left:-15px;margin-right:15px;}
 .history-line-item-big .history-date{margin-top:20px;}
 .text-more{font-size:0.9em;display:none;}
@@ -173,7 +173,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 #sport .more-news-mini {width:16%;height:40px;margin-top:10px;}
 #sport .more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
 
-.sport-bottom {margin-top:5vh;}
+.sport-bottom {margin-top:5vh; margin-bottom: 5vh;}
 .sport-bottom ul{margin-top:50px;}
 .sport-bottom li {padding-left:0px;}
 .sport-bottom img {float:left;}
@@ -259,7 +259,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 }
 
 @media screen and (max-width: 1250px) {
-    .history-text p{font-size:0.7em;}
+    .history-text p, .history-line-item-big .text-more {font-size:0.7em;}
     .text-more{font-size:0.8em;}
     .history-line,.personalities {width:95%;}
     #o-litomysli .but-white {width:95%;}
@@ -364,6 +364,8 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .slide .slidecontent h2 {font-size:1.8em;}
     #slideposition{top:20px;}
     .slidecontent{padding-top:30px;}
+	.nahled-sportu {margin: 30px; font-size: 16px;}
+	#sport-detail-wrap {width: 80%; left: 10%;}
 }
 
 
@@ -397,6 +399,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 @media screen and (max-width: 600px) {
 	.sports-list-col-1 .square-pic, .sports-list-col-2 .square-pic, .sports-list-col-3 .square-pic, .sports-list-col-4 .square-pic, .sports-list-col-5 .square-pic {width: 14%;}
     .slider{height:200px;}
+	.nahled-sportu h2 {font-size: 30px;}
 }
 
 @media screen and (max-width: 500px) {
@@ -421,6 +424,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 @media screen and (max-width: 400px) {
 	.square-pic {min-height: 150px!important;}
+	.nahled-sportu {margin: 10px;}
 }
 
 @media screen and (max-width: 350px) {

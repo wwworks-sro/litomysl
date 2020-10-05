@@ -35,9 +35,9 @@ $( document ).ready(function() {
         var par = $(this).parent().parent();
         var triggeredVisible = par.find('.text-more').is(':visible');
         if(triggeredVisible){
-            par.find('.text-more').slideUp();
+            par.find('.text-more').show().slideUp();
         }else{
-            par.find('.text-more').slideDown();
+            par.find('.text-more').hide().slideDown();
         }
     });
 
@@ -170,10 +170,10 @@ $( document ).ready(function() {
         var type = $(this).children().attr('alt');
 		console.log('test'+type);
         jQuery.ajax({
-            'url': 'http://litomysl.wwworks.cz/_nahled-sportu-ajax.php',                        /***Upravit podle nové adresy***/
+            'url': 'http://litomysl.wwworks.cz/_nahled-sportu-ajax.php#nabidka-sportu',                        /***Upravit podle nové adresy***/
             'cache': false,
             'success': function (html) {
-                jQuery('#sport-detail-wrap').html(html).addClass('sport-triggered').attr("type", type)
+                jQuery('#sport-detail-wrap').html(html).addClass('sport-triggered').attr("type", type);
             }
         });
     });
