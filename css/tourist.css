@@ -99,7 +99,7 @@ a.link-other-events {display: block;}
 
 
 .landmarks-list {margin-top:5vh;}
-.square-pic {float:left;margin-right:1%;margin-top:1%;width:19%;min-height:242px;}
+.square-pic {float:left;margin-right:1%;margin-top:1%;width:19%;min-height:245px;}
 .square-pic img {clear:both;float:none;width:100%;}
 .square-pic span {display:block;font-size:0.75em;max-width:90%;padding-left:5%;padding-right:5%;}
 .text-mini {font-size:0.8em;}
@@ -168,7 +168,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 /*  -----------------------------------Sport-----------------------------------------------  */
 
 #sport h2 {width:100%;}
-.col-square-8 .square-pic,.col-square-8 .next-square {width:11.5%}
+.col-square-8 .square-pic,.col-square-8 .next-square {width:13%}
 .col-square-8 .next-square span{top:20%;}
 #sport .more-news-mini {width:16%;height:40px;margin-top:10px;}
 #sport .more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
@@ -211,7 +211,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 
 @media screen and (max-width: 2000px) {
-	.square-pic {min-height: 193px;}
+	.square-pic {min-height: 210px;}
 	#nabidka-sportu .square-pic {min-height: 123px;}
 }
 
@@ -220,7 +220,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 }
 
 @media screen and (max-width: 1600px) {
-	.square-pic {min-height: 188px;}
+	.square-pic {min-height: 195px;}
     .col-square-8 .next-square span{top:10%;}
     .slider{height:390px;}
     .tourist-top-link-text-img {width:17%;}
@@ -248,7 +248,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .calendar-title-header #news-tabs {margin-left:-25px;}
     .slider{height: 350px;}
     #slideposition {top: 200px;}
-	.square-pic {min-height: 181px;}
+	.square-pic {min-height: 190px;}
 	#nabidka-sportu .square-pic {min-height: 100px;}
     .landmarks-list h3{font-size:1.3em;}
     .slider{height:330px;}
@@ -268,7 +268,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 @media screen and (max-width: 1200px) {
     .calendar-title-header #news-tabs {margin-left:-39px;}
-	.square-pic {min-height: 148px;}
+	.square-pic {min-height: 155px;}
 	.sports-list-col-1 .square-pic {width: 24%;}
 	.sports-list-col-4 .square-pic {width: 40%;}
 	.sports-list-col-5 .square-pic {width: 30%;}
@@ -294,7 +294,6 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 @media screen and (max-width: 1000px) {
     .history-line {margin-left:0px;}
-	.square-pic {min-height: 138px;}
 }
 
 
@@ -326,10 +325,10 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     #tipy-na-vylet {margin-top:2vh;}
 	#nabidka-sportu .section-shadow {top: -4px;}
     a.but-calendar {background-position-x:10px !important;background-size:20px !important;}
-    #sport .square-pic {width:23%;}
+    #sport .square-pic {width:19%;}
     div.landmarks-extra-links {width:48% !important;clear:none !important;float:left !important;}
     .about-photo{margin-top:10vh;}
-	.square-pic {min-height: 205px;}
+	.square-pic {min-height: 225px;}
 	.sport-bottom {margin-bottom: 0px;}
 	.sports-list-col-2, .sports-list-col-3 {display: block!important;}
 	.sports-list-col-1, .sports-list-col-2, .sports-list-col-3, .sports-list-col-4, .sports-list-col-5 {width: 100%; clear: both;}
@@ -390,7 +389,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	a.tourist-top-link {width: 100%;}
 	.tourist-top-link-text-img {width: 10%;}
 	.statistics-circle {display:none;}
-	.square-pic {min-height: 177px;}
+	.square-pic {min-height: 208px;}
 	.sport-bottom span {float: left; clear: both;}
     .slider{height:270px;}
     .slide .slidecontent h2 {font-size:1.6em;}
@@ -404,7 +403,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 @media screen and (max-width: 500px) {
 	#tipy-na-vylet, #kultura .but-calendar {margin-bottom: 0px;}
-	.square-pic {min-height: 180px!important;}
+	.square-pic {min-height: 195px!important;}
 	.sports-list-col-1 .square-pic, .sports-list-col-2 .square-pic, .sports-list-col-3 .square-pic, .sports-list-col-4 .square-pic, .sports-list-col-5 .square-pic {width: 20%!important;}
 }
 
@@ -423,7 +422,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 }
 
 @media screen and (max-width: 400px) {
-	.square-pic {min-height: 150px!important;}
+	.square-pic {min-height: 176px!important;}
 	.nahled-sportu {margin: 10px;}
 }
 

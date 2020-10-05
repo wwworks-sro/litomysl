@@ -166,11 +166,14 @@ $( document ).ready(function() {
         $(this).addClass('tab-selected');
     });
 	
+	/* posunuti po kliku nahoru + zobrazeni detailu */
+	jQuery('#sport-options-wrap .square-pic').attr("href", '#nabidka-sportu');
+	
+	
 	$('#nabidka-sportu a.square-pic').click(function(){
         var type = $(this).children().attr('alt');
-		console.log('test'+type);
         jQuery.ajax({
-            'url': 'http://litomysl.wwworks.cz/_nahled-sportu-ajax.php#nabidka-sportu',                        /***Upravit podle nové adresy***/
+            'url': 'http://litomysl.wwworks.cz/_nahled-sportu-ajax.php',                        /***Upravit podle nové adresy***/
             'cache': false,
             'success': function (html) {
                 jQuery('#sport-detail-wrap').html(html).addClass('sport-triggered').attr("type", type);
@@ -268,13 +271,16 @@ $( document ).ready(function() {
             var r = confirm("Opravdu chcete skrýt titulní banner? " +
                 "(Kdykoli je možné jej opět zobrazit pomocí kliku na tento odkaz)");
             if (r == true) {
-                processTitleBannerChange();
+                processTitleBannerChange();			
+				$('html,body').animate({
+                        scrollTop: 0
+                }, 1000);
+				$(".toggle-title-banner").load(location.href + " .toggle-title-banner");
+				
             }
         }else{
-            var r = confirm("Opravdu chcete zobrazit titulní banner?");
-            if (r == true) {
-                processTitleBannerChange();
-            }
+            processTitleBannerChange();
+			$(".toggle-title-banner").load(location.href + " .toggle-title-banner");
         }
     });
 
