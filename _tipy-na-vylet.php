@@ -3,7 +3,7 @@
 </div>
 <div class="wrap-side ">
     <div class="pad-main-right">
-        <h2 class="section-heading">Tipy na výlet</h2>
+        <h3 class="section-heading">Tipy na výlet a další užitečné informace pro turisty</h3>
 
         <ul class="tips-links">
             <li><a href="">Užijte si Litomyšl</a></li>

@@ -87,10 +87,11 @@ $( document ).ready(function() {
                 $('#menu-'+currentSection).addClass('menu-selected');
 
                 if ( $('.menu-selected').length ) {
-                    var wshadow =  $('.selected-menu-shadow').width();
-                    var mswidth =  $('.menu-selected').width();
-                    var posSel = $('.menu-selected').position().left;
+                    var wshadow =  $('.selected-menu-group .selected-menu-shadow').width();
+                    var mswidth =  $('.menu-selected').width()+14;
+                    var posSel = $('.menu-selected').position().left-7;
                     var resultPos = posSel - (wshadow/2) + (mswidth / 2)+5;
+					console.log('resultPos: ' + resultPos + '; mswidth: ' + mswidth + '; wshadow: ' + wshadow);
                     $('.selected-menu-shadow').css('left', resultPos);
                 }
 
@@ -271,17 +272,15 @@ $( document ).ready(function() {
             var r = confirm("Opravdu chcete skrýt titulní banner? " +
                 "(Kdykoli je možné jej opět zobrazit pomocí kliku na tento odkaz)");
             if (r == true) {
-                processTitleBannerChange();			
-				$('html,body').animate({
-                        scrollTop: 0
-                }, 1000);
-				$(".toggle-title-banner").load(location.href + " .toggle-title-banner");
-				
+                processTitleBannerChange();							
             }
         }else{
             processTitleBannerChange();
-			$(".toggle-title-banner").load(location.href + " .toggle-title-banner");
         }
+		$('html,body').animate({
+				scrollTop: 0
+		}, 1000);
+		$(".toggle-title-banner").load(location.href + " .toggle-title-banner");
     });
 
     $('.mb-trigger').click(function(){

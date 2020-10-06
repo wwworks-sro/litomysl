@@ -427,6 +427,7 @@ footer a:link, footer a:visited {color: white;}
 	#seznamy .pad-main-left {padding-bottom: 0px;}
 	#seznamy .pad-main-right {padding-top: 0px;}
 	#seznamy .sub-header-side {display: none;}
+	#novinky-kalendar .wrap-side .pad-main-right {padding-top: 20px;}
 }
 
 @media screen and (max-width: 750px) {
@@ -456,6 +457,7 @@ footer a:link, footer a:visited {color: white;}
 @media screen and (max-width: 550px) {
     .cont-line {padding-top:15px;}
     .cont-line div {width:100%;clear:both;}
+	footer .calendar-search-set div.cal-type-trigger[caltype=pripominka] {display: none;}
 }
 
 @media screen and (max-width: 500px) {
