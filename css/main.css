@@ -309,11 +309,12 @@ footer #calendar-search-name, footer .calendar-search-set{clear:both;float:none;
 .en #trips .links {margin-left: 15px;}
 footer .margin-footer {margin-top: 3vh;}
 footer.en more-contacts {float: right;}
+footer a:link, footer a:visited {color: white;}
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
 
 @media screen and (max-width: 1600px) {
-    .footer th, footer td, footer a {font-size:0.7em;}
+    .footer th, footer td, footer a {font-size:1em;}
     footer .pad-main-left {padding-right:0px;}
 }
 
@@ -489,9 +490,10 @@ footer.en more-contacts {float: right;}
     #sport-options-wrap .square-pic span {text-align:center !important;}
     .fulltext-form {margin-top:0 !important;}
 
-    tr {    display: table;  width:100%;}
-    td {    display: block;width:100%;clear:both;padding:0px; }
+    tr {display: table;  width:100%;}
+    td:not(.gsc-search-button) {display: block;width:100%;clear:both;padding:0px; }
     tr td:last-child{padding-bottom:15px; }
+	#news-header {width: 100%;}
 }
 
 }

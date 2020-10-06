@@ -90,7 +90,7 @@
                 <div class="cleaner"></div>
             </div>
             <div class="wrap-main">
-                <div class="toggle-title-banner" ><?php if (!isset($_COOKIE["hiddenBanner"])){echo 'Skrýt';}else{echo 'Zobrazit';}?> banner</div>
+                <div class="toggle-title-banner" ><?php if (!isset($_COOKIE["hiddenBanner"])){echo 'Skrýt';}else{echo 'Zobrazit';}?>&nbsp;banner</div>
 
                 <div class="pad-main-left">
 
