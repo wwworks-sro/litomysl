@@ -336,6 +336,8 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	#nabidka-sportu .square-pic {min-height: 110px;}
     .slide .slidecontent h2 {font-size:1.6em;}
     .slider{height:340px;}
+	.statistics-circle span {font-size: 11px;}
+	#monuments-architecture .multiple-line-page h2 {font-size: 2.3em;}
 }
 
 @media screen and (max-width: 850px) {
@@ -399,6 +401,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 	.sports-list-col-1 .square-pic, .sports-list-col-2 .square-pic, .sports-list-col-3 .square-pic, .sports-list-col-4 .square-pic, .sports-list-col-5 .square-pic {width: 14%;}
     .slider{height:200px;}
 	.nahled-sportu h2 {font-size: 30px;}
+	#monuments-architecture .multiple-line-page h2 {font-size: 1.8em;}
 }
 
 @media screen and (max-width: 500px) {

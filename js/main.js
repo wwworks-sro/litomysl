@@ -285,10 +285,10 @@ $( document ).ready(function() {
 
     $('.mb-trigger').click(function(){
         var trid = $(this).attr('trigger');
-        if($(trid).is(":hidden")){
-            $('#'+trid).slideUp();
-        }else{
+        if($('#'+trid).is(":hidden")){
             $('#'+trid).slideDown();
+        }else{
+            $('#'+trid).slideUp();
         }
     });
 
