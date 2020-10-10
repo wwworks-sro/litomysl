@@ -33,55 +33,54 @@
 <!--  -----------------------------------Kalendář, služby, info-----------------------------------------------  -->
 		<section id="kalendar-sluzby" class="white-layout">	
 			<div class="en-first-row-left">
-				<div class="pad-main-left hide-image">
+				<div class="pad-main-left">
 					<h2 class="events-title">Annual calendar of actions - the year 2020</h2>
-					<a href="" class="no-image">
-						<img src="img/img-system/title/event-drama.png" alt="divadlo">
+					<div class="en-event-row">
+						<img src="img/img-system/culture/mestska-galerie.jpg" alt="divadlo">
 						<div>
 							<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
 							<p>8.00 / Smetanovo náměstí</p>
 							Lorem ipsum dolor smet, lo ipsum dolor sit ametLorem ipsum dolor smet, lo ipsum dolor sit amet
 						</div>
-					</a>
-					<a href="" class="no-image">
-						<img src="img/img-system/title/event-music.png" alt="koncert">
+					</div>
+					<div class="en-event-row">
+						<img src="img/img-system/culture/mestska-galerie.jpg" alt="koncert">
 						<div>
 							<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
 							<p>8.00 / Smetanovo náměstí</p>
 							Lorem ipsum dolor smet, lo ipsum dolor sit ametLorem ipsum dolor smet, lo ipsum dolor sit amet
 						</div>
-					</a>
-					<a href="" class="no-image">
-						<img src="img/img-system/title/event-music.png" alt="koncert">
+					</div>
+					<div class="en-event-row">
+						<img src="img/img-system/culture/mestska-galerie.jpg" alt="koncert">
 						<div>
 							<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
 							<p>8.00 / Smetanovo náměstí</p>
 							Lorem ipsum dolor smet, lo ipsum dolor sit amet
 						</div>
-					</a>
-					<a href="" class="no-image">
-						<img src="img/img-system/title/event-music.png" alt="koncert">
+					</div>
+					<div class="en-event-row">
+						<img src="img/img-system/culture/mestska-galerie.jpg" alt="koncert">
 						<div>
 							<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
 							<p>8.00 / Smetanovo náměstí</p>
 							Lorem ipsum dolor smet, lo ipsum dolor sit amet
 						</div>
-					</a>
-					<a href="" class="no-image">
-						<img src="img/img-system/title/event-music.png" alt="koncert">
+					</div>
+					<div class="en-event-row">
+						<img src="img/img-system/culture/mestska-galerie.jpg" alt="koncert">
 						<div>
 							<h6>Lorem ipsum dolor smet, lo ipsum dolor sit amet</h6>
 							<p>8.00 / Smetanovo náměstí</p>
 							Lorem ipsum dolor smet, lo ipsum dolor sit amet. Lorem ipsum dolor smet, lo ipsum dolor sit amet
 						</div>
-					</a>
+					</div>
 					<a class="more-services" href="">Další...</a>
                 </div>
 			</div>
 			<div class="en-first-row-center">
-				<div class=""
+				<h2 class="events-title">Služby</h2>
 				<div class="col-tb-4">
-					<h2 class="events-title">Služby</h2>
 					<a href="" class="tourist-icon-link">
 						<img src="img/img-system/tourist/bed single.3.3.1 kopie.png" alt="">
 						<strong>Ubytování</strong>
@@ -100,24 +99,20 @@
 						<img src="img/img-system/tourist/clock 2.3.3.1.png" alt="Otevírací doby">
 						<strong>Otevírací doby</strong>
 					</a>
-					<a href="" class="tourist-icon-link">
-						<img src="img/img-system/tourist/swimming-pool.png" alt="Bazén">
-						<strong>Bazén</strong>
-					</a>
 					<div class="cleaner"></div>
 
 				</div>
 				<div class="col-tb-4 tourist-button-link-box">
 					<a href="" class="but tourist-button-link">
-						<img src="img/img-system/tourist/UNESCO_logo.png" alt="Zámecký areál UNESCO">
+						<img src="img/img-system/tourist/UNESCO_logo-en.png" alt="Zámecký areál UNESCO">
 						<span>Zámecký areál UNESCO</span>
 					</a>
 					<a href="" class="but tourist-button-link">
-						<img src="img/img-system/tourist/sl.png" alt="Smetanova Litomyšl">
+						<img src="img/img-system/tourist/sl-en.png" alt="Smetanova Litomyšl">
 						<span>Smetanova Litomyšl</span>
 					</a>
 					<a href="" class="but tourist-button-link">
-						<img src="img/img-system/tourist/zn.png" alt="Zámecké návrší">
+						<img src="img/img-system/tourist/zn-en.png" alt="Zámecké návrší">
 						<span>Zámecké návrší</span>
 					</a>
 

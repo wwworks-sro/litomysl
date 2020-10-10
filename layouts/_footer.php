@@ -105,7 +105,7 @@
             <li>
                 <a class="menu-group-title" href="">občan / radnice</a>
                 <ul>
-                    <li> <a href="">služby</a> </li>
+                    <li> <a href="http://litomysl.wwworks.cz/#mb-sluzby" id="mb-sluzby" trigger="sluzby" class="mb-trigger">služby</a> </li>
                     <li> <a href="">úřad</a>
                         <ul class="sidebar-nav-mobile">
                             <li><a href="">Lorem ipsum dolor</a></li>
@@ -149,6 +149,16 @@
                 </ul>
             </li>
         </ul>
+		
+		<div class="sidebar-nav">
+            <ul>
+				<li> <a href="">subpage 1</a> </li>
+				<li> <a href="">subpage 2</a> </li>
+				<li> <a href="">subpage 3</a> </li>
+				<li> <a href="">subpage 4</a> </li>
+				<li> <a href="">subpage 5</a> </li>
+			</ul>
+        </div>
 
         <div class="lang-mobile">
             <a href="">en</a>

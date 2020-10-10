@@ -1,9 +1,9 @@
 <?php
 /* Třída "selected-menu-group" určuje zda aktuální stránka spadá pod kategorii "občan" nebo "turista/volný čas"*/
 $fileName = basename($_SERVER['PHP_SELF']);
-?>
-
-<header>
+/* Fb script inicializace */ ?>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v8.0" nonce="ed3YYYec"></script><header>
     <div id="header-wrap">
         <div class="menu animated fadeIn" id="trigger-overlay">
             <img src='img/img-system/header/menu-icon-2.png' alt='Menu' />

@@ -25,6 +25,7 @@
 .news-detail-gallery a {width:20%;display:block;float:left;}
 .news-detail-gallery a img {width:98%;margin-right:2%;}
 #seznamy h3 a {text-decoration: underline;}
+#seznamy h2 {margin-bottom: 0px;}
 
 .three-layout {background: url(../img/img-system/subpages/bg-three.jpg) repeat-y top ; background-size: contain;}
 

@@ -66,16 +66,7 @@
                                 <img src="img/img-calendar/S/lorem-ipsum-s.jpg" alt="divadlo">
 
                                 <div class="cal-social">
-                                    <div id="fb-root"></div>
-                                    <script>(function(d, s, id) {
-                                            var js, fjs = d.getElementsByTagName(s)[0];
-                                            if (d.getElementById(id)) return;
-                                            js = d.createElement(s); js.id = id;
-                                            js.src = 'https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v3.0';
-                                            fjs.parentNode.insertBefore(js, fjs);
-                                        }(document, 'script', 'facebook-jssdk'));</script>
-
-                                    <div class="fb-like" style="margin-top:5px; margin-bottom:30px;" data-href="url-stranky-akce" data-layout="button" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
+									<div class="fb-like" data-href="http://litomysl.wwworks.cz/index.php" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
                                 </div>
                             </div>
                             <a class="cal-detail-link" href="">  </a>
@@ -109,16 +100,7 @@
                                 <img src="img/img-calendar/S/lorem-ipsum-s.jpg" alt="divadlo">
 
                                 <div class="cal-social">
-                                    <div id="fb-root"></div>
-                                    <script>(function(d, s, id) {
-                                            var js, fjs = d.getElementsByTagName(s)[0];
-                                            if (d.getElementById(id)) return;
-                                            js = d.createElement(s); js.id = id;
-                                            js.src = 'https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v3.0';
-                                            fjs.parentNode.insertBefore(js, fjs);
-                                        }(document, 'script', 'facebook-jssdk'));</script>
-
-                                    <div class="fb-like" style="margin-top:5px; margin-bottom:30px;" data-href="url-stranky-akce" data-layout="button" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
+									<div class="fb-like" data-href="http://litomysl.wwworks.cz/kalendar.php" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
                                 </div>
                             </div>
                             <a class="cal-detail-link" href="">  </a>
@@ -156,18 +138,9 @@
                                 <div class="cal-detail-image">
                                     <img src="img/img-calendar/S/lorem-ipsum-s.jpg" alt="divadlo">
 
-                                    <div class="cal-social">
-                                        <div id="fb-root"></div>
-                                        <script>(function(d, s, id) {
-                                                var js, fjs = d.getElementsByTagName(s)[0];
-                                                if (d.getElementById(id)) return;
-                                                js = d.createElement(s); js.id = id;
-                                                js.src = 'https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v3.0';
-                                                fjs.parentNode.insertBefore(js, fjs);
-                                            }(document, 'script', 'facebook-jssdk'));</script>
-
-                                        <div class="fb-like" style="margin-top:5px; margin-bottom:30px;" data-href="url-stranky-akce" data-layout="button" data-action="recommend" data-size="large" data-show-faces="true" data-share="true"></div>
-                                    </div>
+                                <div class="cal-social">
+									<div class="fb-like" data-href="http://litomysl.wwworks.cz/kalendar.php" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true"></div>
+                                </div>
                                 </div>
                                 <a class="cal-detail-link" href="">  </a>
                                 <div class="cleaner"></div>
