@@ -70,10 +70,10 @@ textarea {width:93%;}
 .row-radio label, .row-checkbox label{clear:right;font-weight:normal;}
 .row-radio.col-md-6 {clear:none;}
 
-.but,.but-submit {display:block; width:300px; max-width:100%;text-align:center;line-height:40px; height:40px;}
+.but,.but-submit, #more-news-mini {display:block; width:300px; max-width:100%;text-align:center;line-height:40px; height:40px;}
 .but-section-top {margin-top:15px;}
 .but-red-empty {border:2px solid #c20116; color:#c20116 !important;background-color:transparent;}
-.but-red {border:none; color:white;background-color:#c20116;}
+.but-red, #more-news-mini {border:none; color:white;background-color:#c20116;}
 .half-input {  width: 47%; float:left;margin-right:0.5%;clear:none;}
 .but-white-empty {border:2px solid white; color:white !important;}
 .but-white{background-color:white;box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35);color:#c20116 !important; margin-left: 15px; margin-top: 15px;}
@@ -245,8 +245,8 @@ footer #calendar-search-name, footer .calendar-search-set{clear:both;float:none;
 
 .news-mini {clear:both; float:none;margin-bottom:2%;display:block;}
 .news-mini img {width:33%;float:left;margin-right:2%;}
-.more-news-mini {width:33%;background-color:#c20116;height:64px;text-align:center;float:left;margin-right:2%;}
-.more-news-mini img {margin-top:25px;}
+ #more-news-mini {width:33%;background-color:#c20116;height:64px;text-align:center;float:left;margin-right:2%;}
+ #more-news-mini img {margin-top:25px;}
 .news-text {line-height:3em;width:65%;float:right;}
 .news-text h6{margin-bottom:3px;}
 .sub-page .news-mini {clear:both;margin-top:20px;}
@@ -255,8 +255,8 @@ footer #calendar-search-name, footer .calendar-search-set{clear:both;float:none;
 .sub-page .news-mini p {font-size:0.8em;}
 .sub-page .news-mini img {width:16%;}
 .sub-page .news-mini .news-text {display:block;width:82%;float:right;}
-.sub-page .bg-red .more-news-mini {width:16%;background-color:white;height:40px;margin-top:10px;}
-.sub-page .bg-red .more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
+.sub-page .bg-red  #more-news-mini {width:16%;background-color:white;height:40px;margin-top:10px;}
+.sub-page .bg-red  #more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
 
 .pagination {margin-top:30px;}
 .pagination a,.news-mini-filter a {color:#c20116;float:left;display:block; padding:0 3%;text-decoration:underline;}
@@ -355,8 +355,8 @@ footer a:link, footer a:visited {color: white;}
     h3 {font-size:1.0em;}
     .rblikebox,#social-buts {display:none;}
     .news-mini p, .news-mini h6{font-size:0.8em;}
-    .more-news-mini {height:43px;}
-    .more-news-mini img {margin-top:17px;}
+     #more-news-mini {height:43px;}
+     #more-news-mini img {margin-top:17px;}
     #more-news-mini .news-text {line-height:2.2em;}
     .footer-contact-col {width:100%;}
 	    footer .wrap-main{width:50%;}
@@ -416,7 +416,7 @@ footer a:link, footer a:visited {color: white;}
     footer .wrap-main{width:70%; clear: none; float: left;}
     footer .wrap-side {padding-top:100px; clear: none; float: left;}
     h2 {font-size:2em;}
-    .news-mini img,.more-news-mini {width:31%;}
+    .news-mini img, #more-news-mini {width:31%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:66%;font-size:0.9em;}
     #lang-box{right:5%;}
 
@@ -439,7 +439,7 @@ footer a:link, footer a:visited {color: white;}
     :hover.header-search {cursor:pointer;}
     .fulltext-form {display:none;position:fixed;top:0;left:0;height:50px;background-color:white;width:65% !important;z-index:4 !important;padding-top:10px;padding-left:5%;}
     .fulltext-form  {margin-top:20px !important;}
-    .news-other img,.more-news-mini {width:15%;}
+    .news-other img, #more-news-mini {width:15%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:83%;}
     #lang-box{top:50px;}
 	footer .wrap-main{width:100%; clear: both;}
@@ -450,7 +450,7 @@ footer a:link, footer a:visited {color: white;}
 
 
 @media screen and (max-width: 650px) {
-    .news-other img,.more-news-mini {width:22%;}
+    .news-other img, #more-news-mini {width:22%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
 }
 

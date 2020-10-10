@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="768e4880-67b2-4acd-b748-28ef5c6c9e34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img-system/header/litomysl-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/img-system/header/litomysl-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-system/services/gis.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/img-system/services/gis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +74,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -116,6 +120,8 @@
       <workItem from="1601476494159" duration="17757000" />
       <workItem from="1601534473202" duration="1224000" />
       <workItem from="1601626949550" duration="590000" />
+      <workItem from="1602069898128" duration="1529000" />
+      <workItem from="1602241714995" duration="10769000" />
     </task>
     <servers />
   </component>
@@ -140,6 +146,10 @@
     </state>
     <state x="2160" y="-445" key="#Deployment/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1600870176806" />
     <state x="440" y="131" key="#Deployment/0.0.1280.800@0.0.1280.800" timestamp="1600982480535" />
+    <state x="2024" y="-453" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602245667897">
+      <screen x="1280" y="-835" width="2560" height="1440" />
+    </state>
+    <state x="2024" y="-453" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800/1280.-835.2560.1440@1280.-835.2560.1440" timestamp="1602245667897" />
     <state x="2282" y="-301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600870287015">
       <screen x="1280" y="-830" width="2560" height="1440" />
     </state>
@@ -152,11 +162,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="245" y="17" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.800@0.0.1280.800" timestamp="1601210287664" />
-    <state x="490" y="262" width="570" height="538" key="find.popup" timestamp="1601369707731">
+    <state x="490" y="262" width="570" height="538" key="find.popup" timestamp="1602362864036">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="2260" y="-379" width="600" height="538" key="find.popup/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1595569454236" />
-    <state x="490" y="262" width="570" height="538" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1601369707731" />
+    <state x="490" y="262" width="570" height="538" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1602362864036" />
     <state x="2225" y="-499" width="670" height="676" key="search.everywhere.popup" timestamp="1595567437054">
       <screen x="1280" y="-830" width="2560" height="1440" />
     </state>

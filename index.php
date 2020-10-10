@@ -115,16 +115,39 @@
                         <div class="cleaner"></div>
                     </div>
                     <div id="news-wrap">
-                        <div class="news-top">
-                            <a href="" class="news-title news-primary">
-                                <img src="img/img-articles/L/news-lorem-ipsum-l.jpg" alt="Lorem ipsum dolor">
+                            <a href="" class="news-title  news-secondary">
+                                <img src="img/img-articles/M/news-lorem-ipsum-m.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-cover"> </div>
                                 <div class="news-text">
-                                    <h4>Aktualita 1 dolor sit amet consectetuer adip</h4>
+                                    <h5>Aktualita 1 dolor sit amet consectetuer adip</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
                                 </div>
                             </a>
-                            <a href="" class="news-title news-secondary news-secondary-first">
+                            <a href="" class="news-title news-secondary">
+                                <img src="img/img-articles/M/news-lorem-ipsum-m.jpg" alt="Lorem ipsum dolor">
+                                <div class="news-cover"> </div>
+                                <div class="news-text">
+                                    <h5>Aktualita 1 dolor sit amet consectetuer adip</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                </div>
+                            </a>
+                            <a href="" class="news-title  news-secondary">
+                                <img src="img/img-articles/M/news-lorem-ipsum-m.jpg" alt="Lorem ipsum dolor">
+                                <div class="news-cover"> </div>
+                                <div class="news-text">
+                                    <h5>Aktualita 1 dolor sit amet consectetuer adip</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                </div>
+                            </a>
+                            <a href="" class="news-title  news-secondary">
+                                <img src="img/img-articles/M/news-lorem-ipsum-m.jpg" alt="Lorem ipsum dolor">
+                                <div class="news-cover"> </div>
+                                <div class="news-text">
+                                    <h5>Aktualita 1 dolor sit amet consectetuer adip</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
+                                </div>
+                            </a>
+                            <a href="" class="news-title  news-secondary">
                                 <img src="img/img-articles/M/news-lorem-ipsum-m.jpg" alt="Lorem ipsum dolor">
                                 <div class="news-cover"> </div>
                                 <div class="news-text">
@@ -141,58 +164,20 @@
                                 </div>
                             </a>
                             <div class="cleaner"></div>
-                        </div>
-                        <div class="news-other">
-                            <a href="" class="news-title news-mini">
-                                <img src="img/img-articles/S/news-amet-dolor-s.jpg" alt="Lorem ipsum dolor">
-                                <div class="news-text">
-                                    <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
-                                </div>
-                                <div class="cleaner"></div>
-                            </a>
-                            <a href="" class="news-title news-mini">
-                                <img src="img/img-articles/S/news-consectetur-s.jpg" alt="Lorem ipsum dolor">
-                                <div class="news-text">
-                                    <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
-                                </div>
-                                <div class="cleaner"></div>
-                            </a>
-                            <a class="news-title news-mini">
-                                <img src="img/img-articles/S/news-dolor-sit-2-s.jpg" alt="Lorem ipsum dolor">
-                                <div class="news-text">
-                                    <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
-                                </div>
-                                <div class="cleaner"></div>
-                            </a>
-                            <a href="" class="news-title news-mini">
-                                <img src="img/img-articles/S/news-lore-ipsum-s.jpg" alt="Lorem ipsum dolor">
-                                <div class="news-text">
-                                    <h6>Aktualita 1 dolor sit amet consectetuer adip</h6>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
-                                </div>
-                                <div class="cleaner"></div>
-                            </a>
-                            <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality">
-                                <div class="more-news-mini">
-                                    <img src="img/img-system/title/dots.png" alt="Lorem ipsum dolor">
-                                </div>
-                                <div class="news-text">
-                                    Další aktuality
-                                </div>
-                            </a>
-                        </div>
                     </div>
                     <div class="cleaner"></div>
                     <nav id='news-footer-nav'>
+                        <a href="" id="more-news-mini" href="https://www.litomysl.cz/aktuality">
+                            Další aktuality
+                        </a>
+
                         <ul>
                             <li> <a href="" target="_blank"><img src="img/img-system/title/newspaper.2.3.1.png" alt="Městský měsíčník Lilie"> <span>zpravodaj<br />Lilie</span></a> </li>
                             <li> <a href="" target="_blank"><img src="img/img-system/title/video camera 1.2.3.1.png" alt="video reportáž"> <span>video<br />reportáže</span></a> </li>
                             <li> <a href="" target="_blank"><img src="img/img-system/title/presentation.png" alt="úřední deska"> <span>úřední<br />deska</span></a> </li>
                             <li> <a href="" target="_blank"><img src="img/img-system/title/stamp.5.3.1.png" alt="potřebuji zařídit"> <span>potřebuji<br />zařídit</span></a> </li>
                         </ul>
+
                     </nav>
                 </div>
             </div>
@@ -720,12 +705,22 @@
 
 
                     <nav class="col-md-12 education-other">
-                        <a class="col-md-2" href=""><img src="img/img-system/education/zus.png" alt="Logo ZUŠ - Základní umělecká škola"><span>ZUŠ - Základní umělecká škola</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/svc.png" alt="Logo Středisko volného času"><span>Středisko volného času</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/zn.png" alt="Logo Škola na zámku"><span>Škola na zámku</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/szus.png" alt="Logo Soukromá základní umělecká škola"><span>Soukromá základní umělecká škola</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/library.png" alt="Logo LU3V - univerzita třetího věku"><span>LU3V - univerzita třetího věku</span></a>
-                        <a class="col-md-2" href=""><img src="img/img-system/education/skaut.png" alt="Logo Skaut"><span>Skaut</span></a>
+                        <div  class="col-md-4">
+                            <a href=""><img src="img/img-system/education/zus.png" alt="Logo ZUŠ - Základní umělecká škola"><span>ZUŠ - Základní umělecká škola</span></a>
+                            <a href=""><img src="img/img-system/education/svc.png" alt="Logo Středisko volného času"><span>Středisko volného času</span></a>
+                            <a href=""><img src="img/img-system/education/zn.png" alt="Logo Škola na zámku"><span>Škola na zámku</span></a>
+                            <a href=""><img src="img/img-system/education/szus.png" alt="Logo Soukromá základní umělecká škola"><span>Soukromá základní umělecká škola</span></a>
+                         </div>
+                        <div  class="col-md-4">
+                            <a href=""><img src="img/img-system/education/library.png" alt="Logo LU3V - univerzita třetího věku"><span>LU3V - univerzita třetího věku</span></a>
+                            <a href=""><img src="img/img-system/education/skaut.png" alt="Logo Junák - český skaut"><span>Junák - český skaut</span></a>
+                            <a href=""><img src="img/img-system/education/pionyr.png" alt="Logo Pionýrská skupina Marie Sedláčkové"><span>Pionýrská skupina Marie Sedláčkové</span></a>
+                        </div>
+                        <div  class="col-md-4">
+                            <a href=""><img src="img/img-system/education/mgl.png" alt="Logo Městská galerie Litomyšl"><span>Městská galerie Litomyšl</span></a>
+                            <a href=""><img src="img/img-system/education/rml.png" alt="Logo Regionální muzeum Litomyšl"><span>Regionální muzeum Litomyšl</span></a>
+                            <a href=""><img src="img/img-system/education/zn.png" alt="Logo Zámecké návrší"><span>Zámecké návrší</span></a>
+                        </div>
                     </nav>
 
                     <div class="cleaner">&nbsp;</div>
