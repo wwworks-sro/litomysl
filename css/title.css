@@ -238,6 +238,7 @@ div.major-left-pad {width:8%;}
 @media screen and (max-width: 1600px) {
     #service-nav-icons .col-md-4 {width:27%;margin-right:6%;}
     .more-news-mini {height:57px;}
+	#kultura .more-news-mini {background-color: white; float: left; width: 40%;}
 	.horizontal-line {margin-left: 50%;}
 	#mestsky-urad h2 {font-size: 2.8em;}
 }
@@ -288,6 +289,7 @@ div.major-left-pad {width:8%;}
     .more-news-mini img {margin-top:12px;}
     #more-news-mini .news-text {line-height:2em;}
     .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
+	#kultura #more-news-mini .news-text  {width:50%;}
 	.col-horizontal-line {width: 10%; margin-left: 10%; padding-right: 3%;}
 }
 

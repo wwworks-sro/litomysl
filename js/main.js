@@ -91,7 +91,6 @@ $( document ).ready(function() {
                     var mswidth =  $('.menu-selected').width()+14;
                     var posSel = $('.menu-selected').position().left-7;
                     var resultPos = posSel - (wshadow/2) + (mswidth / 2)+5;
-					console.log('resultPos: ' + resultPos + '; mswidth: ' + mswidth + '; wshadow: ' + wshadow);
                     $('.selected-menu-shadow').css('left', resultPos);
                 }
 
@@ -170,7 +169,6 @@ $( document ).ready(function() {
 	/* posunuti po kliku nahoru + zobrazeni detailu */
 	jQuery('#sport-options-wrap .square-pic').attr("href", '#nabidka-sportu');
 	
-	
 	$('#nabidka-sportu a.square-pic').click(function(){
         var type = $(this).children().attr('alt');
         jQuery.ajax({
@@ -178,6 +176,17 @@ $( document ).ready(function() {
             'cache': false,
             'success': function (html) {
                 jQuery('#sport-detail-wrap').html(html).addClass('sport-triggered').attr("type", type);
+            }
+        });
+    });
+	
+	$('a.show-video-box').click(function(){
+        var video = $(this).attr('video');
+        jQuery.ajax({
+            'url': 'http://litomysl.wwworks.cz/_nahled-video.php',                        /***Upravit podle nové adresy***/
+            'cache': false,
+            'success': function (html) {
+				jQuery('#video-detail-wrap').html(html).addClass('video-triggered').addClass(video).attr("video", video);
             }
         });
     });

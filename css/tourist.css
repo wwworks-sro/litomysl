@@ -75,8 +75,8 @@ a.link-other-events {display: block;}
 .statistics-circle span {padding:0 10px;display:block;}
 
 .video-title {margin-bottom:15px;display:block;width:100%;}
-.video-box-left iframe{float:left;}
-.video-box-right iframe{float:right;}
+.video-box-left img{float:left; width: 99%;}
+.video-box-right img{float:right; width: 99%;}
 
 /*History line*/
 .history-line{background: url(../img/img-system/about/lines.png) repeat-y left;}
@@ -181,8 +181,14 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 
 #sport-detail-wrap {display: none; height: 70vh; position: absolute; width: 50%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 15vh; left: 25%;}
 #sport-detail-wrap.sport-triggered {display: block; overflow: overlay;}
+#video-detail-wrap {display: none; height: 80vh; position: absolute; width: 80%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 10vh; left: 10%;}
+#video-detail-wrap.video-triggered {display: block; overflow: hidden; z-index: 10;}
+#video-detail-wrap .video1, #video-detail-wrap .video2, #video-detail-wrap .video3 {display: none; height: 100%;}
+#video-detail-wrap.video1 .video1, #video-detail-wrap.video2 .video2, #video-detail-wrap.video3 .video3 {display: block;} 
 .nahled-sportu {margin: 50px;}
-.close-sport {cursor: pointer; position: absolute; top: 5px; right: 25px; font-weight: 800;}
+.nahled-video {height: 75vh;}
+.nahled-video iframe {margin-top: 3%; height: 100%;}
+.close-sport, .close-video {cursor: pointer; position: absolute; top: 5px; right: 25px; font-weight: 800;}
 
 
 /*  -----------------------------------Nabídka sportů-----------------------------------------------  */

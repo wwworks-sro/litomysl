@@ -244,14 +244,14 @@
                 </div>
                 <div class="col-md-4 about-box ">
                     <div class="pad">
-                        <iframe width="100%" height="20%" src="https://www.youtube.com/embed/76DAxhQmgUc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<a href="#o-litomysli" class="show-video-box" video="video1"><img src="img/img-system/about/video1.jpg" alt="Animované video"/></a>
                         <span class="video-title">Animované video s představením historie města</span>
                         <div class="col-md-6 video-box-left">
-                            <iframe width="98%" height="10%" src="https://www.youtube.com/embed/76DAxhQmgUc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<a class="show-video-box" video="video2"><img src="img/img-system/about/video2.jpg" alt="Minutový film UNESCO"/></a>
                             <span class="video-title">Minutový film UNESCO</span>
                         </div>
                         <div class="col-md-6 video-box-right">
-                            <iframe width="98%" height="10%" src="https://www.youtube.com/embed/76DAxhQmgUc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<a class="show-video-box" video="video3"><img src="img/img-system/about/video3.jpg" alt="Virtuální prohlídka"/></a>
                             <span class="video-title">Virtuální prohlídka</span>
                         </div>
 
@@ -268,6 +268,7 @@
                     </div>
                 </div>
             </div>
+			<div id="video-detail-wrap"></div>
             <div class="wrap-side ">
                 <div class="pad-main-right">
                     <h3>Historie</h3>
@@ -690,7 +691,6 @@
             <div class="cleaner"></div>
         </section>
         <div class="cleaner"></div>
-
         <?php  include("layouts/_footer.php");  ?>
         <?php  include('layouts/_facebookSide.php');  ?>
     </body>
