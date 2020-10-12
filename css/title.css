@@ -29,7 +29,7 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 .news-title h5, .news-title h6{font-size:1.1em;}
 
 
-#news-tabs-simple {margin-left:0px;width:56%;padding-top:0px;clear:none;float:left;}
+#news-tabs-simple {margin-left:0px;width:66%;padding-top:0px;clear:none;float:left;}
 #news-tabs-simple ul {float:right;padding-top:4px;}
 #news-tabs-simple li{list-style:none;float:left;margin-left:20px;padding-left:0px;margin-right:0px;}
 #news-tabs-simple .tab-selected {colnews-tabs-simpleor:#c20116;font-weight:bold;}
@@ -54,7 +54,7 @@ table.gsc-search-box td{padding:0px;}
 .news-primary .news-text, .news-secondary .news-text {position:absolute; bottom:15px;width:90%;margin-left:5%;color:white;}
 .news-secondary  h5, .news-primary h4 {color:white !important;margin-bottom:0px;}
 .news-secondary p{margin-top:5px;}
-.news-cover {background: url(../img/img-system/title/cover.png) no-repeat bottom left;background-size: contain;width:100%;height:100%;position:absolute; bottom:0px; left:0px;}
+.news-cover {background: url(../img/img-system/title/cover.png) no-repeat bottom left;background-size: contain;width:100%;height:100%;position:absolute; bottom:0px; left:0px;opacity:0.6;}
 .news-secondary {background-color:black;}
 .news-secondary img {opacity:0.6;}
 .news-title h4,.news-title h5{margin-bottom:5px;}
@@ -71,27 +71,27 @@ a#more-news-mini{font-size:0.9em;margin-right:0.5%;float:right;width:32.5%;line-
 /*Calendar*/
 #calendar-title {clear:both;}
 #calendar-title a {clear:both;display:block;}
-#calendar-title p {margin-bottom:20px;font-size:0.8em;}
+#calendar-title p {margin-bottom:15px;font-size:0.8em;}
 div.news-text p {font-size:0.8em;line-height:1.4em !important;padding-top:0px !important;}
 #calendar-title a img{max-width:10%; float:left;}
 #calendar-title a div{width:87%; float:right;}
 h2.today-events-title {font-size:1.3em;margin-top:8px;}
-#calendar-title h6 {color:white; line-height:1.1em;}
+#calendar-title h6 {color:white; line-height:1.1em;font-size:0.9em;margin-bottom:0px;}
 .today-events-title {float:left;}
 .pad-main-right .today-events-title{clear:none;margin-left:0px;width:135px;}
 .calendar-title-link {float:right;line-height:30px;margin-top:10px;margin-bottom:30px;}
 .separator-long-term-events {display:block;border-bottom:1px solid white;clear:both;width:100%;margin-top:50px;}
-.separator-long-term-events-text {background-color:#c20116;line-height:2em;text-align:center;display:block;width:170px;margin:0 auto; margin-top:-35px;margin-bottom:30px;}
+.separator-long-term-events-text {background-color:#c20116;line-height:2em;text-align:center;display:block;width:170px;margin:0 auto; margin-top:-35px;margin-bottom:10px;}
 .top-events {float:right;}
 .next-section-link{background: url(../img/img-system/layout/arrow-down.png) no-repeat bottom left;  padding-left: 30px; background-size: contain;display:block; position:absolute; bottom:8vh;left:94%;transform: rotate(-90deg);-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg); -ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
 .red-layout .next-section-link {color:white;}
 .calendar-title-links {clear:both;}
 .calendar-title-links a {text-decoration:underline;}
-.link-other-events {text-align: center;}
+.link-other-events {text-align: center;text-decoration:underline;font-size:;}
 .no-image div {width: 100%!important;}
 .hide-image a img {display: none;}
 .hide-image a div {width: 100%!important;}
-#novinky-kalendar .pad-main-left {padding-bottom: 0px;}
+#novinky-kalendar .pad-main-left {padding-bottom: 30px;}
 
 /*  -----------------------------------Služby-----------------------------------------------  */
 
@@ -135,9 +135,10 @@ h2.today-events-title {font-size:1.3em;margin-top:8px;}
 .office-links img {width:37px;}
 .office-links .col-md-2 {text-align:center;}
 .office-links h3{margin-bottom:5px;}
-.office-side h3{margin-bottom:25px;}
+.office-side h3{margin-bottom:15px;}
 .office-side .but{margin-top:25px;}
 .office-side table{margin-bottom:10px;width:100%;}
+.office-side td,.office-side th {padding: 5px 10px;}
 .office-side th {padding-right:10px;}
 
 

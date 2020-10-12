@@ -86,7 +86,7 @@ textarea {width:93%;}
 .tips-links-buttons li a {font-size:0.9em;}
 .wrap-side  a.but-double-line {line-height:1.2;padding:5px 0;}
 
-.fulltext-form {width:42%;float:right;margin-bottom:30px;clear:none;height:30px;}
+.fulltext-form {width:31.5%;float:right;margin-bottom:30px;clear:none;height:30px;margin-right:0.5%;}
 .news-header .fulltext-form {margin-top:10px !important;}
 input.search-text {margin-left:-9px;width:100%;float:left;background:transparent;border:1px solid rgba(0, 0, 0, 0.35);height:33px !important; }
 input.search-submit {width:20%;height:41px !important;}
