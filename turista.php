@@ -247,11 +247,11 @@
 						<a href="#o-litomysli" class="show-video-box" video="video1"><img src="img/img-system/about/video1.jpg" alt="Animované video"/></a>
                         <span class="video-title">Animované video s představením historie města</span>
                         <div class="col-md-6 video-box-left">
-							<a class="show-video-box" video="video2"><img src="img/img-system/about/video2.jpg" alt="Minutový film UNESCO"/></a>
+							<a href="#o-litomysli" class="show-video-box" video="video2"><img src="img/img-system/about/video2.jpg" alt="Minutový film UNESCO"/></a>
                             <span class="video-title">Minutový film UNESCO</span>
                         </div>
                         <div class="col-md-6 video-box-right">
-							<a class="show-video-box" video="video3"><img src="img/img-system/about/video3.jpg" alt="Virtuální prohlídka"/></a>
+							<a href="#o-litomysli" class="show-video-box" video="video3"><img src="img/img-system/about/video3.jpg" alt="Virtuální prohlídka"/></a>
                             <span class="video-title">Virtuální prohlídka</span>
                         </div>
 
