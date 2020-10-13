@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="css/tourist.css" />
 <script type="text/javascript">
 	$('.close-video').click(function(){
+		jQuery('#video-detail-wrap').html('');
 		$(".video-triggered").removeClass('video-triggered').removeClass('video1').removeClass('video2').removeClass('video3').attr('video','');
 	});
 </script>
