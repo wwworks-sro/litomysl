@@ -66,9 +66,11 @@ $( document ).ready(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 200){
             $('header').addClass("scrolled");
+            $('body').addClass("scrolled-down");
         }
         else{
             $('header').removeClass("scrolled");
+            $('body').removeClass("scrolled-down");
         }
     });
 

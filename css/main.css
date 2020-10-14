@@ -156,7 +156,7 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 
 #lang-box, #social-box, #contacts-link {line-height:1.8em;}
 #social-box, #contacts-link {clear:both;width:100%;}
-#lang-box{position:absolute; right:15px;top:35px; width: 50px;}
+#lang-box{position:absolute; right:15px;top:35px; }
 #lang-box a, #social-box a,#contacts-link {float:right;text-align:right;}
 #lang-box a, #social-box a {margin-left:8px;}
 #social-box a{margin-top:10px;max-width:22%;}
@@ -171,7 +171,7 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 .scrolled .selected-menu-group .selected-menu-shadow{top:70px;}
 .scrolled .trigger-overlay {margin-top:12px;}
 .scrolled .menu-group-title {font-size:1.2em;}
-.scrolled .fulltext-form{margin-top:3px !important;}
+.scrolled-down .fulltext-form{margin-top:3px !important;}
 
 .mb-trigger {font-weight:bold;padding-top:15px;padding-bottom:15px;display:none;width:100%;clear:both;text-align:center;box-shadow:rgba(0, 0, 0, 0.6) 0px 0px 10px; -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px; -moz-box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px;}
 nav .mb-trigger {padding: 0px; box-shadow: none;}
@@ -384,7 +384,6 @@ footer a:link, footer a:visited {color: white;}
 
 @media screen and (max-width: 1050px) {
     .scrolled #logo{max-width:100%;}
-    #lang-box {min-width:85px !important;}
     #social-box {min-width:85px !important;}
     .pad-main-right{padding:50px 20px;}
     .pad-main-left{padding:50px 30px ;}
