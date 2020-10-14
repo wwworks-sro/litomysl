@@ -183,8 +183,9 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 #sport-detail-wrap.sport-triggered {display: block; overflow: overlay;}
 #video-detail-wrap {display: none; height: 80vh; position: absolute; width: 80%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 10vh; left: 10%;}
 #video-detail-wrap.video-triggered {display: block; overflow: hidden; z-index: 10;}
-#video-detail-wrap .video1, #video-detail-wrap .video2, #video-detail-wrap .video3 {display: none; height: 100%;}
-#video-detail-wrap.video1 .video1, #video-detail-wrap.video2 .video2, #video-detail-wrap.video3 .video3 {display: block;} 
+#video-detail-wrap .video1, #video-detail-wrap .video2, #video-detail-wrap .video3, #video-detail-wrap .video4 {display: none; height: 100%;}
+#video-detail-wrap.video1 .video1, #video-detail-wrap.video2 .video2, #video-detail-wrap.video3 .video3, #video-detail-wrap.video4 .video4 {display: block;}
+
 .nahled-sportu {margin: 50px;}
 .nahled-video {height: 75vh;}
 .nahled-video iframe {margin-top: 3%; height: 100%;}

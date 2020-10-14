@@ -212,6 +212,7 @@
                         </ul>
     
                         <ul class="col-md-4 service-nav-icons-red">
+                            <li><a href=""><img src="img/img-system/services/covid.png" alt="Hasiči"><span>Covid-19</span></a></li>
                             <li><a href=""><img src="img/img-system/services/plus.png" alt="Zdravotnictví"><span>Zdravotnictví</span></a></li>
                             <li><a href=""><img src="img/img-system/services/police officer.3.3.1.png" alt="Městská policie"><span>Městská policie</span></a></li>
                             <li><a href=""><img src="img/img-system/services/heart care.3.3.1.png" alt="Sociální péče"><span>Sociální péče</span></a></li>
