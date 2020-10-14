@@ -260,7 +260,7 @@ footer #calendar-search-name, footer .calendar-search-set{clear:both;float:none;
 .sub-page .news-mini img {width:16%;}
 .sub-page .news-mini .news-text {display:block;width:82%;float:right;}
 .sub-page .bg-red  #more-news-mini {width:16%;background-color:white;height:40px;margin-top:10px;}
-.sub-page #kultura .bg-red  #more-news-mini {width:65%;background-color:inherit;}
+.sub-page #kultura .bg-red  #more-news-mini {width:100%;background-color:inherit;}
 .sub-page .bg-red  #more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
 
 .pagination {margin-top:30px;}

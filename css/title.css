@@ -65,7 +65,7 @@ table.gsc-search-box td{padding:0px;}
 #news-footer-nav a {line-height:1.2em;text-decoration:none;margin-right:20px;}
 #news-footer-nav span{display:block; float:left;text-align:left;font-size:0.9em;}
 
-a#more-news-mini{font-size:0.9em;margin-right:0.5%;float:right;width:32.5%;line-height:40px;line-height:40px;height:40px;}
+#news-footer-nav #more-news-mini{font-size:0.9em;margin-right:0.5%;float:right;width:32.5%;line-height:40px;line-height:40px;height:40px;}
 
 
 /*Calendar*/
@@ -238,7 +238,12 @@ div.major-left-pad {width:8%;}
 @media screen and (max-width: 1600px) {
     #service-nav-icons .col-md-4 {width:27%;margin-right:6%;}
     .more-news-mini {height:57px;}
-	#kultura .more-news-mini {background-color: white; float: left; width: 40%;}
+	#kultura .more-news-mini {background-color: white; float: left; width: 16%;height:40px;}
+    #sport #more-news-mini {width:100%;background:transparent;color:black;text-align:left;}
+    #sport .more-news-mini{float: left; width: 16%;height:40px;background-color: #c20116;text-align:center;}
+    #sport #more-news-mini .news-text,#kultura #more-news-mini  .news-text{float:left;margin-left:7px;text-align:left;line-height:40px;}
+    #sport #more-news-mini .news-text{margin-top:10px;}
+    #sport .more-news-mini img {margin-left:10%;}
 	.horizontal-line {margin-left: 50%;}
 	#mestsky-urad h2 {font-size: 2.8em;}
 }
