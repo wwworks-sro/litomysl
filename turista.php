@@ -10,7 +10,7 @@
 
         <section id="subtitle-banner" class="white-layout">
             <div class="wrap-main subtitle-banner">	
-				<div class='slider'>
+				<div class="<?php if(isset($_COOKIE["stopSlider"])){ echo 'static-slider';}else{echo 'slider';}?>">
 					<div class='slide'>
 						<img class="title-banner-img" src="img/img-system/banners/banner-1.jpg" alt="Letecký pohled - Litomyšl">
 						<div class='slidecontent pad-main-left'>
@@ -33,7 +33,8 @@
 						</div>
 					</div>
 				</div>
-                <div class="cleaner"></div>			
+                <div class="cleaner"></div>
+				<div class="toggle-slider"><?php if(isset($_COOKIE["stopSlider"])){ echo 'Spustit';}else{echo 'Zastavit';}?>&nbsp;slider</div>
 			</div>
             <div class="wrap-side">
                 <div class="pad-main-right">

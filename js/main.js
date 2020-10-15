@@ -16,9 +16,7 @@ $( document ).ready(function() {
             adjustAnchor();
         });
 	})(jQuery, window);
-
-	/* Initialize slider */
-	$(".slider").simpleSlider();
+	
 	/* pripominky */
 	$(".cal-type-trigger[caltype=pripominka]").click(function () {
 		$("html, body").animate({ 
@@ -293,6 +291,37 @@ $( document ).ready(function() {
 		}, 1000);
 		$(".toggle-title-banner").load(location.href + " .toggle-title-banner");
     });
+	
+	/* Initialize slider */
+	function processSliderChange() {
+            var cookieName = "stopSlider";
+            var expire = new Date();
+            var today = new Date();
+
+            if($('.static-slider').length>0){
+				var cookieValue = "false";
+                expire.setTime(today.getTime());
+                document.cookie = cookieName+"="+escape(cookieValue)+";expires="+expire.toGMTString()+";path=/";
+                location.reload();
+            }else{
+                var nDays = 999;
+                var cookieValue = "true";
+
+                expire.setTime(today.getTime() + 3600000*24*nDays);
+                document.cookie = cookieName+"="+escape(cookieValue)+";expires="+expire.toGMTString()+";path=/";
+				location.reload();
+            }
+    }
+
+
+    $('.toggle-slider').click(function(){
+        processSliderChange();
+		$(".toggle-slider").load(location.href + " .toggle-slider");
+    });
+	
+	$(".slider").simpleSlider();
+	var options = {slideOnInterval: false,};
+	$(".static-slider").simpleSlider(options);
 
     $('.mb-trigger').click(function(){
         var trid = $(this).attr('trigger');
