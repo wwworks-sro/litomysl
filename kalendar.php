@@ -251,8 +251,14 @@
                             <div class="col-md-12"><input class="submit search-submit" type="submit" name="vyhledat" value="zobrazit"></div>
                             <div class="cleaner"></div>
                         </form>
+
                     </div>
+
+
+
+
                 </div>
+
                 <div class="cleaner"></div>
             </div>
             <div class="cleaner"></div>

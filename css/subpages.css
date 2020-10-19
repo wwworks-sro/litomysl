@@ -5,6 +5,8 @@
 .sub-header {margin-top:5vh;margin-bottom:30px;}
 .subpage-icon {float:left;margin-right:2%;width:10%;max-width:99px;}
 .header-text {padding-left:0px;float:left;width:88%;}
+#kalendar .header-text{margin-bottom:5vh;}
+#kalendar .sub-header{margin-bottom:40px;}
 .breadcrumb, .arrows.text a {clear:both;font-size:0.8em;opacity:0.6;}
 .breadcrumb a, .arrows.text a {text-decoration: underline;}
 .subpage-title strong{clear:both;display:block; color:black; font-size:0.45em;font-weight:400;line-height:1.5em;}
