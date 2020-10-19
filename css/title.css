@@ -35,7 +35,8 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 #news-tabs-simple .tab-selected {colnews-tabs-simpleor:#c20116;font-weight:bold;}
 #news-tabs-simple li:hover {color:#c20116;cursor:pointer;}
 
-#___gcse_0 {width: 33.3%; float: right;}
+.fulltext-form{width: 33.3%; float: right;}
+#___gcse_0 {width: 100%;}
 #___gcse_0 input {background: none;}
 #___gcse_0 .gsc-control-cse, #___gcse_0 .gsc-input {padding: 0px;}
 #___gcse_0 #gs_tti50 {height: 38px;}
@@ -121,6 +122,7 @@ h2.today-events-title {font-size:1.3em;margin-top:8px;}
 .hint-list {transition: all 0.5s ease;width:250px;height:auto;text-align:left;font-size:14px; display:none; position:absolute;top:50px; left:50%;background-color:white;box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.1);}
 .hint-list .pad {padding:15px;}
 .hint-list-trigger{position:relative;}
+.title-description {}
 /*  -----------------------------------Městský úřad-----------------------------------------------  */
 
 #mestsky-urad .lilly {position:absolute; left:-20px; top:30vh;width:18%;}
@@ -229,7 +231,7 @@ div.major-left-pad {width:8%;}
 
 @media screen and (max-width: 2250px) {
     .col-horizontal-line {margin-top: 10%;}
-	.vertical-line-separator-1 {margin-left: -5px;}
+    .vertical-line-separator-1 {margin-left: -5px;}
 }
 
 @media screen and (max-width: 1850px) {
@@ -238,14 +240,14 @@ div.major-left-pad {width:8%;}
 
 @media screen and (max-width: 1700px) {
     .horizontal-line {width: 30%; margin-left: 30%;}
-	.col-horizontal-line {margin-top: 13%;}
+    .col-horizontal-line {margin-top: 13%;}
 }
 
 @media screen and (max-width: 1600px) {
     #service-nav-icons .col-md-4 {width:27%;margin-right:6%;}
 
-	.horizontal-line {margin-left: 50%;}
-	#mestsky-urad h2 {font-size: 2.8em;}
+    .horizontal-line {margin-left: 50%;}
+    #mestsky-urad h2 {font-size: 2.8em;}
 }
 
 @media screen and (max-width: 1500px) {
@@ -255,19 +257,19 @@ div.major-left-pad {width:8%;}
 
 @media screen and (max-width: 1400px) {
     .horizontal-line {width: 40%; margin-left: 40%;}
-	.col-horizontal-line {width: 24%;}
-	div.major-left-pad {width: 0%;}
+    .col-horizontal-line {width: 24%;}
+    div.major-left-pad {width: 0%;}
     #news-tabs-simple ul {margin-left:0px;}
 }
 
 @media screen and (max-width: 1350px) {
     #news-tabs{margin-left:-15px;}
-	.smetanovo-namesti {top: 68%!important;}
+    .smetanovo-namesti {top: 68%!important;}
     #news-tabs-simple li{font-size:0.9em;}
 }
 
 @media screen and (max-width: 1300px) {
-	#mestsky-urad h2 {font-size: 2.5em;}
+    #mestsky-urad h2 {font-size: 2.5em;}
 }
 
 @media screen and (max-width: 1200px) {
@@ -282,38 +284,37 @@ div.major-left-pad {width:8%;}
     #mestsky-urad .bubble {max-width:80%;}
     .office-side td {padding:5px;}
     .more-news-mini {height:45px;}
-	.major-row {margin-top: 0px;}
+    .major-row {margin-top: 0px;}
 }
 
 @media screen and (max-width: 1100px) {
     .news-secondary p {display:none;}
-    .fulltext-form {width:26%}
     .search-text {width:65%;}
     .news-mini img,.more-news-mini {width:21%;}
     .more-news-mini {height:33px;}
     .more-news-mini img {margin-top:12px;}
     #more-news-mini .news-text {line-height:2em;}
     .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
-	#kultura #more-news-mini .news-text  {width:50%;}
-	.col-horizontal-line {width: 10%; margin-left: 10%; padding-right: 3%;}
+    #kultura #more-news-mini .news-text  {width:50%;}
+    .col-horizontal-line {width: 10%; margin-left: 10%; padding-right: 3%;}
 }
 
 @media screen and (max-width: 1050px) {
-#lide .wrap-side .pad-main-right {padding:0px 40px 50px 40px;}
-#mestsky-urad h2 {font-size: 2.4em;}
+    #lide .wrap-side .pad-main-right {padding:0px 40px 50px 40px;}
+    #mestsky-urad h2 {font-size: 2.4em;}
 }
 
 @media screen and (max-width: 1000px) {
-	.col-horizontal-line {margin-left: 15%; padding-right: 0%;}
-	#mestsky-urad .pad-main-right a {font-size: 13px;}
+    .col-horizontal-line {margin-left: 15%; padding-right: 0%;}
+    #mestsky-urad .pad-main-right a {font-size: 13px;}
     #news-tabs-simple h3{font-size:1.2em;margin-top:4px;}
 }
 
 
 @media screen and (max-width: 950px) {
-	#mestsky-urad h2 {font-size: 3em;}
-	.but-emergency {margin-top: -40px;}
-	#lide .wrap-side .pad-main-left {padding-bottom:0px;}
+    #mestsky-urad h2 {font-size: 3em;}
+    .but-emergency {margin-top: -40px;}
+    #lide .wrap-side .pad-main-left {padding-bottom:0px;}
     .news-primary .news-text, .news-secondary .news-text{bottom:15px;}
     .news-primary .news-text {margin-left:3%;}
     #service-nav-icons .col-md-4 {width:25%;margin-right:8%;font-size:0.9em;}
@@ -336,13 +337,13 @@ div.major-left-pad {width:8%;}
     #mestsky-urad .bubble {max-width:100%;float:none;}
     .multiple-line-page h2 {margin-left:0px;}
     #news-header{margin-bottom:20px;}
-	.people-major img {margin-top: 10vh;}
-	.people-major h3, .people-wisemajor h3 {margin-top: 0px;}
-	.bubble.bubble-white p {display: none;}
-	.major-row {margin-top: -100px;}
-	#lide .bubble-white h3 {font-size: 0.8em;}
-	#lide .bubble-white h4 {font-size: 0.6em;}
-	#lide nav.people-links {margin-top: 0px;}
+    .people-major img {margin-top: 10vh;}
+    .people-major h3, .people-wisemajor h3 {margin-top: 0px;}
+    .bubble.bubble-white p {display: none;}
+    .major-row {margin-top: -100px;}
+    #lide .bubble-white h3 {font-size: 0.8em;}
+    #lide .bubble-white h4 {font-size: 0.6em;}
+    #lide nav.people-links {margin-top: 0px;}
     #news-tabs-simple li {font-size:0.8em;}
     #news-tabs-simple h3{font-size:1em;}
     #novinky-kalendar{margin-bottom:40px;}
@@ -364,12 +365,12 @@ div.major-left-pad {width:8%;}
     .people-major{width: 55%;}
     .people-major h3, .wisemajor-wrap h3, #lide .people-links h3, #lide .people-links a {font-size:0.8em !important; margin-top: 0px;}
     .people-major img {  width: 100%;  margin-left: 0%; margin-top: 20%;}
-	.people-wisemajor {width: 45%;}
-	.wisemajor-wrap .col-md-3 {width: 12%;}
-	.wisemajor-wrap {margin-top: -130px;}
-	.major-row {margin-top: -300px;}
-	#lide .wrap-main .float-right {padding-top: 100px;}
-	.major-row .col-md-3 {width: 5%;}
+    .people-wisemajor {width: 45%;}
+    .wisemajor-wrap .col-md-3 {width: 12%;}
+    .wisemajor-wrap {margin-top: -130px;}
+    .major-row {margin-top: -300px;}
+    #lide .wrap-main .float-right {padding-top: 100px;}
+    .major-row .col-md-3 {width: 5%;}
     .people-line {width:90%;margin-left:30px;}
     footer .col-md-6 {width:100%;}
     footer table {width:100%;}
@@ -391,9 +392,10 @@ div.major-left-pad {width:8%;}
     div.news-text p {font-size:0.8em;}
     .news-title h5, .news-title h6{font-size:1.1em;}
     #service-nav-icons .col-md-4{clear:both; width:100%;margin-bottom:30px;}
-	div.major-left-pad {width: 8%;}
-	div.col-horizontal-line {display: none;}
-	#___gcse_0 {width: 100%;}
+    div.major-left-pad {width: 8%;}
+    div.col-horizontal-line {display: none;}
+    #___gcse_0 {width: 100%;}
+    .fulltext-form{width: 100%; }
     .news-secondary, :nth-child(4).news-secondary {float:left;width:49%;margin-top:1%;margin-left:1%;}
     :first-child.news-secondary, :nth-child(3).news-secondary, :nth-child(5).news-secondary{margin-left:0%;}
     #news-footer-nav{margin-top:5px;}
@@ -418,22 +420,22 @@ div.major-left-pad {width:8%;}
     .office-links img{width:80%;}
     .news-secondary p {display:none;    }
     #news-tabs {margin-left:30px;}
-	#sluzby .but-section-top {clear: both; float: left;}
+    #sluzby .but-section-top {clear: both; float: left;}
     #news-tabs-simple ul{float:left;clear:both;}
     #news-tabs-simple ul li{margin-left:0px;margin-right:20px;}
 }
 
 @media screen and (max-width: 600px) {
-	:hover.people-circles div {position: fixed; top: 70px; left: 2%;width:96%;height:130px;padding:0px;transition: all 1s ease; }
+    :hover.people-circles div {position: fixed; top: 70px; left: 2%;width:96%;height:130px;padding:0px;transition: all 1s ease; }
     :hover.people-circles div p {padding:15px 5%;}
 }
 
 @media screen and (max-width: 500px) {
-	.wisemajor-wrap .col-md-3 {width: 20%!important;}
-	.major-row .col-md-3 {width: 10%!important;}
-	#lide .wrap-main .float-right, #lide .big-device {display: none;}
-	#lide .small-mobile {display: block!important;}
-	.people-links {width:100% !important;margin-top:0px !important;clear:both;display:block; margin-bottom:30px;}
+    .wisemajor-wrap .col-md-3 {width: 20%!important;}
+    .major-row .col-md-3 {width: 10%!important;}
+    #lide .wrap-main .float-right, #lide .big-device {display: none;}
+    #lide .small-mobile {display: block!important;}
+    .people-links {width:100% !important;margin-top:0px !important;clear:both;display:block; margin-bottom:30px;}
     .people-links li,.people-links h3 {text-align:center !important;}
     .vertical-line-separator{width:100%;clear:both;float:none;margin-top:30px;}
     .vertical-line-separator img {display:none;}
