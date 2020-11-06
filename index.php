@@ -120,7 +120,6 @@
                                 <div class="news-cover"> </div>
                                 <div class="news-text">
                                     <h5>Aktualita 1 dolor sit amet consectetuer adip</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam libero </p>
                                 </div>
                             </a>
                             <a href="" class="news-title news-secondary">

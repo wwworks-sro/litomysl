@@ -91,10 +91,14 @@ textarea {width:93%;}
 .news-header .fulltext-form {margin-top:10px !important;}
 input.search-text {margin-left:-9px;width:100%;float:left;background:transparent;border:1px solid rgba(0, 0, 0, 0.35);height:33px !important; }
 input.search-submit {width:20%;height:41px !important;}
+footer button.gsc-search-button-v2 {width:20%;height:36px !important;padding-right:0px;width:100%;text-align:center;padding-right:27px;}
+footer button.gsc-search-button-v2 svg {margin:0 auto;}
+footer .gsc-search-button {padding-right:0px;text-align:center;}
 .fulltext-form input.search-submit {margin-left:-20%;}
 .fulltext-form .search-submit {background: transparent url(../img/img-system/header/search-icon.png) no-repeat center;}
 .fulltext-form :hover.search-submit {background: #c20116 url(../img/img-system/header/search-icon.png) no-repeat center;cursor:pointer;}
 .search-submit,.search-text {clear:none !important;}
+footer .fulltext-form {max-width:285px;}
 
 img {border:none;max-width:100%;}
 
@@ -441,8 +445,10 @@ footer a:link, footer a:visited {color: white;}
     .breadcrumb {margin-top: 20px;}
 
     tr {display: table;  width:100%;}
-    td:not(.gsc-search-button) {display: block;width:100%;clear:both;padding:0px; }
-    tr td:last-child{padding-bottom:15px; }
+    td:not(.gsc-search-button) {display: block;width:44%;clear:none;float:left;padding:0px; }
+    tr td:last-child{padding-bottom:0px; }
+    .office-side th {padding :0px !important;margin:0px !important;line-height:1.2em;    vertical-align: middle;}
+    .office-side td {line-height:1.4em;}
 
     .en-first-row-center, .en-first-row-right {width: 46%;}
     .en-first-row-center .col-tb-4 {width: 48%;}
@@ -472,6 +478,12 @@ footer a:link, footer a:visited {color: white;}
     footer .wrap-main{width:100%; clear: both;}
     footer .wrap-side {padding-top: 0px; clear: both; margin-left: 10%;}
     footer .wrap-side .pad-main-right {width: 80%;}
+    footer .gsc-control-cse{margin-top:0px !important;border:none !important;}
+    footer .gsc-search-button {padding-top:0px  !important;margin-top:-3px;}
+    footer #___gcse_0,footer .gsc-input-box {border:0px;}
+    footer .gsc-input-box input.gsc-input {border:1px solid gray !important;height:30px !important;}
+    footer .gsib_b{padding-bottom:0px !important;}
+    footer .gsc-control-cse {padding:7px !important;}
 
 }
 

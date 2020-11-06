@@ -21,9 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="768e4880-67b2-4acd-b748-28ef5c6c9e34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.zip" beforeDir="false" afterPath="$PROJECT_DIR$/css.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/subpages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/subpages.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/title.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tourist.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tourist.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-system/title/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/img-system/title/cover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kalendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/kalendar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/_footer.php" afterDir="false" />
     </list>
@@ -157,22 +161,13 @@
       <screen x="1280" y="-830" width="2560" height="1440" />
     </state>
     <state x="2282" y="-301" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1600870287015" />
-    <state x="1380" y="-730" width="2360" height="1240" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595566596373">
-      <screen x="1280" y="-830" width="2560" height="1440" />
-    </state>
-    <state x="1380" y="-730" width="2360" height="1240" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1595566596373" />
     <state x="245" y="17" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601210287664">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="245" y="17" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.800@0.0.1280.800" timestamp="1601210287664" />
-    <state x="490" y="262" width="570" height="538" key="find.popup" timestamp="1602362864036">
+    <state x="490" y="262" width="570" height="538" key="find.popup" timestamp="1604544610179">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="2260" y="-379" width="600" height="538" key="find.popup/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1595569454236" />
-    <state x="490" y="262" width="570" height="538" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1602362864036" />
-    <state x="2225" y="-499" width="670" height="676" key="search.everywhere.popup" timestamp="1595567437054">
-      <screen x="1280" y="-830" width="2560" height="1440" />
-    </state>
-    <state x="2225" y="-499" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-830.2560.1440@1280.-830.2560.1440" timestamp="1595567437054" />
+    <state x="490" y="262" width="570" height="538" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1604544610179" />
   </component>
 </project>

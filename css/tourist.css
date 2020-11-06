@@ -180,7 +180,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
 .sport-bottom img {float:left;}
 .sport-bottom span {font-size:0.8em;}
 
-#sport-detail-wrap {display: none; height: 70vh; position: absolute; width: 50%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 15vh; left: 25%;}
+#sport-detail-wrap {z-index:5000;display: none; height: 70vh; position: absolute; width: 50%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 15vh; left: 25%;}
 #sport-detail-wrap.sport-triggered {display: block; overflow: overlay;}
 #video-detail-wrap {display: none; height: 80vh; position: absolute; width: 80%; box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.35); background-color: #F1F1F1; top: 10vh; left: 10%;}
 #video-detail-wrap.video-triggered {display: block; overflow: hidden; z-index: 10;}
@@ -373,6 +373,7 @@ a.but-calendar {background: url(../img/img-system/culture/calendar.png) no-repea
     .slidecontent{padding-top:30px;}
 	.nahled-sportu {margin: 30px; font-size: 16px;}
 	#sport-detail-wrap {width: 80%; left: 10%;}
+    #subtitle-banner .fulltext-form{margin-top:0px !important;padding-top:10px !important;}
 }
 
 
