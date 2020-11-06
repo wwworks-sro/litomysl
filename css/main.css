@@ -49,6 +49,7 @@ ol li { list-style:decimal inside; padding:5px 0}
 ul .fa {display:block; float:left;margin-right:15px;}
 nav ul{margin-left:0px;}
 nav li {list-style-type: none;padding-top:0px;line-height:1.4em;}
+ul li a {text-decoration: underline;}
 
 td, th{padding:10px 10px; padding-left: 0px;}
 .table-formated td{border-bottom:2px solid white;}
@@ -101,6 +102,7 @@ footer .gsc-search-button {padding-right:0px;text-align:center;}
 footer .fulltext-form {max-width:285px;}
 
 img {border:none;max-width:100%;}
+table a {text-decoration: underline;}
 
 table.gsc-search-box td.gsc-search-button {padding-left:0px !important;margin-left:-50px !important;}
 table.gsc-search-box input.gsc-input {background: none;}
@@ -315,14 +317,19 @@ footer #calendar-search-name, footer .calendar-search-set{clear:both;float:none;
 .en #trips {background-color: #F1F1F1;}
 .en #trips .square-pic {width: 35%;}
 .en #trips a.but-double-line {line-height:1.2;padding:5px 0;}
-.en #trips h2 {transform: rotate(270deg); top: 45vh; left: -40%; position: relative;}
+.en #trips h2 {transform: rotate(270deg); top: 35vh; left: -20%; position: relative;}
 .en #trips .link-line {text-decoration: underline;}
 .en #trips .links {margin-left: 15px;}
+.en #trips .wrap {padding-top: 0px; min-height: 800px;}
+.en #trips .pad-main-left {padding-top: 0px; padding-right: 0px;}
 footer .margin-footer {margin-top: 3vh;}
 footer.en more-contacts {float: right;}
 footer a:link, footer a:visited {color: white;}
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
+@media screen and (max-width: 1800px) {
+	.en #trips h2 {top: 60vh;}
+}
 
 @media screen and (max-width: 1600px) {
     .footer th, footer td, footer a {font-size:1em;}
@@ -342,6 +349,7 @@ footer a:link, footer a:visited {color: white;}
     .scrolled .menu-group-title {margin-bottom:0px;}
     .scrolled #main-navigation ul {margin-top:0px;}
     .scrolled #main-navigation { margin-top:5px;}
+	.en #trips h2 {top: 70vh;}
 }
 
 
@@ -352,7 +360,7 @@ footer a:link, footer a:visited {color: white;}
     #main-navigation ul li a{line-height:1.4;}
     footer .wrap-main{width:75%;}
     footer .wrap-side{width:25%;font-size:0.8em;}
-    footer .pad-main-right {padding: 0px!important;}
+    footer .pad-main-right {padding: 0px!important; margin-left: 50px;}
     footer .social-links {clear: both;}
     footer #calendar-search-name {width: 100%;}
     body{    font-size:1em;}
@@ -445,7 +453,8 @@ footer a:link, footer a:visited {color: white;}
     .breadcrumb {margin-top: 20px;}
 
     tr {display: table;  width:100%;}
-    td:not(.gsc-search-button) {display: block;width:44%;clear:none;float:left;padding:0px; }
+    td:not(.gsc-search-button):not(.gsc-input) {display: block;width:44%;clear:none;float:left;padding:0px; }
+	.gsc-input-box, .gsc-search-button {border-radius: 0px!important;}
     tr td:last-child{padding-bottom:0px; }
     .office-side th {padding :0px !important;margin:0px !important;line-height:1.2em;    vertical-align: middle;}
     .office-side td {line-height:1.4em;}
@@ -454,6 +463,7 @@ footer a:link, footer a:visited {color: white;}
     .en-first-row-center .col-tb-4 {width: 48%;}
     .en-first-row-center .tourist-button-link-box {width: 60%; margin-left: 20%; margin-top: 20px;}
     .en a.tourist-top-link, .en-first-row-right form.fulltext-form {width: 80%; margin-left: 0px;}
+	.en #trips .pad-main-left {width: 100%;}
 }
 
 @media screen and (max-width: 800px) {
@@ -470,7 +480,7 @@ footer a:link, footer a:visited {color: white;}
     .header-search {display:block;float:right;clear:both;max-width:100%;margin-top:20px;margin-bottom:10px;}
     .scrolled .header-search {margin-right: 30px;}
     :hover.header-search {cursor:pointer;}
-    .fulltext-form {display:none;position:fixed;top:0;left:0;height:50px;background-color:white;width:65% !important;z-index:4 !important;padding-top:10px;padding-left:5%;}
+    .fulltext-form {display:none;position:fixed;top:0;left:40%;height:50px;background-color:white;width:60% !important;z-index:4 !important;padding-top:10px!important;}
     .fulltext-form  {margin-top:20px !important;}
     .news-other img, #more-news-mini {width:15%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:83%;}
@@ -484,7 +494,9 @@ footer a:link, footer a:visited {color: white;}
     footer .gsc-input-box input.gsc-input {border:1px solid gray !important;height:30px !important;}
     footer .gsib_b{padding-bottom:0px !important;}
     footer .gsc-control-cse {padding:7px !important;}
-
+	.en #trips col-md-1, .en #trips col-md-1 {width: 100%;}
+	.en #trips h2 {transform: none; top: 0px; left: 5%;}
+	.en #trips .pad-main-left {padding-left: 0px;}
 }
 
 
@@ -492,6 +504,8 @@ footer a:link, footer a:visited {color: white;}
     .news-other img, #more-news-mini {width:22%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
     .en .tourist-button-link span {line-height: 17px; width: 70%;}
+	#___gcse_0 {width: 65%!important;}
+	.fulltext-form {left: 50%;}
 }
 
 @media screen and (max-width: 550px) {
@@ -540,11 +554,13 @@ footer a:link, footer a:visited {color: white;}
     .en-first-row-center .col-tb-4 {width: 49%;}
     .en a.tourist-top-link {width: 100%; margin-top: 10px;}
     #seznamy .pad-main-left form.col-md-12 {float: left;}
+	#___gcse_0 {margin-top: 0px;}
 }
 
 @media screen and (max-width: 420px) {
     .en .tourist-button-link span {line-height: 17px;}
     #seznamy .pad-main-left form.col-md-12 col-md-1 {width: 25%;}
+	.fulltext-form {left: 65%;}
 }
 
 @media screen and (max-width: 350px) {

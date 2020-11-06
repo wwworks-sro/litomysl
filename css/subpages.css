@@ -14,7 +14,7 @@
 
 .sidebar-nav li {padding:10px 0;width:100%;}
 .sidebar-nav ul ul li {border-bottom:3px solid white; text-decoration: none;}
-.sidebar-nav ul ul li a {text-decoration: none;}
+/*.sidebar-nav ul ul li a {text-decoration: none;}*/
 .sidebar-nav li ul {margin-left:10%;}
 .sidebar-nav .active {padding-bottom:0;}
 .sidebar-nav .active a {color:#c20116;font-weight:bold;}
@@ -103,6 +103,10 @@
 .wrap-main-three,.wrap-side-three {float:left;}
 .wrap-main-three {width:48%;}
 .wrap-side-three {width:26%;}
+.gsc-control-cse {background-color: inherit!important;}
+.gsc-input {width:100%;background:0px !important;}
+table.gsc-search-box td.gsc-input {padding-right: 0px!important;}
+#___gcse_0 .gsc-search-button button,footer .gsc-search-button {height: 38px;margin-left:-57px;width:48px;}
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
 

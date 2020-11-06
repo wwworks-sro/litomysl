@@ -43,7 +43,7 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 #___gcse_0 .gsc-search-button button,footer .gsc-search-button {height: 38px;margin-left:-57px;width:48px;}
 #___gcse_0 .gsc-search-button button svg{margin-left:-5px;}
 table.gsc-search-box td{padding:0px;}
-.gsc-input {width:80%;background:0px !important;}
+.gsc-input {width:100%;background:0px !important;}
 footer input {background-image:none !important;}
 footer .gsc-control-cse {background:transparent; border:1px solid white;margin-top:30px;}
 footer td.gsc-input {padding-right:0px !important;}
@@ -113,7 +113,7 @@ h2.today-events-title {font-size:1.3em;margin-top:8px;}
 
 #service-nav-icons,#service-nav-bottom {width:100%;clear:both;padding-top:40px;}
 #service-nav-icons li, #service-tourists li {width:50%;float:left;text-align:center;margin:0px;padding:0px;margin-bottom:10px;display:block;}
-#service-nav-icons li {max-width:150px;float:left;}
+#service-nav-icons li {max-width:150px;float:left; height: 160px;}
 #service-nav-icons a, #service-tourists a {display:block;text-decoration:none;text-align:center;width:100%;min-height:158px;}
 #service-nav-icons img, #service-tourists img {max-width:100%;clear:both;float:none;margin-bottom:2px;}
 #service-nav-icons span, #service-tourists span {display:block; text-align:center;padding:0 5px;}
@@ -303,6 +303,7 @@ div.major-left-pad {width:8%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
     #kultura #more-news-mini .news-text  {width:50%;}
     .col-horizontal-line {width: 10%; margin-left: 10%; padding-right: 3%;}
+	#service-nav-icons li {height: 130px;}
 }
 
 @media screen and (max-width: 1050px) {
@@ -355,7 +356,7 @@ div.major-left-pad {width:8%;}
     #novinky-kalendar{margin-bottom:40px;}
     .calendar-title-link {margin-right: 40px;}
     #news-footer-nav span{font-size:0.7em;}
-
+	#service-nav-icons li {height: 150px;}
 }
 
 
@@ -447,7 +448,6 @@ div.major-left-pad {width:8%;}
     .vertical-line-separator{width:100%;clear:both;float:none;margin-top:30px;}
     .vertical-line-separator img {display:none;}
     .vertical-line-separator .but {width:100%;clear:both;float:none;margin-top:30px;}
-    #news-tabs-simple h3{}
     #news-tabs-simple ul li{font-size:1.0em;}
     #news-tabs-simple ul {margin-top:5px;}
 
@@ -469,7 +469,7 @@ div.major-left-pad {width:8%;}
     #news-tabs li{padding-left:25px !important;padding-right:20px !important;}
     #news-tabs {margin-left:5px;}
     #title-banner {background: url(../img/img-system/title/banner-mobile-mini.jpg) no-repeat center;}
-
+	#service-nav-icons li {height: 130px;}
 }
 
 @media screen and (max-width: 350px) {
