@@ -43,7 +43,7 @@ div.banner-text {padding-top:0px;position:absolute;top:20px;width:30%;}
 #___gcse_0 .gsc-search-button button,footer .gsc-search-button {height: 38px;margin-left:-57px;width:48px;}
 #___gcse_0 .gsc-search-button button svg{margin-left:-5px;}
 table.gsc-search-box td{padding:0px;}
-.gsc-input {width:100%;background:0px !important;}
+.gsc-input {width:100%;background:0px !important;padding-left: 5px!important;}
 footer input {background-image:none !important;}
 footer .gsc-control-cse {background:transparent; border:1px solid white;margin-top:30px;}
 footer td.gsc-input {padding-right:0px !important;}

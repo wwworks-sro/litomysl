@@ -163,6 +163,8 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 #lang-box, #social-box, #contacts-link {line-height:1.8em;}
 #social-box, #contacts-link {clear:both;width:100%;}
 #lang-box{position:absolute; right:15px;top:35px; }
+#lang-box.search-on {top:15px;}
+#lang-box.search-on .subpage-search {width: 14px;}
 #lang-box a, #social-box a,#contacts-link {float:right;text-align:right;}
 #lang-box a, #social-box a {margin-left:8px;}
 #social-box a{margin-top:10px;max-width:22%;}

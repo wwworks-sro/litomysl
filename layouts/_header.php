@@ -64,8 +64,11 @@ $fileName = basename($_SERVER['PHP_SELF']);
             <img class="header-search" src="img/img-system/header/search-icon.png" alt="Vyhledávat na webu">
         </div>
     </div>
-    <div id="lang-box">
+    <div id="lang-box" <?php if($fileName != 'turista.php' && $fileName != 'index.php'){ ?>class="search-on"<?php } ?> >
 		<?php  if($fileName != 'index-en.php'){ ?>
+			<?php  if($fileName != 'turista.php' && $fileName != 'index.php'){ ?>
+				<a href="#kontakty"><img class="subpage-search" src="http://temp.litomysl.cz/program_files/img/img-system/header/search-icon.png" alt="Vyhledávat na webu"></a><br/>
+			<?php } ?>
 			<a href="">en</a>
 		<?php } else { ?>
 			<a href="">cs</a>
