@@ -268,6 +268,7 @@ footer #calendar-search-name, footer .calendar-search-set{clear:both;float:none;
 .sub-page .bg-red  #more-news-mini {width:16%;background-color:white;height:40px;margin-top:10px;}
 .sub-page #kultura .bg-red  #more-news-mini {width:100%;background-color:inherit;}
 .sub-page .bg-red  #more-news-mini img {width:60%;margin-left:5%;margin-top:15px;}
+#aktuality .wrap-side.bg-red {margin-top: 50px;}
 
 .pagination {margin-top:30px;}
 .pagination a,.news-mini-filter a {color:#c20116;float:left;display:block; padding:0 5px;text-decoration:underline;}
