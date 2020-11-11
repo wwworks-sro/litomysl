@@ -59,17 +59,19 @@ $fileName = basename($_SERVER['PHP_SELF']);
 				</ul>
 			</nav>
 		<?php } ?>
-		
-        <div id="header-right">
-            <img class="header-search" src="img/img-system/header/search-icon.png" alt="Vyhledávat na webu">
-        </div>
+		<div class="add-fulltext-form">
+			<form class="fulltext-form" method="post" action="#">
+				<input class="search-text" type="text" name="search">
+				<input class="submit search-submit" type="submit" name="vyhledat" value="">
+			</form>
+		</div>
     </div>
-    <div id="lang-box" <?php if($fileName != 'turista.php' && $fileName != 'index.php'){ ?>class="search-on"<?php } ?> >
+    <div id="lang-box" class="search-on">
 		<?php  if($fileName != 'index-en.php'){ ?>
-			<?php  if($fileName != 'turista.php' && $fileName != 'index.php'){ ?>
-				<a href="#kontakty"><img class="subpage-search" src="http://temp.litomysl.cz/program_files/img/img-system/header/search-icon.png" alt="Vyhledávat na webu"></a><br/>
-			<?php } ?>
+			<img class="header-search" src="http://temp.litomysl.cz/program_files/img/img-system/header/search-icon.png" alt="Vyhledávat na webu"><br/>
 			<a href="">en</a>
+			<a href="">fr</a>
+			<a href="">de</a>
 		<?php } else { ?>
 			<a href="">cs</a>
 		<?php } ?>

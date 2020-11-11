@@ -143,7 +143,6 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 #logo{display:block;margin-top:20px; }
 #logo .img{width:100%;}
 .menu {display:none;}
-.header-search {display:none;}
 
 #main-navigation {float:right;margin-top:4px}
 #main-navigation .col-md-5{width:44%;}
@@ -164,12 +163,13 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 #social-box, #contacts-link {clear:both;width:100%;}
 #lang-box{position:absolute; right:15px;top:35px; }
 #lang-box.search-on {top:15px;}
-#lang-box.search-on .subpage-search {width: 14px;}
+#lang-box.search-on .header-search {width: 15px; float: right;  margin-top: 5px;}
 #lang-box a, #social-box a,#contacts-link {float:right;text-align:right;}
 #lang-box a, #social-box a {margin-left:8px;}
 #social-box a{margin-top:10px;max-width:22%;}
 #lang-box a {margin-top:5px;}
 .wrap-side {height:100%;}
+:hover.header-search {cursor:pointer;}
 
 .scrolled{height:70px;}
 .scrolled #main-navigation { margin-top:0px;margin-bottom:0px;}
@@ -226,8 +226,11 @@ footer .pad-main-right {padding-top: 10px;}
 footer .big-link {color: white;}
 footer .sign {padding-bottom: 6vh; text-align: center;}
 footer .sign a {text-decoration: underline; color: white; font-size: inherit;}
+footer .gsc-control-cse {border: none;}
+footer .fulltext-form {border: 1px solid #fff;}
 
 footer #calendar-search-name, footer .calendar-search-set{clear:both;float:none;width:100%;}
+footer form#calendar-search-name {border: 1px solid #fff;}
 
 /* Menu overlay*/
 /* Overlay style */
@@ -252,6 +255,7 @@ footer #calendar-search-name, footer .calendar-search-set{clear:both;float:none;
 #trigger-overlay{font-size:38px;  }
 .lang-mobile {display:block;}
 .lang-mobile a {font-size:20px !important; text-decoration:none;font-weight:bold;}
+.add-fulltext-form {display:none;position:fixed;top:0;left:40%;height:50px;background-color:white;width:60% !important;z-index:4 !important;padding-top:10px!important;margin-top:20px !important;}
 
 
 .news-mini {clear:both; float:none;margin-bottom:2%;display:block;}
@@ -358,12 +362,12 @@ footer a:link, footer a:visited {color: white;}
 
 @media screen and (max-width: 1350px) {
     .menu-group-title {font-size:1.2em;font-weight:800;display:block !important;margin-bottom:3px;}
-    #main-navigation {margin-top:12px;}
+    #main-navigation {margin-top:12px; float: left;}
     #main-navigation ul {margin-top:8px;}
     #main-navigation ul li a{line-height:1.4;}
     footer .wrap-main{width:75%;}
     footer .wrap-side{width:25%;font-size:0.8em;}
-    footer .pad-main-right {padding: 0px!important; margin-left: 50px;}
+    footer .pad-main-right {padding: 0px 50px 0px 0px!important; margin-left: 50px;}
     footer .social-links {clear: both;}
     footer #calendar-search-name {width: 100%;}
     body{    font-size:1em;}
@@ -375,7 +379,6 @@ footer a:link, footer a:visited {color: white;}
 @media screen and (max-width: 1200px) {
     body{    font-size: 0.9em;}
     h3 {font-size:1.0em;}
-    .rblikebox,#social-buts {display:none;}
     .news-mini p, .news-mini h6{font-size:0.8em;}
     #more-news-mini {height:43px;}
     #more-news-mini img {margin-top:17px;}
@@ -480,11 +483,6 @@ footer a:link, footer a:visited {color: white;}
     #lide .col-mob-12 {width:100%;clear:both;}
     #lide .pad-main-left .col-md-6.float-right {position: relative; z-index: 10;}
     #social-box, #contacts-link {display:none;}
-    .header-search {display:block;float:right;clear:both;max-width:100%;margin-top:20px;margin-bottom:10px;}
-    .scrolled .header-search {margin-right: 30px;}
-    :hover.header-search {cursor:pointer;}
-    .fulltext-form {display:none;position:fixed;top:0;left:40%;height:50px;background-color:white;width:60% !important;z-index:4 !important;padding-top:10px!important;}
-    .fulltext-form  {margin-top:20px !important;}
     .news-other img, #more-news-mini {width:15%;}
     .news-mini .news-text,#more-news-mini .news-text  {width:83%;}
     #lang-box{top:50px;}
@@ -497,9 +495,10 @@ footer a:link, footer a:visited {color: white;}
     footer .gsc-input-box input.gsc-input {border:1px solid gray !important;height:30px !important;}
     footer .gsib_b{padding-bottom:0px !important;}
     footer .gsc-control-cse {padding:7px !important;}
-	.en #trips col-md-1, .en #trips col-md-1 {width: 100%;}
+	.en #trips .col-md-1, .en #trips .col-md-11 {width: 100%;}
 	.en #trips h2 {transform: none; top: 0px; left: 5%;}
 	.en #trips .pad-main-left {padding-left: 0px;}
+	.rblikebox,#social-buts {display:none;}
 }
 
 

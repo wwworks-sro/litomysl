@@ -65,6 +65,7 @@
 .form-compensate-padding input{width:94%;}
 .calendar-search-set label {clear:both;width:100%;display:block;}
 .calendar-search-set form div {margin-bottom:15px;}
+.calendar-search-set form, footer .fulltext-form {padding-left: 7px; padding-top: 5px; margin-top: 10px;}
 .search-type {margin-bottom:50px;}
 .search-type .col-md-3 {border-bottom:1px solid #c20116;}
 .search-type .col-md-3 div {text-align:center;line-height:30px;margin-bottom:0px;}
