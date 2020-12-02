@@ -459,7 +459,7 @@ footer a:link, footer a:visited {color: white;}
     .breadcrumb {margin-top: 20px;}
 
     tr {display: table;  width:100%;}
-    td:not(.gsc-search-button):not(.gsc-input) {display: block;width:44%;clear:none;float:left;padding:0px; }
+    td:not(.gsc-search-button):not(.gsc-input) {display: block;width:100%!important;height:auto!important;clear:both;float:left;padding:0px; }
 	.gsc-input-box, .gsc-search-button {border-radius: 0px!important;}
     tr td:last-child{padding-bottom:0px; }
     .office-side th {padding :0px !important;margin:0px !important;line-height:1.2em;    vertical-align: middle;}
