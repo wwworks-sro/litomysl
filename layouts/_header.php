@@ -72,6 +72,7 @@ $fileName = basename($_SERVER['PHP_SELF']);
 			<a href="">en</a>
 			<a href="">fr</a>
 			<a href="">de</a>
+			<a href="">pl</a>
 		<?php } else { ?>
 			<a href="">cs</a>
 		<?php } ?>
