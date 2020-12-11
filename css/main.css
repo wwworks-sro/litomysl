@@ -100,7 +100,8 @@ footer .gsc-search-button {padding-right:0px;text-align:center;}
 .fulltext-form :hover.search-submit {background: #c20116 url(../img/img-system/header/search-icon.png) no-repeat center;cursor:pointer;}
 .search-submit,.search-text {clear:none !important;}
 footer .fulltext-form {max-width:294px;}
-footer table.gsc-search-box .gsc-input-box {height: 25px; border-radius: 0px;}
+footer table.gsc-search-box .gsc-input-box {height: 34px; border-radius: 0px;}
+header .gsc-control-cse {border: none;}
 
 img {border:none;max-width:100%;}
 table a {text-decoration: underline;}
@@ -258,7 +259,7 @@ footer .calendar-search-set {border: 1px solid #fff; margin-bottom: 20px;}
 #trigger-overlay{font-size:38px;  }
 .lang-mobile {display:block;}
 .lang-mobile a {font-size:20px !important; text-decoration:none;font-weight:bold;}
-.add-fulltext-form {display:none;position:fixed;top:0;right:20%;height:50px;background-color:white;width:20% !important;z-index:4 !important;padding-top:30px!important;}
+.add-fulltext-form {display:none;position:fixed;top:0;right:20%;height:50px;background-color:white;width:20% !important;z-index:4 !important;padding-top:10px!important;}
 
 
 .news-mini {clear:both; float:none;margin-bottom:2%;display:block;}
@@ -335,6 +336,7 @@ footer .calendar-search-set {border: 1px solid #fff; margin-bottom: 20px;}
 footer .margin-footer {margin-top: 3vh;}
 footer.en more-contacts {float: right;}
 footer a:link, footer a:visited {color: white;}
+#header-right {display: none;}
 
 /*  -----------------------------------Mobil-----------------------------------------------  */
 @media screen and (max-width: 1800px) {
