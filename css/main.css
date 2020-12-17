@@ -102,6 +102,9 @@ footer .gsc-search-button {padding-right:0px;text-align:center;}
 footer .fulltext-form {max-width:294px;}
 footer table.gsc-search-box .gsc-input-box {height: 34px; border-radius: 0px;}
 header .gsc-control-cse {border: none;}
+header .add-fulltext-form #___gcse_0 {float: left; width: 97%;} 
+header .add-fulltext-form .close-fulltext {float: left; width: 3%;}
+header .add-fulltext-form .close-fulltext:hover {cursor: pointer;}
 
 img {border:none;max-width:100%;}
 table a {text-decoration: underline;}

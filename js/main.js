@@ -209,7 +209,7 @@ $( document ).ready(function() {
     });
 
     /*Mobile fulltext*/
-    $('.header-search').click(function(){
+    $('.header-search, .close-fulltext').click(function(){
         $('.add-fulltext-form').toggle("slow");
 		var wid = $(window).width();
 		if(wid>1049){
