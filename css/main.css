@@ -528,7 +528,7 @@ footer a:link, footer a:visited {color: white;}
 	#___gcse_0 {width: 65%!important;}
 	footer #___gcse_0 {width: 100%!important;}
 	.fulltext-form {left: 50%;}
-	.add-fulltext-form {right: 40%; width: 40%!important;}
+	.add-fulltext-form {right: 0%; width: 60%!important; height: 60px;}
 }
 
 @media screen and (max-width: 550px) {
