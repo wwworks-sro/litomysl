@@ -526,6 +526,7 @@ footer a:link, footer a:visited {color: white;}
     .news-mini .news-text,#more-news-mini .news-text  {width:76%;}
     .en .tourist-button-link span {line-height: 17px; width: 70%;}
 	#___gcse_0 {width: 65%!important;}
+	#___gcse_0 #___gcse_0 {width: 100%!important;}
 	footer #___gcse_0 {width: 100%!important;}
 	.fulltext-form {left: 50%;}
 	.add-fulltext-form {right: 0%; width: 60%!important; height: 60px;}
@@ -556,7 +557,8 @@ footer a:link, footer a:visited {color: white;}
     .menu {margin-top:10px;}
     #logo {margin-top:15px;}
     #title-banner,#subtitle-banner {margin-top:45px !important;}
-    #lang-box {display:none;}
+    #lang-box a {display:none;}
+	#lang-box .header-search {float: right; margin-top: 10px;}
     div.banner-text, div.banner-text h2{width:90% !important;}
     div.banner-text p {display:none;}
     .search-text {width:67% !important;}
@@ -579,6 +581,9 @@ footer a:link, footer a:visited {color: white;}
     .en a.tourist-top-link {width: 100%; margin-top: 10px;}
     #seznamy .pad-main-left form.col-md-12 {float: left;}
 	#___gcse_0 {margin-top: 0px;}
+	.add-fulltext-form {padding-top: 0px!important; width: 80%!important;}
+	#___gcse_0 .gsc-control-cse {padding: 0px!important;}
+	.fulltext-form #___gcse_0 .gsc-control-cse {padding: 4px!important;}
 }
 
 @media screen and (max-width: 420px) {

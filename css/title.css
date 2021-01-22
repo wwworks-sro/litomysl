@@ -357,6 +357,7 @@ div.major-left-pad {width:8%;}
     .calendar-title-link {margin-right: 40px;}
     #news-footer-nav span{font-size:0.7em;}
 	#service-nav-icons li {height: 150px;}
+	#___gcse_0 .gsc-control-cse, #___gcse_0 .gsc-input {padding: 5px!important;}
 }
 
 
@@ -468,7 +469,7 @@ div.major-left-pad {width:8%;}
     #novinky-kalendar #news-tabs {width:300px !important;}
     #news-tabs li{padding-left:25px !important;padding-right:20px !important;}
     #news-tabs {margin-left:5px;}
-    #title-banner {background: url(../img/img-system/title/banner-mobile-mini.jpg) no-repeat center;}
+    #title-banner {background: url(../img/img-system/title/banner-mobile-mini.jpg) no-repeat center; height: 40vh;}
 	#service-nav-icons li {height: 130px;}
 }
 
