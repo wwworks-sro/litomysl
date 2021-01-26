@@ -558,7 +558,7 @@ footer a:link, footer a:visited {color: white;}
     #logo {margin-top:15px;}
     #title-banner,#subtitle-banner {margin-top:45px !important;}
     #lang-box a {display:none;}
-	#lang-box .header-search {float: right; margin-top: 10px;}
+	#lang-box .header-search {float: right!important; margin-top: 10px!important;}
     div.banner-text, div.banner-text h2{width:90% !important;}
     div.banner-text p {display:none;}
     .search-text {width:67% !important;}
