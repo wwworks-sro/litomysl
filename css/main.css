@@ -487,6 +487,7 @@ footer a:link, footer a:visited {color: white;}
     .en-first-row-center .tourist-button-link-box {width: 60%; margin-left: 20%; margin-top: 20px;}
     .en a.tourist-top-link, .en-first-row-right form.fulltext-form {width: 80%; margin-left: 0px;}
 	.en #trips .pad-main-left {width: 100%;}
+	.add-fulltext-form #___gcse_0 .gsc-control-cse, .add-fulltext-form #___gcse_0 .gsc-input {padding: 5px!important;}
 }
 
 @media screen and (max-width: 800px) {
@@ -583,7 +584,9 @@ footer a:link, footer a:visited {color: white;}
 	#___gcse_0 {margin-top: 0px;}
 	.add-fulltext-form {padding-top: 0px!important; width: 80%!important;}
 	#___gcse_0 .gsc-control-cse {padding: 0px!important;}
-	.fulltext-form #___gcse_0 .gsc-control-cse {padding: 4px!important;}
+	.add-fulltext-form #___gcse_0 .gsc-search-button button {margin-left: -50px;}
+	.add-fulltext-form #___gcse_0 .gsc-control-cse {padding: 0px!important;}
+	.add-fulltext-form .fulltext-form #___gcse_0 .gsc-control-cse {padding: 4px!important;}
 }
 
 @media screen and (max-width: 420px) {
