@@ -175,6 +175,7 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 #lang-box a {margin-top:5px;}
 .wrap-side {height:100%;}
 :hover.header-search {cursor:pointer;}
+header #___gcse_0 .gsc-control-cse, header #___gcse_0 .gsc-input {padding: 0px;}
 
 .scrolled{height:70px;}
 .scrolled #main-navigation { margin-top:0px;margin-bottom:0px;}
