@@ -192,7 +192,7 @@ $( document ).ready(function() {
     });
 
     /*Mobile menu*/
-    $('.overlay-close').click(function(){
+    $('.overlay-close, .overlay a').click(function(){
         $(".overlay").hide();
         $(".overlay-hugeinc.open").removeClass('overlay-hugeinc.open');
     });
@@ -209,8 +209,14 @@ $( document ).ready(function() {
     });
 
     /*Mobile fulltext*/
-    $('.header-search ').click(function(){
-        $('.fulltext-form').toggle("slow");
+    $('.header-search, .close-fulltext').click(function(){
+        $('.add-fulltext-form').toggle("slow");
+		var wid = $(window).width();
+		if(wid>1049){
+			$('#main-navigation').toggle("slow");
+		}else if(wid<651){
+			$('#header-wrap #logo img').toggle("slow");
+		}
     });
 
     /*Height of the links on calendar page*/
@@ -331,6 +337,8 @@ $( document ).ready(function() {
             $('#'+trid).slideUp();
         }
     });
+	
+	
 
 
 

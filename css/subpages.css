@@ -61,11 +61,12 @@ strong a {font-weight:bold;}
 .cal-lilie-link img {width:25%;float:left;}
 .cal-lilie-link strong {width:74%;float:right;margin-top:15px;}
 .cal-lilie-link span {clear:both;display:block;font-size:0.8em;}
-.calendar-search {margin-bottom:30px;clear:both;float:none;}
+.calendar-search {margin-bottom:0px;clear:both;float:none;}
 .calendar-search-set input, .calendar-search-set select {width:100%;max-width:100%;}
 .form-compensate-padding input{width:94%;}
 .calendar-search-set label {clear:both;width:100%;display:block;}
 .calendar-search-set form div {margin-bottom:15px;}
+footer .calendar-search-set form, footer .fulltext-form {padding-left: 7px; padding-top: 5px; margin-top: 10px;}
 .search-type {margin-bottom:50px;}
 .search-type .col-md-3 {border-bottom:1px solid #c20116;}
 .search-type .col-md-3 div {text-align:center;line-height:30px;margin-bottom:0px;}
@@ -117,7 +118,7 @@ table.gsc-search-box td.gsc-input {padding-right: 0px!important;}
     .cal-detail-text {width:60%;}
     .cal-detail-image {width:21%;}
     .cal-detail-link {width:7%;}
-
+	footer .calendar-search-set form, footer .fulltext-form {padding-left: 5%;}
 }
 
 

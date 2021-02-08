@@ -43,6 +43,7 @@
 				</div>                                
 
 				<form id="calendar-search-name" class="calendar-search cal-type-pripominka" method="post" action="http://temp.litomysl.cz/pripominka/" style="display: block;">
+					Připomínka k této stránce
 					<div class="col-md-12 cal-type-trigger" caltype="">
 						<div>skrýt</div>
 					</div>                                
@@ -61,7 +62,7 @@
 			</div>
             <?php  if($fileName != 'turista.php' && $fileName != 'index.php' && $fileName != 'index-en.php'){ ?>
 				<script async src="https://cse.google.com/cse.js?cx=072c46abaaad432e2"></script>
-                <div class="fulltext-form"><div class="gcse-search"></div></div>
+                <div class="fulltext-form">Vyhledávání na webu<div class="gcse-search"></div></div>
 			<?php } ?>	
             <div class="social-links">
                 <a href=""><img src="img/img-system/footer/facebook.png" alt="facebook"></a>
