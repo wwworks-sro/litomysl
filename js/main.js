@@ -16,12 +16,12 @@ $( document ).ready(function() {
             adjustAnchor();
         });
 	})(jQuery, window);
-	
+
 	/* pripominky */
 	$(".cal-type-trigger[caltype=pripominka]").click(function () {
-		$("html, body").animate({ 
-                    scrollTop: $( 
-                      'html, body').get(0).scrollHeight 
+		$("html, body").animate({
+                    scrollTop: $(
+                      'html, body').get(0).scrollHeight
                 }, 2000);
 		$(".cal-type-pripominka").show();
 	});
@@ -72,6 +72,7 @@ $( document ).ready(function() {
         }
     });
 
+
 //highlight by scrolling
     $(document).on('scroll',function(e)
     {
@@ -106,7 +107,7 @@ $( document ).ready(function() {
         if(!par.find('.section-heading').length){
             $('#sport-options-wrap').slideUp();
             jQuery.ajax({
-                'url': 'http://litomysl.wwworks.cz/_nabidka-sportu.php',                    /***Upravit podle nové adresy***/
+                'url': 'https://www.litomysl.cz/program_files/moduly/_nabidka-sportu.php',                    /***Upravit podle novĂ© adresy***/
                 'cache': false,
                 'success': function (html) {
                     jQuery('#sport-options-wrap').html(html)
@@ -124,7 +125,7 @@ $( document ).ready(function() {
         if(!par.find('.section-heading').length){
             $('#trips-wrap').slideUp();
             jQuery.ajax({
-                'url': 'http://litomysl.wwworks.cz/_tipy-na-vylet.php',                     /***Upravit podle nové adresy***/
+                'url': 'https://www.litomysl.cz/program_files/moduly/_tipy-na-vylet.php',                     /***Upravit podle novĂ© adresy***/
                 'cache': false,
                 'success': function (html) {
                     jQuery('#trips-wrap').html(html)
@@ -141,7 +142,7 @@ $( document ).ready(function() {
         var news = $(this).attr('news');
 
         jQuery.ajax({
-            'url': 'http://litomysl.wwworks.cz/_news-ajax.php',                        /***Upravit podle nové adresy***/
+            'url': 'https://www.litomysl.cz/program_files/moduly/_news-ajax.php?category='.concat(news),                        /***Upravit podle novĂ© adresy***/
             'cache': false,
             'success': function (html) {
                 jQuery('#news-wrap').html(html)
@@ -156,34 +157,35 @@ $( document ).ready(function() {
         var news = $(this).attr('news');
 
         jQuery.ajax({
-            'url': 'http://litomysl.wwworks.cz/_aktuality-ajax.php',                        /***Upravit podle nové adresy***/
+            'url': 'https://www.litomysl.cz/program_files/moduly/_akce-ajax.php?kdy='.concat(news),                        /***Upravit podle novĂ© adresy***/
             'cache': false,
             'success': function (html) {
-                jQuery('#aktuality-wrap').html(html)
+                jQuery('#akce-wrap').html(html)
             }
         });
         $(".tab-selected").removeClass('tab-selected');
         $(this).addClass('tab-selected');
     });
-	
+
 	/* posunuti po kliku nahoru + zobrazeni detailu */
 	jQuery('#sport-options-wrap .square-pic').attr("href", '#nabidka-sportu');
-	
-	$('#nabidka-sportu a.square-pic').click(function(){
+
+  $('#nabidka-sportu a.square-pic').click(function(){
         var type = $(this).children().attr('alt');
+        var sport = $(this).attr('sport');
         jQuery.ajax({
-            'url': 'http://litomysl.wwworks.cz/_nahled-sportu-ajax.php',                        /***Upravit podle nové adresy***/
+            'url': 'https://www.litomysl.cz/program_files/moduly/_nahled-sportu-ajax.php?sport='.concat(sport),                        /***Upravit podle novĂ© adresy***/
             'cache': false,
             'success': function (html) {
-                jQuery('#sport-detail-wrap').html(html).addClass('sport-triggered').attr("type", type);
+                jQuery('#sport-detail-wrap').html(html).addClass('sport-triggered').attr("type", type)
             }
         });
     });
-	
+
 	$('a.show-video-box').click(function(){
         var video = $(this).attr('video');
         jQuery.ajax({
-            'url': 'http://litomysl.wwworks.cz/_nahled-video.php',                        /***Upravit podle nové adresy***/
+            'url': 'https://www.litomysl.cz/program_files/moduly/_nahled-video.php',                        /***Upravit podle novĂ© adresy***/
             'cache': false,
             'success': function (html) {
 				jQuery('#video-detail-wrap').html(html).addClass('video-triggered').addClass(video).attr("video", video);
@@ -223,7 +225,7 @@ $( document ).ready(function() {
 	$('.cal-detail-link').each(function(i){
 		$(this).height($(this).parent().height());
 	})
-	
+
     $('.hint-list-trigger').hover(function(){
         $(this).find('.hint-list').fadeIn('slow');
         $(this).find('.hint-list .pad').slideDown('slow');
@@ -233,7 +235,7 @@ $( document ).ready(function() {
         $(this).find('.hint-list').fadeOut('slow');
         $(this).find('.hint-list .pad').slideUp('slow');
     });
-	
+
 	$('.cal-type-trigger[caltype!="pripominka"]').click(function(){
         var calType = $(this).attr('calType');
         $('.search-active').removeClass('search-active');
@@ -284,10 +286,10 @@ $( document ).ready(function() {
 
     $('.toggle-title-banner').click(function(){
         if($('.title-banner-content').length && $('.title-banner-content').is(":visible")){
-            var r = confirm("Opravdu chcete skrýt titulní banner? " +
-                "(Kdykoli je možné jej opět zobrazit pomocí kliku na tento odkaz)");
+            var r = confirm("Opravdu chcete skrĂ˝t titulnĂ­ banner? " +
+                "(Kdykoli je moĹľnĂ© jej opÄ›t zobrazit pomocĂ­ kliku na tento odkaz)");
             if (r == true) {
-                processTitleBannerChange();							
+                processTitleBannerChange();
             }
         }else{
             processTitleBannerChange();
@@ -297,7 +299,7 @@ $( document ).ready(function() {
 		}, 1000);
 		$(".toggle-title-banner").load(location.href + " .toggle-title-banner");
     });
-	
+
 	/* Initialize slider */
 	function processSliderChange() {
             var cookieName = "stopSlider";
@@ -324,7 +326,7 @@ $( document ).ready(function() {
         processSliderChange();
 		$(".toggle-slider").load(location.href + " .toggle-slider");
     });
-	
+
 	$(".slider").simpleSlider();
 	var options = {slideOnInterval: false,};
 	$(".static-slider").simpleSlider(options);
@@ -337,10 +339,7 @@ $( document ).ready(function() {
             $('#'+trid).slideUp();
         }
     });
-	
-	
 
 
 
 });
-
