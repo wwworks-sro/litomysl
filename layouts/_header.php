@@ -66,7 +66,11 @@ $fileName = basename($_SERVER['PHP_SELF']);
     </div>
     <div id="lang-box" class="search-on">
 		<?php  if($fileName != 'index-en.php'){ ?>
-			<img class="header-search" src="http://temp.litomysl.cz/program_files/img/img-system/header/search-icon.png" alt="Vyhledávat na webu"><br/>
+			<div id="trigger-overlay">
+				<img class="header-search globe" src="img/img-system/header/globe.png" alt="Přepnout jazyk">
+			</div>
+			<img class="header-search lupa" src="http://temp.litomysl.cz/program_files/img/img-system/header/search-icon.png" alt="Vyhledávat na webu">
+			<br/>
 			<a href="">en</a>
 			<a href="">fr</a>
 			<a href="">de</a>

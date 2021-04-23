@@ -173,6 +173,7 @@ header{position:fixed;top:0px;left:0px;height:103px;width:100%;z-index:3 !import
 #lang-box a, #social-box a {margin-left:8px;}
 #social-box a{margin-top:10px;max-width:22%;}
 #lang-box a {margin-top:5px;}
+.globe {margin-left: 5px; display: none;}
 .wrap-side {height:100%;}
 :hover.header-search {cursor:pointer;}
 header #___gcse_0 .gsc-control-cse, header #___gcse_0 .gsc-input {padding: 0px;}
@@ -588,6 +589,7 @@ footer a:link, footer a:visited {color: white;}
 	.add-fulltext-form #___gcse_0 .gsc-search-button button {margin-left: -50px;}
 	.add-fulltext-form #___gcse_0 .gsc-control-cse {padding: 0px!important;}
 	.add-fulltext-form .fulltext-form #___gcse_0 .gsc-control-cse {padding: 4px!important;}
+	.globe {display: block;}
 }
 
 @media screen and (max-width: 420px) {

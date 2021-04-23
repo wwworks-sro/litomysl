@@ -194,22 +194,22 @@ $( document ).ready(function() {
     /*Mobile menu*/
     $('.overlay-close, .overlay a').click(function(){
         $(".overlay").hide();
-        $(".overlay-hugeinc.open").removeClass('overlay-hugeinc.open');
+        $(".overlay-hugeinc-open").removeClass('overlay-hugeinc-open').addClass('overlay-hugeinc');
     });
-    $('#trigger-overlay').hover(function(){
+    $('#trigger-overlay, #trigger-overlay .globe').hover(function(){
         $(".overlay").show();
     });
-    $('#trigger-overlay').click(function(){
-        $(".overlay-hugeinc").removeClass('overlay-hugeinc').addClass('overlay-hugeinc.open');
+    $('#trigger-overlay, #trigger-overlay .globe').click(function(){
+        $(".overlay-hugeinc").removeClass('overlay-hugeinc').addClass('overlay-hugeinc-open');
     });
 
     $('.overlay-close').click(function(){
         $(".overlay").hide();
-        $(".overlay-hugeinc.open").removeClass('overlay-hugeinc.open');
+        $(".overlay-hugeinc-open").removeClass('overlay-hugeinc-open').addClass('overlay-hugeinc');
     });
 
     /*Mobile fulltext*/
-    $('.header-search, .close-fulltext').click(function(){
+    $('.header-search.lupa, .close-fulltext').click(function(){
         $('.add-fulltext-form').toggle("slow");
 		var wid = $(window).width();
 		if(wid>1049){
