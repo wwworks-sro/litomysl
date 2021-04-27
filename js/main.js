@@ -201,13 +201,18 @@ $( document ).ready(function() {
     $('#trigger-overlay, #trigger-overlay .globe').hover(function(){
         $(".overlay").show();
     });
-    $('#trigger-overlay, #trigger-overlay .globe').click(function(){
+    $('#trigger-overlay').click(function(){
         $(".overlay-hugeinc").removeClass('overlay-hugeinc').addClass('overlay-hugeinc-open');
+    });
+	$('#trigger-overlay .globe').click(function(){
+        $(".overlay-hugeinc").removeClass('overlay-hugeinc').addClass('overlay-hugeinc-open');
+		$(".overlay nav ul").hide();
     });
 
     $('.overlay-close').click(function(){
         $(".overlay").hide();
         $(".overlay-hugeinc-open").removeClass('overlay-hugeinc-open').addClass('overlay-hugeinc');
+		$(".overlay nav ul").show();
     });
 
     /*Mobile fulltext*/
